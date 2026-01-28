@@ -875,6 +875,93 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="section bg-gray-50">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Common Questions About Our <span class="gradient-text">Psychiatrist in Palm Springs</span> Services</h2>
+                <p class="section-description">
+                    Find answers to frequently asked questions about our mental health treatments and expert care in Palm Springs, CA.
+                </p>
+            </div>
+
+            <div class="max-w-4xl mx-auto">
+                <div class="accordion">
+                    <!-- Item 1 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">When should I see a psychiatrist in Palm Springs?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    You should consider seeking help from a <strong>psychiatrist in Palm Springs</strong> if you are experiencing persistent sadness, anxiety, mood swings, or if your current treatment plan isn't providing relief. Our specialized team offers comprehensive evaluations and advanced, non-drug treatments like TMS therapy for lasting wellness.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">Do you accept insurance for mental health services?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    Yes, we work with most major insurance providers. When you visit our clinic to see a mental health specialist or <strong>psychiatrist in Palm Springs</strong>, we handle the benefit verification and pre-authorization process to ensure your TMS therapy and treatment plans are covered whenever possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 3 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">What effective treatments do you offer besides medication?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic pulses to stimulate brain activity. It is an effective solution for treatment-resistant depression and anxiety for those who haven't found relief with standard medications from a general <strong>psychiatrist in Palm Springs</strong>.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 4 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">How quickly can I schedule an appointment?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    We prioritize timely access to care. Contact us today to schedule a consultation with our experienced mental health team. Whether you need an evaluation by a mental health professional or a specialized <strong>psychiatrist in Palm Springs</strong>, we strive to get you started on your path to recovery as soon as possible.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 5 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">Is Dr. Sunder a licensed Board-Certified Psychiatrist?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20 years of experience, he leads our team in providing integrative, patient-centered care that combines modern medical science with holistic wellness strategies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Location & Contact -->
     <section class="section bg-white">
         <div class="container">
