@@ -1458,3 +1458,31 @@ function initBlogPage() {
 
     init();
 }
+
+// ==========================================================================
+// 7. Global Accordion Logic (Added for Homepage FAQ)
+// ==========================================================================
+window.toggleAccordion = function(trigger) {
+    const content = trigger.nextElementSibling;
+    const isActive = trigger.classList.contains('active');
+
+    // Close all accordions in the same container
+    const category = trigger.closest('.accordion');
+    if (category) {
+        const allTriggers = category.querySelectorAll('.accordion-trigger');
+        const allContents = category.querySelectorAll('.accordion-content');
+
+        allTriggers.forEach(t => t.classList.remove('active'));
+        allContents.forEach(c => c.classList.remove('active'));
+    }
+
+    // Toggle current
+    if (!isActive) {
+        trigger.classList.add('active');
+        content.classList.add('active');
+    }
+    
+    // Refresh icons if needed
+    if (window.lucide) window.lucide.createIcons();
+}
+
