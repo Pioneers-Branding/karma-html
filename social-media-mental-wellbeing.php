@@ -25,9 +25,9 @@
         }
 
         /* Scroll margin for sticky header offset */
-        section {
+        /* section {
             scroll-margin-top: 120px;
-        }
+        } */
 
         .sticky-toc {
             position: sticky;

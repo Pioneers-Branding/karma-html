@@ -1274,8 +1274,8 @@ function initBlogPage() {
         7: "veterans.html",
         8: "veterans.html",
         9: "veterans.html",
-        10: "tms-therapy.html",
-        11: "#",
+        10: "why-tms-requires-multiple-sessions.php",
+        11: "four-as-stress-management.php",
         12: "tms-therapy.html",
         13: "tms-therapy.html",
         14: "research.html",
@@ -1290,7 +1290,7 @@ function initBlogPage() {
         23: "#",
         24: "#",
         25: "#",
-        26: "#",
+        26: "social-media-mental-wellbeing.php",
         27: "#",
         28: "#",
         29: "about.html",
@@ -1462,7 +1462,7 @@ function initBlogPage() {
 // ==========================================================================
 // 7. Global Accordion Logic (Added for Homepage FAQ)
 // ==========================================================================
-window.toggleAccordion = function(trigger) {
+window.toggleAccordion = function (trigger) {
     const content = trigger.nextElementSibling;
     const isActive = trigger.classList.contains('active');
 
@@ -1481,7 +1481,7 @@ window.toggleAccordion = function(trigger) {
         trigger.classList.add('active');
         content.classList.add('active');
     }
-    
+
     // Refresh icons if needed
     if (window.lucide) window.lucide.createIcons();
 }
