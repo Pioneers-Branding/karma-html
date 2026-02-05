@@ -448,6 +448,85 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #f9fafb;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About Depression Treatment</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">What if my depression hasn't improved with medication?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                This is known as Treatment-Resistant Depression (TRD). TMS therapy is FDA-cleared specifically for this condition. It works differently than medications by directly stimulating the underactive brain regions associated with depression, often providing relief when antidepressants have failed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How quickly will I see results from TMS for depression?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Response times vary, but many patients begin to notice improvements in their mood, energy, and sleep patterns within 2 to 4 weeks of starting treatment. The full benefit is typically realized upon completion of the 6-week course.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS therapy covered by insurance for depression?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, most major insurance providers cover TMS therapy for the treatment of Major Depressive Disorder, typically after a patient has tried one or more antidepressant medications without success. We can help verify your specific benefits.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Are there side effects of TMS for depression?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                TMS is generally well-tolerated with few side effects. The most common is mild scalp discomfort or a headache during or after treatment, which typically diminishes as your body adjusts to the therapy. Unlike medications, it does not cause weight gain, sexual dysfunction, or drowsiness.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Can I continue taking antidepressants during TMS therapy?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, in many cases, patients continue their current medication regimen during TMS. Your treatment plan will be coordinated with your psychiatrist to determine the best approach for your specific needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Internal Links Section -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">

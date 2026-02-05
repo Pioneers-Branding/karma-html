@@ -25,9 +25,9 @@
         }
 
         /* Scroll margin for sticky header offset */
-        section {
+        /* section {
             scroll-margin-top: 120px;
-        }
+        } */
 
         .sticky-toc {
             position: sticky;
@@ -311,8 +311,8 @@
     <?php include 'includes/header.php'; ?>
 
     <!-- Breadcrumb -->
-    <div class="bg-gray-50 border-b relative z-10" style="margin-top: 135px;"> 
-        <div class="container mx-auto px-4 py-4">
+    <div class="bg-gray-50 border-b relative z-10" style="margin-top: 40px;"> 
+        <div class="container mx-auto px-4 py-3">
             <nav class="flex items-center text-sm text-gray-500" aria-label="Breadcrumb">
                 <a href="index.php" class="hover:text-purple-500 transition-colors">Home</a>
                 <i data-lucide="chevron-right" class="w-4 h-4 mx-2"></i>
@@ -728,7 +728,7 @@
                                     <a href="screen-time-mental-health.php" class="block">The Impact of Screen Time on Mental Health</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Understand how excessive screen time affects mental wellness and strategies to find balance.</p>
-                                <a href="screen-time-mental-health.php" class="text-primary font-medium text-sm inline-flex items-center">
+                                <a href="screen-time-mental-health.php" class="text-primary font-medium text-sm inline-flex items-center whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-1"></i>
                                 </a>
                             </div>
@@ -743,7 +743,7 @@
                                     <a href="tech-mental-health-impact.php" class="block">Tech And Mental Health: The Impact Of Technology</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Explore both positive and negative effects of technology on mental health.</p>
-                                <a href="tech-mental-health-impact.php" class="text-primary font-medium text-sm inline-flex items-center">
+                                <a href="tech-mental-health-impact.php" class="text-primary font-medium text-sm inline-flex items-center whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-1"></i>
                                 </a>
                             </div>
@@ -758,7 +758,7 @@
                                     <a href="managing-anxiety-triggers.php" class="block">Managing Anxiety Triggers in Everyday Life</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Learn practical strategies to identify and manage anxiety triggers effectively.</p>
-                                <a href="managing-anxiety-triggers.php" class="text-primary font-medium text-sm inline-flex items-center">
+                                <a href="managing-anxiety-triggers.php" class="text-primary font-medium text-sm inline-flex items-center whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-3 h-3 ml-1"></i>
                                 </a>
                             </div>
