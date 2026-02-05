@@ -633,7 +633,7 @@
                                     <a href="tms-therapy.php" class="block">Is TMS Therapy Legitimate?</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Explore the FDA approval and scientific backing of TMS therapy.</p>
-                                <a href="tms-therapy.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline">
+                                <a href="tms-therapy.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                 </a>
                             </div>
@@ -648,7 +648,7 @@
                                     <a href="research.php" class="block">How Successful is TMS Treatment?</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Dive into the success rates and clinical outcomes of TMS therapy.</p>
-                                <a href="research.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline">
+                                <a href="research.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                 </a>
                             </div>
@@ -663,7 +663,7 @@
                                     <a href="social-media-mental-wellbeing.php" class="block">Social Media & Mental Wellbeing</a>
                                 </h3>
                                 <p class="text-gray-600 text-sm mb-4">Understand the impact of social media habits on your mental health.</p>
-                                <a href="social-media-mental-wellbeing.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline">
+                                <a href="social-media-mental-wellbeing.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4"></i>
                                 </a>
                             </div>

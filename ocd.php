@@ -474,6 +474,118 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #ffffff;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About OCD Treatment</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How is Deep TMS for OCD different from standard TMS?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Deep TMS uses a specialized H7 coil that can reach deeper brain structures like the anterior cingulate cortex, which are implicated in OCD. Standard TMS coils typically stimulate more superficial regions. This deeper reach is often crucial for effective OCD treatment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">What is the success rate of TMS for OCD?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Clinical studies have shown response rates of around 45-55% for patients with treatment-resistant OCD, with many experiencing a significant reduction in symptom severity. Results can vary by individual.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Do I need to be exposed to my triggers during treatment?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, unlike depression treatment, OCD TMS protocols typically involve brief "provocation" or exposure to obsessive thoughts immediately before or during stimulation. This activates the relevant brain circuits, making them more receptive to the treatment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS for OCD covered by insurance?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, essentially all major insurance payers cover Deep TMS for OCD, usually requiring that the patient has tried medication and/or therapy (ERP) without sufficient success.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How long is a typical OCD treatment course?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                A standard course of TMS for OCD usually involves 29-30 sessions over a period of about 6 weeks. Sessions are typically conducted 5 days a week.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Links Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore Related Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="anxiety.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Anxiety Treatment</h3>
+                    <p class="text-sm text-gray-600">Help for anxiety disorders</p>
+                </a>
+                <a href="depression.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Therapy</h3>
+                    <p class="text-sm text-gray-600">TMS for treatment-resistant depression</p>
+                </a>
+                <a href="conditions.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">All Conditions</h3>
+                    <p class="text-sm text-gray-600">Full list of treated conditions</p>
+                </a>
+                <a href="contact-us.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
+                    <p class="text-sm text-gray-600">Get in touch with our team</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <?php include 'includes/footer.php'; ?>
 
     <script>

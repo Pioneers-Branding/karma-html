@@ -461,6 +461,118 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #ffffff;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About Addiction Support</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">What types of addiction can TMS help with?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Deep TMS is FDA-cleared for smoking cessation. Research is also supporting its efficacy for other dependencies, including alcohol, cocaine, and opioid use disorders, often used off-label to help with cravings and impulse control.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Does TMS reduce cravings?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, one of the primary mechanisms of TMS in addiction treatment is the reduction of cravings. By stimulating the brain's reward processing centers (like the insula and prefrontal cortex), it can help dampen the urge to use substances.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS a standalone treatment for addiction?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                TMS is most effective when used as part of a comprehensive recovery plan that includes counseling, support groups, and medical management. It is a powerful tool to support your recovery efforts, not a replacement for them.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">When should I start TMS in my recovery journey?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                This varies by individual. Some start during early recovery to help manage intense cravings, while others use it later to address persistent post-acute withdrawal symptoms or co-occurring depression. We can help determine the best timing for you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS for addiction covered by insurance?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Deep TMS for Smoking Cessation is increasingly covered by some insurance plans. For other addictions, coverage may vary or it may be considered an off-label use. However, if you have co-occurring depression, treatment may be covered under a depression diagnosis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Links Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore Related Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="depression.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Therapy</h3>
+                    <p class="text-sm text-gray-600">Addressing co-occurring depression</p>
+                </a>
+                <a href="anxiety.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Anxiety Treatment</h3>
+                    <p class="text-sm text-gray-600">Help for anxiety disorders</p>
+                </a>
+                <a href="conditions.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">All Conditions</h3>
+                    <p class="text-sm text-gray-600">View all treated conditions</p>
+                </a>
+                <a href="contact-us.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
+                    <p class="text-sm text-gray-600">Schedule your consultation</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <?php include 'includes/footer.php'; ?>
 
     <script>

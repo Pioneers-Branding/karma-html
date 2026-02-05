@@ -462,6 +462,118 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #ffffff;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About PTSD Treatment</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Will TMS cause me to re-experience my trauma?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                No, TMS therapy does not involve re-living traumatic events or detailed talk therapy about the trauma. It is a biological treatment that targets the brain activity associated with PTSD symptoms, allowing you to heal without necessary re-exposure during the session itself.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS effective for combat-related PTSD?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, studies have shown that TMS can be effective for combat-related PTSD, particularly in reducing hyperarousal and depression symptoms. We work with many veterans and understand the unique nature of combat trauma.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Can I do talk therapy while getting TMS?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Absolutely. In fact, TMS often makes talk therapy more effective by reducing the physiological intensity of PTSD symptoms, allowing you to engage more fully in therapeutic work.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How does TMS help with PTSD symptoms like nightmares?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                By calming the brain's overactive fear centers (like the amygdala) and strengthening emotional regulation (prefrontal cortex), TMS can help reduce the frequency and intensity of intrusive symptoms like nightmares and flashbacks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS covered for veterans with PTSD?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                While coverage policies vary, TRICARE and the VA are increasingly recognizing the value of TMS. We have experience navigating insurance and can help determine your specific coverage options for PTSD treatment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Links Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore Related Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="veterans.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Veterans Services</h3>
+                    <p class="text-sm text-gray-600">Specialized care for vets</p>
+                </a>
+                <a href="anxiety.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Anxiety Treatment</h3>
+                    <p class="text-sm text-gray-600">Help for anxiety disorders</p>
+                </a>
+                <a href="depression.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Therapy</h3>
+                    <p class="text-sm text-gray-600">Effective depression relief</p>
+                </a>
+                <a href="contact-us.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
+                    <p class="text-sm text-gray-600">Schedule a consultation</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <?php include 'includes/footer.php'; ?>
 
     <script>

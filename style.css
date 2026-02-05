@@ -113,6 +113,14 @@ h6 {
     gap: 0.5rem;
 }
 
+.gap-1 {
+    gap: 0.25rem;
+}
+
+.whitespace-nowrap {
+    white-space: nowrap;
+}
+
 .gap-4 {
     gap: 1rem;
 }
@@ -545,7 +553,7 @@ h6 {
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
     color: white;
     font-size: 0.875rem;
     font-weight: 600;
@@ -584,7 +592,7 @@ h6 {
 
 @media (min-width: 1024px) {
     .phone-btn {
-        padding: 0.625rem 1.5rem;
+        padding: 0.625rem;
         font-size: 1rem;
     }
 }
@@ -7485,15 +7493,18 @@ h6 {
     text-decoration: underline;
     /* Simple text link style hover */
 }
+
 /* FAQ Accordion Styles */
 .faq-category-card {
     border: 1px solid #e5e7eb;
     transition: all 0.3s ease;
     text-align: left;
 }
+
 .faq-category-card:hover {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
+
 .faq-icon-box {
     background-color: #dbeafe;
     color: #2563eb;
@@ -7503,12 +7514,15 @@ h6 {
     align-items: center;
     justify-content: center;
 }
+
 .accordion-item {
     border-bottom: 1px solid #f3f4f6;
 }
+
 .accordion-item:last-child {
     border-bottom: none;
 }
+
 .accordion-trigger {
     width: 100%;
     text-align: left;
@@ -7522,9 +7536,11 @@ h6 {
     font-family: inherit;
     transition: all 0.2s ease;
 }
+
 .accordion-trigger:hover {
     color: #2563eb;
 }
+
 .accordion-trigger .question-text {
     font-weight: 600;
     font-size: 1.25rem;
@@ -7533,33 +7549,45 @@ h6 {
     flex: 1;
     text-align: left;
 }
+
 .accordion-trigger:hover .question-text {
     color: #2563eb;
 }
+
 .accordion-icon {
     transition: transform 0.3s ease;
     flex-shrink: 0;
 }
+
+.accordion-trigger.active .question-text {
+    color: var(--primary);
+}
+
 .accordion-trigger.active .accordion-icon {
     transform: rotate(180deg);
+    color: var(--primary);
 }
+
 .accordion-content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease;
 }
+
 .accordion-content.active {
-    max-height: 1000px; /* Increased from 500px to be safe */
+    max-height: 1000px;
+    /* Increased from 500px to be safe */
 }
+
 .accordion-content-inner {
     padding-bottom: 1rem;
     padding-top: 0;
     text-align: left;
 }
+
 .answer-text {
     font-size: 1.125rem;
     color: #6b7280;
     line-height: 1.75;
     text-align: left;
 }
-

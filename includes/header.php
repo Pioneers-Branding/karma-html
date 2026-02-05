@@ -11,7 +11,7 @@
             <!-- Desktop Navigation -->
             <nav class="desktop-nav">
                 <a href="index.php" class="nav-btn">
-                    <i data-lucide="home" class="w-4 h-4"></i> Home
+                    Home
                 </a>
 
                 <!-- About Us Dropdown -->
@@ -50,17 +50,10 @@
                     </div>
                 </div>
 
-                <!-- Exomind Dropdown -->
-                <div class="dropdown">
-                    <button class="nav-btn dropdown-toggle">
-                        Exomind <i data-lucide="chevron-down" class="w-4 h-4"></i>
-                    </button>
-                    <div class="dropdown-menu">
-                        <a href="exomind-tms.php" class="dropdown-item">
-                            <i data-lucide="sparkles" class="w-4 h-4"></i> Exomind
-                        </a>
-                    </div>
-                </div>
+                <a href="https://www.braintunetms.com/" target="_blank" class="nav-btn">
+                     Brain Tune Exomind
+
+                </a>
 
                 <!-- Conditions Dropdown -->
                 <div class="dropdown">
@@ -135,7 +128,7 @@
                 </div>
 
                 <a href="contact-us.php" class="nav-btn">
-                    <i data-lucide="mail" class="w-4 h-4"></i> Contact
+                  Contact
                 </a>
             </nav>
 
@@ -222,16 +215,11 @@
 
         <div class="mobile-divider"></div>
 
-        <!-- WELLNESS -->
-        <div class="mobile-section">
-            <h3 class="mobile-section-title">WELLNESS</h3>
-            <div class="mobile-nav-group">
-                <a href="exomind-tms.php" class="mobile-nav-item">
-                    <i data-lucide="sparkles" class="w-5 h-5"></i>
-                    <span>Exomind</span>
-                </a>
-            </div>
-        </div>
+       
+        <a href="https://www.braintunetms.com/" target="_blank" class="mobile-nav-item">
+            <i data-lucide="sparkles" class="w-5 h-5"></i>
+            <span>Brain Tune Exomind</span>
+        </a>
 
         <div class="mobile-divider"></div>
 

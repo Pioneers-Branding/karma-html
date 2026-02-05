@@ -262,6 +262,11 @@
                     </div>
                 </div>
             </div>
+            <div class="text-center mt-12">
+                <a href="about-us.php" class="btn btn-primary">
+                    Learn More About Us <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -292,7 +297,7 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">85% improvement rate</span>
                         <a href="depression.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -313,7 +318,7 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Significant relief in 6-8 weeks</span>
                         <a href="anxiety.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -334,7 +339,7 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Clinically proven results</span>
                         <a href="ptsd.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -355,7 +360,7 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">FDA-cleared protocol</span>
                         <a href="ocd.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -376,7 +381,7 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Safe during pregnancy</span>
                         <a href="womens-mood.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -397,7 +402,27 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Rapid symptom relief</span>
                         <a href="conditions.php"
-                            class="text-sm font-semibold text-[#572670] hover:text-[#4a1f60] flex items-center">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="condition-card">
+                    <div class="condition-header">
+                        <div class="condition-icon-wrapper">
+                            <i data-lucide="target" class="w-6 h-6"></i>
+                        </div>
+                        <div>
+                            <h3 class="condition-title">ADHD</h3>
+                            <p class="condition-subtitle">Attention Deficit</p>
+                        </div>
+                    </div>
+                    <p class="condition-description">Comprehensive treatment strategies for ADHD including medication management and behavioral therapy.</p>
+                    <div class="flex items-center justify-between mt-auto">
+                        <span class="condition-badge mb-0">Individualized Care</span>
+                        <a href="how-does-adhd-treatment-work.php"
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -414,7 +439,7 @@
                     <span class="badge badge-purple">Scientific Breakthrough</span>
                     <h2 class="section-title-left">How TMS Works</h2>
                     <div class="space-y-4">
-                        <p><strong>It's not you, it's the brain.</strong> Depression is caused by insufficient activity
+                        <p><strong>It's not you, it's the brain.</strong> <a href="depression.php" class="text-purple-600 hover:text-purple-800 underline">Depression</a> is caused by insufficient activity
                             in the left dorsolateral prefrontal cortex.</p>
                         <p>TMS uses precisely targeted magnetic pulses to stimulate this area, improving mood, working
                             memory, and attention.</p>
@@ -896,7 +921,7 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    You should consider seeking help from a <strong>psychiatrist in Palm Springs</strong> if you are experiencing persistent sadness, anxiety, mood swings, or if your current treatment plan isn't providing relief. Our specialized team offers comprehensive evaluations and advanced, non-drug treatments like TMS therapy for lasting wellness.
+                                    You should consider seeking help from a <strong>psychiatrist in Palm Springs</strong> if you are experiencing persistent sadness, anxiety, mood swings, or if your current treatment plan isn't providing relief. Our specialized team offers comprehensive evaluations and advanced, non-drug treatments like <a href="tms-therapy.php" class="text-purple-600 hover:text-purple-800 underline">TMS therapy</a> for lasting wellness.
                                 </p>
                             </div>
                         </div>
@@ -924,7 +949,7 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic pulses to stimulate brain activity. It is an effective solution for treatment-resistant depression and anxiety for those who haven't found relief with standard medications from a general <strong>psychiatrist in Palm Springs</strong>.
+                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic pulses to stimulate brain activity. It is an effective solution for <a href="depression.php" class="text-purple-600 hover:text-purple-800 underline">treatment-resistant depression</a> and <a href="anxiety.php" class="text-purple-600 hover:text-purple-800 underline">anxiety</a> for those who haven't found relief with standard medications from a general <strong>psychiatrist in Palm Springs</strong>.
                                 </p>
                             </div>
                         </div>
@@ -953,6 +978,34 @@
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
                                     Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20 years of experience, he leads our team in providing integrative, patient-centered care that combines modern medical science with holistic wellness strategies.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 6 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">How long does a typical TMS therapy session last?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    A standard TMS therapy session typically lasts about 19-20 minutes. It is an outpatient procedure, meaning you can return to your daily activities immediately after treatment without any downtime.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 7 -->
+                    <div class="accordion-item">
+                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                            <span class="question-text">Is TMS therapy painful?</span>
+                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                        </button>
+                        <div class="accordion-content">
+                            <div class="accordion-content-inner">
+                                <p class="answer-text">
+                                    Most patients describe the sensation as a light tapping on the head. It is generally well-tolerated and not considered painful. You are awake and alert throughout the entire session.
                                 </p>
                             </div>
                         </div>

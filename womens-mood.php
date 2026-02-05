@@ -550,29 +550,112 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #ffffff;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About Women's Mood</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS safe during pregnancy?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, TMS is considered safe during pregnancy. Unlike medications that circulate through the bloodstream and cross the placenta, TMS is a localized treatment that targets only the mother's brain, with no systemic exposure to the developing baby.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Can I do TMS while breastfeeding?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Absolutely. TMS does not enter breast milk, making it an excellent option for breastfeeding mothers who wish to avoid the potential risks of antidepressants passing to their infant.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How does TMS help with Postpartum Depression?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                TMS works by stimulating the underactive brain circuits involved in mood regulation. In postpartum depression, this helps restore balance and alleviate symptoms like severe sadness, anxiety, and detachment, helping mothers bond better with their babies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Will TMS affect my hormones?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                No, TMS is a neurological treatment, not a hormonal one. It does not interfere with your body's natural hormone production, menstrual cycles, or hormone replacement therapies.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is it better than medication for perinatal mood disorders?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                "Better" depends on the individual, but many women prefer TMS because it avoids the risks of medication exposure to the fetus or infant. It is also an effective option for those who haven't responded well to antidepressants or cannot tolerate their side effects.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Internal Links Section -->
-    <section class="py-16 bg-white">
+    <section class="py-16 bg-gray-50">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-2xl font-bold text-center mb-8">Related Mental Health Services</h2>
-            <div class="grid md:grid-cols-4 gap-4">
-                <a href="depression.php" class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow"
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore Related Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="depression.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
                     style="text-decoration: none;">
-                    <h3 class="font-semibold mb-2" style="color: #2563eb;">Depression Treatment</h3>
-                    <p class="text-sm text-gray-600">TMS therapy for major depression</p>
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Therapy</h3>
+                    <p class="text-sm text-gray-600">Major depression treatment</p>
                 </a>
-                <a href="anxiety.php" class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow"
+                <a href="anxiety.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
                     style="text-decoration: none;">
-                    <h3 class="font-semibold mb-2" style="color: #2563eb;">Anxiety Treatment</h3>
-                    <p class="text-sm text-gray-600">Relief from anxiety disorders</p>
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Anxiety Treatment</h3>
+                    <p class="text-sm text-gray-600">Help for anxiety disorders</p>
                 </a>
-                <a href="conditions.php" class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow"
+                <a href="conditions.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
                     style="text-decoration: none;">
-                    <h3 class="font-semibold mb-2" style="color: #2563eb;">All Conditions</h3>
-                    <p class="text-sm text-gray-600">View all treatments we offer</p>
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">All Conditions</h3>
+                    <p class="text-sm text-gray-600">View all treated conditions</p>
                 </a>
-                <a href="contact-us.php" class="p-4 bg-gray-50 rounded-lg shadow hover:shadow-lg transition-shadow"
+                <a href="contact-us.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
                     style="text-decoration: none;">
-                    <h3 class="font-semibold mb-2" style="color: #2563eb;">Contact Us</h3>
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
                     <p class="text-sm text-gray-600">Schedule your consultation</p>
                 </a>
             </div>

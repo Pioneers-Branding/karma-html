@@ -426,6 +426,118 @@
         </div>
     </section>
 
+    <!-- FAQ Section -->
+    <section class="py-16 px-4" style="background-color: #ffffff;">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-3xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions About Bipolar Treatment</h2>
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS safe for Bipolar Disorder?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, TMS can be a safe and effective treatment for the depressive episodes of Bipolar Disorder. However, it requires careful monitoring and specialized protocols to ensure safety and prevent mood switching.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Can TMS trigger a manic episode?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                There is a small risk of inducing mania with any antidepressant treatment, including TMS. However, our specialized bipolar protocols are designed to minimize this risk, and the rate of treatment-emergent mania with TMS is generally lower than with antidepressant medications.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Do I need to stop my mood stabilizers?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Typically, no. Patients usually continue their mood stabilizers during TMS treatment to maintain protection against mania. Your doctor will coordinate your medication plan with the TMS therapy.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How is the protocol different for Bipolar Depression?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                We use specific treatment parameters that are gentler or target different brain areas compared to unipolar depression protocols. We also perform more frequent mood monitoring throughout the course of treatment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">What happens if I switch moods during treatment?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                If signs of hypomania or mania appear, we pause treatment immediately and re-evaluate. Because TMS effects are not systemic like medications, side effects often resolve quickly once stimulation stops. We will work with your psychiatrist to adjust care as needed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Links Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore Related Services</h2>
+            <div class="grid md:grid-cols-4 gap-6">
+                <a href="depression.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Therapy</h3>
+                    <p class="text-sm text-gray-600">Treatment for unipolar depression</p>
+                </a>
+                <a href="anxiety.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Anxiety Treatment</h3>
+                    <p class="text-sm text-gray-600">Help for anxiety disorders</p>
+                </a>
+                <a href="conditions.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">All Conditions</h3>
+                    <p class="text-sm text-gray-600">View all treated conditions</p>
+                </a>
+                <a href="contact-us.php"
+                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1 bg-white"
+                    style="text-decoration: none;">
+                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
+                    <p class="text-sm text-gray-600">Schedule your consultation</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <?php include 'includes/footer.php'; ?>
 
     <script>
