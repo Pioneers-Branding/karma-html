@@ -848,6 +848,17 @@ function initBlogPage() {
 
     const allBlogPosts = [
         {
+            id: 38,
+            title: "Is TMS a Hoax? A Deep Dive Into the Science, Myths, and Real Outcomes",
+            excerpt: "Is TMS a hoax? We dive deep into the science, debunk myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "February 6, 2026",
+            readTime: "9 min read",
+            image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=600",
+            featured: false
+        },
+        {
             id: 37,
             title: "Who Is a Good Candidate for TMS Therapy? Complete Guide",
             excerpt: "Learn who is a good candidate for TMS therapy, eligibility criteria, benefits, risks, and how to know if TMS treatment is right for you.",
@@ -1090,7 +1101,8 @@ function initBlogPage() {
         34: "is-depression-a-disability.php",
         35: "can-you-get-disability-for-depression.php",
         36: "is-tms-therapy-covered-by-insurance.php",
-        37: "who-is-a-good-candidate-for-tms-therapy.php"
+        37: "who-is-a-good-candidate-for-tms-therapy.php",
+        38: "is-tms-a-hoax.php"
     };
 
     // State
