@@ -848,6 +848,17 @@ function initBlogPage() {
 
     const allBlogPosts = [
         {
+            id: 40,
+            title: "Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment",
+            excerpt: "Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "February 9, 2026",
+            readTime: "8 min read",
+            image: "images/blog/is-tms-therapy-safe-intro.png",
+            featured: false
+        },
+        {
             id: 39,
             title: "Top 5 TMS Therapy Clinics in Palm Springs, CA",
             excerpt: "Comparing the best TMS providers in Palm Springs. We review the top 5 clinics to help you find the right treatment for depression.",
@@ -1114,7 +1125,8 @@ function initBlogPage() {
         36: "is-tms-therapy-covered-by-insurance.php",
         37: "who-is-a-good-candidate-for-tms-therapy.php",
         38: "is-tms-a-hoax.php",
-        39: "top-tms-clinics-palm-springs.php"
+        39: "top-tms-clinics-palm-springs.php",
+        40: "is-tms-therapy-safe.php"
     };
 
     // State
