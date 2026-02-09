@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Is TMS a hoax? We dive deep into the science, debark myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.">
     <meta property="og:image"
-        content="https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=2000&ixlib=rb-4.0.3">
+        content="https://karmatms.com/images/blog/is-tms-a-hoax-card.svg">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -258,7 +258,7 @@
       "@type": "Article",
       "headline": "Is TMS a Hoax? A Deep Dive Into the Science, Myths, and Real Outcomes",
       "description": "Is TMS a hoax? We dive deep into the science, debark myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.",
-      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=2000&ixlib=rb-4.0.3",
+      "image": "https://karmatms.com/images/blog/is-tms-a-hoax-card.svg",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -309,8 +309,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <div class="flex flex-wrap justify-center gap-4 mb-6 text-sm">
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
-                        <i data-lucide="calendar" class="w-4 h-4"></i>
-                        February 6, 2026
+                        January 12, 2026
                     </span>
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="clock" class="w-4 h-4"></i>
@@ -368,7 +367,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/is-tms-a-hoax-intro.png" 
+                    <img src="images/blog/is-tms-a-hoax-card.svg" 
                          onerror="this.src='https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=2000&ixlib=rb-4.0.3'"
                          alt="Is TMS Therapy a Hoax?"
                          class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
@@ -443,7 +442,7 @@
                                 Variability in Individual Responses
                             </h3>
                             <p class="text-gray-600 ml-10">
-                                Not every person responds to TMS, and outcomes vary. This lack of 100% guaranteed success leads some people to dismiss it as ineffective, or worse, a scam. But no legitimate medical treatment has a universal success rate. Medications for depression, for example, have much lower overall effectiveness in some patients.
+                                Not every person responds to TMS, and <a href="how-successful-is-tms-treatment.php" class="text-primary hover:underline">outcomes vary</a>. This lack of 100% guaranteed success leads some people to dismiss it as ineffective, or worse, a scam. But no legitimate medical treatment has a universal success rate. Medications for depression, for example, have much lower overall effectiveness in some patients.
                             </p>
                         </div>
 
@@ -463,7 +462,7 @@
                                 Cost and Accessibility Issues
                             </h3>
                             <p class="text-gray-600 ml-10">
-                                The upfront cost of a full TMS treatment course can be high without insurance. That financial burden can make people feel frustrated and suspicious when results aren’t immediate or perfect.
+                                The upfront <a href="is-tms-therapy-covered-by-insurance.php" class="text-primary hover:underline">cost of a full TMS treatment</a> course can be high without insurance. That financial burden can make people feel frustrated and suspicious when results aren’t immediate or perfect.
                             </p>
                         </div>
                     </div>
@@ -483,10 +482,10 @@
                             </h3>
                             <p class="text-gray-700 mb-3">The U.S. Food and Drug Administration (FDA) has approved TMS for:</p>
                             <ul class="space-y-2 mb-0">
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> Major Depressive Disorder (MDD)</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> <a href="obsessive-compulsive-disorder.php" class="hover:text-green-700 underline">Obsessive-Compulsive Disorder (OCD)</a></li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> <a href="depression.php" class="hover:text-green-700 underline">Major Depressive Disorder (MDD)</a></li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> <a href="ocd.php" class="hover:text-green-700 underline">Obsessive-Compulsive Disorder (OCD)</a></li>
                                 <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> Migraine</li>
-                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> Smoking Cessation</li>
+                                <li class="flex items-center gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600"></i> <a href="addiction.php" class="hover:text-green-700 underline">Smoking Cessation</a></li>
                             </ul>
                         </div>
                         
@@ -495,7 +494,7 @@
                                 <i data-lucide="file-text" class="w-6 h-6"></i> Clinical Trial Evidence
                             </h3>
                             <p class="text-gray-700">
-                                Large-scale clinical trials have demonstrated that TMS is more effective than sham (placebo) treatment in reducing depressive symptoms. Research shows that about <strong>50-60%</strong> of treatment-resistant depression patients respond to TMS, and around <strong>30-40%</strong> achieve full remission.
+                                Large-scale clinical trials have demonstrated that TMS is more effective than sham (placebo) treatment in reducing depressive symptoms. Research shows that about <strong>50-60%</strong> of <a href="tms-therapy-for-treatment-resistant-depression.php" class="text-primary hover:underline">treatment-resistant depression</a> patients respond to TMS, and around <strong>30-40%</strong> achieve full remission.
                             </p>
                         </div>
                     </div>
@@ -588,7 +587,7 @@
                  <section id="karma-experience" class="mb-12 bg-white rounded-xl p-8 border border-gray-200 shadow-sm">
                     <h2 class="text-3xl font-bold text-primary mb-6">The Role of Karma TMS</h2>
                     <p class="mb-6">
-                        At <a href="palm-springs.php" class="text-primary hover:underline">Karma TMS</a>, our goal is to provide compassionate, evidence-based brain stimulation therapy to individuals struggling with depression and related mental health challenges. 
+                        At <a href="about.php" class="text-primary hover:underline">Karma TMS</a>, our goal is to provide compassionate, evidence-based brain stimulation therapy to individuals struggling with depression and related mental health challenges. 
                     </p>
                     <p class="mb-6">
                         We combine clinical expertise, advanced TMS technology, and personalized care to help patients explore options beyond medications and therapy alone. Whether someone has tried multiple antidepressants without relief or is seeking a medication-free alternative, we aim to support informed decisions grounded in science — not hype.
@@ -676,7 +675,7 @@
                             </button>
                             <div class="accordion-content">
                                 <div class="accordion-inner">
-                                    Research is ongoing. While depression and OCD are the most established uses, studies explore TMS for PTSD, chronic pain, migraines, and other psychiatric/neurological conditions.
+                                    Research is ongoing. While depression and OCD are the most established uses, studies explore TMS for <a href="ptsd.php" class="text-primary hover:underline">PTSD</a>, chronic pain, migraines, and other psychiatric/neurological conditions.
                                 </div>
                             </div>
                         </div>
@@ -704,48 +703,48 @@
                     <h2 class="text-3xl font-bold text-primary mb-8">Related Articles</h2>
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
-                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500">
-                                <img src="images/blog/related-article-default.jpg" onerror="this.src='https://images.unsplash.com/photo-1620147512372-9e00421556bb?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover">
+                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
+                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
+                                <img src="images/blog/does-tms-work-anxiety-card.svg" class="w-full h-full object-cover">
                             </div>
-                            <div class="p-6">
+                            <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
                                     <a href="does-tms-therapy-work-for-anxiety.php" class="block text-black" style="color: black !important;">Does TMS Therapy Work for Anxiety?</a>
                                 </h3>
-                                <p class="text-gray-600 text-sm mb-4">Discover how TMS therapy can help treat anxiety disorders effectively.</p>
-                                <a href="does-tms-therapy-work-for-anxiety.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
+                                <p class="text-gray-600 text-sm mb-4 flex-grow">Discover how TMS therapy can help treat anxiety disorders effectively.</p>
+                                <a href="does-tms-therapy-work-for-anxiety.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap mt-auto">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
                                 </a>
                             </div>
                         </div>
                         
                         <!-- Post 2 -->
-                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500">
+                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
+                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
                                 <img src="images/blog/related-article-default.jpg" onerror="this.src='https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover">
                             </div>
-                            <div class="p-6">
+                            <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
                                     <a href="is-tms-therapy-permanent.php" class="block text-black" style="color: black !important;">Is TMS Therapy Permanent?</a>
                                 </h3>
-                                <p class="text-gray-600 text-sm mb-4">Understand the long-term effectiveness of TMS and what to expect after treatment.</p>
-                                <a href="is-tms-therapy-permanent.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
+                                <p class="text-gray-600 text-sm mb-4 flex-grow">Understand the long-term effectiveness of TMS and what to expect after treatment.</p>
+                                <a href="is-tms-therapy-permanent.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap mt-auto">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
                                 </a>
                             </div>
                         </div>
 
                         <!-- Post 3 -->
-                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500">
-                                <img src="images/blog/related-article-default.jpg" onerror="this.src='https://images.unsplash.com/photo-1527137342181-19aab11a8ee8?auto=format&fit=crop&q=80&w=800'" class="w-full h-full object-cover">
+                        <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
+                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
+                                <img src="images/blog/insurance-coverage-card.svg" class="w-full h-full object-cover">
                             </div>
-                            <div class="p-6">
+                            <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
                                     <a href="is-tms-therapy-covered-by-insurance.php" class="block text-black" style="color: black !important;">Is TMS Therapy Covered By Insurance?</a>
                                 </h3>
-                                <p class="text-gray-600 text-sm mb-4">Learn about insurance coverage for TMS therapy and how to navigate benefits.</p>
-                                <a href="is-tms-therapy-covered-by-insurance.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
+                                <p class="text-gray-600 text-sm mb-4 flex-grow">Learn about insurance coverage for TMS therapy and how to navigate benefits.</p>
+                                <a href="is-tms-therapy-covered-by-insurance.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap mt-auto">
                                     Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
                                 </a>
                             </div>

@@ -1,0 +1,36 @@
+<svg width="800" height="420" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="purpleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B2F8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#4A1F63;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="patternDetails" x="0" y="0" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#ffffff" fill-opacity="0.1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="420" fill="url(#purpleGrad)"/>
+  <rect width="800" height="420" fill="url(#patternDetails)"/>
+  
+  <!-- Right Side Shape for Image Container -->
+  <path d="M450,0 H800 V420 H450 Q400,210 450,0 Z" fill="#E9D5FF" />
+  
+  <!-- Text Content Area (Left) -->
+  <text x="50" y="140" font-family="Arial, sans-serif" font-weight="bold" font-size="40" fill="white" style="text-transform: uppercase;">
+    <tspan x="50" dy="0">WHY DOES TMS</tspan>
+    <tspan x="50" dy="48">REQUIRE MULTIPLE</tspan>
+    <tspan x="50" dy="48">SESSIONS?</tspan>
+  </text>
+  
+  <text x="50" y="300" font-family="Arial, sans-serif" font-size="16" fill="#fbbf24" style="font-style: italic;">
+    By - Karma TMS
+  </text>
+  
+  <!-- Decorative Elements -->
+  <circle cx="700" cy="350" r="100" fill="#6B2F8A" fill-opacity="0.1" />
+  <rect x="100" y="320" width="50" height="6" rx="3" fill="#fbbf24" />
+  <circle cx="60" cy="360" r="15" fill="#ffffff" fill-opacity="0.05" />
+  <circle cx="120" cy="380" r="8" fill="#ffffff" fill-opacity="0.05" />
+
+</svg>

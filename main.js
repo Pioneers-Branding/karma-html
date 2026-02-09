@@ -848,14 +848,25 @@ function initBlogPage() {
 
     const allBlogPosts = [
         {
+            id: 39,
+            title: "Top 5 TMS Therapy Clinics in Palm Springs, CA",
+            excerpt: "Comparing the best TMS providers in Palm Springs. We review the top 5 clinics to help you find the right treatment for depression.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "January 24, 2026",
+            readTime: "8 min read",
+            image: "images/blog/top-5-tms-clinics-palm-springs-ca.svg",
+            featured: false
+        },
+        {
             id: 38,
             title: "Is TMS a Hoax? A Deep Dive Into the Science, Myths, and Real Outcomes",
             excerpt: "Is TMS a hoax? We dive deep into the science, debunk myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.",
             category: "tms-therapy",
             author: "Dr. Keerthy Sunder",
-            date: "February 6, 2026",
+            date: "January 12, 2026",
             readTime: "9 min read",
-            image: "https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=600",
+            image: "images/blog/is-tms-a-hoax-card.svg",
             featured: false
         },
         {
@@ -877,7 +888,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "January 1, 2026",
             readTime: "15 min read",
-            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1767775408/37_l0hdbk.png",
+            image: "images/blog/insurance-coverage-card.svg",
             featured: false
         },
         {
@@ -910,7 +921,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "November 28, 2025",
             readTime: "14 min read",
-            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569002/34_g1u7jn.png",
+            image: "images/blog/does-tms-work-anxiety-card.svg",
             featured: false
         },
         {
@@ -1102,7 +1113,8 @@ function initBlogPage() {
         35: "can-you-get-disability-for-depression.php",
         36: "is-tms-therapy-covered-by-insurance.php",
         37: "who-is-a-good-candidate-for-tms-therapy.php",
-        38: "is-tms-a-hoax.php"
+        38: "is-tms-a-hoax.php",
+        39: "top-tms-clinics-palm-springs.php"
     };
 
     // State
