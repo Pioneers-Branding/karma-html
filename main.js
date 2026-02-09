@@ -848,6 +848,39 @@ function initBlogPage() {
 
     const allBlogPosts = [
         {
+            id: 40,
+            title: "Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment",
+            excerpt: "Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "February 9, 2026",
+            readTime: "8 min read",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png",
+            featured: false
+        },
+        {
+            id: 39,
+            title: "Top 5 TMS Therapy Clinics in Palm Springs, CA",
+            excerpt: "Comparing the best TMS providers in Palm Springs. We review the top 5 clinics to help you find the right treatment for depression.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "January 24, 2026",
+            readTime: "8 min read",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639696/40_vm3qmj.png",
+            featured: false
+        },
+        {
+            id: 38,
+            title: "Is TMS a Hoax? A Deep Dive Into the Science, Myths, and Real Outcomes",
+            excerpt: "Is TMS a hoax? We dive deep into the science, debunk myths, and explore the real evidence behind Transcranial Magnetic Stimulation therapy.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "January 12, 2026",
+            readTime: "9 min read",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639695/39_vylctc.png",
+            featured: false
+        },
+        {
             id: 37,
             title: "Who Is a Good Candidate for TMS Therapy? Complete Guide",
             excerpt: "Learn who is a good candidate for TMS therapy, eligibility criteria, benefits, risks, and how to know if TMS treatment is right for you.",
@@ -866,7 +899,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "January 1, 2026",
             readTime: "15 min read",
-            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1767775408/37_l0hdbk.png",
+            image: "images/blog/insurance-coverage-card.svg",
             featured: false
         },
         {
@@ -899,7 +932,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "November 28, 2025",
             readTime: "14 min read",
-            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569002/34_g1u7jn.png",
+            image: "images/blog/does-tms-work-anxiety-card.svg",
             featured: false
         },
         {
@@ -1090,7 +1123,10 @@ function initBlogPage() {
         34: "is-depression-a-disability.php",
         35: "can-you-get-disability-for-depression.php",
         36: "is-tms-therapy-covered-by-insurance.php",
-        37: "who-is-a-good-candidate-for-tms-therapy.php"
+        37: "who-is-a-good-candidate-for-tms-therapy.php",
+        38: "is-tms-a-hoax.php",
+        39: "top-tms-clinics-palm-springs.php",
+        40: "is-tms-therapy-safe.php"
     };
 
     // State
