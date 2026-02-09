@@ -367,7 +367,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/is-tms-a-hoax-card.svg" 
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639695/39_vylctc.png" 
                          onerror="this.src='https://images.unsplash.com/photo-1559757175-5700dde675bc?auto=format&fit=crop&q=80&w=2000&ixlib=rb-4.0.3'"
                          alt="Is TMS Therapy a Hoax?"
                          class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">

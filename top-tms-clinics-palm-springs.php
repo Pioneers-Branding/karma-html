@@ -270,7 +270,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/top-5-tms-clinics-palm-springs-ca.svg" 
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639696/40_vm3qmj.png" 
                          alt="Top TMS Clinics in Palm Springs"
                          class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 

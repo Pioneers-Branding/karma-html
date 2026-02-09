@@ -855,7 +855,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "February 9, 2026",
             readTime: "8 min read",
-            image: "images/blog/is-tms-therapy-safe-intro.png",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png",
             featured: false
         },
         {
@@ -866,7 +866,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "January 24, 2026",
             readTime: "8 min read",
-            image: "images/blog/top-5-tms-clinics-palm-springs-ca.svg",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639696/40_vm3qmj.png",
             featured: false
         },
         {
@@ -877,7 +877,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "January 12, 2026",
             readTime: "9 min read",
-            image: "images/blog/is-tms-a-hoax-card.svg",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639695/39_vylctc.png",
             featured: false
         },
         {

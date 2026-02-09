@@ -315,7 +315,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/is-tms-therapy-safe-intro.png" 
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png" 
                         alt="Is TMS Therapy Safe?"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
