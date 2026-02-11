@@ -864,7 +864,7 @@ function initBlogPage() {
             excerpt: "Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.",
             category: "tms-therapy",
             author: "Dr. Keerthy Sunder",
-            date: "February 9, 2026",
+            date: "February 7, 2026",
             readTime: "8 min read",
             image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png",
             featured: false

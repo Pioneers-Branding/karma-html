@@ -254,7 +254,7 @@
                 <div class="flex flex-wrap justify-center gap-4 mb-6 text-sm">
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="calendar" class="w-4 h-4"></i>
-                        February 09, 2026
+                        February 7, 2026
                     </span>
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="clock" class="w-4 h-4"></i>
