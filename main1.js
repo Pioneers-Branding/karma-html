@@ -848,6 +848,17 @@ function initBlogPage() {
 
     const allBlogPosts = [
         {
+            id: 41,
+            title: "What Is PrTMS & How Does It Work? A Complete Guide by Karma TMS",
+            excerpt: "Discover PrTMS (Personalized Repetitive Transcranial Magnetic Stimulation), a non-invasive, drug-free mental health treatment in Palm Springs. Learn how it works, what conditions it treats, and how it differs from traditional TMS.",
+            category: "tms-therapy",
+            author: "Dr. Keerthy Sunder",
+            date: "February 11, 2026",
+            readTime: "8 min read",
+            image: "images/blog/how-successful-is-tms-treatment-banner.png",
+            featured: false
+        },
+        {
             id: 40,
             title: "Is TMS Therapy Safe? What Patients Should Know Before Starting Treatment",
             excerpt: "Is TMS therapy safe? Discover how this FDA-cleared treatment works, its side effects, and why it's a safe option for depression in Palm Springs and Rancho Mirage.",
@@ -1126,7 +1137,8 @@ function initBlogPage() {
         37: "who-is-a-good-candidate-for-tms-therapy.php",
         38: "is-tms-a-hoax.php",
         39: "top-tms-clinics-palm-springs.php",
-        40: "is-tms-therapy-safe.php"
+        40: "is-tms-therapy-safe.php",
+        41: "what-is-prtms.php"
     };
 
     // State
