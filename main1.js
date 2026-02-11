@@ -855,7 +855,7 @@ function initBlogPage() {
             author: "Dr. Keerthy Sunder",
             date: "February 11, 2026",
             readTime: "8 min read",
-            image: "images/blog/how-successful-is-tms-treatment-banner.png",
+            image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770807746/41_bfa16u.jpg",
             featured: false
         },
         {

@@ -329,7 +329,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/how-successful-is-tms-treatment-banner.png" 
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770807746/41_bfa16u.jpg" 
                         alt="What Is PrTMS?"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
