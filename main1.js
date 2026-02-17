@@ -864,6 +864,18 @@ function initBlogPage() {
         // COMPLETE LIST from blog-posts.json
         const localBlogData = [
             {
+                "id": 44,
+                "title": "Does Medicaid Cover TMS Therapy? A Complete Guide 2026",
+                "excerpt": "Navigating mental health coverage can be confusing. Here’s everything you need to know about accessing TMS therapy through Medicaid.",
+                "category": "mental-health",
+                "author": "Karma TMS Team",
+                "date": "February 17, 2026",
+                "readTime": "7 min read",
+                "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322147/Nitesh_-_KARMA_TMS_Blog_thumbnail_7_jsgwuy.png",
+                "featured": false,
+                "url": "does-medicaid-cover-tms-therapy.php"
+            },
+            {
                 "id": 43,
                 "title": "What Are the First Signs of Schizophrenia?",
                 "excerpt": "Learn the early signs of schizophrenia, from social withdrawal to subtle paranoia. Discover the prodromal phase, risk factors, and treatment options in Palm Springs.",
@@ -871,7 +883,7 @@ function initBlogPage() {
                 "author": "Karma TMS Team",
                 "date": "February 10, 2026",
                 "readTime": "7 min read",
-                "image": "images/blog/mental-health-first-aid.png",
+                "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322151/Nitesh_-_KARMA_TMS_Blog_thumbnail_5_pvsgrk.png",
                 "featured": false,
                 "url": "what-are-the-first-signs-of-schizophrenia.php"
             },
@@ -883,7 +895,7 @@ function initBlogPage() {
                 "author": "Karma TMS Team",
                 "date": "February 13, 2026",
                 "readTime": "8 min read",
-                "image": "images/blog/is-tms-therapy-permanent-banner.png",
+                "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322148/Nitesh_-_KARMA_TMS_Blog_thumbnail_6_yurhny.png",
                 "featured": false,
                 "url": "is-tms-therapy-worth-it.php"
             },

@@ -325,7 +325,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/is-tms-therapy-covered-by-insurance-intro.png" 
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322147/Nitesh_-_KARMA_TMS_Blog_thumbnail_7_jsgwuy.png" 
                         alt="Medicaid coverage for TMS Therapy"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -578,33 +578,17 @@
                     top: offsetPosition,
                     behavior: 'smooth'
                 });
+
+                // Set active state on click
+                const navButtons = document.querySelectorAll('.toc-button');
+                navButtons.forEach(button => {
+                    button.classList.remove('active');
+                    if (button.getAttribute('onclick').includes(id)) {
+                        button.classList.add('active');
+                    }
+                });
             }
         }
-
-        // Highlight active TOC item on scroll
-        window.addEventListener('scroll', () => {
-            const sections = ['intro', 'medicaid-basics', 'requirements', 'how-to-check', 'cost', 'faq-medicaid'];
-            const navButtons = document.querySelectorAll('.toc-button');
-            
-            let current = '';
-            
-            sections.forEach(section => {
-                const element = document.getElementById(section);
-                if (element) {
-                    const rect = element.getBoundingClientRect();
-                    if (rect.top <= 180) { // Adjust trigger point
-                        current = section;
-                    }
-                }
-            });
-
-            navButtons.forEach(button => {
-                button.classList.remove('active');
-                if (button.getAttribute('onclick').includes(current)) {
-                    button.classList.add('active');
-                }
-            });
-        });
 
         // FAQ Toggle Logic
         function toggleBlogFAQ(button) {
