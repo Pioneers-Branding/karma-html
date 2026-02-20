@@ -795,7 +795,7 @@ document.addEventListener('DOMContentLoaded', () => {
     initTeamPage();
     initTMSTherapyPage();
     initPrTMSTherapyPage(); // Initialize prTMS page
-    initBlogPage(); // Initialize Blog page
+    // Note: initBlogPage() is called from the routing block below
 });
 
 
@@ -1391,16 +1391,6 @@ window.toggleAccordion = function (trigger) {
 // 8. Initialization & Routing
 // ==========================================================================
 document.addEventListener('DOMContentLoaded', () => {
-    // Initialize Global Components
-    if (typeof KarmaComponents !== 'undefined') {
-        new KarmaComponents();
-    }
-
-    // Homepage Slider
-    if (document.querySelector('.hero-slide')) {
-        initHomeSlider();
-    }
-
     // Blog Grid
     if (document.getElementById('blog-grid')) {
         initBlogPage();

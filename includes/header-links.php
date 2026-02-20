@@ -11,4 +11,4 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="style.css">
-    <script src="main1.js"></script>
+    <script src="main2.js"></script>
