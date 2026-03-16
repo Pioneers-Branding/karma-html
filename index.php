@@ -1,15 +1,21 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mental Health Clinic in Palm Springs | Karma TMS PC</title>
+    <title>TMS Therapy California | Karma TMS PC – Palm Springs & Coachella Valley</title>
     <meta name="description"
-        content="Karma TMS PC is a leading Mental Health Clinic in Palm Springs, offering personalized treatments for depression, anxiety, and mood disorders with expert care.">
+        content="Karma TMS PC is California's trusted TMS therapy clinic, serving Palm Springs, Rancho Mirage, and the greater Coachella Valley. FDA-cleared treatment for depression, anxiety, OCD & PTSD with expert, personalized care.">
     <meta name="keywords"
-        content="mental health in Palm Springs, mental health facilities in palm springs, mental health counselors in Palm Springs,CA">
+        content="TMS therapy California, mental health clinic California, TMS therapy Palm Springs, depression treatment California, TMS clinic Coachella Valley, psychiatrist California, mental health counselors Palm Springs CA, TMS for depression California, anxiety treatment California, Karma TMS PC">
     <link rel="canonical" href="index.php">
+    <meta property="og:title" content="TMS Therapy California | Karma TMS PC – Palm Springs & Coachella Valley">
+    <meta property="og:description" content="California's leading TMS therapy clinic. FDA-cleared, non-invasive treatment for depression, anxiety, OCD and PTSD. Serving Palm Springs, Rancho Mirage & Twentynine Palms.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.karmatms.com/">
+    <meta name="geo.region" content="US-CA">
+    <meta name="geo.placename" content="Palm Springs, California">
 
     <?php include 'includes/header-links.php'; ?>
 </head>
@@ -44,15 +50,13 @@
                         </div>
 
                         <h1 class="hero-title">
-                            Effective <span class="gradient-text">TMS Therapy</span> for Mental Health in Palm Springs,
-                            CA
+                            Leading <span class="gradient-text">TMS Therapy</span> Clinic in California – Palm Springs &amp; Beyond
                         </h1>
 
                         <p class="hero-description">
-                            Revolutionary FDA-cleared treatment for depression, anxiety, OCD, and PTSD. Our mental
-                            health facilities in Palm Springs provide breakthrough results with advanced TMS technology,
-                            offering comprehensive mental health care in Palm Springs, CA, through our experienced
-                            mental health counselors.
+                            California's most trusted FDA-cleared TMS therapy for depression, anxiety, OCD, and PTSD.
+                            Karma TMS PC serves patients across the Coachella Valley and greater Southern California
+                            with breakthrough brain stimulation technology and compassionate, personalized care.
                         </p>
                     </div>
 
@@ -199,11 +203,11 @@
     <section class="section bg-gray-50">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose Karma TMS for Mental Health in Palm Springs?</h2>
+                <h2 class="section-title">Why Choose Karma TMS – California's Premier TMS Therapy Clinic?</h2>
                 <p class="section-description">
-                    Experience advanced, compassionate, and personalized TMS therapy for lasting results at one of Palm
-                    Springs' leading mental health centers, supported by dedicated and experienced counselors in Palm
-                    Springs, CA
+                    From Palm Springs to the wider Southern California region, Karma TMS delivers advanced, compassionate,
+                    and personalized TMS therapy for lasting mental wellness — backed by board-certified psychiatrists
+                    and cutting-edge brain stimulation technology.
                 </p>
             </div>
 
@@ -274,10 +278,11 @@
     <section class="section bg-white">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Conditions We Treat for Mental Health in Palm Springs</h2>
+                <h2 class="section-title">Mental Health Conditions We Treat Across California</h2>
                 <p class="section-description">
-                    Karma TMS provides evidence-based TMS therapy programs in Palm Springs, CA, tailored to each
-                    individual's needs and guided by expert mental health counselors for proven, lasting results.
+                    Karma TMS provides evidence-based TMS therapy across California — from Palm Springs and the
+                    Coachella Valley to patients throughout Southern California — guided by expert mental health
+                    counselors for proven, lasting results.
                 </p>
             </div>
 
@@ -509,11 +514,11 @@
         <div class="container">
             <div class="text-center mb-12">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-                    Real Patient Stories from Our Mental Health Facilities in Palm Springs
+                    Real Patient Stories from Across California
                 </h2>
                 <p class="text-lg text-gray-600 max-w-4xl mx-auto">
-                    Hear from actual patients who have transformed their mental health in Palm Springs with TMS therapy
-                    from our mental health counselors in Palm Springs, CA at Karma TMS.
+                    Hear from real patients across California who have transformed their mental health with TMS therapy
+                    at Karma TMS — serving Palm Springs, the Coachella Valley, and Southern California.
                 </p>
             </div>
 
@@ -697,8 +702,8 @@
                     Your Path to <span class="gradient-text">Mental Wellness</span>
                 </h2>
                 <p class="text-xl text-gray-600 leading-relaxed max-w-4xl mx-auto">
-                    Karma TMS provides evidence-based TMS therapy programs in Palm Springs, CA, tailored to each
-                    individualâ€™s needs and guided by expert mental health counselors for proven, lasting results.
+                    Karma TMS provides evidence-based TMS therapy programs across California — tailored to each
+                    individual's needs and guided by expert mental health counselors for proven, lasting results.
                 </p>
             </div>
 
@@ -904,9 +909,9 @@
     <section class="section bg-gray-50">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Common Questions About Our <span class="gradient-text">Psychiatrist in Palm Springs</span> Services</h2>
+                <h2 class="section-title">Common Questions About <span class="gradient-text">TMS Therapy in California</span></h2>
                 <p class="section-description">
-                    Find answers to frequently asked questions about our mental health treatments and expert care in Palm Springs, CA.
+                    Find answers to frequently asked questions about our TMS therapy and mental health treatments — serving patients in Palm Springs, the Coachella Valley, and throughout California.
                 </p>
             </div>
 
@@ -1019,18 +1024,18 @@
     <section class="section bg-white">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Visit Our Mental Health Facilities in Palm Springs</h2>
+                <h2 class="section-title">Our TMS Therapy Locations in California</h2>
                 <p class="section-description">
-                    Our mental health facilities in Palm Springs are conveniently located serving patients throughout
-                    the Coachella Valley and surrounding areas, with experienced mental health counselors in Palm
-                    Springs, CA ready to help with mental health.
+                    Karma TMS PC has multiple California locations serving patients across Palm Springs, Rancho Mirage,
+                    Twentynine Palms, and the greater Coachella Valley. We proudly serve Southern California residents
+                    seeking expert TMS therapy and mental health care.
                 </p>
             </div>
 
             <div class="contact-section-grid">
                 <!-- Left: Contact Info -->
                 <div class="contact-details-card">
-                    <h3 class="contact-details-title">Contact Our Mental Health Counselors in Palm Springs, CA</h3>
+                    <h3 class="contact-details-title">Contact Our TMS Therapy Clinics in California</h3>
 
                     <div class="locations-list">
                         <!-- Location 1 -->
@@ -1131,9 +1136,9 @@
     <section class="section bg-gray-50">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Quick Access Resources for Mental Health in Palm Springs</h2>
+                <h2 class="section-title">TMS Therapy Resources for California Patients</h2>
                 <p class="section-description">
-                    Everything you need to support your mental health journey from research to expert insights.
+                    Everything California patients need to support their mental health journey — from peer-reviewed TMS research to expert insights and treatment guides.
                 </p>
             </div>
 
