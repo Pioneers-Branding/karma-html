@@ -1,5 +1,54 @@
 [
     {
+        "id": 48,
+        "title": "When Anxiety Becomes a Disorder: Signs, Types & Treatment",
+        "excerpt": "When does everyday anxiety become a clinical disorder? Learn the warning signs, the 6 most common anxiety disorder types, and modern treatments including TMS therapy in Palm Springs.",
+        "category": "mental-health",
+        "author": "Dr. Keerthy Sunder",
+        "date": "March 14, 2026",
+        "readTime": "10 min read",
+        "image": "images/blog/When Anxiety Becomes a Disorder.png",
+        "featured": true,
+        "url": "when-anxiety-becomes-a-disorder.php"
+    },
+    {
+        "id": 47,
+        "title": "Depression vs Burnout: How to Tell the Difference",
+        "excerpt": "Depression and burnout share overlapping symptoms but require very different treatments. Learn how to tell them apart and what to do if you think you have one or both.",
+        "category": "mental-health",
+        "author": "Dr. Keerthy Sunder",
+        "date": "March 10, 2026",
+        "readTime": "11 min read",
+        "image": "images/blog/Depression vs Burnout How to Tell the Difference.png",
+        "featured": false,
+        "url": "depression-vs-burnout.php"
+    },
+    {
+        "id": 46,
+        "title": "Signs Your Depression Needs Professional Treatment",
+        "excerpt": "Not sure if your depression requires professional help? Learn the 10 warning signs that your depression has crossed into a medical condition requiring expert care.",
+        "category": "depression",
+        "author": "Dr. Keerthy Sunder",
+        "date": "March 7, 2026",
+        "readTime": "10 min read",
+        "image": "images/blog/Karma blog 2.png",
+        "featured": false,
+        "url": "signs-your-depression-needs-professional-treatment.php"
+    },
+    {
+        "id": 45,
+        "title": "How Long Does TMS Therapy Take to Work for Depression?",
+        "excerpt": "Wondering how long TMS therapy takes to work for depression? Get a week-by-week breakdown, learn what to expect, and find out what factors affect your response speed.",
+        "category": "tms-therapy",
+        "author": "Dr. Keerthy Sunder",
+        "date": "March 3, 2026",
+        "readTime": "9 min read",
+        "image": "images/blog/KARMA TMS_Blog 1.png",
+        "featured": false,
+        "url": "how-long-does-tms-take-to-work-for-depression.php"
+    },
+
+    {
         "id": 44,
         "title": "Does Medicaid Cover TMS Therapy? A Complete Guide 2026",
         "excerpt": "Uncover the truth about Medicaid coverage for TMS therapy. Learn about eligibility, requirements, and how to get approved for treatment in Palm Springs.",
