@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,54 @@
     <link rel="canonical" href="about.php">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalOrganization + AboutPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "@id": "https://www.karmatms.com/about.php",
+      "url": "https://www.karmatms.com/about.php",
+      "name": "About Karma TMS PC",
+      "description": "Learn about Karma TMS, our mission, and our dedicated team of mental health professionals providing cutting-edge TMS therapy in Palm Springs, CA.",
+      "isPartOf": {"@id": "https://www.karmatms.com/#website"},
+      "publisher": {"@id": "https://www.karmatms.com/#organization"},
+      "about": {
+        "@type": "MedicalOrganization",
+        "name": "Karma TMS PC",
+        "foundingDate": "2015",
+        "description": "Founded in 2015 in the heart of Palm Springs, Karma TMS emerged from a vision to bring cutting-edge mental health treatment to Southern California. A leading center for innovative mental health care, treating over 5,000 patients and maintaining a 95% success rate.",
+        "employee": {
+          "@type": "Physician",
+          "name": "Dr. Keerthy Sunder",
+          "jobTitle": "Founder & Board-Certified Psychiatrist",
+          "description": "Board-certified psychiatrist specializing in TMS therapy, integrative psychiatry, and addiction medicine. Board Member of the Society for Brain Mapping and Therapeutics. Faculty at UC Riverside School of Medicine.",
+          "hasCredential": [
+            {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Board Certification",
+              "name": "Board-Certified in Psychiatry and Addiction Medicine"
+            },
+            {
+              "@type": "EducationalOccupationalCredential",
+              "credentialCategory": "Residency Training",
+              "recognizedBy": {"@type": "EducationalOrganization", "name": "University of Pittsburgh"}
+            }
+          ],
+          "worksFor": {"@id": "https://www.karmatms.com/#organization"},
+          "image": "https://www.prtms.com/wp-content/uploads/2023/03/Dr.-Keerthy-Sunder-scaled.jpg"
+        },
+        "numberOfEmployees": {"@type": "QuantitativeValue", "value": 10}
+      },
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+          {"@type": "ListItem", "position": 2, "name": "About Us", "item": "https://www.karmatms.com/about.php"}
+        ]
+      }
+    }
+    </script>
 
 </head>
 

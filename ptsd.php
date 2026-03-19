@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,99 @@
     <meta name="keywords" content="PTSD treatment, trauma therapy, TMS for PTSD, veteran PTSD treatment">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalCondition + MedicalTherapy -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalCondition",
+      "name": "Post-Traumatic Stress Disorder",
+      "alternateName": "PTSD",
+      "code": {"@type": "MedicalCode", "codeValue": "F43.1", "codingSystem": "ICD-10"},
+      "description": "PTSD is a mental health condition triggered by experiencing or witnessing a traumatic event. It manifests as flashbacks, nightmares, hypervigilance, avoidance behaviors, and negative changes in mood and cognition. Common in veterans, first responders, and trauma survivors.",
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "TMS Therapy for PTSD",
+        "description": "TMS therapy targets brain regions affected by trauma (prefrontal cortex and amygdala) using magnetic pulses, helping to restore emotional regulation, reduce fear responses, and alleviate PTSD symptoms without requiring re-traumatization.",
+        "legalStatus": "Off-label with growing clinical evidence; FDA-cleared for depression which commonly co-occurs with PTSD",
+        "relevantSpecialty": "Psychiatry"
+      },
+      "associatedAnatomy": [
+        {"@type": "BrainStructure", "name": "Amygdala"},
+        {"@type": "BrainStructure", "name": "Prefrontal Cortex"},
+        {"@type": "BrainStructure", "name": "Hippocampus"}
+      ],
+      "signOrSymptom": [
+        {"@type": "MedicalSymptom", "name": "Flashbacks and intrusive memories"},
+        {"@type": "MedicalSymptom", "name": "Nightmares"},
+        {"@type": "MedicalSymptom", "name": "Hypervigilance"},
+        {"@type": "MedicalSymptom", "name": "Avoidance behaviors"},
+        {"@type": "MedicalSymptom", "name": "Emotional numbness"}
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Will TMS cause me to re-experience my trauma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, TMS therapy does not involve re-living traumatic events or detailed talk therapy about the trauma. It is a biological treatment that targets the brain activity associated with PTSD symptoms, allowing you to heal without necessary re-exposure during the session itself."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS effective for combat-related PTSD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, studies have shown that TMS can be effective for combat-related PTSD, particularly in reducing hyperarousal and depression symptoms. We work with many veterans and understand the unique nature of combat trauma."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I do talk therapy while getting TMS for PTSD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. In fact, TMS often makes talk therapy more effective by reducing the physiological intensity of PTSD symptoms, allowing you to engage more fully in therapeutic work."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does TMS help with PTSD symptoms like nightmares?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "By calming the brain's overactive fear centers (amygdala) and strengthening emotional regulation (prefrontal cortex), TMS can help reduce the frequency and intensity of intrusive symptoms like nightmares and flashbacks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS covered for veterans with PTSD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TRICARE and the VA are increasingly recognizing the value of TMS. We have experience navigating military insurance and can help determine your specific coverage options for PTSD treatment."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "PTSD Treatment", "item": "https://www.karmatms.com/ptsd.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>

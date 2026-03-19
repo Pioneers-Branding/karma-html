@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,88 @@
         content="contact KarmaTMS, TMS therapy Palm Springs, mental health consultation, KarmaTMS locations, depression treatment contact">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: ContactPage + LocalBusiness -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://www.karmatms.com/contact-us.php",
+      "url": "https://www.karmatms.com/contact-us.php",
+      "name": "Contact KarmaTMS | TMS Therapy in Palm Springs",
+      "description": "Contact KarmaTMS for depression treatment and mental health services in Palm Springs. Call 760-760-5675. Multiple locations serving Southern California.",
+      "isPartOf": {"@id": "https://www.karmatms.com/#website"},
+      "publisher": {"@id": "https://www.karmatms.com/#organization"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Contact Us", "item": "https://www.karmatms.com/contact-us.php"}
+        ]
+      }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: LocalBusiness with multiple locations -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalBusiness",
+      "@id": "https://www.karmatms.com/#organization",
+      "name": "Karma TMS PC",
+      "telephone": "+17607605675",
+      "email": "contact@karmatms.com",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "location": [
+        {
+          "@type": "LocalBusiness",
+          "name": "KarmaTMS – Palm Springs",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "560 S. Paseo Dorotea, Suite 4B",
+            "addressLocality": "Palm Springs",
+            "addressRegion": "CA",
+            "postalCode": "92264",
+            "addressCountry": "US"
+          },
+          "hasMap": "https://maps.app.goo.gl/hJP949mZGLuHLn7Y9"
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "KarmaTMS – Rancho Mirage",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "35400 Bob Hope Dr, Suite 206",
+            "addressLocality": "Rancho Mirage",
+            "addressRegion": "CA",
+            "postalCode": "92270",
+            "addressCountry": "US"
+          },
+          "hasMap": "https://maps.app.goo.gl/6wyxkwnGZ5g2ua1a7"
+        },
+        {
+          "@type": "LocalBusiness",
+          "name": "KarmaTMS – Twentynine Palms",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "72724 29 Palms Hwy, Suite 107",
+            "addressLocality": "Twentynine Palms",
+            "addressRegion": "CA",
+            "postalCode": "92277",
+            "addressCountry": "US"
+          },
+          "hasMap": "https://share.google/e8yhlNFFaLaN8z1d1"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>

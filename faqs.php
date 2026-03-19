@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,6 +9,157 @@
         content="Get answers to common questions about TMS therapy, treatment process, insurance coverage, and eligibility. Expert answers from KarmaTMS.">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: FAQPage (Comprehensive) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is TMS therapy and how does it work?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS (Transcranial Magnetic Stimulation) is a non-invasive treatment that uses magnetic fields to stimulate nerve cells in the brain. It targets specific areas associated with mood control to help alleviate symptoms of depression, anxiety, and other mental health conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS therapy safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, TMS therapy is FDA-approved and considered very safe. It's non-invasive, requires no anesthesia, and has minimal side effects. The most common side effect is mild scalp discomfort during treatment, which typically decreases over time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a TMS treatment session take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each TMS session typically lasts 18-37 minutes, depending on the specific protocol. Most patients receive treatment 5 days a week for 4-6 weeks, though the exact duration varies based on individual needs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "When will I see results from TMS therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "While individual responses vary, many patients begin to notice improvements after 2-4 weeks of treatment. Some patients may see changes sooner, while others may require the full treatment course to experience significant benefits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I drive after TMS treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, you can drive immediately after TMS treatment. Unlike ECT, TMS doesn't affect your consciousness or memory, so you can resume normal activities right after your session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How effective is TMS for depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clinical studies show that approximately 50-60% of people with treatment-resistant depression experience a significant reduction in symptoms with TMS therapy. About one-third achieve complete remission of their depression."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can TMS help with anxiety disorders?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, TMS can be effective for various anxiety disorders including generalized anxiety disorder, panic disorder, and PTSD. The treatment targets brain regions involved in emotional regulation and stress response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What if antidepressants haven't worked for me?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS is specifically designed for people who haven't responded well to traditional antidepressant medications. It's considered a treatment for 'treatment-resistant depression' and offers hope when medications have been ineffective."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I continue my medications during TMS treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "In most cases, yes. TMS can be used alongside antidepressant medications. Our medical team will review all your current medications to ensure there are no contraindications before starting treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens during the first TMS appointment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your first appointment includes a comprehensive evaluation, brain mapping to determine the precise treatment location, and motor threshold testing. This process typically takes 60-90 minutes and ensures personalized treatment parameters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What does TMS treatment feel like?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients describe the sensation as a tapping or knocking feeling on the scalp. Some may experience mild discomfort initially, but this typically decreases as you become accustomed to the treatment over the first few sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many TMS sessions will I need?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The standard protocol involves 36 sessions over 6-7 weeks (5 sessions per week). However, the exact number may vary based on your individual response and our clinical assessment. Some patients may benefit from additional sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Am I a candidate for TMS therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Good candidates for TMS typically have treatment-resistant depression or anxiety, haven't responded well to medications, or can't tolerate medication side effects. Our team will conduct a thorough evaluation to determine if TMS is right for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does insurance cover TMS therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most major insurance plans, including Medicare, cover TMS therapy for treatment-resistant depression. We work with your insurance company to verify coverage and handle pre-authorization requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there any conditions that would prevent me from receiving TMS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS may not be suitable if you have certain types of metal implants in your head, a history of seizures, or certain neurological conditions. Our medical team will review your complete medical history during the consultation."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: WebPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "@id": "https://www.karmatms.com/faqs.php",
+      "url": "https://www.karmatms.com/faqs.php",
+      "name": "Frequently Asked Questions | KarmaTMS FAQ",
+      "description": "Get answers to common questions about TMS therapy, treatment process, insurance coverage, and eligibility. Expert answers from KarmaTMS.",
+      "isPartOf": {"@id": "https://www.karmatms.com/#website"},
+      "publisher": {"@id": "https://www.karmatms.com/#organization"},
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+          {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.karmatms.com/faqs.php"}
+        ]
+      }
+    }
+    </script>
 
     <style>
         .faq-category-card {

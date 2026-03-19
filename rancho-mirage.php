@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,123 @@
         content="TMS therapy Rancho Mirage, depression treatment Rancho Mirage, mental health Rancho Mirage, psychiatrist Rancho Mirage, anxiety treatment Coachella Valley">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: LocalBusiness for Rancho Mirage Location -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalBusiness", "LocalBusiness"],
+      "@id": "https://www.karmatms.com/rancho-mirage.php#location",
+      "name": "Karma TMS PC – Rancho Mirage",
+      "url": "https://www.karmatms.com/rancho-mirage.php",
+      "image": "https://i.ibb.co/svRMccr4/rancho-mirage-rancho-mirage-ca-primaryphoto.webp",
+      "description": "Premier TMS therapy center in Rancho Mirage, CA. Advanced FDA-approved depression treatment, anxiety therapy, and psychiatric care. Luxury mental health services in the Coachella Valley.",
+      "telephone": "+17607605675",
+      "email": "contact@karmatms.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "35400 Bob Hope Dr, Suite 206",
+        "addressLocality": "Rancho Mirage",
+        "addressRegion": "CA",
+        "postalCode": "92270",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.7913,
+        "longitude": -116.4054
+      },
+      "hasMap": "https://maps.app.goo.gl/6wyxkwnGZ5g2ua1a7",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "medicalSpecialty": ["Psychiatry", "MentalHealth"],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "TMS Therapy"},
+        {"@type": "MedicalTherapy", "name": "PrTMS (Personalized rTMS)"},
+        {"@type": "MedicalTherapy", "name": "Exomind Advanced TMS"},
+        {"@type": "MedicalTherapy", "name": "Brain Mapping (qEEG)"},
+        {"@type": "MedicalTherapy", "name": "Neurofeedback"},
+        {"@type": "MedicalTherapy", "name": "Medication Management"}
+      ],
+      "areaServed": [
+        {"@type": "City", "name": "Rancho Mirage"},
+        {"@type": "City", "name": "Palm Desert"},
+        {"@type": "City", "name": "Indian Wells"},
+        {"@type": "City", "name": "La Quinta"},
+        {"@type": "City", "name": "Cathedral City"}
+      ],
+      "parentOrganization": {"@id": "https://www.karmatms.com/#organization"}
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is KarmaTMS Rancho Mirage located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are located at 35400 Bob Hope Dr. Suite 206 in Rancho Mirage, CA 92270. Our office is easily accessible from Palm Desert, Indian Wells, La Quinta, and throughout the Coachella Valley."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes the Rancho Mirage location different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our Rancho Mirage office features the exclusive Exomind TMS technology — the most advanced TMS system available, only offered at this location. We also offer concierge-level care in a luxury setting."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you accept Medicare and private insurance in Rancho Mirage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We accept Medicare, most major insurance plans including Blue Cross Blue Shield, Aetna, Cigna, United Healthcare, and many others. Our staff will verify your coverage and handle all pre-authorization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What conditions do you treat at Rancho Mirage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We specialize in treating depression, anxiety disorders, OCD, PTSD, bipolar disorder, and other mental health conditions. We also offer medication management and comprehensive psychiatric evaluations."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS therapy painful at Rancho Mirage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No, TMS therapy is non-invasive and well-tolerated. You may feel a tapping sensation during treatment, but most patients find it comfortable. There is no anesthesia or sedation required, and no downtime."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Rancho Mirage TMS", "item": "https://www.karmatms.com/rancho-mirage.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,118 @@
         content="depression treatment center Palm Springs, depression Palm Springs, CA, depression therapy Palm Springs,CA">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalCondition + MedicalTherapy -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalCondition",
+      "name": "Depression",
+      "alternateName": "Major Depressive Disorder",
+      "description": "Depression is a serious mental health condition characterized by persistent sadness, loss of interest, fatigue, and difficulty with daily activities. Treatment-Resistant Depression (TRD) affects patients who don't respond to standard antidepressant medications.",
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "TMS Therapy for Depression",
+        "alternateName": "Transcranial Magnetic Stimulation",
+        "description": "FDA-cleared, non-invasive brain stimulation therapy using targeted magnetic pulses to stimulate the brain's prefrontal cortex and promote neuroplasticity, significantly reducing depression symptoms.",
+        "recognizingAuthority": {
+          "@type": "MedicalOrganization",
+          "name": "U.S. Food and Drug Administration (FDA)"
+        },
+        "study": {
+          "@type": "MedicalStudy",
+          "description": "Clinical trials show 60-70% response rate and 50% complete remission rate in treatment-resistant depression patients."
+        },
+        "legalStatus": "FDA Cleared",
+        "relevantSpecialty": "Psychiatry",
+        "code": {
+          "@type": "MedicalCode",
+          "codeValue": "90867",
+          "codingSystem": "CPT"
+        }
+      },
+      "associatedAnatomy": {
+        "@type": "BrainStructure",
+        "name": "Left Dorsolateral Prefrontal Cortex"
+      },
+      "typicalTest": {
+        "@type": "MedicalTest",
+        "name": "Psychiatric Evaluation and TMS Candidacy Assessment"
+      }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What if my depression hasn't improved with medication?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "This is known as Treatment-Resistant Depression (TRD). TMS therapy is FDA-cleared specifically for this condition. It works differently than medications by directly stimulating the underactive brain regions associated with depression, often providing relief when antidepressants have failed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly will I see results from TMS for depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Response times vary, but many patients begin to notice improvements in their mood, energy, and sleep patterns within 2 to 4 weeks of starting treatment. The full benefit is typically realized upon completion of the 6-week course."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS therapy covered by insurance for depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, most major insurance providers cover TMS therapy for the treatment of Major Depressive Disorder, typically after a patient has tried one or more antidepressant medications without success. Karma TMS can help verify your specific benefits."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are there side effects of TMS for depression?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS is generally well-tolerated with few side effects. The most common is mild scalp discomfort or a headache during or after treatment, which typically diminishes as your body adjusts. Unlike medications, it does not cause weight gain, sexual dysfunction, or drowsiness."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I continue taking antidepressants during TMS therapy?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, in many cases, patients continue their current medication regimen during TMS. Your treatment plan will be coordinated with your psychiatrist to determine the best approach for your specific needs."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.karmatms.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Depression Treatment",
+          "item": "https://www.karmatms.com/depression.php"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>

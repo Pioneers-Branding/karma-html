@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,6 +9,48 @@
         content="Stay informed with the latest research, treatments, and expert insights in mental health care from our team of specialists at Karma TMS.">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: Blog + CollectionPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Blog", "CollectionPage"],
+      "@id": "https://www.karmatms.com/blog.php",
+      "url": "https://www.karmatms.com/blog.php",
+      "name": "Mental Health Insights - Karma TMS Blog",
+      "description": "Stay informed with the latest research, treatments, and expert insights in mental health care from our team of specialists at Karma TMS.",
+      "inLanguage": "en-US",
+      "isPartOf": {"@id": "https://www.karmatms.com/#website"},
+      "publisher": {
+        "@type": "Organization",
+        "@id": "https://www.karmatms.com/#organization",
+        "name": "Karma TMS PC",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/ebadb369-a58d-421c-b937-24f900be5867.png"
+        }
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Dr. Keerthy Sunder",
+        "jobTitle": "Board-Certified Psychiatrist",
+        "worksFor": {"@id": "https://www.karmatms.com/#organization"}
+      },
+      "about": [
+        {"@type": "MedicalCondition", "name": "Depression"},
+        {"@type": "MedicalCondition", "name": "Anxiety"},
+        {"@type": "MedicalCondition", "name": "PTSD"},
+        {"@type": "MedicalTherapy", "name": "TMS Therapy"}
+      ],
+      "breadcrumb": {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmatms.com/blog.php"}
+        ]
+      }
+    }
+    </script>
 </head>
 
 <body class="bg-white" style="font-family: 'Outfit', sans-serif;">
