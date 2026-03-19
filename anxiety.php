@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,94 @@
         content="anxiety therapy Palm Springs, CA, anxiety treatment palm springs, anxiety treatment center in palm springs">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalCondition + MedicalTherapy -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalCondition",
+      "name": "Anxiety Disorders",
+      "alternateName": ["Generalized Anxiety Disorder", "Panic Disorder", "Social Anxiety"],
+      "description": "Anxiety disorders represent a group of mental health conditions characterized by excessive fear, worry, or nervousness that significantly impacts daily functioning. Types include generalized anxiety, panic disorder, social anxiety, and specific phobias.",
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "TMS Therapy for Anxiety",
+        "description": "FDA-cleared TMS is used off-label for anxiety disorders. It targets the brain's fear processing centers (amygdala and prefrontal cortex) using magnetic pulses to reduce hypervigilance and worry.",
+        "recognizingAuthority": {"@type": "MedicalOrganization", "name": "U.S. Food and Drug Administration (FDA)"},
+        "legalStatus": "FDA Cleared for Anxious Depression; Off-label for anxiety disorders",
+        "relevantSpecialty": "Psychiatry"
+      },
+      "signOrSymptom": [
+        {"@type": "MedicalSymptom", "name": "Excessive worry"},
+        {"@type": "MedicalSymptom", "name": "Restlessness"},
+        {"@type": "MedicalSymptom", "name": "Panic attacks"},
+        {"@type": "MedicalSymptom", "name": "Social avoidance"},
+        {"@type": "MedicalSymptom", "name": "Hypervigilance"}
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can TMS help with generalized anxiety disorder (GAD)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, TMS shows promising results for Generalized Anxiety Disorder. By targeting the brain's emotional regulation centers, it can help reduce the persistent worry and physical tension associated with GAD."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS safer than anti-anxiety medications?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS avoids the systemic side effects common with anti-anxiety medications (such as benzodiazepines), like drowsiness, dependency risk, and cognitive fogginess. It is a non-systemic treatment acting directly on the brain."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long do the benefits of TMS for anxiety last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Many patients experience robust and durable relief that can last for months or even years. Maintenance sessions can be scheduled if symptoms begin to return, ensuring long-term management."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will TMS make my anxiety worse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS is generally calming. While some patients may feel a temporary increase in alertness during the first sessions, the treatment is designed to lower anxiety levels, not increase them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS FDA-approved for anxiety?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deep TMS has received FDA clearance for the treatment of Anxious Depression (depression with anxiety symptoms). For pure anxiety disorders, it is often used effectively off-label, supported by a growing body of clinical research."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Anxiety Treatment", "item": "https://www.karmatms.com/anxiety.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>

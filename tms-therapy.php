@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,6 +9,114 @@
         content="Karma TMS PC offers advanced TMS Therapy in Palm Springs to treat depression and anxiety safely, helping you achieve lasting mental wellness and balance.">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalTherapy + MedicalProcedure -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalTherapy",
+      "@id": "https://www.karmatms.com/tms-therapy.php#therapy",
+      "name": "TMS Therapy (Transcranial Magnetic Stimulation)",
+      "alternateName": "TMS Treatment",
+      "url": "https://www.karmatms.com/tms-therapy.php",
+      "description": "Transcranial Magnetic Stimulation (TMS) is an FDA-cleared, non-invasive brain stimulation therapy using targeted magnetic pulses to treat depression, anxiety, OCD, and PTSD. Sessions last 20-40 minutes with no anesthesia or sedation required.",
+      "legalStatus": "FDA Cleared since 2008",
+      "relevantSpecialty": "Psychiatry",
+      "recognizingAuthority": {
+        "@type": "MedicalOrganization",
+        "name": "U.S. Food and Drug Administration (FDA)"
+      },
+      "study": [
+        {
+          "@type": "MedicalStudy",
+          "description": "Clinical trials demonstrate 50-60% response rate and approximately 30% complete remission in treatment-resistant depression."
+        }
+      ],
+      "code": [
+        {"@type": "MedicalCode", "codeValue": "90867", "codingSystem": "CPT"},
+        {"@type": "MedicalCode", "codeValue": "90868", "codingSystem": "CPT"},
+        {"@type": "MedicalCode", "codeValue": "90869", "codingSystem": "CPT"}
+      ],
+      "adverseOutcome": "Mild scalp discomfort or temporary headache (minor and decreasing over time)",
+      "contraindication": "Metal implants in or around the head, history of seizures, certain neurological conditions",
+      "indication": [
+        {"@type": "MedicalIndication", "name": "Major Depressive Disorder"},
+        {"@type": "MedicalIndication", "name": "Obsessive-Compulsive Disorder (OCD)"},
+        {"@type": "MedicalIndication", "name": "Anxiety Disorders"},
+        {"@type": "MedicalIndication", "name": "PTSD"}
+      ],
+      "procedureType": "Noninvasive",
+      "bodyLocation": "Prefrontal Cortex",
+      "followup": "Regular progress assessments every 1-2 weeks during treatment",
+      "howPerformed": "Electromagnetic coil placed against the scalp delivers focused magnetic pulses at 10 Hz (for depression) to stimulate neural pathways in the prefrontal cortex over 20-40 minute sessions, 5 days/week for 4-6 weeks.",
+      "preparation": "No special preparation needed. Remove metal objects from head and neck area.",
+      "provider": {
+        "@id": "https://www.karmatms.com/#organization"
+      }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is TMS therapy safe?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. TMS is FDA-approved and has been rigorously studied since 2008. It is non-invasive, requires no anesthesia, and produces no systemic side effects. The most common side effect is mild scalp discomfort during the first few sessions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does each TMS session take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard TMS sessions last between 20 and 40 minutes depending on the protocol used. You remain awake and alert during treatment and can resume normal activities — including driving — immediately afterward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How many TMS sessions are in a full course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard TMS treatment course consists of 36 sessions delivered 5 days per week over 6-7 weeks. Some patients may require additional sessions depending on their response."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What conditions is TMS FDA-cleared to treat?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS is FDA-cleared for Major Depressive Disorder (since 2008), Obsessive-Compulsive Disorder (OCD), and Anxious Depression. It is also used off-label for PTSD, anxiety, bipolar depression, and other conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does TMS therapy hurt?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most patients describe TMS as feeling like a light tapping or clicking sensation on the scalp. Some mild discomfort may occur in the first few sessions but typically decreases quickly as you adjust to treatment."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "TMS Therapy", "item": "https://www.karmatms.com/tms-therapy.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>

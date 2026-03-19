@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,152 @@
         content="TMS therapy Palm Springs, depression treatment Palm Springs, mental health Palm Springs, TMS Coachella Valley, psychiatrist Palm Springs, anxiety treatment Palm Springs">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: LocalBusiness for Palm Springs Location -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalBusiness", "LocalBusiness"],
+      "@id": "https://www.karmatms.com/palm-springs.php#location",
+      "name": "Karma TMS PC – Palm Springs",
+      "url": "https://www.karmatms.com/palm-springs.php",
+      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg",
+      "description": "Leading TMS therapy center in Palm Springs, CA. FDA-approved depression treatment, anxiety therapy, and mental health services serving the Coachella Valley. Veterans welcome.",
+      "telephone": "+17607605675",
+      "email": "contact@karmatms.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "560 S. Paseo Dorotea, Suite 4B",
+        "addressLocality": "Palm Springs",
+        "addressRegion": "CA",
+        "postalCode": "92264",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 33.8137,
+        "longitude": -116.5019
+      },
+      "hasMap": "https://maps.app.goo.gl/hJP949mZGLuHLn7Y9",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        }
+      ],
+      "priceRange": "$$",
+      "medicalSpecialty": ["Psychiatry", "MentalHealth"],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "TMS Therapy"},
+        {"@type": "MedicalTherapy", "name": "PrTMS"},
+        {"@type": "MedicalTherapy", "name": "Brain Mapping (qEEG)"},
+        {"@type": "MedicalTherapy", "name": "Medication Management"},
+        {"@type": "MedicalTest", "name": "Neurofeedback"},
+        {"@type": "MedicalTest", "name": "Psychiatric Evaluations"}
+      ],
+      "areaServed": [
+        {"@type": "City", "name": "Palm Springs"},
+        {"@type": "City", "name": "Desert Hot Springs"},
+        {"@type": "City", "name": "Cathedral City"},
+        {"@type": "City", "name": "Rancho Mirage"},
+        {"@type": "City", "name": "Palm Desert"},
+        {"@type": "City", "name": "Indian Wells"},
+        {"@type": "City", "name": "La Quinta"},
+        {"@type": "City", "name": "Indio"}
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "200",
+        "bestRating": "5"
+      },
+      "parentOrganization": {
+        "@id": "https://www.karmatms.com/#organization"
+      }
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Where is KarmaTMS Palm Springs located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our main Palm Springs office is at 560 S. Paseo Dorotea Suite 4-B, Palm Springs, CA 92264. We also have an office in Rancho Mirage at 35400 Bob Hope Dr. Suite 206."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What insurance do you accept in Palm Springs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We accept most major insurance plans including Medicare, Tricare, Blue Cross Blue Shield, Aetna, Cigna, and many more. Contact us to verify your specific coverage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a TMS therapy session take?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Each TMS session typically takes 20-30 minutes. Most patients receive treatment 5 days per week for 4-6 weeks. You can return to normal activities immediately after each session."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you treat veterans at your Palm Springs location?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We proudly serve veterans and accept Tricare and VA benefits. Our team has specialized experience treating PTSD, depression, and anxiety in military personnel."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What areas does KarmaTMS Palm Springs serve?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We serve the entire Coachella Valley including Palm Springs, Desert Hot Springs, Cathedral City, Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, and surrounding communities."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS therapy covered by insurance in California?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, TMS therapy is FDA-approved and covered by most insurance plans for treatment-resistant depression. We handle all insurance verification and pre-authorization for you."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.karmatms.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Palm Springs TMS Therapy",
+          "item": "https://www.karmatms.com/palm-springs.php"
+        }
+      ]
+    }
+    </script>
 </head>
 
 <body>

@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -10,6 +10,96 @@
     <meta name="keywords" content="ocd expert palm springs ca, ocd therapist palm springs ca">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: MedicalCondition + MedicalTherapy -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalCondition",
+      "name": "Obsessive-Compulsive Disorder",
+      "alternateName": "OCD",
+      "code": {"@type": "MedicalCode", "codeValue": "F42", "codingSystem": "ICD-10"},
+      "description": "Obsessive-Compulsive Disorder (OCD) is a chronic mental health condition characterized by unwanted, intrusive thoughts (obsessions) and repetitive behaviors or mental acts (compulsions) that significantly interfere with daily activities.",
+      "possibleTreatment": {
+        "@type": "MedicalTherapy",
+        "name": "Deep TMS for OCD",
+        "alternateName": "Deep Transcranial Magnetic Stimulation",
+        "description": "FDA-approved Deep TMS therapy (2018) targets the supplementary motor area and anterior cingulate cortex using specialized H7 coils to reduce obsessions and compulsions in treatment-resistant OCD.",
+        "legalStatus": "FDA Approved since 2018",
+        "recognizingAuthority": {"@type": "MedicalOrganization", "name": "U.S. Food and Drug Administration (FDA)"},
+        "study": {"@type": "MedicalStudy", "description": "Clinical trials show 45-55% response rate with approximately 30% average symptom reduction in treatment-resistant OCD."},
+        "relevantSpecialty": "Psychiatry"
+      },
+      "signOrSymptom": [
+        {"@type": "MedicalSymptom", "name": "Intrusive obsessive thoughts"},
+        {"@type": "MedicalSymptom", "name": "Compulsive rituals"},
+        {"@type": "MedicalSymptom", "name": "Excessive checking"},
+        {"@type": "MedicalSymptom", "name": "Contamination fears"}
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How is Deep TMS for OCD different from standard TMS?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Deep TMS uses a specialized H7 coil that can reach deeper brain structures like the anterior cingulate cortex, which are implicated in OCD. Standard TMS coils typically stimulate more superficial regions. This deeper reach is often crucial for effective OCD treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the success rate of TMS for OCD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Clinical studies have shown response rates of around 45-55% for patients with treatment-resistant OCD, with many experiencing a significant reduction in symptom severity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to be exposed to my triggers during OCD TMS treatment?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, unlike depression treatment, OCD TMS protocols typically involve brief 'provocation' or exposure to obsessive thoughts immediately before or during stimulation. This activates relevant brain circuits, making them more receptive to the treatment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is TMS for OCD covered by insurance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, essentially all major insurance payers cover Deep TMS for OCD, usually requiring that the patient has tried medication and/or therapy (ERP) without sufficient success."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is a typical OCD treatment course?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A standard TMS course for OCD involves 29-30 sessions over approximately 6 weeks, conducted 5 days a week with each session lasting about 20 minutes."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "OCD Treatment", "item": "https://www.karmatms.com/ocd.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>

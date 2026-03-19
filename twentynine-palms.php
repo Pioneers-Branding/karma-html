@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,6 +11,131 @@
         content="TMS therapy 29 Palms, Twentynine Palms mental health, PTSD treatment Marines, veterans TMS therapy, Tricare TMS, MCAGCC mental health">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Schema.org JSON-LD: LocalBusiness for Twentynine Palms Location -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["MedicalBusiness", "LocalBusiness"],
+      "@id": "https://www.karmatms.com/twentynine-palms.php#location",
+      "name": "Karma TMS PC – Twentynine Palms",
+      "url": "https://www.karmatms.com/twentynine-palms.php",
+      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763039658/2_miiwgx.jpg",
+      "description": "TMS therapy center in Twentynine Palms near MCAGCC. Specialized PTSD treatment for veterans and active military. Depression and anxiety care. Tricare and VA benefits accepted.",
+      "telephone": "+17607605675",
+      "email": "contact@karmatms.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "72724 29 Palms Hwy, Suite 107",
+        "addressLocality": "Twentynine Palms",
+        "addressRegion": "CA",
+        "postalCode": "92277",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 34.1358,
+        "longitude": -116.0759
+      },
+      "hasMap": "https://share.google/e8yhlNFFaLaN8z1d1",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+          "opens": "08:00",
+          "closes": "18:00"
+        }
+      ],
+      "priceRange": "$$",
+      "medicalSpecialty": ["Psychiatry", "MentalHealth"],
+      "availableService": [
+        {"@type": "MedicalTherapy", "name": "TMS Therapy"},
+        {"@type": "MedicalTherapy", "name": "PTSD Treatment"},
+        {"@type": "MedicalTherapy", "name": "PrTMS (Personalized rTMS)"},
+        {"@type": "MedicalTherapy", "name": "Brain Mapping (qEEG)"},
+        {"@type": "MedicalTherapy", "name": "Medication Management"},
+        {"@type": "MedicalTest", "name": "Psychiatric Evaluations"}
+      ],
+      "areaServed": [
+        {"@type": "City", "name": "Twentynine Palms"},
+        {"@type": "City", "name": "Yucca Valley"},
+        {"@type": "City", "name": "Joshua Tree"},
+        {"@type": "City", "name": "Desert Hot Springs"},
+        {"@type": "EducationalOrganization", "name": "MCAGCC (Marine Corps Air Ground Combat Center)"}
+      ],
+      "parentOrganization": {"@id": "https://www.karmatms.com/#organization"}
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Do you treat veterans and active military at your Twentynine Palms location?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely! We proudly serve active duty military and veterans from MCAGCC Twentynine Palms. We accept Tricare and VA benefits, and our team has specialized training in treating PTSD, combat-related trauma, and military mental health conditions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is KarmaTMS Twentynine Palms located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We are conveniently located at 72724 29 Palms Hwy, Suite 107 in Twentynine Palms, CA 92277. Our facility is easily accessible from the Marine Corps base and throughout the High Desert region."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How effective is TMS therapy for PTSD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "TMS therapy has shown significant effectiveness for PTSD treatment, particularly when combined with other therapies. Many veterans experience substantial reduction in PTSD symptoms including intrusive thoughts, hypervigilance, and anxiety."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What insurance do you accept in Twentynine Palms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We accept Tricare, VA benefits, Medicare, and most major insurance plans. Our team specializes in working with military insurance and will handle all authorization for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long does TMS treatment take at Twentynine Palms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A typical TMS treatment course is 4-6 weeks with sessions 5 days per week. Each session takes about 20-30 minutes, and you can return to duty or normal activities immediately afterward."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you serve other communities besides Twentynine Palms?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We serve the entire High Desert region including Yucca Valley, Joshua Tree, Desert Hot Springs, and surrounding communities. Many patients also come from Palm Springs and the Coachella Valley."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org JSON-LD: BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Twentynine Palms TMS", "item": "https://www.karmatms.com/twentynine-palms.php"}
+      ]
+    }
+    </script>
 </head>
 
 <body>
