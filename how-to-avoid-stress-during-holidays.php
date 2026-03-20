@@ -146,14 +146,14 @@
 
         /* Custom Grid Fixes */
         @media (min-width: 1024px) {
-            .lg\:grid-cols-4 {
-                grid-template-columns: repeat(4, minmax(0, 1fr));
-            }
-            .lg\:col-span-1 {
-                grid-column: span 1 / span 1;
+            .lg\:grid-cols-12 {
+                grid-template-columns: repeat(12, minmax(0, 1fr));
             }
             .lg\:col-span-3 {
                 grid-column: span 3 / span 3;
+            }
+            .lg\:col-span-9 {
+                grid-column: span 9 / span 9;
             }
         }
         
@@ -303,7 +303,7 @@
                         Dr. Keerthy Sunder
                     </span>
                 </div>
-                <h1 class="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
                     How to Avoid Stress During Holidays
                 </h1>
                 <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-3xl mx-auto">
@@ -320,9 +320,9 @@
 
     <!-- Main Content -->
     <div class="container mx-auto px-4 py-20">
-        <div class="grid lg:grid-cols-4 gap-8">
+        <div class="grid lg:grid-cols-12 gap-8">
             <!-- Table of Contents - Sticky Sidebar -->
-            <aside class="lg:col-span-1">
+            <aside class="lg:col-span-3">
                 <div class="sticky-toc lg:sticky lg:top-24">
                     <div class="bg-white rounded-xl border border-primary/20 shadow-sm overflow-hidden">
                         <div class="p-6">
@@ -345,7 +345,7 @@
             </aside>
 
             <!-- Article Content -->
-            <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
+            <article class="lg:col-span-9 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
                     <img src="images/blog/how-to-avoid-stress-during-holidays-intro.png" 
@@ -518,22 +518,20 @@
                         This holiday season, give yourself the gift of peace of mind. <a href="contact-us.php" class="text-primary font-bold hover:underline">Reach out to our team</a> to learn more about how we can help you manage stress and improve your mental health.
                     </p>
                 </section>
-
                 <!-- Author Box -->
-                 <div class="bg-purple-50 border border-purple-100 rounded-xl p-6 md:p-8 mb-12 flex gap-4 md:gap-8 items-start shadow-sm w-full">
+                <div class="bg-purple-50 border border-purple-100 rounded-xl p-6 md:p-8 mb-12 flex gap-4 md:gap-8 items-start shadow-sm w-full">
                     <div class="flex-shrink-0">
                         <div class="p-1 rounded-full border-2" style="border-color: rgba(87, 38, 112, 0.3);">
-                            <img src="https://www.prtms.com/wp-content/uploads/2023/03/Dr.-Keerthy-Sunder-scaled.jpg" 
-                                alt="Dr. Keerthy Sunder" 
+                            <img src="https://www.prtms.com/wp-content/uploads/2023/03/Dr.-Keerthy-Sunder-scaled.jpg"
+                                alt="Dr. Keerthy Sunder"
                                 class="rounded-full object-cover" style="width:140px;height:140px;border-radius:50%">
                         </div>
                     </div>
                     <div class="flex-1 min-w-0 text-left">
                         <h4 class="text-2xl md:text-3xl font-bold mb-1 ml-2" style="color: #572670;">About the Author</h4>
                         <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-2 ml-2"><a href="about.php" class="text-gray-900 hover:text-primary transition-colors">Dr. Keerthy Sunder</a></h3>
-                        <p class="text-gray-500 font-medium mb-3 text-base ml-2">Board-Certified Psychiatrist | KarmaTMS</p>
-                        <p class="text-gray-600 leading-relaxed text-base md:text-lg">
-                            Dr. Keerthy Sunder is a board-certified psychiatrist specializing in TMS therapy and integrative psychiatry. He is passionate about bringing advanced, evidence-based treatments to the Palm Springs community to help patients achieve lasting mental wellness.
+                        <p class="text-gray-600 leading-relaxed text-base md:text-lg ml-2">
+                             Board-certified psychiatrist specializing in TMS therapy and integrative psychiatry. Delivering advanced, evidence-based treatments to the Palm Springs community.
                         </p>
                     </div>
                 </div>
@@ -618,53 +616,50 @@
 
                 <!-- Related Posts -->
                 <!-- Related Posts -->
-                 <section class="mb-12">
+                <!-- Related Posts -->
+                <section class="mb-12">
                     <h2 class="text-3xl font-bold text-primary mb-8">Related Articles</h2>
                     <div class="grid md:grid-cols-3 gap-6">
-                        <!-- Post 1 -->
-                        <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="images/blog/stress-management-card-individual.png"
-                                alt="Stress Management" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
-                                    <a href="what-are-the-4-as-of-stress-management.php" class="block text-black" style="color: black !important;">What are the 4 A's of Stress Management?</a>
-                                </h3>
-                                <p class="text-gray-600 text-sm mb-4">Discover the 4 A's of stress management: Avoid, Alter, Adapt, and Accept. Learn practical strategies to reduce stress.</p>
-                                <a href="what-are-the-4-as-of-stress-management.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
-                                    Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
-                                </a>
+
+                        <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
+                            <div class="w-full h-48 bg-gray-200 overflow-hidden">
+                                <img src="images/blog/stress-management-card-individual.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Stress Management">
                             </div>
-                        </div>
-                        
-                        <!-- Post 2 -->
-                        <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="images/blog/mindfulness-card-individual.png"
-                                alt="Mindfulness" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
-                                    <a href="mindfulness-practices-for-stress-management.php" class="block text-black" style="color: black !important;">Mindfulness Practices for Stress Management</a>
+                            <div class="p-6 flex flex-col flex-grow">
+                                <h3 class="font-bold text-lg mb-2 text-black leading-tight">
+                                    <a href="what-are-the-4-as-of-stress-management.php" class="block text-black" style="color: #000000 !important;">What are the 4 A's of Stress Management?</a>
                                 </h3>
-                                <p class="text-gray-600 text-sm mb-4">Discover evidence-based mindfulness practices for stress management and anxiety reduction.</p>
-                                <a href="mindfulness-practices-for-stress-management.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
-                                    Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
-                                </a>
+                                <p class="text-sm text-gray-600 mb-4 line-clamp-3">Discover the 4 A's of stress management: Avoid, Alter, Adapt, and Accept. Learn practical strategies to reduce stress.</p>
+                                <a href="what-are-the-4-as-of-stress-management.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline mt-auto">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                             </div>
                         </div>
 
-                        <!-- Post 3 -->
-                        <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="images/blog/anxiety-triggers-card-individual.png"
-                                alt="Anxiety Triggers" class="w-full h-48 object-cover">
-                            <div class="p-6">
-                                <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
-                                    <a href="managing-anxiety-triggers-in-everyday-life.php" class="block text-black" style="color: black !important;">Managing Anxiety Triggers in Everyday Life</a>
+                        <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
+                            <div class="w-full h-48 bg-gray-200 overflow-hidden">
+                                <img src="images/blog/mindfulness-card-individual.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Mindfulness">
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow">
+                                <h3 class="font-bold text-lg mb-2 text-black leading-tight">
+                                    <a href="mindfulness-practices-for-stress-management.php" class="block text-black" style="color: #000000 !important;">Mindfulness Practices for Stress Management</a>
                                 </h3>
-                                <p class="text-gray-600 text-sm mb-4">Learn practical strategies to identify and manage anxiety triggers effectively in your daily routine.</p>
-                                <a href="managing-anxiety-triggers-in-everyday-life.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline whitespace-nowrap flex-nowrap">
-                                    Read More <i data-lucide="arrow-right" class="w-4 h-4 flex-shrink-0 mt-[1px]"></i>
-                                </a>
+                                <p class="text-sm text-gray-600 mb-4 line-clamp-3">Discover evidence-based mindfulness practices for stress management and anxiety reduction.</p>
+                                <a href="mindfulness-practices-for-stress-management.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline mt-auto">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
                             </div>
                         </div>
+
+                        <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
+                            <div class="w-full h-48 bg-gray-200 overflow-hidden">
+                                <img src="images/blog/anxiety-triggers-card-individual.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Anxiety Triggers">
+                            </div>
+                            <div class="p-6 flex flex-col flex-grow">
+                                <h3 class="font-bold text-lg mb-2 text-black leading-tight">
+                                    <a href="managing-anxiety-triggers-in-everyday-life.php" class="block text-black" style="color: #000000 !important;">Managing Anxiety Triggers in Everyday Life</a>
+                                </h3>
+                                <p class="text-sm text-gray-600 mb-4 line-clamp-3">Learn practical strategies to identify and manage anxiety triggers effectively in your daily routine.</p>
+                                <a href="managing-anxiety-triggers-in-everyday-life.php" class="text-primary font-medium text-sm inline-flex items-center gap-1 hover:underline mt-auto">Read More <i data-lucide="arrow-right" class="w-4 h-4"></i></a>
+                            </div>
+                        </div>
+
                     </div>
                 </section>
             </article>

@@ -864,6 +864,18 @@ function initBlogPage() {
         // COMPLETE LIST from blog-posts.json
         const localBlogData = [
             {
+                "id": 49,
+                "title": "How Much Does TMS Therapy Cost in the US?",
+                "excerpt": "Curious about the cost of TMS therapy? We break down the factors that influence the price, from insurance coverage to treatment protocols, and why it's a valuable investment in your future.",
+                "category": "tms-therapy",
+                "author": "Dr. Keerthy Sunder",
+                "date": "March 20, 2026",
+                "readTime": "8 min read",
+                "image": "images/blog/How Much Does TMS Therapy Cost in the US.png",
+                "featured": true,
+                "url": "how-much-does-tms-therapy-cost-in-the-us.php"
+            },
+            {
                 "id": 48,
                 "title": "When Anxiety Becomes a Disorder: Signs, Types & Treatment",
                 "excerpt": "When does everyday anxiety become a clinical disorder? Learn the warning signs, the 6 most common anxiety disorder types, and modern treatments including TMS therapy in Palm Springs.",

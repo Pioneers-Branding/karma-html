@@ -1,4 +1,4 @@
-﻿<footer class="footer-react">
+<footer class="footer-react">
     <div class="container">
         <div class="footer-grid-react">
             <!-- Column 1: Company Info -->
@@ -97,6 +97,7 @@
                     <li><a href="about.php" class="footer-nav-link">About</a></li>
                     <li><a href="team.php" class="footer-nav-link">Our Team</a></li>
                     <li><a href="contact-us.php" class="footer-nav-link">Contact</a></li>
+                    <li><a href="areas-we-serve.php" class="footer-nav-link">Areas We Serve</a></li>
                 </ul>
 
                 <h4 class="footer-nav-subtitle">Brain TMS</h4>
