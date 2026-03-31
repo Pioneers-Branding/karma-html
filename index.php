@@ -294,48 +294,27 @@
                 <div class="hero-form-wrapper">
                     <div class="form-container">
                         <!-- Contact Form -->
-                        <form method="post" action="https://app.formester.com/forms/3KjFtZ7yT/submissions"
-                            class="contact-form">
-                            <div class="form-header">
-                                <h2 class="form-title">
-                                    <i data-lucide="heart" class="w-6 h-6 text-violet-600"></i>
-                                    Get In Touch
-                                </h2>
-                                <button type="submit" class="btn btn-gradient btn-sm">Send</button>
-                            </div>
-
-                            <div class="form-fields">
-                                <div class="form-group">
-                                    <input type="text" name="name" placeholder="Full Name" required class="form-input">
-                                </div>
-                                <div class="form-row">
-                                    <div class="form-group">
-                                        <input type="email" name="email" placeholder="Email Address" required
-                                            class="form-input">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" name="phone" placeholder="Phone Number" required
-                                            class="form-input">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <select name="condition" class="form-input">
-                                        <option value="">Select Condition</option>
-                                        <option value="Depression (Treatment-Resistant)">Depression
-                                            (Treatment-Resistant)</option>
-                                        <option value="Anxiety Disorders">Anxiety Disorders</option>
-                                        <option value="OCD (Obsessive Compulsive Disorder)">OCD</option>
-                                        <option value="PTSD (Post-Traumatic Stress)">PTSD</option>
-                                        <option value="Bipolar Depression">Bipolar Depression</option>
-                                        <option value="Addiction Recovery Support">Addiction Recovery</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <textarea name="message" rows="4" placeholder="Tell us about your situation..."
-                                        required class="form-input"></textarea>
-                                </div>
-                            </div>
-                        </form>
+                        <div style="margin-bottom: 1.5rem;">
+                            <iframe
+                                src="https://api.leadconnectorhq.com/widget/form/ycInJ4y4zf0G1VcDx9Ev"
+                                style="width:100%;height:100%;border:none;border-radius:3px;"
+                                id="inline-ycInJ4y4zf0G1VcDx9Ev" 
+                                data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow"
+                                data-trigger-value=""
+                                data-activation-type="alwaysActivated"
+                                data-activation-value=""
+                                data-deactivation-type="neverDeactivate"
+                                data-deactivation-value=""
+                                data-form-name="KarmaTMS Homepage Form"
+                                data-height="776"
+                                data-layout-iframe-id="inline-ycInJ4y4zf0G1VcDx9Ev"
+                                data-form-id="ycInJ4y4zf0G1VcDx9Ev"
+                                title="KarmaTMS Homepage Form"
+                                    >
+                            </iframe>
+                            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                        </div>
 
                         <!-- Stats Section -->
                         <div class="stats-section">
