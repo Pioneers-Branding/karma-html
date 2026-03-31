@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -509,7 +509,7 @@
                             <div>
                                 <h3 class="font-semibold text-gray-900 mb-2">KarmaTMS Rancho Mirage</h3>
                                 <p class="text-gray-700">
-                                    35400 Bob Hope Dr. Suite 206<br>
+                                    35400 Bob Hope Dr. Suite 206-B<br>
                                     Rancho Mirage, CA 92270
                                 </p>
                             </div>

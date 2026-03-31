@@ -70,7 +70,7 @@
                         <div>
                             <div class="location-name-footer">Rancho Mirage</div>
                             <div class="location-address-footer">
-                                35400 Bob Hope Dr. Suite 206<br>Rancho Mirage, CA 92270
+                                35400 Bob Hope Dr. Suite 206-B<br>Rancho Mirage, CA 92270
                             </div>
                         </div>
                     </div>

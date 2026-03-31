@@ -69,7 +69,7 @@
           "name": "KarmaTMS – Rancho Mirage",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "35400 Bob Hope Dr, Suite 206",
+            "streetAddress": "35400 Bob Hope Dr. Suite 206-B",
             "addressLocality": "Rancho Mirage",
             "addressRegion": "CA",
             "postalCode": "92270",
@@ -294,7 +294,7 @@
                                     Rancho Mirage Office
                                 </h3>
                                 <p class="text-gray-700 text-sm leading-relaxed">
-                                    35400 Bob Hope Dr. Suite 206<br>
+                                    35400 Bob Hope Dr. Suite 206-B<br>
                                     Rancho Mirage, CA 92270
                                 </p>
                                 <a href="https://maps.app.goo.gl/6wyxkwnGZ5g2ua1a7" target="_blank"
@@ -441,7 +441,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 text-lg">Rancho Mirage</h4>
-                                <p class="text-gray-600">35400 Bob Hope Dr. Suite 206</p>
+                                <p class="text-gray-600">35400 Bob Hope Dr. Suite 206-B</p>
                                 <p class="text-gray-600">Rancho Mirage, CA 92270</p>
                             </div>
                         </div>

@@ -89,7 +89,7 @@
           "name": "Where is KarmaTMS Palm Springs located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our main Palm Springs office is at 560 S. Paseo Dorotea Suite 4-B, Palm Springs, CA 92264. We also have an office in Rancho Mirage at 35400 Bob Hope Dr. Suite 206."
+            "text": "Our main Palm Springs office is at 560 S. Paseo Dorotea Suite 4-B, Palm Springs, CA 92264. We also have an office in Rancho Mirage at 35400 Bob Hope Dr. Suite 206-B."
           }
         },
         {
@@ -517,7 +517,7 @@
                                     <p style="color: #6b7280; line-height: 1.75; text-align: left;">
                                         We have two convenient locations in the Coachella Valley: our main office at 560
                                         S. Paseo Dorotea Suite 4-B in Palm Springs, and our Rancho Mirage office at
-                                        35400 Bob Hope Dr. Suite 206.
+                                        35400 Bob Hope Dr. Suite 206-B.
                                     </p>
                                 </div>
                             </div>

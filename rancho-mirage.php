@@ -26,7 +26,7 @@
       "email": "contact@karmatms.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "35400 Bob Hope Dr, Suite 206",
+        "streetAddress": "35400 Bob Hope Dr. Suite 206-B",
         "addressLocality": "Rancho Mirage",
         "addressRegion": "CA",
         "postalCode": "92270",
@@ -78,7 +78,7 @@
           "name": "Where is KarmaTMS Rancho Mirage located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We are located at 35400 Bob Hope Dr. Suite 206 in Rancho Mirage, CA 92270. Our office is easily accessible from Palm Desert, Indian Wells, La Quinta, and throughout the Coachella Valley."
+            "text": "We are located at 35400 Bob Hope Dr. Suite 206-B in Rancho Mirage, CA 92270. Our office is easily accessible from Palm Desert, Indian Wells, La Quinta, and throughout the Coachella Valley."
           }
         },
         {
@@ -536,7 +536,7 @@
                         <div class="flex items-start gap-3">
                             <i data-lucide="map-pin" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
                             <div>
-                                <p class="font-medium">35400 Bob Hope Dr. Suite 206</p>
+                                <p class="font-medium">35400 Bob Hope Dr. Suite 206-B</p>
                                 <p class="text-gray-600">Rancho Mirage, CA 92270</p>
                             </div>
                         </div>
@@ -613,7 +613,7 @@
                                 style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
                                 <div style="padding-bottom: 1rem; padding-top: 0; text-align: left;">
                                     <p style="color: #6b7280; line-height: 1.75; text-align: left;">
-                                        We are located at 35400 Bob Hope Dr. Suite 206 in Rancho Mirage, CA 92270. Our
+                                        We are located at 35400 Bob Hope Dr. Suite 206-B in Rancho Mirage, CA 92270. Our
                                         office is easily accessible from Palm Desert, Indian Wells, La Quinta, and
                                         throughout the Coachella Valley.
                                     </p>
