@@ -117,7 +117,7 @@
           "name": "KarmaTMS – Twentynine Palms",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "72724 29 Palms Hwy, Suite 107",
+            "streetAddress": "72724 29 Palms Hwy, Suite 107 - B",
             "addressLocality": "Twentynine Palms",
             "addressRegion": "CA",
             "postalCode": "92277",
@@ -183,7 +183,7 @@
           "name": "Where is Karma TMS located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Karma TMS PC has three convenient locations: Palm Springs (560 S. Paseo Dorotea, Suite 4B), Rancho Mirage (35400 Bob Hope Dr, Suite 206), and Twentynine Palms (72724 29 Palms Hwy, Suite 107), all in Southern California."
+            "text": "Karma TMS PC has three convenient locations: Palm Springs (560 S. Paseo Dorotea, Suite 4B), Rancho Mirage (35400 Bob Hope Dr, Suite 206), and Twentynine Palms (72724 29 Palms Hwy, Suite 107 - B), all in Southern California."
           }
         },
         {
@@ -1250,7 +1250,7 @@
                             <i data-lucide="map-pin" class="location-icon"></i>
                             <div>
                                 <h4 class="location-name">Twentynine Palms</h4>
-                                <p class="location-address">72724 29 Palms Hwy. Suite 107</p>
+                                <p class="location-address">72724 29 Palms Hwy. Suite 107 - B</p>
                                 <p class="location-city">Twentynine Palms, CA 92277</p>
                             </div>
                         </div>
