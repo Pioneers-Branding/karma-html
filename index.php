@@ -294,7 +294,7 @@
                 <div class="hero-form-wrapper">
                     <div class="form-container">
                         <!-- Contact Form -->
-                        <div style="margin-bottom: 1.5rem;">
+                        <div style="margin-bottom: 0.75rem;">
                             <iframe
                                 src="https://api.leadconnectorhq.com/widget/form/ycInJ4y4zf0G1VcDx9Ev"
                                 style="width:100%;height:100%;border:none;border-radius:3px;"
