@@ -170,90 +170,17 @@
                             </h2>
                         </div>
                         <div class="p-6">
-                            <form action="https://app.formester.com/forms/3KjFtZ7yT/submissions" method="POST"
-                                acceptCharset="UTF-8" autocomplete="on" class="space-y-6">
-
-                                <!-- Name and Email -->
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div>
-                                        <label for="name" class="block text-sm font-medium text-gray-700 mb-1">Full Name
-                                            *</label>
-                                        <input type="text" id="name" name="name" required placeholder="Your full name"
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                    </div>
-                                    <div>
-                                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
-                                            Address *</label>
-                                        <input type="email" id="email" name="email" required
-                                            placeholder="your@email.com"
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                    </div>
-                                </div>
-
-                                <!-- Phone and Subject -->
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div>
-                                        <label for="phone" class="block text-sm font-medium text-gray-700 mb-1">Phone
-                                            Number</label>
-                                        <input type="tel" id="phone" name="phone" required placeholder="760-760-5675"
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                    </div>
-                                    <div>
-                                        <label for="subject"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Subject *</label>
-                                        <select id="subject" name="subject" required
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                            <option value="">Select a subject</option>
-                                            <option value="consultation">Free Consultation</option>
-                                            <option value="appointment">Schedule Appointment</option>
-                                            <option value="insurance">Insurance Questions</option>
-                                            <option value="treatment">Treatment Information</option>
-                                            <option value="other">Other</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <!-- Message -->
-                                <div>
-                                    <label for="message" class="block text-sm font-medium text-gray-700 mb-1">Message
-                                        *</label>
-                                    <textarea id="message" name="message" required rows="5"
-                                        placeholder="Please tell us how we can help you..."
-                                        class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600"></textarea>
-                                </div>
-
-                                <!-- Preferred Contact and Urgency -->
-                                <div class="grid md:grid-cols-2 gap-4">
-                                    <div>
-                                        <label for="preferredContact"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Preferred Contact
-                                            Method</label>
-                                        <select id="preferredContact" name="preferredContact"
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                            <option value="phone">Phone Call</option>
-                                            <option value="email">Email</option>
-                                            <option value="text">Text Message</option>
-                                        </select>
-                                    </div>
-                                    <div>
-                                        <label for="urgency"
-                                            class="block text-sm font-medium text-gray-700 mb-1">Urgency Level</label>
-                                        <select id="urgency" name="urgency"
-                                            class="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-600">
-                                            <option value="normal">Normal</option>
-                                            <option value="urgent">Urgent</option>
-                                            <option value="emergency">Emergency</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <!-- Submit Button -->
-                                <button type="submit" class="bm-hero-btn w-full flex items-center justify-center gap-2"
-                                    style="background-color: #572670;">
-                                    Send Message
-                                    <i data-lucide="send" class="w-4 h-4"></i>
-                                </button>
-                            </form>
+                            <iframe src="https://api.leadconnectorhq.com/widget/form/d0TMsyEEM5MSNJivmvom"
+                                style="width:100%;height:100%;border:none;border-radius:3px"
+                                id="inline-d0TMsyEEM5MSNJivmvom" data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow" data-trigger-value=""
+                                data-activation-type="alwaysActivated" data-activation-value=""
+                                data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                                data-form-name="KarmaTMS Website Contact Page Form" data-height="498"
+                                data-layout-iframe-id="inline-d0TMsyEEM5MSNJivmvom" data-form-id="d0TMsyEEM5MSNJivmvom"
+                                title="KarmaTMS Website Contact Page Form">
+                            </iframe>
+                            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                         </div>
                     </div>
                 </div>
@@ -357,8 +284,7 @@
             <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
 
                 <!-- Link 1: Depression Treatment -->
-                <a href="depression.php"
-                    class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
+                <a href="depression.php" class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
                     style="text-decoration: none;">
                     <h3 class="font-bold text-lg mb-2" style="color: #572670;">
                         Depression Treatment
@@ -556,4 +482,3 @@
 </body>
 
 </html>
-
