@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thank You | Karma TMS — Your Consultation Request Has Been Received</title>
+  <meta name="description"
+    content="Thank you for contacting Karma TMS. Our team will reach out shortly to schedule your psychiatric consultation with Dr. Keerthy Sunder.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="icon"
+    href="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/a4b563f6-14e0-47a9-896c-efe62b3be293.webp">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .ty-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .ty-hero {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 120px 24px 60px;
+      background: linear-gradient(160deg, #f9f7fb 0%, #f3eaf8 40%, #ece0f3 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ty-hero::before {
+      content: '';
+      position: absolute;
+      top: -120px;
+      right: -120px;
+      width: 400px;
+      height: 400px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(97, 51, 121, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .ty-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -80px;
+      left: -80px;
+      width: 300px;
+      height: 300px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(97, 51, 121, 0.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .ty-card {
+      max-width: 680px;
+      width: 100%;
+      text-align: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .ty-icon {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #613379, #7b4a94);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+      box-shadow: 0 12px 40px rgba(97, 51, 121, 0.25);
+      animation: tyPulse 2s ease-in-out infinite;
+    }
+
+    .ty-icon i {
+      font-size: 2.2rem;
+      color: #fff;
+    }
+
+    @keyframes tyPulse {
+      0%, 100% { box-shadow: 0 12px 40px rgba(97, 51, 121, 0.25); }
+      50% { box-shadow: 0 12px 50px rgba(97, 51, 121, 0.35); }
+    }
+
+    .ty-card h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 16px;
+      line-height: 1.25;
+    }
+
+    .ty-card h1 span {
+      color: #613379;
+    }
+
+    .ty-card .ty-subtitle {
+      font-size: 1.1rem;
+      color: #4a4a5a;
+      line-height: 1.75;
+      margin-bottom: 36px;
+      max-width: 540px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .ty-steps {
+      display: flex;
+      gap: 20px;
+      margin-bottom: 40px;
+    }
+
+    .ty-step {
+      flex: 1;
+      background: #fff;
+      border-radius: 16px;
+      padding: 24px 16px;
+      box-shadow: 0 2px 16px rgba(97, 51, 121, 0.06);
+      border: 1px solid rgba(97, 51, 121, 0.08);
+      transition: transform 0.2s;
+    }
+
+    .ty-step:hover {
+      transform: translateY(-3px);
+    }
+
+    .ty-step-num {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+      background: #f3eaf8;
+      color: #613379;
+      font-weight: 700;
+      font-size: 0.9rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 12px;
+    }
+
+    .ty-step h4 {
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 6px;
+    }
+
+    .ty-step p {
+      font-size: 0.8rem;
+      color: #7a7a8e;
+      line-height: 1.55;
+    }
+
+    .ty-actions {
+      display: flex;
+      gap: 14px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 32px;
+    }
+
+    .ty-btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      background: linear-gradient(135deg, #613379, #7b4a94);
+      color: #fff;
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.25s;
+      box-shadow: 0 4px 20px rgba(97, 51, 121, 0.25);
+    }
+
+    .ty-btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 28px rgba(97, 51, 121, 0.35);
+    }
+
+    .ty-btn-outline {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      background: #fff;
+      color: #613379;
+      border: 2px solid rgba(97, 51, 121, 0.2);
+      border-radius: 12px;
+      font-weight: 600;
+      font-size: 0.95rem;
+      text-decoration: none;
+      transition: all 0.25s;
+    }
+
+    .ty-btn-outline:hover {
+      border-color: #613379;
+      background: #f9f7fb;
+      transform: translateY(-2px);
+    }
+
+    .ty-contact {
+      display: flex;
+      gap: 28px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding-top: 28px;
+      border-top: 1px solid rgba(97, 51, 121, 0.1);
+    }
+
+    .ty-contact-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #4a4a5a;
+      font-size: 0.9rem;
+    }
+
+    .ty-contact-item i {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      background: #f3eaf8;
+      color: #613379;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.85rem;
+    }
+
+    .ty-contact-item a {
+      color: #613379;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .ty-contact-item a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer on thank you page */
+    .ty-page .footer {
+      margin-top: 0;
+    }
+
+    @media (max-width: 640px) {
+      .ty-hero {
+        padding: 100px 16px 40px;
+      }
+
+      .ty-card h1 {
+        font-size: 1.75rem;
+      }
+
+      .ty-card .ty-subtitle {
+        font-size: 1rem;
+      }
+
+      .ty-steps {
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      .ty-actions {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .ty-btn-primary,
+      .ty-btn-outline {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .ty-contact {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+      }
+    }
+  </style>
+</head>
+
+<body class="ty-page">
+
+  <!-- Navbar -->
+  <nav class="navbar scrolled" id="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1759944699/karmatms_rp4lkn.png" alt="Karma TMS">
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#conditions">Conditions</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#tms">Treatment</a></li>
+        <li><a href="index.html#doctor">Psychiatrist</a></li>
+        <li><a href="index.html#locations">Locations</a></li>
+        <li><a href="index.html#faq">FAQ</a></li>
+      </ul>
+      <div class="nav-cta">
+        <a href="tel:7607605675" class="nav-book"><i class="fas fa-phone"></i> Call Now</a>
+      </div>
+      <button class="mobile-toggle" onclick="document.getElementById('mobileNav').classList.add('active')">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <div class="mobile-nav" id="mobileNav">
+    <button class="mobile-nav-close" onclick="document.getElementById('mobileNav').classList.remove('active')"><i
+        class="fas fa-times"></i></button>
+    <a href="index.html#about" onclick="document.getElementById('mobileNav').classList.remove('active')">About</a>
+    <a href="index.html#conditions" onclick="document.getElementById('mobileNav').classList.remove('active')">Conditions</a>
+    <a href="index.html#services" onclick="document.getElementById('mobileNav').classList.remove('active')">Services</a>
+    <a href="index.html#tms" onclick="document.getElementById('mobileNav').classList.remove('active')">Treatment</a>
+    <a href="index.html#doctor" onclick="document.getElementById('mobileNav').classList.remove('active')">Psychiatrist</a>
+    <a href="index.html#locations" onclick="document.getElementById('mobileNav').classList.remove('active')">Locations</a>
+    <a href="index.html#faq" onclick="document.getElementById('mobileNav').classList.remove('active')">FAQ</a>
+    <div class="mobile-nav-cta">
+      <a href="tel:7607605675">Call (760) 760-5675</a>
+    </div>
+  </div>
+
+  <!-- Thank You Content -->
+  <section class="ty-hero">
+    <div class="ty-card">
+      <div class="ty-icon">
+        <i class="fas fa-check"></i>
+      </div>
+      <h1>Thank You for <span>Reaching Out</span></h1>
+      <p class="ty-subtitle">
+        Your consultation request has been received. Our team will contact you within 1 business day to verify your insurance and schedule your psychiatric evaluation with Dr. Keerthy Sunder.
+      </p>
+
+      <!-- What Happens Next -->
+      <div class="ty-steps">
+        <div class="ty-step">
+          <div class="ty-step-num">1</div>
+          <h4>We Review Your Info</h4>
+          <p>Our intake coordinator reviews your submission and verifies insurance coverage.</p>
+        </div>
+        <div class="ty-step">
+          <div class="ty-step-num">2</div>
+          <h4>We Call You</h4>
+          <p>Expect a call within 1 business day to schedule your evaluation.</p>
+        </div>
+        <div class="ty-step">
+          <div class="ty-step-num">3</div>
+          <h4>Your First Visit</h4>
+          <p>A 60–90 min psychiatric evaluation with Dr. Sunder to start your care.</p>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="ty-actions">
+        <a href="tel:7607605675" class="ty-btn-primary">
+          <i class="fas fa-phone"></i> Call (760) 760-5675
+        </a>
+        <a href="index.html" class="ty-btn-outline">
+          <i class="fas fa-arrow-left"></i> Back to Home
+        </a>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="ty-contact">
+        <div class="ty-contact-item">
+          <i class="fas fa-clock"></i>
+          <span>Mon – Fri: 8:00 AM – 6:00 PM</span>
+        </div>
+        <div class="ty-contact-item">
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:contact@karmatms.com">contact@karmatms.com</a>
+        </div>
+        <div class="ty-contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <span>Palm Springs &bull; Rancho Mirage &bull; Twentynine Palms</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1759944699/karmatms_rp4lkn.png"
+              alt="Karma TMS">
+          </div>
+          <p>Integrative psychiatry combining mind and brain electrophysiology for optimal mental wellness. Treating the
+            whole person, not just the symptoms.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Services</h4>
+          <ul>
+            <li><a href="index.html#services">Psychiatric Evaluation</a></li>
+            <li><a href="index.html#services">Medication Management</a></li>
+            <li><a href="index.html#services">TMS Therapy</a></li>
+            <li><a href="index.html#services">Brain Mapping (qEEG)</a></li>
+            <li><a href="index.html#services">Addiction Psychiatry</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Conditions</h4>
+          <ul>
+            <li><a href="index.html#conditions">Depression</a></li>
+            <li><a href="index.html#conditions">Anxiety Disorders</a></li>
+            <li><a href="index.html#conditions">OCD</a></li>
+            <li><a href="index.html#conditions">PTSD</a></li>
+            <li><a href="index.html#conditions">Bipolar Disorder</a></li>
+            <li><a href="index.html#conditions">Addiction</a></li>
+            <li><a href="index.html#conditions">ADHD</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul>
+            <li><a href="tel:7607605675"><i class="fas fa-phone"
+                  style="width:16px;margin-right:8px;color:var(--primary-light);"></i>(760) 760-5675</a></li>
+            <li><a href="mailto:contact@karmatms.com"><i class="fas fa-envelope"
+                  style="width:16px;margin-right:8px;color:var(--primary-light);"></i>contact@karmatms.com</a></li>
+            <li style="margin-top:16px;"><strong style="color:#fff;">Palm Springs</strong><br>560 S. Paseo Dorotea, Ste
+              4-B</li>
+            <li><strong style="color:#fff;">Rancho Mirage</strong><br>35400 Bob Hope Dr, Ste 206-B</li>
+            <li><strong style="color:#fff;">Twentynine Palms</strong><br>72724 29 Palms Hwy, Ste 107-B</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>&copy; 2026 Karma TMS PC. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+/* ===== Karma TMS Veterans Landing Page — Redesigned ===== */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
+
+/* ── Keyframes ── */
+@keyframes fade-up { from{opacity:0;transform:translateY(40px)} to{opacity:1;transform:translateY(0)} }
+@keyframes fade-left { from{opacity:0;transform:translateX(-40px)} to{opacity:1;transform:translateX(0)} }
+@keyframes fade-right { from{opacity:0;transform:translateX(40px)} to{opacity:1;transform:translateX(0)} }
+@keyframes scale-in { from{opacity:0;transform:scale(.88)} to{opacity:1;transform:scale(1)} }
+@keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-14px)} }
+@keyframes float-slow { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
+@keyframes pulse-dot { 0%,100%{transform:scale(1);opacity:1} 50%{transform:scale(1.5);opacity:.4} }
+@keyframes morph { 0%,100%{border-radius:60% 40% 30% 70%/60% 30% 70% 40%} 50%{border-radius:30% 60% 70% 40%/50% 60% 30% 60%} }
+@keyframes rotate-slow { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+@keyframes shimmer { 0%{background-position:-200% 0} 100%{background-position:200% 0} }
+@keyframes gradient-shift { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+@keyframes pulse-glow { 0%,100%{box-shadow:0 0 20px rgba(90,42,115,.15)} 50%{box-shadow:0 0 50px rgba(90,42,115,.35)} }
+@keyframes hero-glow { 0%,100%{opacity:.3;transform:scale(1)} 50%{opacity:.7;transform:scale(1.12)} }
+@keyframes bounce-subtle { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
+@keyframes text-glow { 0%,100%{text-shadow:0 0 20px rgba(90,42,115,0)} 50%{text-shadow:0 0 30px rgba(90,42,115,.3)} }
+@keyframes border-dance { 0%{background-position:0% 50%} 50%{background-position:100% 50%} 100%{background-position:0% 50%} }
+@keyframes slide-right { from{transform:translateX(-100%)} to{transform:translateX(0)} }
+@keyframes kenburns { 0%{transform:scale(1) translate(0,0)} 100%{transform:scale(1.08) translate(-1%,-1%)} }
+
+/* ── Animation helpers ── */
+.animate-float { animation:float 5s ease-in-out infinite }
+.animate-float-slow { animation:float-slow 6s ease-in-out infinite }
+.animate-pulse-dot { animation:pulse-dot 2s ease-in-out infinite }
+.animate-morph { animation:morph 8s ease-in-out infinite }
+.animate-rotate-slow { animation:rotate-slow 22s linear infinite }
+.animate-hero-glow { animation:hero-glow 4s ease-in-out infinite }
+.animate-bounce-subtle { animation:bounce-subtle 2.5s ease-in-out infinite }
+.animate-pulse-glow { animation:pulse-glow 3s ease-in-out infinite }
+.animate-gradient { background-size:200% 200%; animation:gradient-shift 6s ease infinite }
+.animate-kenburns { animation:kenburns 20s ease-in-out infinite alternate }
+
+/* ── Hero entrance stagger ── */
+.hero-animate-1 { animation:fade-up .7s ease-out .2s both }
+.hero-animate-2 { animation:fade-up .7s ease-out .4s both }
+.hero-animate-3 { animation:fade-up .7s ease-out .6s both }
+.hero-animate-4 { animation:fade-up .7s ease-out .8s both }
+.hero-animate-5 { animation:fade-up .7s ease-out 1s both }
+.hero-image-animate { animation:fade-right .9s ease-out .5s both }
+
+/* ── Scroll-reveal system ── */
+.reveal       { opacity:0; transform:translateY(40px);  transition:all .8s cubic-bezier(.4,0,.2,1) }
+.reveal-left  { opacity:0; transform:translateX(-40px); transition:all .8s cubic-bezier(.4,0,.2,1) }
+.reveal-right { opacity:0; transform:translateX(40px);  transition:all .8s cubic-bezier(.4,0,.2,1) }
+.reveal-scale { opacity:0; transform:scale(.85);        transition:all .8s cubic-bezier(.4,0,.2,1) }
+.reveal.active, .reveal-left.active, .reveal-right.active, .reveal-scale.active { opacity:1; transform:none }
+.reveal-delay-1 { transition-delay:.15s }
+.reveal-delay-2 { transition-delay:.30s }
+.reveal-delay-3 { transition-delay:.45s }
+.reveal-delay-4 { transition-delay:.60s }
+.reveal-delay-5 { transition-delay:.75s }
+
+/* ── Glass cards ── */
+.glass      { background:rgba(255,255,255,.06); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border:1px solid rgba(255,255,255,.1) }
+.glass-dark { background:rgba(30,20,50,.8);     backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border:1px solid rgba(90,42,115,.25) }
+
+/* ── Gradient text ── */
+.text-gradient-karma { background:linear-gradient(135deg,#7a3f9c,#5A2A73); -webkit-background-clip:text; -webkit-text-fill-color:transparent; background-clip:text }
+
+/* ── Button shine ── */
+.btn-shine { position:relative; overflow:hidden }
+.btn-shine::after { content:''; position:absolute; top:-50%; left:-60%; width:40%; height:200%; background:linear-gradient(90deg,transparent,rgba(255,255,255,.25),transparent); transform:rotate(25deg); transition:.6s }
+.btn-shine:hover::after { left:120% }
+
+/* ── Card hover systems ── */
+.card-lift { transition:all .4s cubic-bezier(.4,0,.2,1) }
+.card-lift:hover { transform:translateY(-8px); box-shadow:0 24px 64px rgba(27,43,75,.12) }
+
+.card-glow { position:relative; transition:all .45s cubic-bezier(.4,0,.2,1) }
+.card-glow:hover { transform:translateY(-10px); box-shadow:0 24px 64px rgba(90,42,115,.18) }
+
+/* ── Icon bounce on card hover ── */
+.icon-bounce { transition:transform .4s cubic-bezier(.4,0,.2,1) }
+.card-glow:hover .icon-bounce, .card-lift:hover .icon-bounce { transform:scale(1.18) rotate(-5deg) }
+
+/* ── Accent bar ── */
+.accent-bar { position:relative; overflow:hidden }
+.accent-bar::before { content:''; position:absolute; top:0; left:0; right:0; height:3px; background:linear-gradient(90deg,#7a3f9c,#5A2A73); transform:scaleX(0); transform-origin:left; transition:.4s }
+.accent-bar:hover::before { transform:scaleX(1) }
+
+/* ── Stats ── */
+.stat-item { position:relative }
+.stat-item::after { content:''; position:absolute; bottom:0; left:50%; transform:translateX(-50%); width:0; height:2px; background:linear-gradient(90deg,transparent,#5A2A73,transparent); transition:width .6s }
+.stat-item:hover::after { width:80% }
+.stat-item:hover .stat-number { animation:text-glow 1.5s ease-in-out infinite }
+
+/* ── Testimonial card ── */
+.testimonial-card { position:relative; overflow:hidden }
+.testimonial-card::after { content:''; position:absolute; top:-50%; right:-50%; width:100%; height:100%; background:radial-gradient(circle,rgba(90,42,115,.04) 0%,transparent 70%); transition:.6s; pointer-events:none }
+.testimonial-card:hover::after { top:-20%; right:-20% }
+.testimonial-card .quote-mark { position:absolute; top:12px; right:16px; font-size:4.5rem; line-height:1; color:rgba(90,42,115,.06); font-family:Georgia,serif; transition:.4s; pointer-events:none }
+.testimonial-card:hover .quote-mark { color:rgba(90,42,115,.15); transform:scale(1.1) }
+
+/* ── Doctor card ── */
+.doctor-card { transition:all .45s cubic-bezier(.4,0,.2,1) }
+.doctor-card:hover { transform:translateY(-12px) }
+.doctor-card:hover .doctor-img { transform:scale(1.05) }
+.doctor-img { transition:transform .6s ease }
+.doctor-overlay { opacity:0; transition:opacity .4s }
+.doctor-card:hover .doctor-overlay { opacity:1 }
+
+/* ── Parallax quote ── */
+.parallax-quote { background-attachment:fixed; background-size:cover; background-position:center }
+@supports (-webkit-touch-callout: none) { .parallax-quote { background-attachment:scroll } }
+
+/* ── CTA animated border ── */
+.cta-animated-border { position:relative }
+.cta-animated-border::before { content:''; position:absolute; inset:-3px; border-radius:1.5rem; background:linear-gradient(90deg,#7a3f9c,#5A2A73,#9b59b6,#7a3f9c); background-size:300% 100%; animation:border-dance 4s linear infinite; z-index:-1 }
+
+/* ── FAQ ── */
+.faq-answer { max-height:0; overflow:hidden; transition:max-height .4s ease, padding .4s ease }
+.faq-item.active .faq-answer { max-height:500px }
+.faq-item.active .faq-chevron { transform:rotate(180deg) }
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar { width:6px }
+::-webkit-scrollbar-track { background:#F8FAFC }
+::-webkit-scrollbar-thumb { background:#5A2A73; border-radius:3px }
+::-webkit-scrollbar-thumb:hover { background:#3f1b53 }
+
+/* ── Global ── */
+html, body { scroll-behavior:smooth; overflow-x:hidden }
+*:focus-visible { outline:2px solid #5A2A73; outline-offset:2px; border-radius:4px }
+
+/* ── Image zoom ── */
+.img-zoom { overflow:hidden }
+.img-zoom img { transition:transform .6s ease }
+.img-zoom:hover img { transform:scale(1.05) }
+
+/* ── Form ── */
+.hero-form-success { display:none }
+.hero-form-success.show { display:flex }
+
+/* ── Condition card tilt ── */
+.condition-card { transition:all .4s cubic-bezier(.4,0,.2,1); perspective:800px }
+.condition-card:hover { transform:translateY(-10px) rotateX(2deg); box-shadow:0 30px 60px rgba(90,42,115,.12) }
+
+/* ── Location card ── */
+.location-card { transition:all .4s ease }
+.location-card:hover { transform:translateY(-6px); box-shadow:0 20px 50px rgba(0,0,0,.08) }
+.location-card:hover .loc-icon { transform:scale(1.1) }
+.loc-icon { transition:transform .3s }
+
+/* ── Mobile responsiveness fixes ── */
+@media (max-width:767px) {
+  /* Kill all decorative blobs/orbs that cause overflow */
+  .animate-morph,
+  .animate-rotate-slow,
+  .animate-hero-glow { display:none !important }
+
+  /* Disable kenburns zoom — just show static image */
+  .animate-kenburns { animation:none !important }
+
+  /* Kill CTA animated border that extends outside */
+  .cta-animated-border::before { display:none }
+
+  /* Tame parallax on mobile */
+  .parallax-quote { background-attachment:scroll }
+
+  /* Scroll-snap sliders (conditions + steps only) */
+  .scroll-snap-x { display:flex !important; overflow-x:auto; scroll-snap-type:x mandatory; -webkit-overflow-scrolling:touch; gap:1rem; padding-bottom:1.5rem; scroll-padding-left:1.25rem }
+  .scroll-snap-x::-webkit-scrollbar { display:none }
+  .scroll-snap-x > * { scroll-snap-align:start; min-width:0 }
+  .scroll-snap-x.snap-sm > * { flex:0 0 75% }
+
+  /* Scroll indicator dots */
+  .scroll-dots { display:flex; justify-content:center; gap:6px; margin-top:1rem }
+  .scroll-dots .dot { width:8px; height:8px; border-radius:50%; background:rgba(90,42,115,.2); transition:all .3s; cursor:pointer }
+  .scroll-dots .dot.active { background:#5A2A73; width:24px; border-radius:4px }
+
+  /* Prevent any child from exceeding viewport */
+  section, footer, nav { max-width:100vw }
+  img { max-width:100% }
+}
+
+@media (min-width:768px) {
+  .scroll-dots { display:none }
+}
+
+/* ── Floating badge ── */
+.floating-badge { animation:bounce-subtle 3s ease-in-out infinite }
+
+/* ── Wave divider ── */
+.wave-top { position:relative }
+.wave-top::before { content:''; position:absolute; top:-1px; left:0; right:0; height:60px; background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 60'%3E%3Cpath d='M0,30 C200,0 400,60 600,30 C800,0 1000,60 1200,30 L1200,0 L0,0 Z' fill='%23ffffff'/%3E%3C/svg%3E") no-repeat center; background-size:cover; z-index:1 }
