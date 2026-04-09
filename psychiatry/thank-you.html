@@ -16,6 +16,15 @@
     rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link rel="stylesheet" href="style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11034311341">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11034311341');
+  </script>
   <style>
     .ty-page {
       min-height: 100vh;
@@ -85,8 +94,15 @@
     }
 
     @keyframes tyPulse {
-      0%, 100% { box-shadow: 0 12px 40px rgba(97, 51, 121, 0.25); }
-      50% { box-shadow: 0 12px 50px rgba(97, 51, 121, 0.35); }
+
+      0%,
+      100% {
+        box-shadow: 0 12px 40px rgba(97, 51, 121, 0.25);
+      }
+
+      50% {
+        box-shadow: 0 12px 50px rgba(97, 51, 121, 0.35);
+      }
     }
 
     .ty-card h1 {
@@ -321,11 +337,14 @@
     <button class="mobile-nav-close" onclick="document.getElementById('mobileNav').classList.remove('active')"><i
         class="fas fa-times"></i></button>
     <a href="index.html#about" onclick="document.getElementById('mobileNav').classList.remove('active')">About</a>
-    <a href="index.html#conditions" onclick="document.getElementById('mobileNav').classList.remove('active')">Conditions</a>
+    <a href="index.html#conditions"
+      onclick="document.getElementById('mobileNav').classList.remove('active')">Conditions</a>
     <a href="index.html#services" onclick="document.getElementById('mobileNav').classList.remove('active')">Services</a>
     <a href="index.html#tms" onclick="document.getElementById('mobileNav').classList.remove('active')">Treatment</a>
-    <a href="index.html#doctor" onclick="document.getElementById('mobileNav').classList.remove('active')">Psychiatrist</a>
-    <a href="index.html#locations" onclick="document.getElementById('mobileNav').classList.remove('active')">Locations</a>
+    <a href="index.html#doctor"
+      onclick="document.getElementById('mobileNav').classList.remove('active')">Psychiatrist</a>
+    <a href="index.html#locations"
+      onclick="document.getElementById('mobileNav').classList.remove('active')">Locations</a>
     <a href="index.html#faq" onclick="document.getElementById('mobileNav').classList.remove('active')">FAQ</a>
     <div class="mobile-nav-cta">
       <a href="tel:7607605675">Call (760) 760-5675</a>
@@ -340,7 +359,8 @@
       </div>
       <h1>Thank You for <span>Reaching Out</span></h1>
       <p class="ty-subtitle">
-        Your consultation request has been received. Our team will contact you within 1 business day to verify your insurance and schedule your psychiatric evaluation with Dr. Keerthy Sunder.
+        Your consultation request has been received. Our team will contact you within 1 business day to verify your
+        insurance and schedule your psychiatric evaluation with Dr. Keerthy Sunder.
       </p>
 
       <!-- What Happens Next -->
