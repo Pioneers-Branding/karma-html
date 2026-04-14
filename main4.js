@@ -864,7 +864,31 @@ function initBlogPage() {
         // COMPLETE LIST from blog-posts.json
         const localBlogData = [
             {
+                "id": 50,
+                "title": "Does TRICARE Cover TMS Therapy? Coverage, Costs & Requirements",
+                "excerpt": "Does TRICARE cover TMS therapy? Learn about TRICARE TMS coverage, eligibility requirements, costs, and how to access TMS for depression and OCD in Palm Springs.",
+                "category": "tms-therapy",
+                "author": "Dr. Keerthy Sunder",
+                "date": "April 14, 2026",
+                "readTime": "12 min read",
+                "image": "images/blog/does tricare cover tms therapy--.png",
+                "featured": true,
+                "url": "does-tricare-cover-tms-therapy.php"
+            },
+            {
                 "id": 49,
+                "title": "Is OCD a Disability? ADA Rights, Benefits & Treatment Options",
+                "excerpt": "Is OCD a disability? Learn about OCD disability benefits, ADA coverage, severe OCD symptoms, and treatment options including TMS therapy.",
+                "category": "mental-health",
+                "author": "Dr. Keerthy Sunder",
+                "date": "April 14, 2026",
+                "readTime": "15 min read",
+                "image": "images/blog/Is OCD a Disability.png",
+                "featured": false,
+                "url": "is-ocd-a-disability.php"
+            },
+            {
+                "id": 149,
                 "title": "How Much Does TMS Therapy Cost in the US?",
                 "excerpt": "Curious about the cost of TMS therapy? We break down the factors that influence the price, from insurance coverage to treatment protocols, and why it's a valuable investment in your future.",
                 "category": "tms-therapy",
@@ -872,7 +896,7 @@ function initBlogPage() {
                 "date": "March 20, 2026",
                 "readTime": "8 min read",
                 "image": "images/blog/How Much Does TMS Therapy Cost in the US.png",
-                "featured": true,
+                "featured": false,
                 "url": "how-much-does-tms-therapy-cost-in-the-us.php"
             },
             {

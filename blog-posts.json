@@ -1,5 +1,29 @@
 [
     {
+        "id": 50,
+        "title": "Does TRICARE Cover TMS Therapy? Coverage, Costs & Requirements",
+        "excerpt": "Does TRICARE cover TMS therapy? Learn about TRICARE TMS coverage, eligibility requirements, costs, and how to access TMS for depression and OCD in Palm Springs.",
+        "category": "tms-therapy",
+        "author": "Dr. Keerthy Sunder",
+        "date": "April 14, 2026",
+        "readTime": "12 min read",
+        "image": "images/blog/does tricare cover tms therapy--.png",
+        "featured": true,
+        "url": "does-tricare-cover-tms-therapy.php"
+    },
+    {
+        "id": 49,
+        "title": "Is OCD a Disability? ADA Rights, Benefits & Treatment Options",
+        "excerpt": "Is OCD a disability? Learn about OCD disability benefits, ADA coverage, severe OCD symptoms, and treatment options including TMS therapy.",
+        "category": "mental-health",
+        "author": "Dr. Keerthy Sunder",
+        "date": "April 14, 2026",
+        "readTime": "15 min read",
+        "image": "images/blog/Is OCD a Disability.png",
+        "featured": false,
+        "url": "is-ocd-a-disability.php"
+    },
+    {
         "id": 48,
         "title": "When Anxiety Becomes a Disorder: Signs, Types & Treatment",
         "excerpt": "When does everyday anxiety become a clinical disorder? Learn the warning signs, the 6 most common anxiety disorder types, and modern treatments including TMS therapy in Palm Springs.",
@@ -8,7 +32,7 @@
         "date": "March 14, 2026",
         "readTime": "10 min read",
         "image": "images/blog/When Anxiety Becomes a Disorder.png",
-        "featured": true,
+        "featured": false,
         "url": "when-anxiety-becomes-a-disorder.php"
     },
     {
