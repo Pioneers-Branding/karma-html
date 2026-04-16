@@ -275,7 +275,7 @@ function initTeamPage() {
     if (!teamGrid) return;
 
     const teamMembers = [
-        // Medical Staff
+        // ===================== Medical Staff =====================
         {
             id: "keerthy-sunder",
             name: "Keerthy Sunder M.D.",
@@ -338,21 +338,228 @@ function initTeamPage() {
             email: "tborn@karmatms.com",
         },
         {
+            id: "lyle-forehand",
+            name: "Dr. Lyle Forehand",
+            title: "Psychiatrist",
+            specialization: "Psychiatry & Forensic Psychiatry",
+            category: "medical",
+            image: "images/team/dr-lyle-forehand.jpg",
+            bio: "Dr. Forehand is a Southern California native and U.S. Army Ranger veteran with advanced training in Psychiatry and Forensic Psychiatry. He completed his medical education and fellowships through Johns Hopkins, Sheppard Pratt, and the University of Maryland, later earning certification in Advanced Clinical Psychopharmacology and a Master Psychopharmacology Certificate from the Neuroscience Education Institute. He has taught medical students and residents at several universities — including the University of Maryland, University of Rochester, and UC Riverside — and has been invited to speak at national and international conferences on a wide range of psychiatric topics. Outside of medicine, Dr. Forehand is a proud father of three and an avid tennis player who enjoys time in nature, whether at the beach, in the mountains, or exploring the desert.",
+            credentials: ["Board Certified Psychiatrist", "Board Certified Forensic Psychiatry", "Advanced Clinical Psychopharmacology", "Master Psychopharmacology Certificate"],
+            experience: "Extensive experience in Psychiatry",
+            education: "Johns Hopkins, Sheppard Pratt, University of Maryland",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "raymond-chung",
+            name: "Raymond Chung, LMFT",
+            title: "Licensed Marriage & Family Therapist",
+            specialization: "Complex Trauma & Anxiety",
+            category: "medical",
+            image: "images/team/raymond-chung.jpg",
+            bio: "Life is full of unexpected twists, and sometimes those changes leave lasting emotional imprints. As a therapist, Raymond specializes in helping individuals navigate complex trauma — whether it stems from abuse as a child, betrayal, extramarital affairs, medical trauma, job loss, or other life-altering experiences. He also works extensively with anxiety, supporting clients through childhood anxiety, life transitions, and feelings of abandonment. His approach is rooted in Solution-Focused Brief Therapy and Cognitive Behavioral Therapy, helping clients develop actionable steps toward healing. He also incorporates Dialectical Behavioral Therapy, focusing on distress tolerance and emotional regulation to create balance in daily life.",
+            credentials: ["LMFT", "Solution-Focused Brief Therapy", "Cognitive Behavioral Therapy", "Dialectical Behavioral Therapy"],
+            experience: "Specialized in Trauma & Anxiety Therapy",
+            education: "Licensed Marriage & Family Therapist",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "bethany-minick",
+            name: "Bethany Minick, LMFT",
+            title: "Licensed Marriage & Family Therapist",
+            specialization: "Trauma-Focused Therapy & Advocacy",
+            category: "medical",
+            image: "images/team/bethany-minick.jpeg",
+            bio: "Bethany has been providing direct services to individuals for almost 20 years. She graduated from SDSU in 2011 and National University in 2015. She has supported individuals who experience developmental, intellectual, emotional disabilities and medical fragility. She also has experience supporting disadvantaged youth, families and couples. Bethany has experience with Client-Centered Therapy, Systems Theories, Trauma-Focused Therapy, Cognitive-Behavior Therapy and Gorman Therapy. Bethany prides on being an advocate, serving her community and tailoring unique services to each person whom she supports. It is with great joy that she is a member of the Karma Doctors team and continues to support individuals in need of mental and emotional health support.",
+            credentials: ["LMFT", "Client-Centered Therapy", "Trauma-Focused Therapy", "Cognitive-Behavior Therapy"],
+            experience: "20 years of direct services",
+            education: "SDSU, National University",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "rachel-parker",
+            name: "Rachel Parker, PA-C",
+            title: "Physician Assistant",
+            specialization: "Psychiatric Care & Medication Management",
+            category: "medical",
+            image: "images/team/rachel-parker.jpg",
+            bio: "Rachel Parker, PA-C, brings over twenty years of clinical expertise and dedication to her patients. She graduated from Kansas State University and Wichita State University, cum laude. Rachel strives to empower adults on their health journeys and to deliver compassionate care that prioritizes shared decision-making. She offers a convenient approach to health care via virtual platforms for her patients' added convenience. Beyond professional work, she enjoys spending time with her family, Bible study, hiking, and reading. Rachel is a passionate NFL football fan and is actively involved with her beloved church family. She believes that no situation is beyond hope, that restoration is possible, even through life's most painful seasons.",
+            credentials: ["PA-C", "Certified Physician Assistant"],
+            experience: "20+ years of clinical expertise",
+            education: "Kansas State University, Wichita State University (cum laude)",
+            location: "Palm Springs, CA",
+        },
+        {
             id: "punit-patel",
-            name: "Punit Patel PA-C",
-            title: "Physician Associate",
+            name: "Punit Patel, PA-C",
+            title: "Physician Assistant",
             specialization: "Psychiatric Care",
             category: "medical",
             image: "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237054/PunitPatel1_plpekd.webp",
-            bio: "Punit Patel PA-C specializes in psychiatric care and medication management. He provides thorough evaluations and works collaboratively with patients to develop personalized treatment plans that address their unique mental health needs.",
-            credentials: ["PA-C", "Master of Physician Assistant Studies", "Psychiatric Care Specialist"],
-            experience: "6+ years in Psychiatric Care",
-            education: "Western University PA Program",
-            languages: ["English", "Hindi", "Gujarati"],
+            bio: "Punit Patel, PA-C, specializes in psychiatric care and medication management. He provides thorough evaluations and works collaboratively with patients to develop personalized treatment plans that address their unique mental health needs.",
+            credentials: ["PA-C", "Psychiatric Care Specialist"],
+            experience: "Experienced in Psychiatric Care",
+            education: "Physician Assistant Program",
             location: "Palm Springs, CA",
-            email: "ppatel@karmatms.com",
         },
-        // Administrative Staff
+        {
+            id: "nicole-wright",
+            name: "Nicole Wright, PA-C",
+            title: "Physician Assistant",
+            specialization: "Psychiatric Care",
+            category: "medical",
+            image: "",
+            bio: "Nicole Wright, PA-C, is a dedicated Physician Assistant providing psychiatric care and medication management at Karma Doctors & Associates.",
+            credentials: ["PA-C"],
+            experience: "Experienced in Psychiatric Care",
+            education: "Physician Assistant Program",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "kenneth-granados",
+            name: "Kenneth Granados, PA-C",
+            title: "Physician Assistant",
+            specialization: "Psychiatric Care",
+            category: "medical",
+            image: "",
+            bio: "Kenneth Granados, PA-C, is a committed Physician Assistant providing psychiatric care and support at Karma Doctors & Associates.",
+            credentials: ["PA-C"],
+            experience: "Experienced in Psychiatric Care",
+            education: "Physician Assistant Program",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "emily-luu",
+            name: "Emily Luu, PA-C",
+            title: "Physician Assistant",
+            specialization: "Medication Management & Neuroscience",
+            category: "medical",
+            image: "images/team/emily-luu.jpg",
+            bio: "Emily Luu is a first-generation immigrant whose family's experience navigating health and well-being through hardship inspired her to pursue a career in healthcare. She focuses on medication management for conditions such as anxiety, depression, and trauma-related disorders. Her approach is collaborative and patient-centered — she works with each individual to develop treatment plans that are both effective and realistic for daily life, with an emphasis on education and shared decision-making so patients feel informed, empowered, and supported. She earned her degrees in Neuroscience and Biological Sciences from the University of Southern California and completed her Physician Assistant training, along with a Master of Public Health, at Touro University California.",
+            credentials: ["PA-C", "Master of Public Health", "Neuroscience"],
+            experience: "Specialized in Medication Management",
+            education: "USC (Neuroscience & Biological Sciences), Touro University California (PA & MPH)",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "shivali-dave",
+            name: "Shivali Dave, PA-C",
+            title: "Physician Assistant",
+            specialization: "Psychiatric Care",
+            category: "medical",
+            image: "",
+            bio: "Shivali Dave, PA-C, is a dedicated Physician Assistant providing psychiatric care and medication management at Karma Doctors & Associates.",
+            credentials: ["PA-C"],
+            experience: "Experienced in Psychiatric Care",
+            education: "Physician Assistant Program",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "tina-huff",
+            name: "Tina Huff, PMHNP-BC",
+            title: "Psychiatric Mental Health Nurse Practitioner",
+            specialization: "Psychiatric Mental Health",
+            category: "medical",
+            image: "",
+            bio: "Tina Huff, PMHNP-BC, is a board-certified Psychiatric Mental Health Nurse Practitioner dedicated to providing compassionate mental health care at Karma Doctors & Associates.",
+            credentials: ["PMHNP-BC"],
+            experience: "Experienced in Psychiatric Mental Health",
+            education: "Psychiatric Mental Health NP Program",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "tracy-mason",
+            name: "Tracy Mason, PMHNP-BC",
+            title: "Psychiatric Mental Health Nurse Practitioner",
+            specialization: "Psychiatric Mental Health",
+            category: "medical",
+            image: "",
+            bio: "Tracy Mason, PMHNP-BC, is a board-certified Psychiatric Mental Health Nurse Practitioner providing dedicated mental health support at Karma Doctors & Associates.",
+            credentials: ["PMHNP-BC"],
+            experience: "Experienced in Psychiatric Mental Health",
+            education: "Psychiatric Mental Health NP Program",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "giovanni-birrueta",
+            name: "Giovanni Birrueta, PMHNP-BC",
+            title: "Psychiatric Mental Health Nurse Practitioner",
+            specialization: "Psychiatric Treatment & Medication Management",
+            category: "medical",
+            image: "images/team/giovanni-birrueta.jpg",
+            bio: "Giovanni Birrueta, PMHNP-BC, is a psychiatric mental health nurse practitioner who completed their training at Azusa Pacific University. He earned his bachelor's from the University of California San Diego and a master's from Azusa Pacific University. He has three years of inpatient psychiatry experience at Loma Linda Behavioral Medicine Center. Before nursing, he worked in research and later served as a clinical instructor for mental health nursing, shaping future healthcare professionals. Passionate about mental health and holistic care, Giovanni specializes in psychiatric treatment and medication management, providing compassionate, patient-centered care. In his spare time, he enjoys cooking, reading, and spending time with his family.",
+            credentials: ["PMHNP-BC", "Inpatient Psychiatry Experience", "Clinical Instructor"],
+            experience: "3+ years inpatient psychiatry at Loma Linda BMC",
+            education: "UC San Diego (BS), Azusa Pacific University (MS)",
+            location: "Palm Springs, CA",
+        },
+        // ===================== TMS Technologists =====================
+        {
+            id: "mark-odron",
+            name: "Mark Odron, MD",
+            title: "TMS Technologist",
+            specialization: "Interventional Psychiatry & Neuromodulation",
+            category: "administrative",
+            image: "images/team/mark-odron.jpg",
+            bio: "Mark Odron, MD, is a graduate of Far Eastern University - Nicanor Reyes Medical Foundation. He is currently pursuing clinical experience in interventional psychiatry, with a focus on non-invasive and EEG-guided brain stimulation therapies. His work is centered on clinical research in psychiatric disorders, particularly the application of neuromodulation techniques such as rTMS, PrTMS, rPMS, and tPBM. He is actively preparing for residency training in psychiatry, with the goal of integrating neuroscience-driven approaches into clinical practice.",
+            credentials: ["MD", "Neuromodulation Research", "EEG-Guided Brain Stimulation"],
+            experience: "Clinical research in neuromodulation",
+            education: "Far Eastern University - Nicanor Reyes Medical Foundation",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "jossie-avalos",
+            name: "Jossie Avalos, LVN",
+            title: "TMS Technologist",
+            specialization: "Mental Health & Psychiatric Care",
+            category: "administrative",
+            image: "images/team/jossie-avalos.jpeg",
+            bio: "Jossie Avalos is a Licensed Vocational Nurse since 2016 with a strong background in mental health and psychiatric care. She holds an AA in Liberal Arts: Math & Science. A dedicated mom of two who values quality time with family.",
+            credentials: ["LVN", "AA in Liberal Arts: Math & Science"],
+            experience: "Licensed Vocational Nurse since 2016",
+            education: "AA in Liberal Arts: Math & Science",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "brianna-dela-cruz",
+            name: "Brianna Dela Cruz",
+            title: "TMS Technologist / Neurotechnologist",
+            specialization: "Healthcare Administration & Neurotechnology",
+            category: "administrative",
+            image: "images/team/brianna-dela-cruz.jpg",
+            bio: "Brianna Dela Cruz graduated from California State University, Long Beach with a degree in Healthcare Administration. She currently works as a Neurotechnologist at Karma TMS. She is also on the pre-Physician Assistant track, working toward advancing her career in patient care and clinical practice. In her free time, she enjoys exercising, reading, and spending time with her family.",
+            credentials: ["BS Healthcare Administration", "Pre-PA Track"],
+            experience: "Neurotechnologist at Karma TMS",
+            education: "California State University, Long Beach (Healthcare Administration)",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "vipul-reddy",
+            name: "Vipul Reddy",
+            title: "TMS Technologist",
+            specialization: "TMS Therapy & Patient Care",
+            category: "administrative",
+            image: "images/team/vipul-reddy.jpg",
+            bio: "Vipul Reddy is a dedicated TMS technologist with a strong passion for mental health care and patient well-being. He works closely with patients to ensure treatments are delivered safely, comfortably, and effectively, while providing support throughout their journey. He is currently pursuing medical school, with the goal of expanding his ability to serve patients and contribute more broadly to the field of medicine. His experience in TMS has deepened his interest in neuroscience and reinforced his commitment to compassionate, patient-centered care.",
+            credentials: ["TMS Technologist", "Pre-Medical Student"],
+            experience: "TMS Technologist at Karma TMS",
+            education: "Currently pursuing Medical School",
+            location: "Palm Springs, CA",
+        },
+        {
+            id: "casey-phillips",
+            name: "Casey Phillips",
+            title: "TMS Technologist",
+            specialization: "TMS Therapy & Patient Support",
+            category: "administrative",
+            image: "images/team/casey-phillips.jpg",
+            bio: "Originally from South Carolina, Casey served eight years in the United States Marine Corps before transitioning into the medical field. Since November 2025, he has worked as a Technologist at Karma TMS Clinic, where he focuses on providing steady, dependable care and supporting patients through their treatment journey.",
+            credentials: ["U.S. Marine Corps Veteran", "TMS Technologist"],
+            experience: "8 years USMC, TMS Technologist since 2025",
+            education: "United States Marine Corps",
+            location: "Palm Springs, CA",
+        },
+        // ===================== Administrative Staff =====================
         {
             id: "joshua-smith",
             name: "Joshua Smith",
@@ -414,10 +621,14 @@ function initTeamPage() {
         const modalContent = document.getElementById('modal-content-area');
         const gradientClass = member.category === 'medical' ? 'bg-gradient-medical' : 'bg-gradient-administrative';
 
+        const modalImageHtml = member.image
+            ? `<img src="${member.image}" alt="${member.name}" class="modal-profile-img">`
+            : `<div class="modal-profile-img member-image-placeholder" style="display:flex;align-items:center;justify-content:center;background:#f3f4f6;"><i data-lucide="user" class="w-16 h-16 text-gray-400"></i></div>`;
+
         modalContent.innerHTML = `
             <div class="modal-header-custom">
                 <div class="modal-image-wrapper">
-                    <img src="${member.image}" alt="${member.name}" class="modal-profile-img">
+                    ${modalImageHtml}
                 </div>
                 <div class="modal-title-area">
                     <h2 class="modal-name" style="color:var(--text-main);">${member.name}</h2>
@@ -484,8 +695,8 @@ function initTeamPage() {
 
         const filtersConfig = [
             { key: 'all', label: 'All Team', icon: 'users', get count() { return teamMembers.length; } },
-            { key: 'medical', label: 'Medical Staff', icon: 'stethoscope', get count() { return teamMembers.filter(m => m.category === 'medical').length; } },
-            { key: 'administrative', label: 'Administrative', icon: 'award', get count() { return teamMembers.filter(m => m.category === 'administrative').length; } }
+            { key: 'medical', label: 'Providers', icon: 'stethoscope', get count() { return teamMembers.filter(m => m.category === 'medical').length; } },
+            { key: 'administrative', label: 'TMS Technologists', icon: 'zap', get count() { return teamMembers.filter(m => m.category === 'administrative').length; } }
         ];
 
         filtersConfig.forEach(filter => {
@@ -551,9 +762,13 @@ function initTeamPage() {
         const credentialsHtml = member.credentials.slice(0, 2).map(c => `<span class="credential-tag">${c}</span>`).join('');
         const moreCredentials = member.credentials.length > 2 ? `<span class="credential-more">+${member.credentials.length - 2} more</span>` : '';
 
+        const imageHtml = member.image
+            ? `<img src="${member.image}" alt="${member.name}" class="member-image">`
+            : `<div class="member-image member-image-placeholder"><i data-lucide="user" class="w-16 h-16 text-gray-400"></i></div>`;
+
         card.innerHTML = `
             <div class="member-image-wrapper">
-                <img src="${member.image}" alt="${member.name}" class="member-image">
+                ${imageHtml}
                 <div class="member-overlay"></div>
                 <div class="category-badge-icon ${gradientClass}"><i data-lucide="${categoryIcon}" class="w-4 h-4"></i></div>
                 <div class="member-info-overlay"><h3 class="member-name">${member.name}</h3><p class="member-title">${member.title}</p></div>

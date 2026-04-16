@@ -4006,6 +4006,13 @@ h6 {
     transform: scale(1.1);
 }
 
+.member-image-placeholder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f3f4f6, #e5e7eb);
+}
+
 .member-overlay {
     position: absolute;
     inset: 0;
