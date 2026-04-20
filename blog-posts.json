@@ -1,5 +1,29 @@
 [
     {
+        "id": 52,
+        "title": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
+        "excerpt": "If antidepressants haven't worked for you, you're not broken — your brain just needs a different approach. A board-certified psychiatrist explains exactly why TMS succeeds where medication fails.",
+        "category": "tms-therapy",
+        "author": "Dr. Keerthy Sunder",
+        "date": "April 20, 2026",
+        "readTime": "11 min read",
+        "image": "images/blog/why-tms-works-when-antidepressants-dont-banner.svg",
+        "featured": false,
+        "url": "why-tms-works-when-antidepressants-dont.php"
+    },
+    {
+        "id": 51,
+        "title": "Your Brain on TMS: What Actually Happens During Those 20 Minutes (Most Clinics Won't Show You This)",
+        "excerpt": "What really happens inside your brain during a TMS session? We break down the neuroscience — from the magnetic pulse to the synaptic change — in plain English.",
+        "category": "tms-therapy",
+        "author": "Dr. Keerthy Sunder",
+        "date": "April 17, 2026",
+        "readTime": "10 min read",
+        "image": "images/blog/your-brain-on-tms-banner.svg",
+        "featured": false,
+        "url": "your-brain-on-tms.php"
+    },
+    {
         "id": 50,
         "title": "Does TRICARE Cover TMS Therapy? Coverage, Costs & Requirements",
         "excerpt": "Does TRICARE cover TMS therapy? Learn about TRICARE TMS coverage, eligibility requirements, costs, and how to access TMS for depression and OCD in Palm Springs.",
@@ -17,7 +41,7 @@
         "excerpt": "Is OCD a disability? Learn about OCD disability benefits, ADA coverage, severe OCD symptoms, and treatment options including TMS therapy.",
         "category": "mental-health",
         "author": "Dr. Keerthy Sunder",
-        "date": "April 14, 2026",
+        "date": "April 7, 2026",
         "readTime": "15 min read",
         "image": "images/blog/Is OCD a Disability.png",
         "featured": false,

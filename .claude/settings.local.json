@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(php -l tms-therapy-crestline.php)",
+      "Bash(php -l tms-therapy-palm-desert.php)",
+      "Bash(php -l tms-therapy-temecula.php)"
+    ]
+  }
+}

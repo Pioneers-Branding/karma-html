@@ -225,8 +225,8 @@
           "url": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/ebadb369-a58d-421c-b937-24f900be5867.png"
         }
       },
-      "datePublished": "2026-04-14",
-      "dateModified": "2026-04-14",
+      "datePublished": "2026-04-07",
+      "dateModified": "2026-04-07",
       "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "https://karmatms.com/is-ocd-a-disability/"
@@ -286,7 +286,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <div class="flex flex-wrap justify-center gap-4 mb-6 text-sm">
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
-                        April 14, 2026
+                        April 7, 2026
                     </span>
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="clock" class="w-4 h-4"></i>
