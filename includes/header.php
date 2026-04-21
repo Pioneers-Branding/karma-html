@@ -124,6 +124,9 @@
                         <a href="tms-quiz.php" class="dropdown-item">
                             <i data-lucide="award" class="w-4 h-4"></i> Take Quiz
                         </a>
+                        <a href="https://sunderfoundation.org/" target="_blank" rel="noopener" class="dropdown-item">
+                            <i data-lucide="heart-handshake" class="w-4 h-4"></i> Foundation
+                        </a>
                     </div>
                 </div>
 
@@ -304,6 +307,10 @@
                 <a href="tms-quiz.php" class="mobile-nav-item">
                     <i data-lucide="award" class="w-5 h-5"></i>
                     <span>Take Quiz</span>
+                </a>
+                <a href="https://sunderfoundation.org/" target="_blank" rel="noopener" class="mobile-nav-item">
+                    <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+                    <span>Foundation</span>
                 </a>
             </div>
         </div>
