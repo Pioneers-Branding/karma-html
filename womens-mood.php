@@ -28,6 +28,7 @@
                     </span>
                     <h1 class="text-4xl lg:text-5xl font-bold mb-6">
                         TMS Therapy for Women's Mood Disorders
+                        <span class="block text-sm md:text-base font-semibold mt-4" style="color: rgba(255, 255, 255, 0.95);">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                     </h1>
                     <p class="text-xl mb-8" style="color: rgba(255, 255, 255, 0.9);">
                         Specialized, safe treatment for women's unique mental health needs including postpartum

@@ -115,7 +115,8 @@
                         Anxiety Treatment
                     </span>
                     <h1 class="text-4xl lg:text-5xl font-bold mb-6">
-                        Therapy for Anxiety Disorders in KarmaTMS
+                        Anxiety Treatment
+                        <span class="block text-sm md:text-base font-semibold mt-4" style="color: rgba(255, 255, 255, 0.95);">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                     </h1>
                     <p class="text-xl mb-8" style="color: rgba(255, 255, 255, 0.9);">
                         Innovative, non-invasive treatment that targets the root causes of anxiety in the brain,

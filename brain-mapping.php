@@ -23,6 +23,7 @@
                 </span>
                 <h1 class="bm-hero-title">
                     Brain Mapping
+                    <span class="block text-sm md:text-base font-medium mt-4" style="color: #6b7280;">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                 </h1>
                 <p class="bm-hero-description">
                     Quantitative EEG (qEEG) brain mapping provides detailed insights into your brain's electrical

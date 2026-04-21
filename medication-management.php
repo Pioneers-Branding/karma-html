@@ -22,9 +22,9 @@
                     style="background: linear-gradient(to right, #572670, #9333ea);">
                     Personalized Approach
                 </span>
-                <h1 class="text-5xl lg:text-7xl font-bold mb-8 text-transparent"
-                    style="background: linear-gradient(to right, #572670, #9333ea, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
-                    Medication Management
+                <h1 class="text-5xl lg:text-7xl font-bold mb-8">
+                    <span class="text-transparent" style="background: linear-gradient(to right, #572670, #9333ea, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Medication Management</span>
+                    <span class="block text-sm md:text-base font-medium mt-4" style="color: #6b7280;">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                 </h1>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-10">
                     Expert psychiatric medication management focused on optimizing your treatment while minimizing side

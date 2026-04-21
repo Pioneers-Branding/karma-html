@@ -135,6 +135,7 @@
                     <h1 class="text-4xl md:text-6xl font-bold mb-6">
                         <span class="gradient-text">TMS
                             Therapy</span>
+                        <span class="block text-sm md:text-base font-medium mt-4" style="color: #6b7280;">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                     </h1>
                     <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
                         Transcranial Magnetic Stimulation: A breakthrough, non-invasive treatment for depression and
