@@ -115,6 +115,9 @@
                         <a href="research.php" class="dropdown-item">
                             <i data-lucide="book-open" class="w-4 h-4"></i> Research
                         </a>
+                        <a href="research-publications.php" class="dropdown-item">
+                            <i data-lucide="microscope" class="w-4 h-4"></i> Research &amp; Publications
+                        </a>
                         <a href="blog.php" class="dropdown-item">
                             <i data-lucide="file-text" class="w-4 h-4"></i> Blog
                         </a>
@@ -295,6 +298,10 @@
                 <a href="research.php" class="mobile-nav-item">
                     <i data-lucide="book-open" class="w-5 h-5"></i>
                     <span>Research</span>
+                </a>
+                <a href="research-publications.php" class="mobile-nav-item">
+                    <i data-lucide="microscope" class="w-5 h-5"></i>
+                    <span>Research &amp; Publications</span>
                 </a>
                 <a href="blog.php" class="mobile-nav-item">
                     <i data-lucide="file-text" class="w-5 h-5"></i>
