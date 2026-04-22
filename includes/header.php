@@ -115,6 +115,9 @@
                         <a href="research.php" class="dropdown-item">
                             <i data-lucide="book-open" class="w-4 h-4"></i> Research
                         </a>
+                        <a href="research-publications.php" class="dropdown-item">
+                            <i data-lucide="microscope" class="w-4 h-4"></i> Research &amp; Publications
+                        </a>
                         <a href="blog.php" class="dropdown-item">
                             <i data-lucide="file-text" class="w-4 h-4"></i> Blog
                         </a>
@@ -123,6 +126,9 @@
                         </a>
                         <a href="tms-quiz.php" class="dropdown-item">
                             <i data-lucide="award" class="w-4 h-4"></i> Take Quiz
+                        </a>
+                        <a href="https://sunderfoundation.org/" target="_blank" rel="noopener" class="dropdown-item">
+                            <i data-lucide="heart-handshake" class="w-4 h-4"></i> Foundation
                         </a>
                     </div>
                 </div>
@@ -293,6 +299,10 @@
                     <i data-lucide="book-open" class="w-5 h-5"></i>
                     <span>Research</span>
                 </a>
+                <a href="research-publications.php" class="mobile-nav-item">
+                    <i data-lucide="microscope" class="w-5 h-5"></i>
+                    <span>Research &amp; Publications</span>
+                </a>
                 <a href="blog.php" class="mobile-nav-item">
                     <i data-lucide="file-text" class="w-5 h-5"></i>
                     <span>Blog</span>
@@ -304,6 +314,10 @@
                 <a href="tms-quiz.php" class="mobile-nav-item">
                     <i data-lucide="award" class="w-5 h-5"></i>
                     <span>Take Quiz</span>
+                </a>
+                <a href="https://sunderfoundation.org/" target="_blank" rel="noopener" class="mobile-nav-item">
+                    <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+                    <span>Foundation</span>
                 </a>
             </div>
         </div>
