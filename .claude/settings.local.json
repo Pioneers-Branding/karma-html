@@ -3,7 +3,10 @@
     "allow": [
       "Bash(php -l tms-therapy-crestline.php)",
       "Bash(php -l tms-therapy-palm-desert.php)",
-      "Bash(php -l tms-therapy-temecula.php)"
+      "Bash(php -l tms-therapy-temecula.php)",
+      "Bash(npx http-server *)",
+      "Bash(powershell -Command \"Start-Process powershell -ArgumentList '-Command cd \\\\\"C:\\\\Users\\\\GCV\\\\Desktop\\\\Karma TMS\\\\karma-html\\\\psychiatry\\\\\"; python -m http.server 8080' -Verb RunAs\")",
+      "Bash(php -S localhost:8080 -t \"C:\\\\Users\\\\GCV\\\\Desktop\\\\Karma TMS\\\\karma-html\\\\psychiatry\")"
     ]
   }
 }
