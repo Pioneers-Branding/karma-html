@@ -11,7 +11,8 @@
         content="TMS therapy California, mental health clinic California, TMS therapy Palm Springs, depression treatment California, TMS clinic Coachella Valley, psychiatrist California, mental health counselors Palm Springs CA, TMS for depression California, anxiety treatment California, Karma TMS PC">
     <link rel="canonical" href="index.php">
     <meta property="og:title" content="TMS Therapy California | Karma TMS PC – Palm Springs & Coachella Valley">
-    <meta property="og:description" content="California's leading TMS therapy clinic. FDA-cleared, non-invasive treatment for depression, anxiety, OCD and PTSD. Serving Palm Springs, Rancho Mirage & Twentynine Palms.">
+    <meta property="og:description"
+        content="California's leading TMS therapy clinic. FDA-cleared, non-invasive treatment for depression, anxiety, OCD and PTSD. Serving Palm Springs, Rancho Mirage & Twentynine Palms.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.karmatms.com/">
     <meta name="geo.region" content="US-CA">
@@ -237,7 +238,8 @@
                         </div>
 
                         <h1 class="hero-title">
-                            Leading <span class="gradient-text">TMS Therapy</span> Clinic in California – Palm Springs &amp; Beyond
+                            Leading <span class="gradient-text">TMS Therapy</span> Clinic in California – Palm Springs
+                            &amp; Beyond
                         </h1>
 
                         <p class="hero-description">
@@ -295,23 +297,15 @@
                     <div class="form-container">
                         <!-- Contact Form -->
                         <div style="margin-bottom: 0.75rem;">
-                            <iframe
-                                src="https://api.leadconnectorhq.com/widget/form/ycInJ4y4zf0G1VcDx9Ev"
-                                style="width:100%;height:100%;border:none;border-radius:3px;"
-                                id="inline-ycInJ4y4zf0G1VcDx9Ev" 
-                                data-layout="{'id':'INLINE'}"
-                                data-trigger-type="alwaysShow"
-                                data-trigger-value=""
-                                data-activation-type="alwaysActivated"
-                                data-activation-value=""
-                                data-deactivation-type="neverDeactivate"
-                                data-deactivation-value=""
-                                data-form-name="KarmaTMS Homepage Form"
-                                data-height="776"
-                                data-layout-iframe-id="inline-ycInJ4y4zf0G1VcDx9Ev"
-                                data-form-id="ycInJ4y4zf0G1VcDx9Ev"
-                                title="KarmaTMS Homepage Form"
-                                    >
+                            <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"
+                                style="width:100%;height:100%;border:none;border-radius:8px"
+                                id="inline-A7LynR0MrYIYDzI14jsu" data-layout="{'id':'INLINE'}"
+                                data-trigger-type="alwaysShow" data-trigger-value=""
+                                data-activation-type="alwaysActivated" data-activation-value=""
+                                data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                                data-form-name="KarmaTMS Website Form" data-height="434"
+                                data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu" data-form-id="A7LynR0MrYIYDzI14jsu"
+                                title="KarmaTMS Website Form">
                             </iframe>
                             <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                         </div>
@@ -371,7 +365,8 @@
             <div class="section-header">
                 <h2 class="section-title">Why Choose Karma TMS – California's Premier TMS Therapy Clinic?</h2>
                 <p class="section-description">
-                    From Palm Springs to the wider Southern California region, Karma TMS delivers advanced, compassionate,
+                    From Palm Springs to the wider Southern California region, Karma TMS delivers advanced,
+                    compassionate,
                     and personalized TMS therapy for lasting mental wellness — backed by board-certified psychiatrists
                     and cutting-edge brain stimulation technology.
                 </p>
@@ -468,7 +463,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">85% improvement rate</span>
                         <a href="depression.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -489,7 +485,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Significant relief in 6-8 weeks</span>
                         <a href="anxiety.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -510,7 +507,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Clinically proven results</span>
                         <a href="ptsd.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -531,7 +529,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">FDA-cleared protocol</span>
                         <a href="ocd.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -552,7 +551,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Safe during pregnancy</span>
                         <a href="womens-mood.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -573,7 +573,8 @@
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Rapid symptom relief</span>
                         <a href="conditions.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -589,11 +590,13 @@
                             <p class="condition-subtitle">Attention Deficit</p>
                         </div>
                     </div>
-                    <p class="condition-description">Comprehensive treatment strategies for ADHD including medication management and behavioral therapy.</p>
+                    <p class="condition-description">Comprehensive treatment strategies for ADHD including medication
+                        management and behavioral therapy.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Individualized Care</span>
                         <a href="how-does-adhd-treatment-work.php"
-                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center" style="color: #572670 !important;">
+                            class="text-sm font-semibold text-purple-700 hover:text-purple-900 flex items-center"
+                            style="color: #572670 !important;">
                             Learn More <i data-lucide="arrow-right" class="w-4 h-4 ml-1"></i>
                         </a>
                     </div>
@@ -610,7 +613,9 @@
                     <span class="badge badge-purple">Scientific Breakthrough</span>
                     <h2 class="section-title-left">How TMS Works</h2>
                     <div class="space-y-4">
-                        <p><strong>It's not you, it's the brain.</strong> <a href="depression.php" class="text-purple-600 hover:text-purple-800 underline">Depression</a> is caused by insufficient activity
+                        <p><strong>It's not you, it's the brain.</strong> <a href="depression.php"
+                                class="text-purple-600 hover:text-purple-800 underline">Depression</a> is caused by
+                            insufficient activity
                             in the left dorsolateral prefrontal cortex.</p>
                         <p>TMS uses precisely targeted magnetic pulses to stimulate this area, improving mood, working
                             memory, and attention.</p>
@@ -1075,9 +1080,11 @@
     <section class="section bg-gray-50">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Common Questions About <span class="gradient-text">TMS Therapy in California</span></h2>
+                <h2 class="section-title">Common Questions About <span class="gradient-text">TMS Therapy in
+                        California</span></h2>
                 <p class="section-description">
-                    Find answers to frequently asked questions about our TMS therapy and mental health treatments — serving patients in Palm Springs, the Coachella Valley, and throughout California.
+                    Find answers to frequently asked questions about our TMS therapy and mental health treatments —
+                    serving patients in Palm Springs, the Coachella Valley, and throughout California.
                 </p>
             </div>
 
@@ -1092,7 +1099,13 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    You should consider seeking help from a <strong>psychiatrist in Palm Springs</strong> if you are experiencing persistent sadness, anxiety, mood swings, or if your current treatment plan isn't providing relief. Our specialized team offers comprehensive evaluations and advanced, non-drug treatments like <a href="tms-therapy.php" class="text-purple-600 hover:text-purple-800 underline">TMS therapy</a> for lasting wellness.
+                                    You should consider seeking help from a <strong>psychiatrist in Palm
+                                        Springs</strong> if you are experiencing persistent sadness, anxiety, mood
+                                    swings, or if your current treatment plan isn't providing relief. Our specialized
+                                    team offers comprehensive evaluations and advanced, non-drug treatments like <a
+                                        href="tms-therapy.php"
+                                        class="text-purple-600 hover:text-purple-800 underline">TMS therapy</a> for
+                                    lasting wellness.
                                 </p>
                             </div>
                         </div>
@@ -1106,7 +1119,10 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    Yes, we work with most major insurance providers. When you visit our clinic to see a mental health specialist or <strong>psychiatrist in Palm Springs</strong>, we handle the benefit verification and pre-authorization process to ensure your TMS therapy and treatment plans are covered whenever possible.
+                                    Yes, we work with most major insurance providers. When you visit our clinic to see a
+                                    mental health specialist or <strong>psychiatrist in Palm Springs</strong>, we handle
+                                    the benefit verification and pre-authorization process to ensure your TMS therapy
+                                    and treatment plans are covered whenever possible.
                                 </p>
                             </div>
                         </div>
@@ -1114,13 +1130,22 @@
                     <!-- Item 3 -->
                     <div class="accordion-item">
                         <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">What effective treatments do you offer besides medication?</span>
+                            <span class="question-text">What effective treatments do you offer besides
+                                medication?</span>
                             <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
                         </button>
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic pulses to stimulate brain activity. It is an effective solution for <a href="depression.php" class="text-purple-600 hover:text-purple-800 underline">treatment-resistant depression</a> and <a href="anxiety.php" class="text-purple-600 hover:text-purple-800 underline">anxiety</a> for those who haven't found relief with standard medications from a general <strong>psychiatrist in Palm Springs</strong>.
+                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial
+                                    Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic
+                                    pulses to stimulate brain activity. It is an effective solution for <a
+                                        href="depression.php"
+                                        class="text-purple-600 hover:text-purple-800 underline">treatment-resistant
+                                        depression</a> and <a href="anxiety.php"
+                                        class="text-purple-600 hover:text-purple-800 underline">anxiety</a> for those
+                                    who haven't found relief with standard medications from a general
+                                    <strong>psychiatrist in Palm Springs</strong>.
                                 </p>
                             </div>
                         </div>
@@ -1134,7 +1159,10 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    We prioritize timely access to care. Contact us today to schedule a consultation with our experienced mental health team. Whether you need an evaluation by a mental health professional or a specialized <strong>psychiatrist in Palm Springs</strong>, we strive to get you started on your path to recovery as soon as possible.
+                                    We prioritize timely access to care. Contact us today to schedule a consultation
+                                    with our experienced mental health team. Whether you need an evaluation by a mental
+                                    health professional or a specialized <strong>psychiatrist in Palm Springs</strong>,
+                                    we strive to get you started on your path to recovery as soon as possible.
                                 </p>
                             </div>
                         </div>
@@ -1148,7 +1176,10 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20 years of experience, he leads our team in providing integrative, patient-centered care that combines modern medical science with holistic wellness strategies.
+                                    Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm
+                                        Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20
+                                    years of experience, he leads our team in providing integrative, patient-centered
+                                    care that combines modern medical science with holistic wellness strategies.
                                 </p>
                             </div>
                         </div>
@@ -1162,7 +1193,9 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    A standard TMS therapy session typically lasts about 19-20 minutes. It is an outpatient procedure, meaning you can return to your daily activities immediately after treatment without any downtime.
+                                    A standard TMS therapy session typically lasts about 19-20 minutes. It is an
+                                    outpatient procedure, meaning you can return to your daily activities immediately
+                                    after treatment without any downtime.
                                 </p>
                             </div>
                         </div>
@@ -1176,7 +1209,9 @@
                         <div class="accordion-content">
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
-                                    Most patients describe the sensation as a light tapping on the head. It is generally well-tolerated and not considered painful. You are awake and alert throughout the entire session.
+                                    Most patients describe the sensation as a light tapping on the head. It is generally
+                                    well-tolerated and not considered painful. You are awake and alert throughout the
+                                    entire session.
                                 </p>
                             </div>
                         </div>
@@ -1304,7 +1339,8 @@
             <div class="section-header">
                 <h2 class="section-title">TMS Therapy Resources for California Patients</h2>
                 <p class="section-description">
-                    Everything California patients need to support their mental health journey — from peer-reviewed TMS research to expert insights and treatment guides.
+                    Everything California patients need to support their mental health journey — from peer-reviewed TMS
+                    research to expert insights and treatment guides.
                 </p>
             </div>
 
@@ -1362,4 +1398,3 @@
 </body>
 
 </html>
-
