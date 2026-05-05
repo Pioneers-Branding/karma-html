@@ -349,6 +349,20 @@
                     Take TMS Quiz
                 </a>
             </div>
+            <!-- E-E-A-T: Medical Review Attribution Banner -->
+            <div class="mt-8 pt-6" style="border-top: 1px solid rgba(255,255,255,0.2);">
+                <div class="inline-flex items-center gap-3 px-6 py-3 rounded-lg w-full justify-center" style="background-color: rgba(255,255,255,0.15);">
+                    <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: rgba(233, 213, 255, 0.3);">
+                        <i data-lucide="shield-check" class="w-4 h-4" style="color: #e9d5ff;"></i>
+                    </div>
+                    <div class="text-left">
+                        <p class="text-xs font-semibold uppercase tracking-wide" style="color: rgba(255,255,255,0.7);">Content Accuracy</p>
+                        <p class="text-sm font-medium" style="color: #e9d5ff;">
+                            Medically Reviewed by <a href="team.php" class="underline" style="color: #e9d5ff;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 

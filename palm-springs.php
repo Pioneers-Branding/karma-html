@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KarmaTMS Palm Springs | TMS Therapy & Depression Treatment | (760) 760-5675</title>
+    <title>TMS Therapy in Palm Springs, CA | Depression & Anxiety Treatment | Karma TMS</title>
     <meta name="description"
-        content="Leading TMS therapy center in Palm Springs, CA. FDA-approved depression treatment, anxiety therapy, and mental health services. Two locations in Coachella Valley. Veterans welcome.">
+        content="TMS therapy in Palm Springs and Coachella Valley. FDA-cleared treatment for depression, anxiety, OCD, and PTSD. Serving Deepwell Estates, Tahquitz Canyon, PSP Airport, and all of Southern California.">
     <meta name="keywords"
-        content="TMS therapy Palm Springs, depression treatment Palm Springs, mental health Palm Springs, TMS Coachella Valley, psychiatrist Palm Springs, anxiety treatment Palm Springs">
+        content="TMS therapy Palm Springs, depression treatment Palm Springs CA, anxiety treatment Palm Springs, TMS Coachella Valley, OCD treatment Palm Springs, PTSD treatment Palm Springs, mental health Palm Springs, psychiatrist Palm Springs CA, transcranial magnetic stimulation Palm Springs, karma TMS Palm Springs">
 
     <?php include 'includes/header-links.php'; ?>
 
@@ -253,6 +253,40 @@
         </div>
     </section>
 
+    <!-- Relief for Treatment-Resistant Depression and Anxiety -->
+    <section class="py-16" style="background: linear-gradient(to bottom right, #faf5ff, #f5f3ff);">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-8">Relief for Treatment-Resistant Depression and Anxiety in the Coachella Valley</h2>
+                <p class="text-xl text-gray-700 text-center mb-8 leading-relaxed">
+                    If you've tried "pills, pills, pills" — as many of our patients describe — and still feel stuck, you're not alone, and you're not out of options. TMS (Transcranial Magnetic Stimulation) is an FDA-cleared, non-invasive therapy that targets the root of depression and anxiety when medications haven't worked.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="text-center p-6 rounded-xl" style="background-color: #fff; border: 1px solid #e9d5ff;">
+                        <i data-lucide="pill" class="w-10 h-10 mx-auto mb-4" style="color: #7e22ce;"></i>
+                        <h3 class="text-lg font-bold mb-2">When Medications Stop Working</h3>
+                        <p class="text-gray-600 text-sm">Many patients in Palm Springs come to us after years of trying multiple antidepressants with limited relief.</p>
+                    </div>
+                    <div class="text-center p-6 rounded-xl" style="background-color: #fff; border: 1px solid #e9d5ff;">
+                        <i data-lucide="brain" class="w-10 h-10 mx-auto mb-4" style="color: #7e22ce;"></i>
+                        <h3 class="text-lg font-bold mb-2">TMS Targets the Source</h3>
+                        <p class="text-gray-600 text-sm">Unlike medications that affect your whole body, TMS directly stimulates the prefrontal cortex — the area controlling mood.</p>
+                    </div>
+                    <div class="text-center p-6 rounded-xl" style="background-color: #fff; border: 1px solid #e9d5ff;">
+                        <i data-lucide="check-circle" class="w-10 h-10 mx-auto mb-4" style="color: #7e22ce;"></i>
+                        <h3 class="text-lg font-bold mb-2">80%+ See Improvement</h3>
+                        <p class="text-gray-600 text-sm">Most patients experience meaningful symptom reduction within 4-6 weeks of treatment at our Palm Springs clinic.</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="contact-us.php" class="bm-hero-btn text-white" style="background-color: #7e22ce;">
+                        Find Out If TMS Is Right for You
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Mental Health Services -->
     <section class="py-20" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
@@ -422,77 +456,7 @@
         </div>
     </section>
 
-    <!-- Visit Our Palm Springs Locations -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Visit Our Palm Springs Locations</h2>
-
-            <div class="max-w-xl mx-auto">
-                <!-- Main Palm Springs Office -->
-                <div class="bm-benefit-card overflow-hidden shadow-xl p-8">
-                    <div class="flex items-center gap-2 mb-6">
-                        <i data-lucide="building-2" class="w-6 h-6 text-purple-600"></i>
-                        <h3 class="text-2xl font-bold">Palm Springs Main Office</h3>
-                    </div>
-
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="map-pin" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <p class="font-medium">560 S. Paseo Dorotea Suite 4B</p>
-                                <p class="text-gray-600">Palm Springs, CA 92264</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="phone" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <a href="tel:7607605675" class="hover:text-purple-600 transition-colors font-medium">(760)
-                                760-5675</a>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="clock" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <p class="font-medium">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                                <p class="text-gray-600">Saturday - Sunday: Closed</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="mail" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <a href="mailto:contact@karmatms.com"
-                                class="hover:text-purple-600 transition-colors">contact@karmatms.com</a>
-                        </div>
-                    </div>
-
-                    <div class="space-y-3">
-                        <a href="https://maps.app.goo.gl/hJP949mZGLuHLn7Y9" target="_blank" rel="noopener noreferrer">
-                            <button class="bm-outline-btn w-full group mb-3">
-                                <i data-lucide="navigation"
-                                    class="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform"></i>
-                                Get Directions
-                            </button>
-                        </a>
-                        <a href="https://share.google/GWzNWuU6YMH3nHXQP" target="_blank" rel="noopener noreferrer">
-                            <button class="bm-outline-btn w-full">
-                                <i data-lucide="star" class="w-4 h-4 mr-2"></i>
-                                View on Google
-                            </button>
-                        </a>
-                    </div>
-
-                    <div class="mt-6 rounded-lg overflow-hidden">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1297.8927535061152!2d-116.50187506448962!3d33.8137001254681!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e1!3m2!1sen!2sin!4v1763981800763!5m2!1sen!2sin"
-                            width="100%" height="300" style="border: 0;" allowfullscreen loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"
-                            title="Map of KarmaTMS Palm Springs Main Office"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
+    
     <!-- FAQ Section -->
     <section class="py-20" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
@@ -693,6 +657,153 @@
                     Call (760) 760-5675
                 </a>
             </p>
+        </div>
+    </section>
+
+    <!-- =============================================
+         UNIFIED LOCATION SECTION
+         ============================================= -->
+    <section class="py-16 px-4" style="background-color: #f9fafb;">
+        <div class="max-w-6xl mx-auto">
+
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #7e22ce; color: #fff;">Find Us</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Visit Our Palm Springs TMS Clinic
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Located in the heart of Palm Springs near the Deepwell Estates, our clinic serves the 92264, 92262, and 92270 zip codes. We are conveniently situated minutes from Tahquitz Canyon and the Palm Springs International Airport, providing easy access for patients across the Coachella Valley.
+                </p>
+            </div>
+
+            <!-- Map + Info Card Row -->
+            <div class="grid md:grid-cols-2 gap-8 items-start mb-12">
+                <!-- Map -->
+                <div class="rounded-xl overflow-hidden shadow-xl" style="height: 440px; position: relative;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.3168698509436!2d-116.54783592429462!3d33.82918852331583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1b7405e32401%3A0x6c6e76878696d747!2s560%20S%20Paseo%20Dorotea%20%234b%2C%20Palm%20Springs%2C%20CA%2092264!5e0!3m2!1sen!2sus!4v1709485210000!5m2!1sen!2sus"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="KarmaTMS Palm Springs Clinic Location">
+                    </iframe>
+                </div>
+
+                <!-- Info Card -->
+                <div>
+                    <div class="bm-benefit-card p-8 rounded-xl shadow-xl mb-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-6 h-6" style="color: #7e22ce;"></i>
+                            Karma TMS PC — Palm Springs
+                        </h3>
+                        <div class="space-y-5">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="building-2" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Street Address</p>
+                                    <p class="text-gray-600">560 S. Paseo Dorotea, Suite 4B<br>Palm Springs, CA 92264</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="plane" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Nearest Airport</p>
+                                    <p class="text-gray-600">Palm Springs International Airport (PSP)<br>~5 minutes drive</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
+                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="phone" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Phone</p>
+                                    <a href="tel:760-760-5675" class="font-semibold hover:underline" style="color: #7e22ce;">(760) 760-5675</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Directions Button -->
+                    <a href="https://maps.app.goo.gl/hJP949mZGLuHLn7Y9"
+                        target="_blank" rel="noopener noreferrer"
+                        class="flex items-center justify-center gap-2 w-full py-3.5 rounded-lg font-semibold transition-all shadow-md hover:shadow-xl"
+                        style="background-color: #7e22ce; color: #fff; text-decoration: none;">
+                        <i data-lucide="navigation" class="w-5 h-5"></i>
+                        Get Directions on Google Maps
+                    </a>
+
+                    <!-- Nearby Landmarks & Service Area -->
+                    <div class="mt-6 p-5 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
+                        <p class="text-sm font-bold mb-3" style="color: #7e22ce;">
+                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Serving These Zip Codes
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">92264 — Palm Springs</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">92262 — Desert Hot Springs</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">92270 — Rancho Mirage</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Deepwell Estates</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Tahquitz Canyon</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">PSP Airport</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photo + Description + E-E-A-T Row -->
+            <div class="rounded-xl overflow-hidden" style="background-color: #fff; border: 1px solid #f3e8ff;">
+                <!-- Top purple border -->
+                <div class="h-1.5 w-full" style="background: linear-gradient(to right, #7e22ce, #9333ea);"></div>
+
+                <div class="grid md:grid-cols-2 gap-0">
+                    <!-- Text Side -->
+                    <div class="p-8 md:p-10 flex flex-col justify-center">
+                        <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving Palm Springs Neighborhoods</p>
+                        <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+                            Karma TMS Is Located Near Deepwell Estates, Tahquitz Canyon &amp; Palm Springs International Airport
+                        </h3>
+                        <p class="text-gray-700 mb-3">
+                            Our Palm Springs TMS clinic on <strong>S. Paseo Dorotea</strong> is just minutes from the <strong>Deepwell Estates</strong> neighborhood, the scenic <strong>Tahquitz Canyon</strong> trailhead, and <strong>Palm Springs International Airport (PSP)</strong> — making it easy to access advanced TMS therapy whether you live locally or fly in from elsewhere in Southern California.
+                        </p>
+                        <p class="text-gray-700 mb-6">
+                            Patients from <strong>Rancho Mirage</strong>, <strong>Cathedral City</strong>, <strong>Desert Hot Springs</strong>, <strong>Indio</strong>, and <strong>La Quinta</strong> also benefit from our central Coachella Valley location — with ample parking and easy access off South Palm Canyon Drive.
+                        </p>
+
+                        <!-- Inline E-E-A-T Banner -->
+                        <div class="flex items-center gap-3 px-4 py-3 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #e9d5ff;">
+                                <i data-lucide="shield-check" class="w-4 h-4" style="color: #7e22ce;"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
+                                <p class="text-sm font-medium" style="color: #4c1d95;">
+                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Side -->
+                    <div class="relative" style="min-height: 300px;">
+                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
+                            alt="Karma Doctors & Karma TMS Brain Wellness Center — Palm Springs clinic near Deepwell Estates, Tahquitz Canyon, and Palm Springs International Airport"
+                            class="w-full h-full object-cover" style="min-height: 300px;">
+                        <div class="absolute top-4 left-4">
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold" style="background-color: #7e22ce; color: #fff;">
+                                Palm Springs TMS Clinic
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom purple border -->
+                <div class="h-1.5 w-full" style="background: linear-gradient(to right, #7e22ce, #9333ea);"></div>
+            </div>
+
         </div>
     </section>
 

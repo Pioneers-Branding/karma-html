@@ -435,6 +435,91 @@
         </div>
     </section>
 
+    <!-- Insurance Section - targets IEHP + Medicare search intent -->
+    <section class="py-16 px-4" style="background: linear-gradient(135deg, #f0fdf4, #dcfce7);">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-10">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #16a34a; color: #fff;">Accepted Insurance</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Insurance-Verified TMS in Palm Springs & Coachella Valley
+                </h2>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    Karma TMS accepts most major insurance plans including Medicare, IEHP, Tricare, Blue Cross Blue Shield, Aetna, and Cigna. We handle all prior authorizations for you — so you can focus on getting better.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                <!-- Medicare -->
+                <div class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors">
+                    <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #16a34a;">
+                        <i data-lucide="shield-check" class="w-7 h-7 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Medicare</h3>
+                    <p class="text-gray-700 text-sm mb-3">Medicare Part B covers FDA-cleared TMS therapy for treatment-resistant depression at our Palm Springs clinic.</p>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold" style="background-color: #dcfce7; color: #15803d;">Accepted at all 3 locations</span>
+                </div>
+
+                <!-- IEHP -->
+                <div class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors" style="background: linear-gradient(135deg, #f0fdf4, #ecfdf5);">
+                    <div class="absolute -top-3 -right-3 w-8 h-8 rounded-full flex items-center justify-center" style="background-color: #f97316;">
+                        <i data-lucide="star" class="w-4 h-4 text-white"></i>
+                    </div>
+                    <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #16a34a;">
+                        <i data-lucide="heart" class="w-7 h-7 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">IEHP</h3>
+                    <p class="text-gray-700 text-sm mb-3">IEHP (Inland Empire Health Plan) members in the Coachella Valley can access TMS therapy at our Palm Springs and Twentynine Palms locations.</p>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold" style="background-color: #dcfce7; color: #15803d;">IEHP Members Welcome</span>
+                </div>
+
+                <!-- Tricare -->
+                <div class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors">
+                    <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4" style="background-color: #16a34a;">
+                        <i data-lucide="users" class="w-7 h-7 text-white"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Tricare</h3>
+                    <p class="text-gray-700 text-sm mb-3">Active-duty military and veterans covered by Tricare can receive TMS at our Twentynine Palms location — minutes from the Marine base.</p>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold" style="background-color: #dcfce7; color: #15803d;">Veterans & Military</span>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-4 gap-4 mb-8">
+                <div class="text-center p-3 rounded-lg bg-white">
+                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <span class="text-sm font-medium text-gray-800">Blue Cross Blue Shield</span>
+                </div>
+                <div class="text-center p-3 rounded-lg bg-white">
+                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <span class="text-sm font-medium text-gray-800">Aetna</span>
+                </div>
+                <div class="text-center p-3 rounded-lg bg-white">
+                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <span class="text-sm font-medium text-gray-800">Cigna</span>
+                </div>
+                <div class="text-center p-3 rounded-lg bg-white">
+                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <span class="text-sm font-medium text-gray-800">Humana</span>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <p class="text-gray-700 mb-4 text-base">
+                    Not sure if your plan covers TMS? <strong>We verify your benefits for free</strong> before you start treatment.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center">
+                    <a href="tel:760-760-5675" class="bm-hero-btn" style="background-color: #16a34a;">
+                        <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
+                        Verify My Insurance
+                    </a>
+                    <a href="is-tms-therapy-covered-by-insurance.php" class="bm-outline-btn" style="border-color: #16a34a; color: #16a34a;">
+                        <i data-lucide="file-text" class="w-5 h-5 mr-2"></i>
+                        Does Insurance Cover TMS?
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Conditions Section -->
     <section class="section bg-white">
         <div class="container">
@@ -460,6 +545,7 @@
                     </div>
                     <p class="condition-description">FDA-cleared for major depressive disorder when multiple
                         antidepressants haven't worked effectively.</p>
+                    <p class="condition-snippet">Our Palm Springs, Rancho Mirage, and Twentynine Palms TMS clinics directly stimulate the prefrontal cortex — the brain region responsible for mood regulation. When antidepressants fail, TMS often succeeds. 60-70% response rate, 50% remission, benefits lasting 12+ months.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">85% improvement rate</span>
                         <a href="depression.php"
@@ -482,6 +568,7 @@
                     </div>
                     <p class="condition-description">Effective treatment for various anxiety disorders including GAD,
                         social anxiety, and panic disorder.</p>
+                    <p class="condition-snippet">TMS targets the amygdala and prefrontal cortex — the brain's fear centers — directly reducing the neurological roots of anxiety. No medication required, no drowsiness or dependency risk. Our Palm Springs TMS clinic offers a medication-free path to calm for Coachella Valley residents.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Significant relief in 6-8 weeks</span>
                         <a href="anxiety.php"
@@ -504,6 +591,7 @@
                     </div>
                     <p class="condition-description">Targeted therapy for trauma-related disorders and complex PTSD
                         symptoms.</p>
+                    <p class="condition-snippet">TMS modulates the amygdala and prefrontal cortex to reduce trauma responses and intrusive memories. Our Twentynine Palms location is minutes from the Marine base — serving the veteran and first-responder community of the high desert with specialized PTSD TMS protocols.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Clinically proven results</span>
                         <a href="ptsd.php"
@@ -526,6 +614,7 @@
                     </div>
                     <p class="condition-description">Specialized TMS protocols for obsessive-compulsive disorder and
                         related conditions.</p>
+                    <p class="condition-snippet">FDA-cleared Deep TMS targets the medial prefrontal cortex and anterior cingulate cortex — the brain circuits behind obsessive thoughts and compulsive behaviors. Unlike medication, TMS addresses the root circuit directly. Our Palm Springs TMS clinic offers this breakthrough protocol.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">FDA-cleared protocol</span>
                         <a href="ocd.php"
@@ -548,6 +637,7 @@
                     </div>
                     <p class="condition-description">Safe treatment for postpartum depression, perinatal mood disorders,
                         and hormone-related conditions.</p>
+                    <p class="condition-snippet">Perinatal depression, PMDD, and menopause-related mood changes often involve hormonal effects on brain circuits. TMS directly targets those circuits — without requiring medication adjustments. Our Palm Springs TMS clinic provides safe, non-systemic treatment for women's mental health across all life stages.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Safe during pregnancy</span>
                         <a href="womens-mood.php"
@@ -570,6 +660,7 @@
                     </div>
                     <p class="condition-description">Treatment for chronic stress, adjustment disorders, and major life
                         transition challenges.</p>
+                    <p class="condition-snippet">Chronic stress damages the prefrontal cortex over time, leading to burnout and anxiety. TMS restores healthy neural activity in the brain's stress-response pathways — helping you regain balance, focus, and resilience. Available at all three Coachella Valley TMS locations.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Rapid symptom relief</span>
                         <a href="conditions.php"
@@ -592,6 +683,7 @@
                     </div>
                     <p class="condition-description">Comprehensive treatment strategies for ADHD including medication
                         management and behavioral therapy.</p>
+                    <p class="condition-snippet">TMS can enhance attention, impulse control, and executive function by stimulating the prefrontal cortex — the brain region underactive in ADHD. Available at our Palm Springs, Rancho Mirage, and Twentynine Palms TMS clinics as part of a comprehensive ADHD treatment plan.</p>
                     <div class="flex items-center justify-between mt-auto">
                         <span class="condition-badge mb-0">Individualized Care</span>
                         <a href="how-does-adhd-treatment-work.php"

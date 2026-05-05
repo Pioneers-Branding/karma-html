@@ -552,6 +552,20 @@
                         Take the Assessment
                     </a>
                 </div>
+                <!-- E-E-A-T: Medical Review Attribution Banner -->
+                <div class="mt-8 pt-6" style="border-top: 1px solid #e5e7eb;">
+                    <div class="inline-flex items-center gap-3 px-6 py-3 rounded-lg w-full justify-center" style="background-color: #f3e8ff;">
+                        <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #e9d5ff;">
+                            <i data-lucide="shield-check" class="w-4 h-4" style="color: #7e22ce;"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
+                            <p class="text-sm font-medium" style="color: #4c1d95;">
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

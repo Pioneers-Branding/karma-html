@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Depression Treatment Center in Palm Springs | Karma TMS PC</title>
+    <title>Depression Treatment in Palm Springs & Coachella Valley | TMS Therapy for Depression</title>
     <meta name="description"
-        content="Karma TMS PC offers advanced and compassionate Depression Treatment in Palm Springs, providing personalized and expert mental health care for lasting recovery.">
+        content="FDA-cleared TMS therapy for depression in Palm Springs and Coachella Valley. Non-invasive treatment when antidepressants fail. 60-70% response rate, 50% remission. Insurance accepted.">
     <meta name="keywords"
-        content="depression treatment center Palm Springs, depression Palm Springs, CA, depression therapy Palm Springs,CA">
+        content="TMS depression treatment Palm Springs, why TMS for depression, treatment-resistant depression, brain stimulation depression therapy">
 
     <?php include 'includes/header-links.php'; ?>
 
@@ -167,13 +167,105 @@
         </div>
     </section>
 
+    <!-- Answer Block: Why TMS for Depression -->
+    <section class="py-16 px-4 bg-white border-b-4" style="border-color: #7e22ce;">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-10">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #f3e8ff; color: #7e22ce;">Direct Answer</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Why TMS Is the Best Treatment Option for Palm Springs Residents with Depression
+                </h2>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    If standard medications are not working for your depression, TMS offers a proven, non-invasive solution. Here is why Palm Springs area residents are choosing it:
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-10">
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #e9d5ff;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">TMS Therapy</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> 60-70% response rate for treatment-resistant depression</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> FDA-cleared since 2008 with extensive research</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> No surgery, sedation, or hospitalization</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> No systemic side effects like weight gain or sexual dysfunction</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Benefits last 12+ months after completing treatment</li>
+                    </ul>
+                </div>
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #fca5a5;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Antidepressant Medications</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> 30-50% of patients do not respond adequately</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Common side effects: weight gain, sexual dysfunction, nausea</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> May require trial of multiple medications over months</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Often a long-term commitment with withdrawal challenges</li>
+                    </ul>
+                </div>
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #93c5fd;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Electroconvulsive Therapy (ECT)</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Requires anesthesia and carries surgical risks</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Memory side effects are common</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Typically reserved for severe, refractory cases</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Highly effective for very severe depression</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Why Palm Springs Answer Block -->
+            <div class="rounded-xl p-8" style="background: linear-gradient(135deg, #f3e8ff, #faf5ff);">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                    Why Depression Treatment Matters More in Palm Springs Than Ever
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Coachella Valley Seasonal Patterns</h4>
+                            <p class="text-gray-700 text-sm">The desert's extreme summer heat forces many residents indoors from May through September, reducing physical activity and social connection — two key factors in managing depression. Our TMS clinic provides consistent, year-round access to care regardless of the season.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="users" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Snowbird Population and Support Gaps</h4>
+                            <p class="text-gray-700 text-sm">Palm Springs' large seasonal population means many residents lose their regular mental health support network when returning north. Karma TMS provides a stable local care option for both year-round and seasonal residents.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="trending-up" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Treatment-Resistant Depression Is Common</h4>
+                            <p class="text-gray-700 text-sm">Studies show 30-50% of depression patients do not respond adequately to the first antidepressant tried. If you have tried one or more medications without adequate relief, you are not alone — and TMS may be the answer.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="clock" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Proven Results in Weeks, Not Months</h4>
+                            <p class="text-gray-700 text-sm">Most patients notice mood improvements within 2-4 weeks of starting TMS. The full 6-8 week protocol delivers results comparable to or better than long-term medication regimens — without the daily pill burden.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- What is Depression Section -->
     <section class="py-16 px-4 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold mb-3" style="background-color: #f3e8ff; color: #7e22ce;">Answer Block</span>
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">
-                        What is Depression?
+                        What Is Depression? A Direct Explanation
                     </h2>
                     <p class="text-lg text-gray-700 mb-6">
                         Depression is more than just feeling sad or going through a rough patch. It's a serious mental
@@ -556,6 +648,20 @@
                         <i data-lucide="arrow-right" class="w-5 h-5 mr-2"></i>
                         Take the Assessment
                     </a>
+                </div>
+                <!-- E-E-A-T: Medical Review Attribution Banner -->
+                <div class="mt-8 pt-6" style="border-top: 1px solid #e5e7eb;">
+                    <div class="inline-flex items-center gap-3 px-6 py-3 rounded-lg w-full justify-center" style="background-color: #f3e8ff;">
+                        <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #e9d5ff;">
+                            <i data-lucide="shield-check" class="w-4 h-4" style="color: #7e22ce;"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
+                            <p class="text-sm font-medium" style="color: #4c1d95;">
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

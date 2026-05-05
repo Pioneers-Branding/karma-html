@@ -549,6 +549,21 @@
 
     <?php include 'includes/footer.php'; ?>
 
+    <!-- E-E-A-T: Medically Reviewed By -->
+    <section class="py-6 px-4 bg-white border-t border-gray-100">
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="flex items-center justify-center gap-3">
+                <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f3e8ff;">
+                    <i data-lucide="shield-check" class="w-5 h-5" style="color: #7e22ce;"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-wide text-gray-500">Content Accuracy</p>
+                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             // Scroll Spy for Table of Contents

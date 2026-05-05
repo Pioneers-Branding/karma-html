@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anxiety Treatment Center in Palm Springs | Karma TMS PC</title>
+    <title>Anxiety Treatment in Palm Springs & Coachella Valley | TMS Therapy for Anxiety</title>
     <meta name="description"
-        content="Karma TMS PC offers personalized and effective anxiety treatment in Palm Springs using advanced therapy to help you regain calm, balance, and emotional well-being.">
+        content="FDA-cleared TMS therapy for anxiety in Palm Springs and Coachella Valley. Non-invasive, medication-free treatment targeting the brain's fear center. 50-60% response rate. Insurance accepted.">
     <meta name="keywords"
-        content="anxiety therapy Palm Springs, CA, anxiety treatment palm springs, anxiety treatment center in palm springs">
+        content="TMS anxiety treatment Palm Springs, why TMS for anxiety, anxiety treatment without medication, brain stimulation anxiety therapy">
 
     <?php include 'includes/header-links.php'; ?>
 
@@ -143,13 +143,105 @@
         </div>
     </section>
 
+    <!-- Answer Block: Why TMS for Anxiety -->
+    <section class="py-16 px-4 bg-white border-b-4" style="border-color: #7e22ce;">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-10">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #f3e8ff; color: #7e22ce;">Common Question</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Why Choose TMS for Anxiety Over Medication or Therapy Alone?
+                </h2>
+                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
+                    For Palm Springs and Coachella Valley residents, TMS therapy addresses the root neurological cause of anxiety — not just the symptoms. Here is how it compares:
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8 mb-10">
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #e9d5ff;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">TMS Therapy</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Targets the brain's fear center directly</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Non-invasive, no medication required</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> No drowsiness, weight gain, or dependency</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> 50-60% response rate in clinical studies</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Benefits last 12+ months for most patients</li>
+                    </ul>
+                </div>
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #fca5a5;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Anti-Anxiety Medications</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Only masks symptoms, does not address root cause</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Benzodiazepines carry dependency risk</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Common side effects: drowsiness, brain fog, weight gain</li>
+                        <li class="flex items-start gap-2"><i data-lucide="x" class="w-4 h-4 text-red-500 mt-1 flex-shrink-0"></i> Symptoms often return when medication is stopped</li>
+                    </ul>
+                </div>
+                <div class="bm-benefit-card p-6 border-2" style="border-color: #93c5fd;">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Talk Therapy Alone</h3>
+                    <ul class="space-y-2 text-gray-700">
+                        <li class="flex items-start gap-2"><i data-lucide="minus" class="w-4 h-4 text-blue-500 mt-1 flex-shrink-0"></i> Highly effective but can take months to see results</li>
+                        <li class="flex items-start gap-2"><i data-lucide="minus" class="w-4 h-4 text-blue-500 mt-1 flex-shrink-0"></i> Does not address underlying neurological imbalances</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Complements TMS well when combined</li>
+                        <li class="flex items-start gap-2"><i data-lucide="check" class="w-4 h-4 text-green-600 mt-1 flex-shrink-0"></i> Long-term coping strategies</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Why Palm Springs Answer Block -->
+            <div class="rounded-xl p-8" style="background: linear-gradient(135deg, #f3e8ff, #faf5ff);">
+                <h3 class="text-2xl font-bold text-gray-900 mb-4">
+                    Why Palm Springs and Coachella Valley Residents Choose Karma TMS for Anxiety
+                </h3>
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Desert Climate and Anxiety</h4>
+                            <p class="text-gray-700 text-sm">The Coachella Valley's extreme summer heat and seasonal isolation can intensify anxiety symptoms. Our local Palm Springs clinic offers accessible, year-round treatment without long drives to Los Angeles.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="users" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Limited Local Mental Health Options</h4>
+                            <p class="text-gray-700 text-sm">Palm Springs has historically had limited psychiatry options. Karma TMS brings FDA-cleared TMS technology directly to the Coachella Valley, so you can receive advanced care close to home.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="shield-check" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">Veterans and First Responders</h4>
+                            <p class="text-gray-700 text-sm">The Coachella Valley has a large veteran and first-responder community. TMS is proven effective for anxiety-related trauma and stress disorders common in these populations.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #7e22ce;">
+                            <i data-lucide="clock" class="w-5 h-5 text-white"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-900 mb-1">30-Minute Sessions, Back to Your Day</h4>
+                            <p class="text-gray-700 text-sm">Unlike intensive outpatient programs or residential treatment, TMS fits into your life. Sessions take 20-30 minutes with zero downtime — you can return to work or daily activities immediately.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- What are Anxiety Disorders Section -->
     <section class="py-16 px-4 bg-white">
         <div class="max-w-6xl mx-auto">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div>
+                    <span class="inline-block px-3 py-1 rounded-full text-xs font-bold mb-3" style="background-color: #f3e8ff; color: #7e22ce;">Answer Block</span>
                     <h2 class="text-3xl font-bold text-gray-900 mb-6">
-                        What are Anxiety Disorders?
+                        What Are Anxiety Disorders? A Clear Answer
                     </h2>
                     <p class="text-lg text-gray-700 mb-6">
                         Anxiety disorders represent a group of mental health conditions characterized by excessive fear,
@@ -541,6 +633,20 @@
                         Take the Assessment
                     </a>
                 </div>
+                <!-- E-E-A-T: Medical Review Attribution Banner -->
+                <div class="mt-8 pt-6" style="border-top: 1px solid #e5e7eb;">
+                    <div class="inline-flex items-center gap-3 px-6 py-3 rounded-lg w-full justify-center" style="background-color: #f3e8ff;">
+                        <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #e9d5ff;">
+                            <i data-lucide="shield-check" class="w-4 h-4" style="color: #7e22ce;"></i>
+                        </div>
+                        <div class="text-left">
+                            <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
+                            <p class="text-sm font-medium" style="color: #4c1d95;">
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -658,6 +764,21 @@
     </section>
 
     <?php include 'includes/footer.php'; ?>
+
+    <!-- E-E-A-T: Medically Reviewed By -->
+    <section class="py-6 px-4 bg-white border-t border-gray-100">
+        <div class="max-w-5xl mx-auto text-center">
+            <div class="flex items-center justify-center gap-3">
+                <div class="w-10 h-10 rounded-full flex items-center justify-center" style="background-color: #f3e8ff;">
+                    <i data-lucide="shield-check" class="w-5 h-5" style="color: #7e22ce;"></i>
+                </div>
+                <div>
+                    <p class="text-xs font-semibold uppercase tracking-wide text-gray-500">Content Accuracy</p>
+                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {

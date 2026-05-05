@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KarmaTMS Twentynine Palms | TMS Therapy for Veterans & Military | (760) 760-5675</title>
+    <title>TMS Therapy in Twentynine Palms, CA | Depression & Anxiety Treatment | Karma TMS</title>
     <meta name="description"
-        content="TMS therapy in Twentynine Palms, CA near MCAGCC. Specialized PTSD treatment for veterans and active military. Depression and anxiety care. Tricare accepted.">
+        content="TMS therapy in Twentynine Palms, CA near MCAGCC Marine Base. FDA-cleared treatment for veterans, depression, anxiety, PTSD, and OCD. Tricare and IEHP accepted. Serving the high desert and Southern California.">
     <meta name="keywords"
-        content="TMS therapy 29 Palms, Twentynine Palms mental health, PTSD treatment Marines, veterans TMS therapy, Tricare TMS, MCAGCC mental health">
+        content="TMS therapy 29 Palms, Twentynine Palms CA, depression treatment 29 Palms, anxiety treatment Twentynine Palms, veterans TMS therapy, PTSD treatment Twentynine Palms, OCD treatment Twentynine Palms, MCAGCC mental health, Tricare TMS 29 Palms, karma TMS Twentynine Palms">
 
     <?php include 'includes/header-links.php'; ?>
 
@@ -401,75 +401,148 @@
         </div>
     </section>
 
-    <!-- Visit Our Twentynine Palms Location -->
-    <section class="py-20 bg-white">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Visit Our Twentynine Palms Location</h2>
+    <!-- =============================================
+         UNIFIED LOCATION SECTION
+         ============================================= -->
+    <section class="py-16 px-4" style="background-color: #f9fafb;">
+        <div class="max-w-6xl mx-auto">
 
-            <div class="max-w-3xl mx-auto">
-                <!-- Twentynine Palms Office -->
-                <div class="bm-benefit-card overflow-hidden shadow-xl p-8 mb-8">
-                    <div class="flex items-center gap-2 mb-6">
-                        <i data-lucide="building-2" class="w-6 h-6 text-purple-600"></i>
-                        <h3 class="text-2xl font-bold">Twentynine Palms Office</h3>
-                    </div>
+            <!-- Section Header -->
+            <div class="text-center mb-12">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #7e22ce; color: #fff;">Find Us</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                    Visit Our Twentynine Palms TMS Clinic
+                </h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Located on 29 Palms Highway near MCAGCC Marine Base, Royal Farley VA Clinic, and Joshua Tree National Park. Serving Joshua Tree, Yucca Valley, Morongo Valley, and the High Desert.
+                </p>
+            </div>
 
-                    <div class="space-y-4 mb-6">
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="map-pin" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <p class="font-medium">72724 29 Palms Hwy. Suite 107 - B</p>
-                                <p class="text-gray-600">Twentynine Palms, CA 92277</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="phone" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <a href="tel:7607605675" class="hover:text-purple-600 transition-colors font-medium">(760)
-                                760-5675</a>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="clock" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <p class="font-medium">Monday - Friday: 8:00 AM - 6:00 PM</p>
-                                <p class="text-gray-600">Saturday - Sunday: Closed</p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-3">
-                            <i data-lucide="mail" class="w-5 h-5 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <a href="mailto:contact@karmatms.com"
-                                class="hover:text-purple-600 transition-colors">contact@karmatms.com</a>
-                        </div>
-                    </div>
-
-                    <div class="space-y-3">
-                        <a href="https://share.google/xal7Ao0BlsOZIVP7t" target="_blank" rel="noopener noreferrer">
-                            <button class="bm-outline-btn w-full group mb-3">
-                                <i data-lucide="navigation"
-                                    class="w-4 h-4 mr-2 group-hover:translate-x-1 transition-transform"></i>
-                                Get Directions
-                            </button>
-                        </a>
-                        <a href="https://maps.app.goo.gl/HF9GXoiQUX4BPxPL8" target="_blank" rel="noopener noreferrer">
-                            <button class="bm-outline-btn w-full">
-                                <i data-lucide="star" class="w-4 h-4 mr-2"></i>
-                                View on Google
-                            </button>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Google Map -->
-                <div class="rounded-lg overflow-hidden shadow-xl mb-8">
+            <!-- Map + Info Card Row -->
+            <div class="grid md:grid-cols-2 gap-8 items-start mb-12">
+                <!-- Map -->
+                <div class="rounded-xl overflow-hidden shadow-xl" style="height: 440px; position: relative;">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d611.8117857393111!2d-116.0759116499806!3d34.13583548893029!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e1!3m2!1sen!2sin!4v1763983601656!5m2!1sen!2sin"
-                        width="100%" height="400" style="border: 0;" allowfullscreen loading="lazy"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
-                        title="Map of KarmaTMS Twentynine Palms Location"></iframe>
+                        title="KarmaTMS Twentynine Palms Clinic Location">
+                    </iframe>
+                </div>
+
+                <!-- Info Card -->
+                <div>
+                    <div class="bm-benefit-card p-8 rounded-xl shadow-xl mb-6">
+                        <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
+                            <i data-lucide="map-pin" class="w-6 h-6" style="color: #7e22ce;"></i>
+                            Karma TMS PC — Twentynine Palms
+                        </h3>
+                        <div class="space-y-5">
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="building-2" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Street Address</p>
+                                    <p class="text-gray-600">72724 29 Palms Hwy. Suite 107 - B<br>Twentynine Palms, CA 92277</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="plane" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Nearest VA Clinic</p>
+                                    <p class="text-gray-600">Royal Farley VA Clinic<br>~10 minutes drive</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
+                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-3">
+                                <i data-lucide="phone" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <div>
+                                    <p class="font-semibold text-gray-900 text-sm">Phone</p>
+                                    <a href="tel:760-760-5675" class="font-semibold hover:underline" style="color: #7e22ce;">(760) 760-5675</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Directions Button -->
+                    <a href="https://share.google/xal7Ao0BlsOZIVP7t"
+                        target="_blank" rel="noopener noreferrer"
+                        class="flex items-center justify-center gap-2 w-full py-3.5 rounded-lg font-semibold transition-all shadow-md hover:shadow-xl"
+                        style="background-color: #7e22ce; color: #fff; text-decoration: none;">
+                        <i data-lucide="navigation" class="w-5 h-5"></i>
+                        Get Directions on Google Maps
+                    </a>
+
+                    <!-- Nearby Landmarks -->
+                    <div class="mt-6 p-5 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
+                        <p class="text-sm font-bold mb-3" style="color: #7e22ce;">
+                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks
+                        </p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">MCAGCC Marine Base</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Royal Farley VA Clinic</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Joshua Tree</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">29 Palms Hwy</span>
+                        </div>
+                    </div>
                 </div>
             </div>
+
+            <!-- Photo + Description + E-E-A-T Row -->
+            <div class="rounded-xl overflow-hidden" style="background-color: #fff; border: 1px solid #f3e8ff;">
+                <!-- Top purple border -->
+                <div class="h-1.5 w-full" style="background: linear-gradient(to right, #7e22ce, #9333ea);"></div>
+
+                <div class="grid md:grid-cols-2 gap-0">
+                    <!-- Text Side -->
+                    <div class="p-8 md:p-10 flex flex-col justify-center">
+                        <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving High Desert Communities</p>
+                        <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
+                            Karma TMS Twentynine Palms Is Located Near MCAGCC Marine Base & Joshua Tree
+                        </h3>
+                        <p class="text-gray-700 mb-3">
+                            Our Twentynine Palms TMS clinic on <strong>29 Palms Highway</strong> is just minutes from <strong>MCAGCC Marine Corps Base</strong>, the <strong>Royal Farley VA Clinic</strong>, and the entrance to <strong>Joshua Tree National Park</strong> — serving active military, veterans, and high desert residents across Southern California's inland empire.
+                        </p>
+                        <p class="text-gray-700 mb-6">
+                            Patients from <strong>Joshua Tree</strong>, <strong>Yucca Valley</strong>, <strong>Morongo Valley</strong>, <strong>Banning</strong>, and <strong>Beaumont</strong> travel to our 29 Palms location for advanced TMS therapy without making the long drive to Los Angeles or San Bernardino.
+                        </p>
+
+                        <!-- Inline E-E-A-T Banner -->
+                        <div class="flex items-center gap-3 px-4 py-3 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style="background-color: #e9d5ff;">
+                                <i data-lucide="shield-check" class="w-4 h-4" style="color: #7e22ce;"></i>
+                            </div>
+                            <div>
+                                <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
+                                <p class="text-sm font-medium" style="color: #4c1d95;">
+                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Image Side -->
+                    <div class="relative" style="min-height: 300px;">
+                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png"
+                            alt="Karma TMS Twentynine Palms clinic — near MCAGCC Marine Base, Joshua Tree, and the High Desert"
+                            class="w-full h-full object-cover" style="min-height: 300px;">
+                        <div class="absolute top-4 left-4">
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold" style="background-color: #7e22ce; color: #fff;">
+                                Twentynine Palms TMS Clinic
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bottom purple border -->
+                <div class="h-1.5 w-full" style="background: linear-gradient(to right, #7e22ce, #9333ea);"></div>
+            </div>
+
         </div>
     </section>
 
