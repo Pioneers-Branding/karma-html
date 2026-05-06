@@ -148,16 +148,15 @@
             style="background-image: url('https://i.ibb.co/ZtXDgxm/4188f2c2-city-909-15b5d69d8f7.jpg'); background-size: cover; background-position: center; opacity: 0.2;">
         </div>
         <div class="container mx-auto relative" style="z-index: 10;">
-            <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold"
+            <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold shimmer"
                 style="background-color: rgba(147, 51, 234, 0.2); border: 1px solid rgba(216, 180, 254, 0.5);">
                 Twentynine Palms Location
             </span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-                TMS Therapy in Twentynine Palms, CA
+                TMS Therapy in 29 Palms, CA
             </h1>
             <p class="text-xl lg:text-2xl mb-8 max-w-3xl" style="color: rgba(216, 180, 254, 1);">
-                Specialized mental health treatment for military families and the High Desert community - PTSD,
-                depression, and anxiety care
+                Serving MCAGCC Marines, veterans, and High Desert families with FDA-cleared TMS therapy for PTSD, combat trauma, and treatment-resistant depression
             </p>
             <div class="flex flex-row flex-wrap gap-4">
                 <a href="contact-us.php" class="bm-hero-btn text-white" style="background-color: #9333ea;">
@@ -176,15 +175,14 @@
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-12">
-                    <h2 class="text-3xl lg:text-4xl font-bold mb-6">Serving the High Desert & Military Community</h2>
+                <div class="text-center mb-12 fade-up">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-6">Evidence-Based PTSD &amp; Depression Treatment in Twentynine Palms</h2>
                     <p class="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                        KarmaTMS Twentynine Palms is proud to serve active duty military, veterans, and families from
-                        Marine Corps Air Ground Combat Center and throughout the Morongo Basin.
+                        Located directly on <strong>29 Palms Highway</strong>, we proudly serve the Twentynine Palms community — including active-duty service members, veterans, and their families from <strong>MCAGCC (Marine Corps Air Ground Combat Center)</strong>. We specialize in non-invasive, FDA-cleared TMS therapy: a highly effective alternative for trauma-related anxiety (PTSD) and treatment-resistant depression when traditional medications fall short.
                     </p>
                 </div>
 
-                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12 fade-up">
                     <div>
                         <h3 class="text-2xl font-bold mb-4">Why Military Families Choose KarmaTMS</h3>
                         <p class="text-lg text-gray-700 mb-4">
@@ -232,7 +230,7 @@
     </section>
 
     <!-- Mental Health Services for Military Families -->
-    <section class="py-20" style="background-color: #f9fafb;">
+    <section class="py-20 fade-up" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-12">
@@ -242,7 +240,7 @@
                 </div>
                 <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                     <!-- Service 1 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">TMS Therapy</h3>
@@ -250,7 +248,7 @@
                     </div>
 
                     <!-- Service 2 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">PR-TMS</h3>
@@ -258,7 +256,7 @@
                     </div>
 
                     <!-- Service 3 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">Brain Mapping</h3>
@@ -266,7 +264,7 @@
                     </div>
 
                     <!-- Service 4 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">PTSD Treatment</h3>
@@ -274,7 +272,7 @@
                     </div>
 
                     <!-- Service 5 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">Medication Management</h3>
@@ -282,7 +280,7 @@
                     </div>
 
                     <!-- Service 6 -->
-                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
+                    <div class="bm-benefit-card p-6 hover:shadow-xl transition-all scale-in"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
                         <h3 class="text-xl font-bold mb-2">Psychiatric Evaluations</h3>
@@ -305,7 +303,7 @@
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Our Twentynine Palms Facility</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 fade-up">Our Twentynine Palms Facility</h2>
                 <div class="grid md:grid-cols-3 gap-6">
                     <!-- Image 1 -->
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
@@ -342,7 +340,7 @@
     </section>
 
     <!-- Why Twentynine Palms Trusts KarmaTMS -->
-    <section class="py-20" style="background: linear-gradient(to bottom right, #faf5ff, #faf5ff);">
+    <section class="py-20 fade-up" style="background: linear-gradient(to bottom right, #faf5ff, #faf5ff);">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-3xl lg:text-4xl font-bold mb-6">Why Twentynine Palms Trusts KarmaTMS</h2>
@@ -404,7 +402,7 @@
     <!-- =============================================
          UNIFIED LOCATION SECTION
          ============================================= -->
-    <section class="py-16 px-4" style="background-color: #f9fafb;">
+    <section class="py-16 px-4 fade-up" style="background-color: #f9fafb;">
         <div class="max-w-6xl mx-auto">
 
             <!-- Section Header -->
@@ -414,7 +412,7 @@
                     Visit Our Twentynine Palms TMS Clinic
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">
-                    Located on 29 Palms Highway near MCAGCC Marine Base, Royal Farley VA Clinic, and Joshua Tree National Park. Serving Joshua Tree, Yucca Valley, Morongo Valley, and the High Desert.
+                    Located at <strong>72724 29 Palms Hwy., Suite 107-B</strong> — directly on 29 Palms Highway, approximately 3 miles east of <strong>MCAGCC Marine Corps Air Ground Combat Center</strong>'s main gate on Adobe Road, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. Easy access with free parking directly in front of the building.
                 </p>
             </div>
 
@@ -446,10 +444,10 @@
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
-                                <i data-lucide="plane" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
+                                <i data-lucide="heart-pulse" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Nearest VA Clinic</p>
-                                    <p class="text-gray-600">Royal Farley VA Clinic<br>~10 minutes drive</p>
+                                    <p class="text-gray-600">Royal Farley VA Clinic<br>~5 miles (~8 min drive)</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -481,13 +479,13 @@
                     <!-- Nearby Landmarks -->
                     <div class="mt-6 p-5 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
                         <p class="text-sm font-bold mb-3" style="color: #7e22ce;">
-                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks
+                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks &amp; Driving Distances
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">MCAGCC Marine Base</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Royal Farley VA Clinic</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Joshua Tree</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">29 Palms Hwy</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">MCAGCC — ~3 miles west</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Royal Farley VA Clinic — &lt;5 miles</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Joshua Tree NP — ~15 miles north</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">29 Palms Hwy (directly on)</span>
                         </div>
                     </div>
                 </div>
@@ -503,13 +501,13 @@
                     <div class="p-8 md:p-10 flex flex-col justify-center">
                         <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving High Desert Communities</p>
                         <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                            Karma TMS Twentynine Palms Is Located Near MCAGCC Marine Base & Joshua Tree
+                            Karma TMS Is Located on 29 Palms Highway — Less Than 3 Miles from MCAGCC's Main Gate
                         </h3>
                         <p class="text-gray-700 mb-3">
-                            Our Twentynine Palms TMS clinic on <strong>29 Palms Highway</strong> is just minutes from <strong>MCAGCC Marine Corps Base</strong>, the <strong>Royal Farley VA Clinic</strong>, and the entrance to <strong>Joshua Tree National Park</strong> — serving active military, veterans, and high desert residents across Southern California's inland empire.
+                            Our Twentynine Palms TMS clinic at <strong>72724 29 Palms Hwy., Suite 107-B</strong> is located directly on 29 Palms Highway — approximately <strong>3 miles east of MCAGCC's main gate on Adobe Road</strong>, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. For active-duty personnel stationed at MCAGCC, the clinic is one of the closest mental health providers outside base, accessible without a long commute after duty hours.
                         </p>
                         <p class="text-gray-700 mb-6">
-                            Patients from <strong>Joshua Tree</strong>, <strong>Yucca Valley</strong>, <strong>Morongo Valley</strong>, <strong>Banning</strong>, and <strong>Beaumont</strong> travel to our 29 Palms location for advanced TMS therapy without making the long drive to Los Angeles or San Bernardino.
+                            Patients from <strong>Joshua Tree</strong>, <strong>Yucca Valley</strong>, <strong>Morongo Valley</strong>, <strong>Banning</strong>, and <strong>Beaumont</strong> also travel to our 29 Palms location for advanced TMS therapy without making the long drive to Los Angeles or San Bernardino. Joshua Tree National Park's west entrance is just 15 miles north on the highway.
                         </p>
 
                         <!-- Inline E-E-A-T Banner -->
@@ -547,7 +545,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-20" style="background-color: #f9fafb;">
+    <section class="py-20 fade-up" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
@@ -703,7 +701,6 @@
             const icon = trigger.querySelector('.faq-icon');
             const isActive = trigger.classList.contains('active');
 
-            // Close all FAQs in this section
             const section = trigger.closest('.bm-benefit-card');
             const allTriggers = section.querySelectorAll('.faq-trigger');
             const allContents = section.querySelectorAll('.faq-content');
@@ -713,20 +710,31 @@
             allContents.forEach(c => c.style.maxHeight = '0');
             allIcons.forEach(i => i.style.transform = 'rotate(0deg)');
 
-            // If it wasn't active, open it
             if (!isActive) {
                 trigger.classList.add('active');
                 content.style.maxHeight = '500px';
                 icon.style.transform = 'rotate(180deg)';
             }
 
-            // Recreate icons
             lucide.createIcons();
         }
+
+        // Scroll-reveal observer
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.fade-up, .scale-in, .slide-left, .slide-right').forEach(el => observer.observe(el));
+        });
     </script>
 
     <!-- Final CTA Section -->
-    <section class="py-20 text-white" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
+    <section class="py-20 text-white fade-up" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="container mx-auto px-4 text-center">
             <i data-lucide="shield" class="w-16 h-16 mx-auto mb-6" style="opacity: 0.8;"></i>
             <h2 class="text-3xl lg:text-4xl font-bold mb-6">Proud to Serve Those Who Serve</h2>

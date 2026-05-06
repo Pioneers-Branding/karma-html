@@ -1127,6 +1127,30 @@ function initBlogPage() {
                 "url": "is-ocd-a-disability.php"
             },
             {
+                "id": 53,
+                "title": "Mental Health Awareness Month: Why It Matters More Than Ever",
+                "excerpt": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available for those struggling in the Coachella Valley.",
+                "category": "mental-health",
+                "author": "Dr. Keerthy Sunder",
+                "date": "May 5, 2026",
+                "readTime": "8 min read",
+                "image": "images/blog/mental-health-awareness-month-banner.svg",
+                "featured": false,
+                "url": "mental-health-awareness-month.php"
+            },
+            {
+                "id": 54,
+                "title": "Is TMS Shock Therapy? The Truth About TMS vs. ECT",
+                "excerpt": "Does TMS use shock therapy? No — it's a common misconception. Learn the critical differences between TMS and ECT, why the word 'shock' is misleading, and what patients in Palm Springs should know.",
+                "category": "tms-therapy",
+                "author": "Dr. Keerthy Sunder",
+                "date": "May 2, 2026",
+                "readTime": "9 min read",
+                "image": "images/blog/is-tms-shock-therapy-banner.svg",
+                "featured": false,
+                "url": "is-tms-shock-therapy.php"
+            },
+            {
                 "id": 149,
                 "title": "How Much Does TMS Therapy Cost in the US?",
                 "excerpt": "Curious about the cost of TMS therapy? We break down the factors that influence the price, from insurance coverage to treatment protocols, and why it's a valuable investment in your future.",

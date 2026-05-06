@@ -143,7 +143,13 @@
                     <li><a href="insurance-pricing.php" class="footer-nav-link">Insurance & Pricing</a></li>
                 </ul>
 
-                <h4 class="footer-nav-subtitle">Legal & Privacy</h4>
+                <h4 class="footer-nav-subtitle">Sister Practice</h4>
+                <ul class="footer-nav-list">
+                    <li><a href="https://karmadocs.com/" target="_blank" rel="noopener noreferrer" class="footer-nav-link footer-nav-link-secondary">Karma Doctors & Associates</a></li>
+                </ul>
+                <p style="font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 6px; line-height: 1.5;">For comprehensive psychiatric evaluations and general mental health counseling, visit our sister practice.</p>
+
+                <h4 class="footer-nav-subtitle" style="margin-top: 16px;">Legal & Privacy</h4>
                 <ul class="footer-nav-list">
                     <li><a href="hipaa.php" class="footer-nav-link footer-nav-link-secondary">HIPAA</a></li>
                     <li><a href="disclaimer.php" class="footer-nav-link footer-nav-link-secondary">Terms</a></li>

@@ -772,6 +772,21 @@
         </div>
     </section>
 
+    <!-- Sister Practice Cross-Link -->
+    <section class="section" style="background: linear-gradient(135deg, #f8f4ff 0%, #f0f7ff 100%); border-top: 1px solid #e8e0f5; border-bottom: 1px solid #e8e0f5;">
+        <div class="container" style="text-align: center; padding: 40px 20px;">
+            <p style="font-size: 0.85rem; color: #7c6a9c; margin-bottom: 10px; text-transform: uppercase; letter-spacing: 1px; font-weight: 500;">Care Beyond TMS</p>
+            <h3 style="font-size: 1.6rem; color: #2d1f4e; margin: 0 0 12px 0;">Need More Generalized Psychiatric Support?</h3>
+            <p style="font-size: 1rem; color: #5a4a7a; max-width: 580px; margin: 0 auto 20px auto; line-height: 1.65;">
+                For comprehensive psychiatric evaluations and general mental health counseling, visit our sister practice.
+            </p>
+            <a href="https://karmadocs.com/" target="_blank" rel="noopener noreferrer"
+                style="display: inline-block; background: #6b4fa2; color: #fff; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-weight: 600; font-size: 0.95rem; transition: background 0.2s;">
+                Karma Doctors & Associates <i data-lucide="external-link" class="w-4 h-4" style="display:inline; vertical-align: middle; margin-left: 6px;"></i>
+            </a>
+        </div>
+    </section>
+
     <!-- Testimonials -->
     <section class="section bg-white">
         <div class="container">

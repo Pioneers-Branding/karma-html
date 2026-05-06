@@ -140,7 +140,7 @@
             style="background-image: url('https://i.ibb.co/qM2v12mM/Santo-Tomas-Rancho-Mirage-19.jpg'); background-size: cover; background-position: center; opacity: 0.2;">
         </div>
         <div class="container mx-auto relative" style="z-index: 10;">
-            <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold"
+            <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold shimmer"
                 style="background-color: rgba(147, 51, 234, 0.2); border: 1px solid rgba(216, 180, 254, 0.5);">
                 Rancho Mirage Location
             </span>
@@ -168,16 +168,14 @@
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <div class="text-center mb-12">
+                <div class="text-center mb-12 fade-up">
                     <h2 class="text-3xl lg:text-4xl font-bold mb-6">Premier Mental Health Care in Rancho Mirage</h2>
                     <p class="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                        KarmaTMS Rancho Mirage provides world-class mental health treatment in an exclusive, comfortable
-                        setting. Located on Bob Hope Drive, we serve Palm Desert, Indian Wells, La Quinta, and the
-                        entire Coachella Valley.
+                        Conveniently located on <strong>Bob Hope Drive</strong>, just minutes from the <strong>Eisenhower Health</strong> campus, our Rancho Mirage clinic provides an accessible, premium TMS care environment for patients throughout <strong>Palm Desert</strong>, <strong>Indian Wells</strong>, <strong>La Quinta</strong>, and the central Coachella Valley.
                     </p>
                 </div>
 
-                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12">
+                <div class="grid lg:grid-cols-2 gap-12 items-center mb-12 fade-up">
                     <div>
                         <h3 class="text-2xl font-bold mb-4">Exceptional Care in a Luxury Setting</h3>
                         <p class="text-lg text-gray-700 mb-4">
@@ -193,7 +191,7 @@
                                 disorders</a>, or other mental health challenges, our experienced team provides
                             compassionate, evidence-based care in a luxurious, discrete environment.
                         </p>
-                        <div class="grid grid-cols-2 gap-4">
+                        <div class="grid grid-cols-2 gap-4 fade-up">
                             <div class="flex items-center gap-2">
                                 <i data-lucide="award" class="w-5 h-5 text-purple-600"></i>
                                 <span class="font-medium">Luxury Facilities</span>
@@ -221,8 +219,68 @@
         </div>
     </section>
 
+    <!-- Rancho Mirage Review + Medical Hub Section -->
+    <section class="py-16 fade-up" style="background: linear-gradient(135deg, #faf5ff 0%, #eff6ff 100%);">
+        <div class="container mx-auto px-4">
+            <div class="max-w-6xl mx-auto">
+                <div class="grid lg:grid-cols-2 gap-10 items-center">
+                    <!-- Left: Eisenhower proximity content -->
+                    <div>
+                        <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #7e22ce; color: #fff;">Medical Hub Location</span>
+                        <h2 class="text-3xl lg:text-4xl font-bold mb-4">Strategically Located Near Eisenhower Medical Center</h2>
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            Our Rancho Mirage clinic on <strong>Bob Hope Drive</strong> is less than a mile from the <strong>Eisenhower Health</strong> campus — one of the Coachella Valley's premier medical centers. This proximity is no accident: many of our patients are referred directly from Eisenhower's psychiatry and neurology departments, and others are managed by physicians who see the value of adding TMS therapy to a patient's treatment plan.
+                        </p>
+                        <p class="text-lg text-gray-700 mb-4 leading-relaxed">
+                            For patients in the greater Palm Desert area, Indian Wells, and La Quinta, our location on Bob Hope Drive — just east of <strong>Highway 111</strong> — offers a level of medical authority and institutional trust that a standalone office simply cannot provide.
+                        </p>
+                        <div class="grid grid-cols-2 gap-3">
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="map-pin" class="w-4 h-4 text-purple-600"></i>
+                                <span class="text-sm text-gray-700">Bob Hope Dr. &amp; Hwy 111</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="building-2" class="w-4 h-4 text-purple-600"></i>
+                                <span class="text-sm text-gray-700">&lt;1 mile to Eisenhower Health</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="shield" class="w-4 h-4 text-purple-600"></i>
+                                <span class="text-sm text-gray-700">Trusted medical community</span>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <i data-lucide="car" class="w-4 h-4 text-purple-600"></i>
+                                <span class="text-sm text-gray-700">Ample free parking</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right: Julie Williamson Review -->
+                    <div class="rounded-xl p-8 shadow-xl" style="background-color: #fff; border: 1px solid #c7d2fe;">
+                        <div class="flex items-center gap-1 mb-4">
+                            <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                            <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
+                        </div>
+                        <p class="text-gray-700 italic mb-6 leading-relaxed text-lg">
+                            "I started at the Palm Springs facility and am happy that they are now in Rancho Mirage which is so convenient! Having this option closer to home has made it so much easier to stay consistent with my treatment."
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background-color: #4338ca;">JW</div>
+                            <div>
+                                <p class="font-semibold text-gray-900">Julie Williamson</p>
+                                <p class="text-sm text-gray-500">Verified Patient — Rancho Mirage</p>
+                            </div>
+                        </div>
+                        <p class="text-xs text-gray-400 mt-4 italic">Review sourced from Google Business Profile. Published with patient consent.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- EXOMIND EXCLUSIVE SECTION -->
-    <section class="py-20 text-white relative overflow-hidden"
+    <section class="py-20 text-white relative overflow-hidden fade-up"
         style="background: linear-gradient(to bottom right, #581c87, #4338ca, #6b21a8);">
         <div class="absolute inset-0" style="opacity: 0.1;">
             <div class="absolute inset-0"
@@ -257,7 +315,7 @@
 
                 <!-- Image Grid -->
                 <div class="grid md:grid-cols-3 gap-6 mb-12">
-                    <div class="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-105"
+                    <div class="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-105 scale-in"
                         style="height: 320px;">
                         <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg"
                             alt="Exomind TMS device - premium technology" class="w-full h-full object-cover">
@@ -350,7 +408,7 @@
     </section>
 
     <!-- Comprehensive Mental Health Services -->
-    <section class="py-20" style="background-color: #f9fafb;">
+    <section class="py-20 fade-up" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
             <div class="max-w-5xl mx-auto">
                 <div class="text-center mb-12">
@@ -422,7 +480,7 @@
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Experience Our Rancho Mirage Facility</h2>
+                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 fade-up">Experience Our Rancho Mirage Facility</h2>
                 <div class="grid md:grid-cols-3 gap-6">
                     <!-- Image 1 -->
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
@@ -459,7 +517,7 @@
     </section>
 
     <!-- Why Choose KarmaTMS Rancho Mirage -->
-    <section class="py-20" style="background: linear-gradient(to bottom right, #faf5ff, #faf5ff);">
+    <section class="py-20 fade-up" style="background: linear-gradient(to bottom right, #faf5ff, #faf5ff);">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-3xl lg:text-4xl font-bold mb-6">Why Choose KarmaTMS Rancho Mirage?</h2>
@@ -522,7 +580,7 @@
     <!-- =============================================
          UNIFIED LOCATION SECTION
          ============================================= -->
-    <section class="py-16 px-4" style="background-color: #f9fafb;">
+    <section class="py-16 px-4 fade-up" style="background-color: #f9fafb;">
         <div class="max-w-6xl mx-auto">
 
             <!-- Section Header -->
@@ -532,7 +590,7 @@
                     Visit Our Rancho Mirage TMS Clinic
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">
-                    Located on Bob Hope Drive near Thunderbird Country Club, Sunrise Park, and the Coachella Valley. Serving Palm Desert, La Quinta, Indio, and surrounding communities.
+                    Located at <strong>35400 Bob Hope Dr., Suite 206-B</strong> — on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus. Free parking is available in the building's dedicated lot.
                 </p>
             </div>
 
@@ -592,13 +650,14 @@
                     <!-- Nearby Landmarks -->
                     <div class="mt-6 p-5 rounded-lg" style="background-color: #f3e8ff; border: 1px solid #e9d5ff;">
                         <p class="text-sm font-bold mb-3" style="color: #7e22ce;">
-                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks
+                            <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks &amp; Service Area
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Thunderbird Country Club</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Sunrise Park</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Bob Hope Drive</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Highway 111</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Eisenhower Health campus</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Bob Hope Drive &amp; Hwy 111</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Palm Desert</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Indian Wells</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Gerald Ford Parkway</span>
                         </div>
                     </div>
                 </div>
@@ -614,13 +673,13 @@
                     <div class="p-8 md:p-10 flex flex-col justify-center">
                         <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving Coachella Valley Neighborhoods</p>
                         <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                            Karma TMS Rancho Mirage Is Located Near Thunderbird Country Club & Bob Hope Drive
+                            Karma TMS Rancho Mirage Is Located Near Eisenhower Health — Just East of Highway 111 on Bob Hope Drive
                         </h3>
                         <p class="text-gray-700 mb-3">
-                            Our Rancho Mirage TMS clinic on <strong>Bob Hope Drive</strong> is just minutes from the prestigious <strong>Thunderbird Country Club</strong>, <strong>Sunrise Park</strong>, and the <strong>CRSPOA golf courses</strong> — serving patients from across the Coachella Valley in a luxury setting.
+                            Our Rancho Mirage TMS clinic at <strong>35400 Bob Hope Dr., Suite 206-B</strong> sits on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus — the Coachella Valley's premier medical center. From Highway 111, head north on Bob Hope Drive; our building is immediately on the right before Gerald Ford Parkway.
                         </p>
                         <p class="text-gray-700 mb-6">
-                            Patients from <strong>Palm Desert</strong>, <strong>La Quinta</strong>, <strong>Indio</strong>, <strong>Cathedral City</strong>, and <strong>Palm Springs</strong> benefit from our central valley location with easy access off Bob Hope Drive and Highway 111.
+                            Patients from <strong>Palm Desert</strong>, <strong>Indian Wells</strong>, <strong>La Quinta</strong>, <strong>Indio</strong>, <strong>Cathedral City</strong>, and <strong>Palm Springs</strong> benefit from our central valley location with easy access off Bob Hope Drive and Highway 111. The Eisenhower Health referral network also brings patients from across the entire Coachella Valley.
                         </p>
 
                         <!-- Inline E-E-A-T Banner -->
@@ -658,7 +717,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-20" style="background-color: #f9fafb;">
+    <section class="py-20 fade-up" style="background-color: #f9fafb;">
         <div class="container mx-auto px-4">
             <div class="max-w-3xl mx-auto">
                 <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12">Frequently Asked Questions</h2>
@@ -812,7 +871,6 @@
             const icon = trigger.querySelector('.faq-icon');
             const isActive = trigger.classList.contains('active');
 
-            // Close all FAQs in this section
             const section = trigger.closest('.bm-benefit-card');
             const allTriggers = section.querySelectorAll('.faq-trigger');
             const allContents = section.querySelectorAll('.faq-content');
@@ -822,20 +880,31 @@
             allContents.forEach(c => c.style.maxHeight = '0');
             allIcons.forEach(i => i.style.transform = 'rotate(0deg)');
 
-            // If it wasn't active, open it
             if (!isActive) {
                 trigger.classList.add('active');
                 content.style.maxHeight = '500px';
                 icon.style.transform = 'rotate(180deg)';
             }
 
-            // Recreate icons
             lucide.createIcons();
         }
+
+        // Scroll-reveal observer
+        document.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                    }
+                });
+            }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+            document.querySelectorAll('.fade-up, .scale-in, .slide-left, .slide-right').forEach(el => observer.observe(el));
+        });
     </script>
 
     <!-- Final CTA Section -->
-    <section class="py-20 text-white" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
+    <section class="py-20 text-white fade-up" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="container mx-auto px-4 text-center">
             <h2 class="text-3xl lg:text-4xl font-bold mb-6">Begin Your Journey to Better Mental Health</h2>
             <p class="text-xl mb-10 max-w-2xl mx-auto" style="color: rgba(216, 180, 254, 1);">

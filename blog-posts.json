@@ -1,5 +1,29 @@
 [
     {
+        "id": 54,
+        "title": "Mental Health Awareness Month: Why It Matters More Than Ever",
+        "excerpt": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available for those struggling in the Coachella Valley.",
+        "category": "mental-health",
+        "author": "Dr. Keerthy Sunder",
+        "date": "May 5, 2026",
+        "readTime": "8 min read",
+        "image": "images/blog/mental-health-awareness-month-banner.svg",
+        "featured": false,
+        "url": "mental-health-awareness-month.php"
+    },
+    {
+        "id": 53,
+        "title": "Is TMS Shock Therapy? The Truth About TMS vs. ECT",
+        "excerpt": "Does TMS use shock therapy? No — it's a common misconception. Learn the critical differences between TMS and ECT, why the word 'shock' is misleading, and what patients in Palm Springs should know.",
+        "category": "tms-therapy",
+        "author": "Dr. Keerthy Sunder",
+        "date": "May 2, 2026",
+        "readTime": "9 min read",
+        "image": "images/blog/is-tms-shock-therapy-banner.svg",
+        "featured": false,
+        "url": "is-tms-shock-therapy.php"
+    },
+    {
         "id": 52,
         "title": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
         "excerpt": "If antidepressants haven't worked for you, you're not broken — your brain just needs a different approach. A board-certified psychiatrist explains exactly why TMS succeeds where medication fails.",
@@ -95,7 +119,6 @@
         "featured": false,
         "url": "how-long-does-tms-take-to-work-for-depression.php"
     },
-
     {
         "id": 44,
         "title": "Does Medicaid Cover TMS Therapy? A Complete Guide 2026",
@@ -109,18 +132,6 @@
         "url": "does-medicaid-cover-tms-therapy.php"
     },
     {
-        "id": 43,
-        "title": "What Are the First Signs of Schizophrenia?",
-        "excerpt": "Learn the early signs of schizophrenia, from social withdrawal to subtle paranoia. Discover the prodromal phase, risk factors, and treatment options in Palm Springs.",
-        "category": "mental-health",
-        "author": "Karma TMS Team",
-        "date": "February 10, 2026",
-        "readTime": "7 min read",
-        "image": "images/blog/mental-health-first-aid.png",
-        "featured": false,
-        "url": "what-are-the-first-signs-of-schizophrenia.php"
-    },
-    {
         "id": 42,
         "title": "Is TMS Therapy Actually Worth It? A Transparent Review",
         "excerpt": "Wondering if TMS therapy is worth it? We provide a transparent, no-hype review of costs, effectiveness, side effects, and long-term results to help you decide.",
@@ -131,6 +142,18 @@
         "image": "images/blog/is-tms-therapy-permanent-banner.png",
         "featured": false,
         "url": "is-tms-therapy-worth-it.php"
+    },
+    {
+        "id": 43,
+        "title": "What Are the First Signs of Schizophrenia?",
+        "excerpt": "Learn the early signs of schizophrenia, from social withdrawal to subtle paranoia. Discover the prodromal phase, risk factors, and treatment options in Palm Springs.",
+        "category": "mental-health",
+        "author": "Karma TMS Team",
+        "date": "February 10, 2026",
+        "readTime": "7 min read",
+        "image": "images/blog/mental-health-first-aid.png",
+        "featured": false,
+        "url": "what-are-the-first-signs-of-schizophrenia.php"
     },
     {
         "id": 41,
@@ -265,40 +288,16 @@
         "url": "how-does-adhd-treatment-work.php"
     },
     {
-        "id": 30,
-        "title": "TMS Therapy for Treatment Resistant Depression",
-        "excerpt": "Comprehensive guide to TMS therapy as an effective treatment for treatment-resistant depression, including success rates, benefits, and what to expect.",
+        "id": 7,
+        "title": "TMS for Anxiety in Veterans: A Promising Path Beyond Medication",
+        "excerpt": "Discover how TMS therapy helps veterans manage anxiety through brain regulation, offering hope beyond traditional medications.",
         "category": "tms-therapy",
-        "author": "karmatmsdev",
-        "date": "May 28, 2024",
-        "readTime": "14 min read",
-        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png",
-        "featured": false,
-        "url": "tms-therapy-for-treatment-resistant-depression.php"
-    },
-    {
-        "id": 26,
-        "title": "Discover the Impact of Social Media on Your Mental Well-being",
-        "excerpt": "Understanding how social media affects mental health. Learn about negative effects, warning signs, and strategies for healthier social media habits.",
-        "category": "tms-therapy",
-        "author": "karmatmsdev",
-        "date": "August 16, 2024",
-        "readTime": "13 min read",
-        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png",
-        "featured": false,
-        "url": "social-media-mental-wellbeing.php"
-    },
-    {
-        "id": 5,
-        "title": "How to Help Veterans with PTSD: Therapy, TMS, and Beyond",
-        "excerpt": "Compassionate guide for helping veterans with PTSD, including therapy options, TMS treatment, local resources, and support strategies for families.",
-        "category": "mental-health",
         "author": "Dr. Keerthy Sunder",
-        "date": "October 13, 2025",
-        "readTime": "17 min read",
-        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png",
+        "date": "October 27, 2025",
+        "readTime": "13 min read",
+        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/6_rrkhgo.png",
         "featured": false,
-        "url": "how-to-help-veterans-ptsd.php"
+        "url": "tms-anxiety-veterans.php"
     },
     {
         "id": 6,
@@ -313,16 +312,16 @@
         "url": "understanding-ptsd-veterans.php"
     },
     {
-        "id": 7,
-        "title": "TMS for Anxiety in Veterans: A Promising Path Beyond Medication",
-        "excerpt": "Discover how TMS therapy helps veterans manage anxiety through brain regulation, offering hope beyond traditional medications.",
-        "category": "tms-therapy",
+        "id": 5,
+        "title": "How to Help Veterans with PTSD: Therapy, TMS, and Beyond",
+        "excerpt": "Compassionate guide for helping veterans with PTSD, including therapy options, TMS treatment, local resources, and support strategies for families.",
+        "category": "mental-health",
         "author": "Dr. Keerthy Sunder",
-        "date": "October 27, 2025",
-        "readTime": "13 min read",
-        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/6_rrkhgo.png",
+        "date": "October 13, 2025",
+        "readTime": "17 min read",
+        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png",
         "featured": false,
-        "url": "tms-anxiety-veterans.php"
+        "url": "how-to-help-veterans-ptsd.php"
     },
     {
         "id": 10,
@@ -419,5 +418,29 @@
         "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376735/19_luad51.png",
         "featured": false,
         "url": "mental-health-first-aid.php"
+    },
+    {
+        "id": 26,
+        "title": "Discover the Impact of Social Media on Your Mental Well-being",
+        "excerpt": "Understanding how social media affects mental health. Learn about negative effects, warning signs, and strategies for healthier social media habits.",
+        "category": "tms-therapy",
+        "author": "karmatmsdev",
+        "date": "August 16, 2024",
+        "readTime": "13 min read",
+        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png",
+        "featured": false,
+        "url": "social-media-mental-wellbeing.php"
+    },
+    {
+        "id": 30,
+        "title": "TMS Therapy for Treatment Resistant Depression",
+        "excerpt": "Comprehensive guide to TMS therapy as an effective treatment for treatment-resistant depression, including success rates, benefits, and what to expect.",
+        "category": "tms-therapy",
+        "author": "karmatmsdev",
+        "date": "May 28, 2024",
+        "readTime": "14 min read",
+        "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png",
+        "featured": false,
+        "url": "tms-therapy-for-treatment-resistant-depression.php"
     }
 ]
