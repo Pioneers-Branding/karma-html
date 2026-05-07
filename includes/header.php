@@ -50,8 +50,8 @@
                     </div>
                 </div>
 
-                <a href="https://www.braintunetms.com/" target="_blank" class="nav-btn">
-                     Brain Tune Exomind
+                <a href="/exomind-tms.php" class="nav-btn">
+                    Brain Tune Exomind
 
                 </a>
 
@@ -134,7 +134,7 @@
                 </div>
 
                 <a href="contact-us.php" class="nav-btn">
-                  Contact
+                    Contact
                 </a>
             </nav>
 
@@ -221,7 +221,7 @@
 
         <div class="mobile-divider"></div>
 
-       
+
         <a href="https://www.braintunetms.com/" target="_blank" class="mobile-nav-item">
             <i data-lucide="sparkles" class="w-5 h-5"></i>
             <span>Brain Tune Exomind</span>
