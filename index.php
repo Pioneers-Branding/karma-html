@@ -20,90 +20,123 @@
 
     <?php include 'includes/header-links.php'; ?>
 
-    <!-- Schema.org JSON-LD: MedicalBusiness / LocalBusiness -->
+    <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": ["MedicalBusiness", "LocalBusiness"],
-      "@id": "https://www.karmatms.com/#organization",
-      "name": "Karma TMS PC",
-      "alternateName": "KarmaTMS",
-      "url": "https://www.karmatms.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "url": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/ebadb369-a58d-421c-b937-24f900be5867.png"
-      },
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg",
-      "description": "Karma TMS PC is California's trusted TMS therapy clinic, serving Palm Springs, Rancho Mirage, and the greater Coachella Valley. FDA-cleared treatment for depression, anxiety, OCD and PTSD with expert, personalized care.",
-      "telephone": "+17607605675",
-      "email": "contact@karmatms.com",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "560 S. Paseo Dorotea, Suite 4B",
-        "addressLocality": "Palm Springs",
-        "addressRegion": "CA",
-        "postalCode": "92264",
-        "addressCountry": "US"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": 33.8137,
-        "longitude": -116.5019
-      },
-      "hasMap": "https://maps.app.goo.gl/hJP949mZGLuHLn7Y9",
-      "openingHoursSpecification": [
+      "@graph": [
         {
-          "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-          "opens": "09:00",
-          "closes": "17:00"
-        }
-      ],
-      "priceRange": "$$",
-      "currenciesAccepted": "USD",
-      "paymentAccepted": "Insurance, Credit Card",
-      "medicalSpecialty": ["Psychiatry", "MentalHealth"],
-      "availableService": [
-        {
-          "@type": "MedicalTherapy",
-          "name": "TMS Therapy",
-          "description": "FDA-cleared Transcranial Magnetic Stimulation therapy for depression, anxiety, OCD and PTSD"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Personalized rTMS (PrTMS)",
-          "description": "EEG-guided personalized repetitive TMS for optimized outcomes"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Brain Mapping (qEEG)",
-          "description": "Advanced quantitative EEG brain analysis for targeted treatment planning"
-        },
-        {
-          "@type": "MedicalTherapy",
-          "name": "Medication Management",
-          "description": "Expert psychiatric medication assessment and monitoring"
-        }
-      ],
-      "sameAs": [
-        "https://www.prtms.com"
-      ],
-      "location": [
-        {
-          "@type": "Place",
-          "name": "KarmaTMS – Palm Springs",
+          "@type": ["LocalBusiness", "MedicalBusiness"],
+          "@id": "https://www.karmatms.com/#organization",
+          "name": "Karma TMS PC",
+          "url": "https://www.karmatms.com/",
+          "telephone": "+1-760-760-5675",
+          "email": "contact@karmatms.com",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "560 S. Paseo Dorotea, Suite 4B",
+            "streetAddress": "560 S. Paseo Dorotea, Suite 4-B",
             "addressLocality": "Palm Springs",
             "addressRegion": "CA",
             "postalCode": "92264",
             "addressCountry": "US"
-          }
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Saturday","Sunday"],
+              "opens": "00:00",
+              "closes": "00:00"
+            }
+          ],
+          "priceRange": "$$",
+          "areaServed": "Southern California, Coachella Valley",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "60",
+            "bestRating": "5"
+          },
+          "founder": {
+            "@id": "https://www.karmatms.com/#dr-sunder"
+          },
+          "location": [
+            {"@id": "https://www.karmatms.com/#palm-springs"},
+            {"@id": "https://www.karmatms.com/#rancho-mirage"},
+            {"@id": "https://www.karmatms.com/#twentynine-palms"}
+          ],
+          "sameAs": ["https://www.prtms.com"]
         },
         {
-          "@type": "Place",
-          "name": "KarmaTMS – Rancho Mirage",
+          "@type": ["Person", "MedicalBusiness"],
+          "@id": "https://www.karmatms.com/#dr-sunder",
+          "name": "Dr. Keerthy Sunder, MD",
+          "url": "https://www.karmatms.com/team.php",
+          "telephone": "+1-760-760-5675",
+          "email": "contact@karmatms.com",
+          "image": "https://www.prtms.com/wp-content/uploads/2023/03/Dr.-Keerthy-Sunder-scaled.jpg",
+          "description": "Double board-certified psychiatrist with 30+ years clinical experience in Psychiatry and Addiction Medicine. Faculty at UC Riverside School of Medicine. Board member, Society for Brain Mapping & Therapeutics.",
+          "sameAs": ["https://www.prtms.com"]
+        },
+        {
+          "@type": "MedicalBusiness",
+          "@id": "https://www.karmatms.com/#tms-service",
+          "name": "TMS Therapy (Transcranial Magnetic Stimulation)",
+          "url": "https://www.karmatms.com/tms-therapy.php",
+          "description": "FDA-cleared, non-invasive brain stimulation therapy using targeted magnetic pulses to treat depression, anxiety, OCD, and PTSD. Sessions are approximately 20 minutes, Monday through Friday for 6-8 weeks (36 total sessions)."
+        },
+        {
+          "@type": "MedicalBusiness",
+          "@id": "https://www.karmatms.com/#prtms-service",
+          "name": "PrTMS (Personalized Repetitive TMS with qEEG Brain Mapping)",
+          "url": "https://www.karmatms.com/prtms.php",
+          "description": "Advanced TMS guided by quantitative EEG (qEEG) brain mapping to personalize treatment parameters and maximize therapeutic outcomes. qEEG data informs individualized treatment parameters for each patient."
+        },
+        {
+          "@type": "MedicalBusiness",
+          "@id": "https://www.karmatms.com/#brain-mapping-service",
+          "name": "Brain Mapping (Quantitative EEG / qEEG)",
+          "url": "https://www.karmatms.com/brain-mapping.php",
+          "description": "Advanced neurophysiological assessment using quantitative EEG to visualize brain activity patterns and guide personalized TMS treatment planning. High-density electrode array records brain electrical activity to identify dysregulated regions."
+        },
+        {
+          "@type": "MedicalBusiness",
+          "@id": "https://www.karmatms.com/#medication-service",
+          "name": "Psychiatric Medication Management",
+          "url": "https://www.karmatms.com/medication-management.php",
+          "description": "Expert psychiatric medication evaluation, prescription, and monitoring by Dr. Keerthy Sunder for optimal outcomes in depression, anxiety, OCD, PTSD, and other conditions."
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.karmatms.com/#palm-springs",
+          "name": "Karma TMS PC - Palm Springs",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "560 S. Paseo Dorotea, Suite 4-B",
+            "addressLocality": "Palm Springs",
+            "addressRegion": "CA",
+            "postalCode": "92264",
+            "addressCountry": "US"
+          },
+          "telephone": "+1-760-760-5675",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            }
+          ]
+        },
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://www.karmatms.com/#rancho-mirage",
+          "name": "Karma TMS PC - Rancho Mirage",
           "address": {
             "@type": "PostalAddress",
             "streetAddress": "35400 Bob Hope Dr. Suite 206-B",
@@ -111,97 +144,86 @@
             "addressRegion": "CA",
             "postalCode": "92270",
             "addressCountry": "US"
-          }
+          },
+          "telephone": "+1-760-760-5675",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            }
+          ]
         },
         {
-          "@type": "Place",
-          "name": "KarmaTMS – Twentynine Palms",
+          "@type": "LocalBusiness",
+          "@id": "https://www.karmatms.com/#twentynine-palms",
+          "name": "Karma TMS PC - Twentynine Palms",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "72724 29 Palms Hwy, Suite 107 - B",
+            "streetAddress": "72724 29 Palms Hwy. Suite 107-B",
             "addressLocality": "Twentynine Palms",
             "addressRegion": "CA",
             "postalCode": "92277",
             "addressCountry": "US"
-          }
-        }
-      ],
-      "founder": {
-        "@type": "Person",
-        "name": "Dr. Keerthy Sunder",
-        "jobTitle": "Board-Certified Psychiatrist",
-        "description": "Board-certified psychiatrist with 30+ years of experience specializing in TMS therapy, integrative psychiatry, and addiction medicine. Faculty at UC Riverside School of Medicine."
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "200",
-        "bestRating": "5"
-      }
-    }
-    </script>
-
-    <!-- Schema.org JSON-LD: WebSite with SearchAction -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "@id": "https://www.karmatms.com/#website",
-      "url": "https://www.karmatms.com/",
-      "name": "Karma TMS PC",
-      "description": "California's most trusted FDA-cleared TMS therapy clinic for depression, anxiety, OCD, and PTSD.",
-      "publisher": {
-        "@id": "https://www.karmatms.com/#organization"
-      },
-      "inLanguage": "en-US"
-    }
-    </script>
-
-    <!-- Schema.org JSON-LD: FAQPage for Homepage -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [
+          },
+          "telephone": "+1-760-760-5675",
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+              "opens": "08:00",
+              "closes": "18:00"
+            }
+          ]
+        },
         {
-          "@type": "Question",
-          "name": "What is TMS therapy and how does it work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "TMS (Transcranial Magnetic Stimulation) is an FDA-cleared, non-invasive brain stimulation therapy. It uses targeted magnetic pulses to stimulate the prefrontal cortex — the brain region responsible for mood regulation. Over repeated sessions, this promotes neuroplasticity and helps relieve symptoms of depression, anxiety, OCD, and PTSD."
+          "@type": "WebSite",
+          "@id": "https://www.karmatms.com/#website",
+          "url": "https://www.karmatms.com/",
+          "name": "Karma TMS PC",
+          "description": "California's most trusted FDA-cleared TMS therapy clinic for depression, anxiety, OCD, and PTSD.",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://www.karmatms.com/#organization"
           }
         },
         {
-          "@type": "Question",
-          "name": "Is TMS therapy covered by insurance?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes. Most major insurance plans including Medicare, Tricare, Blue Cross Blue Shield, Aetna, and Cigna cover TMS therapy for treatment-resistant depression. Karma TMS handles all insurance verification and prior authorization on your behalf."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is Karma TMS located?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Karma TMS PC has three convenient locations: Palm Springs (560 S. Paseo Dorotea, Suite 4B), Rancho Mirage (35400 Bob Hope Dr. Suite 206-B), and Twentynine Palms (72724 29 Palms Hwy, Suite 107 - B), all in Southern California."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What conditions does Karma TMS treat?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Karma TMS treats depression (including treatment-resistant depression), anxiety disorders, OCD, PTSD, bipolar depression, women's mood disorders, ADHD, and addiction. TMS is FDA-cleared for major depressive disorder and OCD."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How successful is TMS therapy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Clinical studies show that approximately 60-70% of patients with treatment-resistant depression respond meaningfully to TMS, with about 50% achieving complete remission. Karma TMS maintains an 85% improvement rate among its patients."
-          }
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is TMS therapy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "TMS (Transcranial Magnetic Stimulation) is an FDA-cleared, non-invasive brain stimulation therapy using targeted magnetic pulses to stimulate underactive brain regions tied to mood regulation. It is effective for depression, anxiety, OCD, and PTSD."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is TMS covered by insurance?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Most major insurance plans including Medicare, Tricare, Blue Cross Blue Shield, Aetna, and Cigna cover TMS therapy for treatment-resistant depression. Karma TMS handles all benefit verification and prior authorization on your behalf."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long do TMS sessions take?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A typical TMS session lasts about 20 minutes. Treatment occurs Monday through Friday for 6 to 8 weeks, totaling 36 sessions. You can return to normal activities immediately after each session."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is TMS therapy painful?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Most patients describe the sensation as a light tapping on the head. TMS is generally well-tolerated and not considered painful. You remain awake and alert throughout the entire session."
+              }
+            }
+          ]
         }
       ]
     }
