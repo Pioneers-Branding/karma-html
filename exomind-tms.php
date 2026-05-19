@@ -1,589 +1,311 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exomind TMS Rancho Mirage | Unlock Your Brain's Potential at KarmaTMS</title>
+    <title>Exomind TMS Rancho Mirage | Unlock Your Brain's Potential at BraintuneTMS</title>
     <meta name="description"
-        content="Experience Exomind TMS at KarmaTMS Rancho Mirage - Advanced ExoTMSâ„¢ technology for brain fog, burnout, and cognitive enhancement. 30-minute sessions, FDA-cleared for MDD.">
+        content="Experience Exomind TMS at BraintuneTMS Rancho Mirage - Advanced ExoTMS&trade; technology for brain fog, burnout, and cognitive enhancement. 30-minute sessions, FDA-cleared for MDD.">
     <meta name="keywords"
-        content="Exomind TMS Rancho Mirage, KarmaTMS, Transcranial Magnetic Stimulation, brain fog treatment, cognitive enhancement TMS, ExoTMS technology, perimenopausal anxiety treatment">
+        content="Exomind TMS Rancho Mirage, BraintuneTMS, Transcranial Magnetic Stimulation, brain fog treatment, cognitive enhancement TMS, ExoTMS technology, perimenopausal anxiety treatment">
 
     <?php include 'includes/header-links.php'; ?>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            corePlugins: {
+                preflight: false,
+            },
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fcfaff',
+                            100: '#f5edff',
+                            600: '#7c3aed',
+                            900: '#4c1d95',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom overrides to ensure clean Tailwind execution */
+        body { font-family: 'Inter', 'Outfit', sans-serif; }
+    </style>
 </head>
 
-<body>
+<body class="antialiased bg-white text-gray-800">
     <?php include 'includes/header.php'; ?>
 
     <!-- Hero Section -->
-    <section class="relative text-white pt-32 pb-20 px-4 overflow-hidden"
-        style="background: linear-gradient(to bottom right, #9333ea, #7e22ce, #4c1d95);">
-        <div class="absolute inset-0 opacity-5"
-            style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg'); background-size: cover; background-position: center right;">
+    <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-slate-900">
+        <div class="absolute inset-0 z-0">
+            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg" alt="ExoMind Background" class="w-full h-full object-cover opacity-40">
+            <div class="absolute inset-0 bg-brand-900/80 mix-blend-multiply"></div>
         </div>
-        <div class="max-w-7xl mx-auto relative z-10">
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold"
-                        style="background-color: rgba(255, 255, 255, 0.2);">
-                        Exomind at KarmaTMS
-                    </span>
-                    <h1 class="text-4xl lg:text-6xl font-bold mb-6" style="line-height: 1.2;">
-                        Unlock Your Brain's Potential with Exomind TMS in Rancho Mirage
-                    </h1>
-                    <p class="text-xl mb-4" style="color: rgba(255, 255, 255, 0.9);">
-                        Experience the ultimate "Workout for Your Mind" at KarmaTMS
-                    </p>
-                    <p class="text-lg mb-8" style="color: rgba(255, 255, 255, 0.8);">
-                        Transform brain fog into mental clarity, burnout into resilience, and anxiety into calm
-                        confidence
-                        with cutting-edge ExoTMSâ„¢ technology in our luxurious Rancho Mirage spa-like setting.
-                    </p>
-                    <div class="flex flex-row flex-wrap gap-4">
-                        <a href="contact-us.php" class="bm-hero-btn bg-white text-purple-600 hover:bg-gray-100">
-                            <i data-lucide="calendar" class="w-5 h-5 mr-2"></i>
-                            Book Your Consultation
-                        </a>
-                        <a href="rancho-mirage.php"
-                            class="bm-outline-btn bg-purple-900 text-white border-white hover:bg-white hover:text-purple-600"
-                            style="border-color: white;">
-                            <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>
-                            Visit Rancho Mirage
-                        </a>
+        
+        <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-24 pb-16">
+            <span class="inline-block py-1 px-3 rounded-full bg-white/10 border border-white/20 text-white text-xs font-semibold tracking-widest uppercase mb-6">
+                Intellectual Wellness & Mental Wellbeing
+            </span>
+            <h1 class="text-4xl md:text-6xl font-bold text-white tracking-tight mb-6 leading-tight">
+                Clarify Your Mind. Elevate Your Life.
+            </h1>
+            <p class="mt-4 max-w-2xl text-lg text-gray-200 mx-auto leading-relaxed mb-10">
+                Experience a refreshing approach to mental and emotional health. Advanced, drug-free ExoTMS&trade; technology designed to support mental wellbeing and revitalize your intellectual health in a calming environment.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="contact-us.php" class="px-6 py-3 rounded-md bg-white text-brand-900 font-semibold hover:bg-gray-50 transition shadow-sm flex items-center justify-center gap-2">
+                    Book a Consultation
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <a href="#science" class="px-6 py-3 rounded-md bg-transparent text-white font-semibold border border-white/40 hover:bg-white/10 transition flex items-center justify-center gap-2">
+                    Discover the Science
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- The ExoMind Wellness Approach Section -->
+    <section class="py-16 bg-gray-50" id="science">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 tracking-tight">The ExoMind Wellness Approach</h2>
+                <p class="text-lg text-gray-600">Gentle, focused magnetic pulses aimed at supporting natural neural rhythm. Designed to be a non-invasive, drug-free path to clarity.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 transition hover:border-brand-600">
+                    <div class="w-12 h-12 rounded-lg bg-brand-50 flex items-center justify-center mb-6 text-brand-600">
+                        <i data-lucide="sun" class="w-6 h-6"></i>
                     </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Mood Support</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Gently stimulates areas involved in mood regulation to help reduce symptoms and manage stress naturally.</p>
                 </div>
-                <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029481/Exomind_PIC_Female-Model1_0961_ENUS100_zflpcx.jpg"
-                        alt="Exomind TMS Chair at KarmaTMS Rancho Mirage - Advanced brain stimulation therapy"
-                        class="rounded-lg shadow-2xl">
-                    <div
-                        class="absolute -bottom-6 -left-6 bg-white text-purple-600 p-6 rounded-lg shadow-xl hidden lg:block">
-                        <div class="text-3xl font-bold">30 min</div>
-                        <div class="text-sm">Per Session</div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 transition hover:border-brand-600">
+                    <div class="w-12 h-12 rounded-lg bg-blue-50 flex items-center justify-center mb-6 text-blue-600">
+                        <i data-lucide="brain" class="w-6 h-6"></i>
                     </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Clearer Thinking</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Restore focus and mental clarity organically. Essential for a balanced mind and peak performance.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 transition hover:border-brand-600">
+                    <div class="w-12 h-12 rounded-lg bg-indigo-50 flex items-center justify-center mb-6 text-indigo-600">
+                        <i data-lucide="moon" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Deep Rest</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Regulate circadian rhythms for restorative sleep, boosting daytime energy and overall mental health wellness.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 transition hover:border-brand-600">
+                    <div class="w-12 h-12 rounded-lg bg-pink-50 flex items-center justify-center mb-6 text-pink-600">
+                        <i data-lucide="heart" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Emotional Ease</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Strengthen your natural ability to regulate emotions and make healthy choices with greater resilience.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- What is Exomind Section -->
-    <section class="py-16 px-4 bg-white">
-        <div class="max-w-6xl mx-auto">
+    <!-- Total Mind Rebalance Section -->
+    <section class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
-                <div>
-                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                        What is Exomind TMS?
-                    </h2>
-                    <p class="text-lg text-gray-700 mb-6">
-                        Exomind represents the future of brain health and cognitive enhancement. Using advanced
-                        <strong>ExoTMSâ„¢ technology</strong>, our non-invasive treatment precisely targets the
-                        dorsolateral prefrontal cortex (DLPFC) - the brain's command center for executive function,
-                        emotional regulation, and cognitive performance.
-                    </p>
-
-                    <div class="space-y-4 mb-8">
-                        <div class="flex gap-4 items-start">
-                            <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                                    <i data-lucide="clock" class="w-6 h-6 text-purple-600"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-1">30-Minute Sessions</h3>
-                                <p class="text-gray-700 text-sm">Quick, convenient treatments that fit your busy
-                                    lifestyle</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start">
-                            <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                                    <i data-lucide="zap" class="w-6 h-6 text-purple-600"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-1">No Downtime</h3>
-                                <p class="text-gray-700 text-sm">Return to work or daily activities immediately after
-                                    treatment</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start">
-                            <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                                    <i data-lucide="shield" class="w-6 h-6 text-purple-600"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-1">FDA-Cleared for MDD</h3>
-                                <p class="text-gray-700 text-sm">Proven safe and effective for Major Depressive Disorder
-                                </p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start">
-                            <div class="flex-shrink-0">
-                                <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
-                                    <i data-lucide="brain" class="w-6 h-6 text-purple-600"></i>
-                                </div>
-                            </div>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-1">DLPFC Stimulation</h3>
-                                <p class="text-gray-700 text-sm">Precision targeting of brain regions responsible for
-                                    mood and cognition</p>
-                            </div>
-                        </div>
-                    </div>
+                <div class="relative order-2 lg:order-1">
+                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029481/Exomind_PIC_Female-Model1_0961_ENUS100_zflpcx.jpg" alt="Exomind TMS Chair" class="rounded-2xl shadow-lg object-cover w-full h-auto">
                 </div>
-                <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031147/Exomind_PIC_Unit_0943_ENUS100_ocbm6q.jpg"
-                        alt="Exomind TMS technology in action" class="rounded-lg shadow-lg">
+                
+                <div class="order-1 lg:order-2">
+                    <span class="inline-block text-brand-600 font-bold tracking-wider uppercase text-xs mb-3">
+                        Total Mind Rebalance
+                    </span>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-5 leading-tight">A Foundation for a Balanced Life</h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Brain Tune isn't just a treatment; it's a path to good mental health. We optimize the neural landscape, bridging the gap between emotional, physical, and mental states for true peak performance.
+                    </p>
+                    
+                    <ul class="space-y-6 mb-8">
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 mt-1">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900">Comprehensive Evaluation</h4>
+                                <p class="text-gray-600 text-sm">We analyze your baseline for mental and emotional health using advanced insights.</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 mt-1">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900">Customized Sessions</h4>
+                                <p class="text-gray-600 text-sm">Relax in a spa-like chair while the ExoMind device delivers focused, painless magnetic pulses (30 minutes per session).</p>
+                            </div>
+                        </li>
+                        <li class="flex gap-4">
+                            <div class="flex-shrink-0 w-8 h-8 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 mt-1">
+                                <i data-lucide="check" class="w-4 h-4"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-lg font-bold text-gray-900">Noticeable Results</h4>
+                                <p class="text-gray-600 text-sm">Typically within weeks, clients report lifted mood, sharper focus, and a profound sense of mental wellness.</p>
+                            </div>
+                        </li>
+                    </ul>
+                    
+                    <a href="contact-us.php" class="inline-flex items-center gap-2 px-6 py-3 bg-brand-600 text-white rounded-md font-semibold hover:bg-brand-900 transition shadow-sm">
+                        Start Rebalancing
+                        <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Celebrity Reviews Section -->
-    <section class="py-16 px-4" style="background-color: #f9fafb;">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Trusted by Wellness Leaders
-                </h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-                    From Hollywood icons to world-class athletes, leaders in wellness are discovering
-                    the transformative power of Exomind TMS for brain fog, burnout, and anxiety.
-                </p>
+    <section class="py-16 bg-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <h2 class="text-3xl font-bold text-white mb-4 tracking-tight">Trusted by Leaders</h2>
+                <p class="text-lg text-gray-400">See how leaders in sports, music, and entertainment prioritize their brain performance.</p>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
-                <!-- Celebrity Card 1: Serena Williams -->
-                <div class="flex flex-col">
-                    <div class="bm-benefit-card h-full flex flex-col p-4">
-                        <div class="relative w-full mb-4" style="aspect-ratio: 9/16;">
-                            <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a0668472d" loading="lazy"
-                                class="absolute top-0 left-0 w-full h-full rounded-lg" style="border: 0;"
-                                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
-                                allowfullscreen title="Serena Williams - Exomind TMS"></iframe>
-                        </div>
-                        <div class="flex-1 flex flex-col">
-                            <span class="inline-block px-3 py-1 rounded-full mb-3 text-xs font-bold text-white w-fit"
-                                style="background: linear-gradient(to right, #9333ea, #7e22ce);">
-                                Performance Optimization
-                            </span>
-                            <h3 class="font-bold text-lg mb-1">Serena Williams</h3>
-                            <p class="text-sm text-gray-600">Champion Athlete</p>
-                        </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Serena -->
+                <div class="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div class="relative w-full mb-4 rounded-lg overflow-hidden" style="aspect-ratio: 9/16;">
+                        <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a0668472d" loading="lazy" class="absolute top-0 left-0 w-full h-full border-0" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Serena Williams - Exomind TMS"></iframe>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-bold text-white text-lg">Serena Williams</h3>
+                        <p class="text-sm text-gray-400 mt-1">"ExoMind helps me clear the noise and stay locked in."</p>
+                    </div>
+                </div>
+                
+                <!-- Lil Jon -->
+                <div class="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div class="relative w-full mb-4 rounded-lg overflow-hidden" style="aspect-ratio: 9/16;">
+                        <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a06684727" loading="lazy" class="absolute top-0 left-0 w-full h-full border-0" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Lil Jon - Exomind TMS"></iframe>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-bold text-white text-lg">Lil Jon</h3>
+                        <p class="text-sm text-gray-400 mt-1">"This is how I reset my mind from the stress."</p>
                     </div>
                 </div>
 
-                <!-- Celebrity Card 2: Lil Jon -->
-                <div class="flex flex-col">
-                    <div class="bm-benefit-card h-full flex flex-col p-4">
-                        <div class="relative w-full mb-4" style="aspect-ratio: 9/16;">
-                            <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a06684727" loading="lazy"
-                                class="absolute top-0 left-0 w-full h-full rounded-lg" style="border: 0;"
-                                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
-                                allowfullscreen title="Lil Jon - Exomind TMS"></iframe>
-                        </div>
-                        <div class="flex-1 flex flex-col">
-                            <span class="inline-block px-3 py-1 rounded-full mb-3 text-xs font-bold text-white w-fit"
-                                style="background: linear-gradient(to right, #9333ea, #7e22ce);">
-                                Mental Wellness
-                            </span>
-                            <h3 class="font-bold text-lg mb-1">Lil Jon</h3>
-                            <p class="text-sm text-gray-600">Music Icon</p>
-                        </div>
+                <!-- Gwyneth -->
+                <div class="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div class="relative w-full mb-4 rounded-lg overflow-hidden" style="aspect-ratio: 9/16;">
+                        <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a0668472b" loading="lazy" class="absolute top-0 left-0 w-full h-full border-0" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Gwyneth Paltrow - Exomind TMS"></iframe>
+                    </div>
+                    <div class="text-center">
+                        <h3 class="font-bold text-white text-lg">Gwyneth Paltrow</h3>
+                        <p class="text-sm text-gray-400 mt-1">"Prioritizing brain health is the new frontier."</p>
                     </div>
                 </div>
 
-                <!-- Celebrity Card 3: Gwyneth Paltrow -->
-                <div class="flex flex-col">
-                    <div class="bm-benefit-card h-full flex flex-col p-4">
-                        <div class="relative w-full mb-4" style="aspect-ratio: 9/16;">
-                            <iframe src="https://play.gumlet.io/embed/694e80a6f1ad267a0668472b" loading="lazy"
-                                class="absolute top-0 left-0 w-full h-full rounded-lg" style="border: 0;"
-                                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
-                                allowfullscreen title="Gwyneth Paltrow - Exomind TMS"></iframe>
-                        </div>
-                        <div class="flex-1 flex flex-col">
-                            <span class="inline-block px-3 py-1 rounded-full mb-3 text-xs font-bold text-white w-fit"
-                                style="background: linear-gradient(to right, #9333ea, #7e22ce);">
-                                Brain Fog & Burnout
-                            </span>
-                            <h3 class="font-bold text-lg mb-1">Gwyneth Paltrow</h3>
-                            <p class="text-sm text-gray-600">Wellness Icon & Entrepreneur</p>
-                        </div>
+                <!-- Ashlee -->
+                <div class="bg-slate-800 border border-slate-700 rounded-xl p-4">
+                    <div class="relative w-full mb-4 rounded-lg overflow-hidden" style="aspect-ratio: 9/16;">
+                        <iframe src="https://play.gumlet.io/embed/694e80a6b122cbf1765d2e37" loading="lazy" class="absolute top-0 left-0 w-full h-full border-0" allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Ashlee Simpson - Exomind TMS"></iframe>
                     </div>
-                </div>
-
-                <!-- Celebrity Card 4: Ashlee Simpson -->
-                <div class="flex flex-col">
-                    <div class="bm-benefit-card h-full flex flex-col p-4">
-                        <div class="relative w-full mb-4" style="aspect-ratio: 9/16;">
-                            <iframe src="https://play.gumlet.io/embed/694e80a6b122cbf1765d2e37" loading="lazy"
-                                class="absolute top-0 left-0 w-full h-full rounded-lg" style="border: 0;"
-                                allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture"
-                                allowfullscreen title="Ashlee Simpson - Exomind TMS"></iframe>
-                        </div>
-                        <div class="flex-1 flex flex-col">
-                            <span class="inline-block px-3 py-1 rounded-full mb-3 text-xs font-bold text-white w-fit"
-                                style="background: linear-gradient(to right, #9333ea, #7e22ce);">
-                                Cognitive Enhancement
-                            </span>
-                            <h3 class="font-bold text-lg mb-1">Ashlee Simpson</h3>
-                            <p class="text-sm text-gray-600">Entertainment Star</p>
-                        </div>
+                    <div class="text-center">
+                        <h3 class="font-bold text-white text-lg">Ashlee Simpson</h3>
+                        <p class="text-sm text-gray-400 mt-1">"ExoMind helps me find clarity as a mom and performer."</p>
                     </div>
                 </div>
             </div>
-
+            
             <div class="text-center mt-8">
-                <p class="text-sm text-gray-600">
-                    <em>Celebrity endorsements are for illustrative purposes. Individual results may vary.</em>
-                </p>
+                <p class="text-xs text-gray-500 uppercase tracking-wide">Individual experiences vary. ExoMind is used for wellness, optimization, and clinician-guided support.</p>
             </div>
         </div>
     </section>
 
-    <!-- Benefits & Clinical Results Section -->
-    <section class="py-16 px-4 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Benefits & Clinical Results
-                </h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-                    Backed by clinical research and real-world results
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-12 mb-12">
-                <!-- Benefits -->
-                <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Key Benefits</h3>
-                    <div class="space-y-4">
-                        <div class="flex gap-4 items-start p-4 rounded-lg" style="background-color: #f9fafb;">
-                            <div class="flex-shrink-0">
-                                <i data-lucide="heart" class="w-6 h-6 text-purple-600 mt-1"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900 mb-1">Emotional Resilience</h4>
-                                <p class="text-gray-700 text-sm">Build lasting capacity to handle stress, setbacks, and
-                                    daily challenges with greater ease</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start p-4 rounded-lg" style="background-color: #f9fafb;">
-                            <div class="flex-shrink-0">
-                                <i data-lucide="trending-up" class="w-6 h-6 text-purple-600 mt-1"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900 mb-1">Cognitive Edge</h4>
-                                <p class="text-gray-700 text-sm">Enhanced focus, memory, decision-making, and mental
-                                    processing speed for peak performance</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start p-4 rounded-lg" style="background-color: #f9fafb;">
-                            <div class="flex-shrink-0">
-                                <i data-lucide="shield" class="w-6 h-6 text-purple-600 mt-1"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900 mb-1">Craving Control</h4>
-                                <p class="text-gray-700 text-sm">Reduce impulse-driven behaviors and gain better control
-                                    over cravings and urges</p>
-                            </div>
-                        </div>
-                        <div class="flex gap-4 items-start p-4 rounded-lg" style="background-color: #f9fafb;">
-                            <div class="flex-shrink-0">
-                                <i data-lucide="zap" class="w-6 h-6 text-purple-600 mt-1"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-semibold text-gray-900 mb-1">Energy & Motivation</h4>
-                                <p class="text-gray-700 text-sm">Restore natural vitality and drive, combating fatigue
-                                    and burnout for sustained mental clarity</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Clinical Data -->
-                <div>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-6">Clinical Outcomes</h3>
-                    <div class="bm-benefit-card p-6">
-                        <div class="space-y-4">
-                            <div class="text-center pb-6 border-b border-gray-200">
-                                <div class="text-5xl font-bold text-purple-600 mb-2">90%</div>
-                                <div class="text-sm text-gray-600">Improved Mental Well-Being</div>
-                                <p class="text-xs text-gray-500 mt-2">Patients reporting significant improvement</p>
-                            </div>
-
-                            <div class="text-center pb-6 border-b border-gray-200">
-                                <div class="text-5xl font-bold text-purple-600 mb-2">50%</div>
-                                <div class="text-sm text-gray-600">Reduction in Depression</div>
-                                <p class="text-xs text-gray-500 mt-2">Within 4 weeks of treatment</p>
-                            </div>
-
-                            <div class="text-center">
-                                <div class="text-5xl font-bold text-purple-600 mb-2">87%</div>
-                                <div class="text-sm text-gray-600">Increase in Self-Control</div>
-                                <p class="text-xs text-gray-500 mt-2">Better impulse regulation</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- KarmaTMS Difference Section -->
-    <section class="py-16 px-4" style="background: linear-gradient(to bottom right, #faf5ff, #ede9fe);">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    The KarmaTMS Difference
-                </h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-                    Experience Exomind in the perfect setting for transformation
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 gap-12 items-center">
-                <div>
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766992546/IMG_5821_cud7cg.jpg"
-                        alt="KÐ°Ñ€Ð¼aTMS Rancho Mirage entrance" class="rounded-lg shadow-xl">
-                </div>
-                <div class="space-y-6">
-                    <div class="flex gap-4 items-start">
-                        <div class="flex-shrink-0">
-                            <div
-                                class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center">
-                                <i data-lucide="map-pin" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 mb-2">Rancho Mirage Location</h3>
-                            <p class="text-gray-700 text-sm">Nestled in the heart of Coachella Valley, our premier
-                                location offers serene desert beauty and easy accessibility</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-4 items-start">
-                        <div class="flex-shrink-0">
-                            <div
-                                class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center">
-                                <i data-lucide="award" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 mb-2">Spa-Like Environment</h3>
-                            <p class="text-gray-700 text-sm">Luxurious, calming treatment rooms designed for your
-                                comfort
-                                and relaxation during every session</p>
-                        </div>
-                    </div>
-                    <div class="flex gap-4 items-start">
-                        <div class="flex-shrink-0">
-                            <div
-                                class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center">
-                                <i data-lucide="users" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 mb-2">Dr. Keerthy Sunder</h3>
-                            <p class="text-gray-700 text-sm">Board-certified psychiatrist with specialized
-                                expertise in advanced brain stimulation therapies</p>
-                            <a href="team.php"
-                                class="text-purple-600 text-sm font-medium hover:underline mt-1 inline-block">
-                                Meet the team â†’
-                            </a>
-                        </div>
-                    </div>
-                    <div class="flex gap-4 items-start">
-                        <div class="flex-shrink-0">
-                            <div
-                                class="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center">
-                                <i data-lucide="check-circle" class="w-6 h-6"></i>
-                            </div>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-gray-900 mb-2">15+ Years Valley Experience</h3>
-                            <p class="text-gray-700 text-sm">Deep roots in Coachella Valley mental health care with
-                                thousands of successful patient outcomes</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Process Section -->
-    <section class="py-16 px-4 bg-white">
-        <div class="max-w-6xl mx-auto">
-            <div class="text-center mb-12">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    Your Exomind Journey at KarmaTMS
-                </h2>
-                <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-                    A seamless, personalized path to better brain health
-                </p>
-            </div>
-
-            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Step 1 -->
-                <div class="bm-benefit-card text-center hover:shadow-lg transition-shadow p-6">
-                    <div
-                        class="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                        1
-                    </div>
-                    <i data-lucide="users" class="w-10 h-10 text-purple-600 mx-auto mb-4"></i>
-                    <h3 class="font-bold text-lg mb-3">Initial Consultation</h3>
-                    <p class="text-gray-700 text-sm">Comprehensive evaluation with Dr. Sunder to assess your needs,
-                        review history, and create your personalized treatment plan</p>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="bm-benefit-card text-center hover:shadow-lg transition-shadow p-6">
-                    <div
-                        class="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                        2
-                    </div>
-                    <i data-lucide="brain" class="w-10 h-10 text-purple-600 mx-auto mb-4"></i>
-                    <h3 class="font-bold text-lg mb-3">Personalized Protocol</h3>
-                    <p class="text-gray-700 text-sm">Custom-designed treatment parameters based on your unique brain
-                        mapping and specific wellness goals</p>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="bm-benefit-card text-center hover:shadow-lg transition-shadow p-6">
-                    <div
-                        class="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                        3
-                    </div>
-                    <i data-lucide="clock" class="w-10 h-10 text-purple-600 mx-auto mb-4"></i>
-                    <h3 class="font-bold text-lg mb-3">The Session</h3>
-                    <p class="text-gray-700 text-sm">Relax in our spa-like environment during your comfortable 30-minute
-                        session. Read, listen to music, or simply unwind</p>
-                </div>
-
-                <!-- Step 4 -->
-                <div class="bm-benefit-card text-center hover:shadow-lg transition-shadow p-6">
-                    <div
-                        class="w-16 h-16 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-4 text-2xl font-bold">
-                        4
-                    </div>
-                    <i data-lucide="heart" class="w-10 h-10 text-purple-600 mx-auto mb-4"></i>
-                    <h3 class="font-bold text-lg mb-3">Ongoing Support</h3>
-                    <p class="text-gray-700 text-sm">Regular progress monitoring, protocol adjustments, and continued
-                        care
-                        to ensure lasting results</p>
-                </div>
-            </div>
-
-            <div class="text-center mt-12">
-                <a href="tms-therapy.php" class="bm-outline-btn mr-4">
-                    Learn More About TMS
-                </a>
-                <a href="contact-us.php" class="bm-hero-btn" style="background-color: #9333ea;">
-                    <i data-lucide="calendar" class="w-5 h-5 mr-2"></i>
-                    Schedule Your Consultation
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ & Location Section -->
-    <section class="py-16 px-4" style="background-color: #f9fafb;">
-        <div class="max-w-6xl mx-auto">
-            <div class="grid lg:grid-cols-2 gap-12">
-                <!-- FAQ -->
-                <div>
-                    <h2 class="text-3xl font-bold text-gray-900 mb-8">Frequently Asked Questions</h2>
-                    <div class="space-y-4" id="faq-accordion">
-                        <!-- FAQ items will be populated by JavaScript -->
-                    </div>
-                </div>
-
-                <!-- Location -->
-                <div>
-                    <h2 class="text-3xl font-bold text-gray-900 mb-8">Visit Us in Rancho Mirage</h2>
-                    <div class="bm-benefit-card p-6 mb-6">
-                        <div class="flex items-start gap-4 mb-4">
-                            <i data-lucide="map-pin" class="w-6 h-6 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">KarmaTMS Rancho Mirage</h3>
-                                <p class="text-gray-700">
-                                    35400 Bob Hope Dr. Suite 206-B<br>
-                                    Rancho Mirage, CA 92270
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="flex items-start gap-4 mb-6">
-                            <i data-lucide="phone" class="w-6 h-6 text-purple-600 mt-1 flex-shrink-0"></i>
-                            <div>
-                                <h3 class="font-semibold text-gray-900 mb-2">Call Us</h3>
-                                <a href="tel:760-760-5675" class="text-gray-700 font-medium hover:underline">
-                                    (760) 760-5675
-                                </a>
-                            </div>
-                        </div>
-
-                        <div class="mb-6">
-                            <h3 class="font-semibold text-gray-900 mb-3">Office Hours</h3>
-                            <div class="space-y-1 text-gray-700 text-sm">
-                                <div class="flex justify-between">
-                                    <span>Monday - Friday:</span>
-                                    <span class="font-medium">9:00 AM - 5:00 PM</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span>Saturday - Sunday:</span>
-                                    <span class="font-medium">Closed</span>
+    <!-- Hospitality & Location Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden">
+                <div class="grid lg:grid-cols-2">
+                    <div class="p-8 lg:p-12 flex flex-col justify-center">
+                        <span class="text-brand-600 font-bold tracking-wider uppercase text-xs mb-3">Our Reference Clinic</span>
+                        <h2 class="text-3xl font-bold text-gray-900 mb-4">Fusion of Luxury & Clinical Expertise</h2>
+                        <p class="text-gray-600 mb-8">
+                            Experience ExoMind at our reference clinic in Rancho Mirage. A serene environment designed for cognitive renewal and hospitality.
+                        </p>
+                        
+                        <div class="bg-gray-50 rounded-xl p-6 mb-8 border border-gray-100">
+                            <div class="flex items-start gap-4 mb-4">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-brand-600 mt-1"></i>
+                                <div>
+                                    <h3 class="font-bold text-gray-900">BraintuneTMS Rancho Mirage</h3>
+                                    <p class="text-gray-600 text-sm mt-1">35400 Bob Hope Dr. Suite 206<br>Rancho Mirage, CA 92270</p>
                                 </div>
                             </div>
+                            <div class="flex items-center gap-4">
+                                <i data-lucide="phone" class="w-5 h-5 text-brand-600"></i>
+                                <a href="tel:760-343-5859" class="text-gray-900 font-bold hover:text-brand-600 transition">760-343-5859</a>
+                            </div>
                         </div>
-
-                        <div class="flex flex-col gap-3">
-                            <a href="contact-us.php" class="bm-hero-btn text-center"
-                                style="background-color: #9333ea;">
-                                <i data-lucide="calendar" class="w-5 h-5 mr-2"></i>
-                                Book Consultation
-                            </a>
-                            <a href="rancho-mirage.php" class="bm-outline-btn text-center">
-                                <i data-lucide="map-pin" class="w-5 h-5 mr-2"></i>
-                                Get Directions
+                        
+                        <div>
+                            <a href="rancho-mirage.php" class="inline-flex items-center gap-2 px-6 py-3 border border-gray-300 text-gray-700 rounded-md font-semibold hover:bg-gray-50 transition">
+                                Get Directions <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
                             </a>
                         </div>
+                    </div>
+                    
+                    <div class="relative h-64 lg:h-auto">
+                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766992546/IMG_5821_cud7cg.jpg" alt="Clinic Entrance" class="absolute inset-0 w-full h-full object-cover">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Internal Links Section -->
-    <section class="py-16 bg-white">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore More KarmaTMS Services</h2>
-            <div class="grid md:grid-cols-4 gap-6">
-                <a href="team.php"
-                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1"
-                    style="background: linear-gradient(to bottom right, #faf5ff, #f3e8ff); text-decoration: none;">
-                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Our Providers</h3>
-                    <p class="text-sm text-gray-600">Meet Dr. Keerthy Sunder and our expert team</p>
+    <!-- FAQ Section -->
+    <section class="py-16 bg-white border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4 tracking-tight">Common Questions</h2>
+                <p class="text-gray-600">Everything you need to know about ExoMind TMS treatment.</p>
+            </div>
+            
+            <div class="space-y-4" id="faq-accordion">
+                <!-- Populated via JS -->
+            </div>
+            
+            <div class="text-center mt-12 bg-gray-50 rounded-xl p-8 border border-gray-100">
+                <h3 class="text-xl font-bold text-gray-900 mb-2">Still have questions?</h3>
+                <p class="text-gray-600 text-sm mb-6">Our dedicated team is ready to provide personalized answers.</p>
+                <a href="contact-us.php" class="inline-flex items-center gap-2 px-6 py-2 bg-brand-600 text-white rounded-md font-semibold hover:bg-brand-900 transition">
+                    Ask Our Team <i data-lucide="arrow-right" class="w-4 h-4"></i>
                 </a>
-                <a href="tms-therapy.php"
-                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1"
-                    style="background: linear-gradient(to bottom right, #faf5ff, #f3e8ff); text-decoration: none;">
-                    <h3 class="font-bold text-purple-600 mb-2 text-lg">TMS Therapy</h3>
-                    <p class="text-sm text-gray-600">Learn about our comprehensive TMS treatments</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="py-20 bg-brand-900 text-center">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Invest in Your Most Valuable Asset.</h2>
+            <p class="text-lg text-brand-100 mb-10 font-light">
+                Unlock the full potential of your cognitive fitness with a scientifically proven approach to mental wellness.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="contact-us.php" class="px-8 py-3 rounded-md bg-white text-brand-900 font-bold hover:bg-gray-100 transition shadow-sm">
+                    Get in Touch
                 </a>
-                <a href="depression.php"
-                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1"
-                    style="background: linear-gradient(to bottom right, #faf5ff, #f3e8ff); text-decoration: none;">
-                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Depression Treatment</h3>
-                    <p class="text-sm text-gray-600">FDA-cleared for treatment-resistant depression</p>
-                </a>
-                <a href="contact-us.php"
-                    class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1"
-                    style="background: linear-gradient(to bottom right, #faf5ff, #f3e8ff); text-decoration: none;">
-                    <h3 class="font-bold text-purple-600 mb-2 text-lg">Contact Us</h3>
-                    <p class="text-sm text-gray-600">Schedule your consultation today</p>
+                <a href="tms-therapy.php" class="px-8 py-3 rounded-md bg-transparent border border-white/30 text-white font-bold hover:bg-white/10 transition">
+                    Explore ExoMind
                 </a>
             </div>
         </div>
@@ -592,65 +314,66 @@
     <?php include 'includes/footer.php'; ?>
 
     <script>
-        // FAQ Data
         const faqData = [
             {
                 question: 'Does Exomind TMS hurt?',
-                answer: 'No! Exomind TMS is a comfortable, non-invasive treatment. Most patients describe a gentle tapping sensation on the scalp during treatment. There\'s no pain, and you remain fully awake and alert. Any initial sensitivity typically diminishes after the first few sessions.'
+                answer: 'No! Exomind TMS is a comfortable, non-invasive treatment. Most patients describe a gentle tapping sensation on the scalp during treatment. There\'s no pain, and you remain fully awake and alert.'
             },
             {
                 question: 'Is Exomind TMS covered by insurance?',
-                answer: 'Yes! TMS therapy is FDA-cleared and covered by most major insurance plans, including Medicare, for the treatment of Major Depressive Disorder (MDD) when certain criteria are met. Coverage typically requires documentation of treatment-resistant depression.<br><br>Our dedicated team at KarmaTMS will verify your benefits and work with your insurance provider to maximize coverage. We also offer flexible payment options for out-of-pocket expenses.<br><br><a href="insurance-pricing.php" class="text-purple-600 font-medium hover:underline">View Insurance Information â†’</a>'
+                answer: 'Yes! TMS therapy is FDA-cleared and covered by most major insurance plans, including Medicare, for the treatment of Major Depressive Disorder (MDD). Our team will verify your benefits to maximize coverage.<br><br><a href="insurance-pricing.php" class="text-brand-600 font-medium hover:underline">View Insurance Information &rarr;</a>'
             },
             {
                 question: 'How long does treatment take?',
-                answer: 'Each Exomind session lasts approximately 30 minutes. A typical treatment course consists of daily sessions (Monday through Friday) for 4-6 weeks, though your personalized protocol may vary based on your specific needs and response to treatment.'
+                answer: 'Each Exomind session lasts approximately 30 minutes. A typical treatment course consists of daily sessions (Monday through Friday) for 4-6 weeks.'
             },
             {
                 question: 'What conditions does Exomind treat?',
-                answer: 'Exomind TMS is FDA-cleared for Major Depressive Disorder and has shown promising results for:<br><ul class="list-disc pl-6 mt-2 space-y-1"><li>Treatment-resistant depression</li><li>Brain fog and cognitive decline</li><li>Burnout and chronic stress</li><li>Anxiety disorders</li><li>Perimenopausal mood changes</li><li>Cognitive performance optimization</li></ul><br><a href="conditions.php" class="text-purple-600 font-medium hover:underline">View All Conditions â†’</a>'
+                answer: 'Exomind TMS is FDA-cleared for Major Depressive Disorder and has shown promising results for treatment-resistant depression, brain fog, burnout, anxiety, and cognitive optimization.<br><br><a href="conditions.php" class="text-brand-600 font-medium hover:underline">View All Conditions &rarr;</a>'
             },
             {
-                question: 'Are there any side effects?',
-                answer: 'Exomind TMS is very well-tolerated with minimal side effects. The most common is mild scalp discomfort or headache during or after treatment, which typically resolves quickly. Unlike medications, TMS has no systemic side effects like weight gain, sexual dysfunction, or sedation. There\'s no downtime, and you can drive and return to normal activities immediately after each session.'
+                question: 'How does it work technically?',
+                answer: 'ExoMind uses FDA-cleared TMS technology to stimulate nerve cells in key brain regions responsible for mood regulation (DLPFC). It reawakens underactive areas, restoring neural balance without medication.'
             }
         ];
 
-        // Initialize FAQ Accordion
         function initFAQ() {
             const container = document.getElementById('faq-accordion');
-            faqData.forEach((faq, index) => {
+            faqData.forEach((faq) => {
                 const item = document.createElement('div');
-                item.className = 'bm-benefit-card overflow-hidden';
+                item.className = 'bg-white border border-gray-200 rounded-lg overflow-hidden transition-colors hover:border-brand-600';
 
                 const button = document.createElement('button');
-                button.className = 'w-full text-left p-4 flex justify-between items-center';
+                button.className = 'w-full text-left p-5 flex justify-between items-center focus:outline-none';
                 button.innerHTML = `
-                    <span class="font-semibold text-gray-900 pr-4">${faq.question}</span>
-                    <i data-lucide="chevron-down" class="w-5 h-5 text-gray-600 flex-shrink-0 transition-transform faq-icon"></i>
+                    <span class="font-bold text-gray-900 text-lg">${faq.question}</span>
+                    <i data-lucide="chevron-down" class="w-5 h-5 text-gray-400 transition-transform duration-300 faq-icon flex-shrink-0"></i>
                 `;
 
                 const content = document.createElement('div');
                 content.className = 'faq-content';
                 content.style.maxHeight = '0';
                 content.style.overflow = 'hidden';
-                content.style.transition = 'max-height 0.3s ease';
-                content.innerHTML = `<div class="p-4 pt-0 text-gray-700">${faq.answer}</div>`;
+                content.style.transition = 'max-height 0.3s ease-in-out';
+                content.innerHTML = `<div class="p-5 pt-0 text-gray-600">${faq.answer}</div>`;
 
                 button.addEventListener('click', () => {
                     const isOpen = content.style.maxHeight !== '0px';
-                    // Close all other items
-                    document.querySelectorAll('.faq-content').forEach(el => {
-                        el.style.maxHeight = '0';
-                    });
+                    // Close all
+                    document.querySelectorAll('.faq-content').forEach(el => el.style.maxHeight = '0');
                     document.querySelectorAll('.faq-icon').forEach(icon => {
                         icon.style.transform = 'rotate(0deg)';
+                        icon.classList.replace('text-brand-600', 'text-gray-400');
                     });
+                    document.querySelectorAll('#faq-accordion > div').forEach(el => el.classList.remove('border-brand-600'));
 
-                    // Toggle current item
+                    // Open current
                     if (!isOpen) {
-                        content.style.maxHeight = content.scrollHeight + 'px';
-                        button.querySelector('.faq-icon').style.transform = 'rotate(180deg)';
+                        content.style.maxHeight = content.scrollHeight + 50 + 'px';
+                        const icon = button.querySelector('.faq-icon');
+                        icon.style.transform = 'rotate(180deg)';
+                        icon.classList.replace('text-gray-400', 'text-brand-600');
+                        item.classList.add('border-brand-600');
                     }
                 });
 
@@ -659,16 +382,17 @@
                 container.appendChild(item);
             });
 
-            lucide.createIcons();
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
         }
 
-        // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
             initFAQ();
-            lucide.createIcons();
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            }
         });
     </script>
 </body>
-
 </html>
-
