@@ -216,6 +216,61 @@
             border-radius: 0 0.75rem 0.75rem 0;
         }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmatms.com/blog.php"},
+        {"@type": "ListItem", "position": 3, "name": "Is TMS Shock Therapy? The Truth About TMS vs. ECT", "item": "https://www.karmatms.com/is-tms-shock-therapy.php"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.karmatms.com/is-tms-shock-therapy.php#medicalwebpage",
+      "name": "Is TMS Shock Therapy? The Truth About TMS vs. ECT",
+      "url": "https://www.karmatms.com/is-tms-shock-therapy.php",
+      "description": "Is TMS shock therapy? Discover the truth about Transcranial Magnetic Stimulation, how it differs from ECT, and why it's a safe, non-invasive treatment for depression.",
+      "inLanguage": "en-US",
+      "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patients"},
+      "about": [
+        {"@type": "MedicalTherapy", "name": "Transcranial Magnetic Stimulation (TMS)"},
+        {"@type": "MedicalTherapy", "name": "Electroconvulsive Therapy (ECT)"},
+        {"@type": "MedicalCondition", "name": "Major Depressive Disorder"}
+      ],
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Keerthy Sunder",
+        "jobTitle": "Board-Certified Psychiatrist",
+        "url": "https://www.karmatms.com/team.php"
+      },
+      "publisher": {
+        "@type": "MedicalOrganization",
+        "name": "Karma TMS PC",
+        "url": "https://www.karmatms.com"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "h2", ".text-xl"]
+      }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalStudy",
+      "name": "TMS vs ECT Comparative Analysis",
+      "description": "A clinical comparison of Transcranial Magnetic Stimulation (TMS) and Electroconvulsive Therapy (ECT) for the treatment of major depressive disorder.",
+      "studySubject": [
+        {"@type": "MedicalTherapy", "name": "TMS Therapy"},
+        {"@type": "MedicalTherapy", "name": "ECT Therapy"}
+      ]
+    }
+    </script>
 </head>
 
 <body>
@@ -303,9 +358,10 @@
 
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/is-tms-shock-therapy-banner.svg"
+                    <img src="images/blog/is-tms-shock-therapy-banner.png"
                         alt="Is TMS Shock Therapy? - TMS vs ECT comparison"
-                        class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                        class="w-full object-cover rounded-xl mb-8 shadow-md"
+                        style="max-height: 480px; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         If you've been researching <a href="tms-therapy.php" class="text-primary hover:underline">TMS therapy</a> for <a href="depression.php" class="text-primary hover:underline">depression</a>, you may have encountered the phrase "shock therapy" — sometimes applied to TMS in online forums, outdated articles, or even well-meaning but misinformed conversations. That association is not just misleading; it's medically inaccurate, and it may be stopping people who need help from seeking it.
@@ -690,3 +746,4 @@
 </body>
 
 </html>
+

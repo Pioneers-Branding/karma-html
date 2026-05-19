@@ -1,5 +1,17 @@
 [
     {
+        "id": 55,
+        "title": "Do Psychiatrists Do Therapy? Understanding Their Role",
+        "excerpt": "Do psychiatrists do therapy? Learn about the role of a psychiatrist, whether they offer talk therapy, and how they differ from psychologists and therapists.",
+        "category": "mental-health",
+        "author": "Dr. Keerthy Sunder",
+        "date": "May 11, 2026",
+        "readTime": "8 min read",
+        "image": "images/blog/do-psychiatrists-do-therapy-intro.png",
+        "featured": false,
+        "url": "do-psychiatrists-do-therapy.php"
+    },
+    {
         "id": 54,
         "title": "Mental Health Awareness Month: Why It Matters More Than Ever",
         "excerpt": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available for those struggling in the Coachella Valley.",
@@ -7,7 +19,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "May 5, 2026",
         "readTime": "8 min read",
-        "image": "images/blog/mental-health-awareness-month-banner.svg",
+        "image": "images/blog/mental-health-awareness-month-banner.png",
         "featured": false,
         "url": "mental-health-awareness-month.php"
     },
@@ -19,7 +31,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "May 2, 2026",
         "readTime": "9 min read",
-        "image": "images/blog/is-tms-shock-therapy-banner.svg",
+        "image": "images/blog/is-tms-shock-therapy-banner.png",
         "featured": false,
         "url": "is-tms-shock-therapy.php"
     },
@@ -31,7 +43,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "April 20, 2026",
         "readTime": "11 min read",
-        "image": "images/blog/why-tms-works-when-antidepressants-dont-banner.svg",
+        "image": "images/blog/why-tms-works-when-antidepressants-dont-banner.png",
         "featured": false,
         "url": "why-tms-works-when-antidepressants-dont.php"
     },
@@ -43,7 +55,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "April 17, 2026",
         "readTime": "10 min read",
-        "image": "images/blog/your-brain-on-tms-banner.svg",
+        "image": "images/blog/your-brain-on-tms-banner.png",
         "featured": false,
         "url": "your-brain-on-tms.php"
     },

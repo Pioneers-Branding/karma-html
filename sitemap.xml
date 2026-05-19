@@ -213,6 +213,12 @@
 
   <!-- ===== Blog Posts ===== -->
   <url>
+    <loc>https://www.karmatms.com/do-psychiatrists-do-therapy.php</loc>
+    <lastmod>2026-05-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.karmatms.com/how-long-does-tms-take-to-work-for-depression.php</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>

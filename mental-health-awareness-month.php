@@ -13,7 +13,7 @@
     <meta property="og:title" content="Mental Health Awareness Month: Why It Matters More Than Ever | Karma TMS">
     <meta property="og:description"
         content="Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available.">
-    <meta property="og:image" content="https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.svg">
+    <meta property="og:image" content="https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -26,7 +26,7 @@
       "@id": "https://www.karmatms.com/mental-health-awareness-month.php#article",
       "headline": "Mental Health Awareness Month: Why It Matters More Than Ever",
       "description": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available.",
-      "image": "https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.svg",
+      "image": "https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.png",
       "datePublished": "2026-05-05",
       "dateModified": "2026-05-05",
       "author": {
@@ -200,6 +200,49 @@
             border-radius: 0 0.75rem 0.75rem 0;
         }
     </style>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmatms.com/blog.php"},
+        {"@type": "ListItem", "position": 3, "name": "Mental Health Awareness Month: Why It Matters More Than Ever", "item": "https://www.karmatms.com/mental-health-awareness-month.php"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.karmatms.com/mental-health-awareness-month.php#medicalwebpage",
+      "name": "Mental Health Awareness Month: Why It Matters More Than Ever",
+      "url": "https://www.karmatms.com/mental-health-awareness-month.php",
+      "description": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available.",
+      "inLanguage": "en-US",
+      "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patients"},
+      "about": [
+        {"@type": "MedicalCondition", "name": "Mental Health"},
+        {"@type": "MedicalCondition", "name": "Depression"},
+        {"@type": "MedicalCondition", "name": "Anxiety"}
+      ],
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Keerthy Sunder",
+        "jobTitle": "Board-Certified Psychiatrist",
+        "url": "https://www.karmatms.com/team.php"
+      },
+      "publisher": {
+        "@type": "MedicalOrganization",
+        "name": "Karma TMS PC",
+        "url": "https://www.karmatms.com"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "h2", ".text-xl"]
+      }
+    }
+    </script>
 </head>
 
 <body>
@@ -286,9 +329,10 @@
 
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/mental-health-awareness-month-banner.svg"
+                    <img src="images/blog/mental-health-awareness-month-banner.png"
                         alt="Mental Health Awareness Month"
-                        class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                        class="w-full object-cover rounded-xl mb-8 shadow-md"
+                        style="max-height: 480px; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         Since 1949, May has been recognized as <strong>Mental Health Awareness Month</strong>. What began as a vital initiative to educate the public has evolved into a global movement aimed at erasing stigma, encouraging open conversations, and ensuring that those struggling with conditions like <a href="depression.php" class="text-primary hover:underline">depression</a> and <a href="anxiety.php" class="text-primary hover:underline">anxiety</a> know they are not alone.
@@ -510,7 +554,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="images/blog/is-tms-shock-therapy-banner.svg" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS Shock Therapy">
+                                <img src="images/blog/is-tms-shock-therapy-banner.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS Shock Therapy">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">
@@ -587,3 +631,4 @@
 </body>
 
 </html>
+

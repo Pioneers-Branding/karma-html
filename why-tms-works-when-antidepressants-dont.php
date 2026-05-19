@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="A board-certified psychiatrist explains the neurological reason TMS succeeds where multiple antidepressants have failed.">
     <meta property="og:image"
-        content="https://karmatms.com/images/blog/why-tms-works-when-antidepressants-dont-banner.svg">
+        content="https://karmatms.com/images/blog/why-tms-works-when-antidepressants-dont-banner.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -217,7 +217,7 @@
       "@type": "Article",
       "headline": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
       "description": "A board-certified psychiatrist explains the neurological reason TMS succeeds where multiple antidepressants have failed.",
-      "image": "https://karmatms.com/images/blog/why-tms-works-when-antidepressants-dont-banner.svg",
+      "image": "https://karmatms.com/images/blog/why-tms-works-when-antidepressants-dont-banner.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -276,6 +276,48 @@
           "text": "Clinical data shows approximately 50–60% of treatment-resistant depression patients respond meaningfully to TMS, with roughly one-third achieving full remission."
         }
       }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmatms.com/blog.php"},
+        {"@type": "ListItem", "position": 3, "name": "The Reason TMS Works When 4 Antidepressants Didn't", "item": "https://www.karmatms.com/why-tms-works-when-antidepressants-dont.php"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.karmatms.com/why-tms-works-when-antidepressants-dont.php#medicalwebpage",
+      "name": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
+      "url": "https://www.karmatms.com/why-tms-works-when-antidepressants-dont.php",
+      "description": "A board-certified psychiatrist explains the neurological reason TMS succeeds where multiple antidepressants have failed.",
+      "inLanguage": "en-US",
+      "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patients"},
+      "about": [
+        {"@type": "MedicalTherapy", "name": "Transcranial Magnetic Stimulation (TMS)"},
+        {"@type": "MedicalCondition", "name": "Treatment-Resistant Depression"}
+      ],
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Keerthy Sunder",
+        "jobTitle": "Board-Certified Psychiatrist",
+        "url": "https://www.karmatms.com/team.php"
+      },
+      "publisher": {
+        "@type": "MedicalOrganization",
+        "name": "Karma TMS PC",
+        "url": "https://www.karmatms.com"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "h2", ".text-xl"]
+      }
     }
     </script>
 </head>
@@ -364,9 +406,10 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/why-tms-works-when-antidepressants-dont-banner.svg"
+                    <img src="images/blog/why-tms-works-when-antidepressants-dont-banner.png"
                          alt="Why TMS Works When Antidepressants Don't"
-                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                         class="w-full object-cover rounded-xl mb-8 shadow-md"
+                         style="max-height: 480px; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         You tried the first antidepressant. Then a second. Maybe a third and a fourth. Each time, hope — then disappointment. If this sounds familiar, you may have been told you have <a href="tms-therapy-for-treatment-resistant-depression.php" class="text-primary hover:underline"><strong>treatment-resistant depression</strong></a>. The label is technically accurate, but it is also misleading. You are not resistant because of something wrong with you. You are resistant because medication was never the right tool for your specific brain.
@@ -618,7 +661,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
-                                <img src="images/blog/your-brain-on-tms-banner.svg" class="w-full h-full object-cover">
+                                <img src="images/blog/your-brain-on-tms-banner.png" class="w-full h-full object-cover">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -739,7 +782,7 @@
             });
             navButtons.forEach(button => {
                 button.classList.remove('active');
-                if (button.getAttribute('onclick').includes(current)) {
+                if (current && button.getAttribute('onclick').includes(current)) {
                     button.classList.add('active');
                 }
             });
@@ -748,3 +791,5 @@
 </body>
 
 </html>
+
+

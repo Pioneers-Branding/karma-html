@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="A board-certified psychiatrist explains exactly what happens in your brain during a 20-minute TMS session — from the magnetic pulse to synaptic change.">
     <meta property="og:image"
-        content="https://karmatms.com/images/blog/your-brain-on-tms-banner.svg">
+        content="https://karmatms.com/images/blog/your-brain-on-tms-banner.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -30,28 +30,30 @@
         }
 
         .toc-button {
-            display: block;
-            width: 100%;
-            text-align: left;
-            padding: 0.5rem 0.75rem;
-            border-radius: 0.375rem;
-            font-size: 0.875rem;
-            transition: all 0.2s;
-            color: #374151;
-            background: transparent;
-            border: none;
-            cursor: pointer;
+            display: block !important;
+            width: 100% !important;
+            text-align: left !important;
+            padding: 0.5rem 0.75rem !important;
+            border-radius: 0.375rem !important;
+            font-size: 0.875rem !important;
+            transition: all 0.2s !important;
+            color: #374151 !important;
+            background: transparent !important;
+            background-color: transparent !important;
+            border: none !important;
+            cursor: pointer !important;
+            box-shadow: none !important;
         }
 
         .toc-button:hover {
-            background-color: rgba(87, 38, 112, 0.1);
-            color: #572670;
+            background-color: rgba(87, 38, 112, 0.1) !important;
+            color: #572670 !important;
         }
 
         .toc-button.active {
-            background-color: #572670;
-            color: white;
-            font-weight: 500;
+            background-color: #572670 !important;
+            color: white !important;
+            font-weight: 500 !important;
         }
 
         /* Accordion Styles */
@@ -237,7 +239,7 @@
       "@type": "Article",
       "headline": "Your Brain on TMS: What Actually Happens During Those 20 Minutes",
       "description": "A board-certified psychiatrist explains exactly what happens in your brain during a 20-minute TMS session — from the magnetic pulse to synaptic change.",
-      "image": "https://karmatms.com/images/blog/your-brain-on-tms-banner.svg",
+      "image": "https://karmatms.com/images/blog/your-brain-on-tms-banner.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -296,6 +298,45 @@
           "text": "Yes. TMS requires no sedation and has no effect on cognitive function or reaction time."
         }
       }]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.karmatms.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Blog", "item": "https://www.karmatms.com/blog.php"},
+        {"@type": "ListItem", "position": 3, "name": "Your Brain on TMS: What Actually Happens During Those 20 Minutes", "item": "https://www.karmatms.com/your-brain-on-tms.php"}
+      ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "MedicalWebPage",
+      "@id": "https://www.karmatms.com/your-brain-on-tms.php#medicalwebpage",
+      "name": "Your Brain on TMS: What Actually Happens During Those 20 Minutes",
+      "url": "https://www.karmatms.com/your-brain-on-tms.php",
+      "description": "A board-certified psychiatrist explains exactly what happens in your brain during a 20-minute TMS session — from the magnetic pulse to synaptic change.",
+      "inLanguage": "en-US",
+      "medicalAudience": {"@type": "MedicalAudience", "audienceType": "Patients"},
+      "about": {"@type": "MedicalTherapy", "name": "Transcranial Magnetic Stimulation (TMS)"},
+      "reviewedBy": {
+        "@type": "Person",
+        "name": "Dr. Keerthy Sunder",
+        "jobTitle": "Board-Certified Psychiatrist",
+        "url": "https://www.karmatms.com/team.php"
+      },
+      "publisher": {
+        "@type": "MedicalOrganization",
+        "name": "Karma TMS PC",
+        "url": "https://www.karmatms.com"
+      },
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": ["h1", "h2", ".text-xl"]
+      }
     }
     </script>
 </head>
@@ -384,9 +425,10 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/your-brain-on-tms-banner.svg"
+                    <img src="images/blog/your-brain-on-tms-banner.png"
                          alt="Your Brain on TMS — What Happens During a Session"
-                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                         class="w-full object-cover rounded-xl mb-8 shadow-md"
+                         style="max-height: 480px; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         For most patients walking into their first <a href="tms-therapy.php" class="text-primary hover:underline"><strong>TMS therapy</strong></a> session, the experience feels almost anticlimactic. A coil sits against your scalp, you hear a rhythmic clicking, and twenty minutes later you walk out and drive yourself home. But behind that quiet exterior, something extraordinary is happening at the cellular level — and it explains <a href="why-tms-works-when-antidepressants-dont.php" class="text-primary hover:underline">why TMS succeeds where decades of antidepressant medication often fail</a>.
@@ -624,7 +666,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
-                                <img src="images/blog/why-tms-works-when-antidepressants-dont-banner.svg" class="w-full h-full object-cover">
+                                <img src="images/blog/why-tms-works-when-antidepressants-dont-banner.png" class="w-full h-full object-cover">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -733,24 +775,36 @@
             }
         }
 
-        window.addEventListener('scroll', () => {
-            const sections = document.querySelectorAll('.scroll-target, div[id="intro"], section[id="faq"], section[id="conclusion"]');
+        function updateTOCHighlight() {
+            const sectionIds = ['intro', 'setup', 'pulse', 'neurons', 'target', 'prtms', 'feels', 'timeline', 'faq', 'conclusion'];
             const navButtons = document.querySelectorAll('.toc-button');
             let current = '';
-            sections.forEach(section => {
-                const sectionTop = section.offsetTop;
-                if (pageYOffset >= sectionTop - 120) {
-                    current = section.getAttribute('id');
+
+            sectionIds.forEach(id => {
+                const el = document.getElementById(id);
+                if (el) {
+                    const rect = el.getBoundingClientRect();
+                    if (rect.top <= 140) {
+                        current = id;
+                    }
                 }
             });
+
             navButtons.forEach(button => {
                 button.classList.remove('active');
-                if (button.getAttribute('onclick').includes(current)) {
+                const onclickVal = button.getAttribute('onclick') || '';
+                if (current && onclickVal.includes("'" + current + "'")) {
                     button.classList.add('active');
                 }
             });
-        });
+        }
+
+        window.addEventListener('scroll', updateTOCHighlight);
+        // Run once on load to set initial state
+        setTimeout(updateTOCHighlight, 200);
     </script>
 </body>
 
 </html>
+
+

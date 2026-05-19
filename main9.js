@@ -1079,6 +1079,18 @@ function initBlogPage() {
         // COMPLETE LIST from blog-posts.json
         const localBlogData = [
             {
+                "id": 55,
+                "title": "Do Psychiatrists Do Therapy? Understanding Their Role",
+                "excerpt": "Do psychiatrists do therapy? Learn about the role of a psychiatrist, whether they offer talk therapy, and how they differ from psychologists and therapists in California.",
+                "category": "mental-health",
+                "author": "Dr. Keerthy Sunder",
+                "date": "May 11, 2026",
+                "readTime": "12 min read",
+                "image": "images/blog/do-psychiatrists-do-therapy-intro.png",
+                "featured": false,
+                "url": "do-psychiatrists-do-therapy.php"
+            },
+            {
                 "id": 52,
                 "title": "The Reason TMS Works When 4 Antidepressants Didn't — A Psychiatrist Explains",
                 "excerpt": "If antidepressants haven't worked for you, you're not broken — your brain just needs a different approach. A board-certified psychiatrist explains exactly why TMS succeeds where medication fails.",
@@ -1086,7 +1098,7 @@ function initBlogPage() {
                 "author": "Dr. Keerthy Sunder",
                 "date": "April 20, 2026",
                 "readTime": "11 min read",
-                "image": "images/blog/why-tms-works-when-antidepressants-dont-banner.svg",
+                "image": "images/blog/why-tms-works-when-antidepressants-dont-banner.png",
                 "featured": false,
                 "url": "why-tms-works-when-antidepressants-dont.php"
             },
@@ -1098,7 +1110,7 @@ function initBlogPage() {
                 "author": "Dr. Keerthy Sunder",
                 "date": "April 17, 2026",
                 "readTime": "10 min read",
-                "image": "images/blog/your-brain-on-tms-banner.svg",
+                "image": "images/blog/your-brain-on-tms-banner.png",
                 "featured": false,
                 "url": "your-brain-on-tms.php"
             },
@@ -1134,7 +1146,7 @@ function initBlogPage() {
                 "author": "Dr. Keerthy Sunder",
                 "date": "May 5, 2026",
                 "readTime": "8 min read",
-                "image": "images/blog/mental-health-awareness-month-banner.svg",
+                "image": "images/blog/mental-health-awareness-month-banner.png",
                 "featured": false,
                 "url": "mental-health-awareness-month.php"
             },
@@ -1146,7 +1158,7 @@ function initBlogPage() {
                 "author": "Dr. Keerthy Sunder",
                 "date": "May 2, 2026",
                 "readTime": "9 min read",
-                "image": "images/blog/is-tms-shock-therapy-banner.svg",
+                "image": "images/blog/is-tms-shock-therapy-banner.png",
                 "featured": false,
                 "url": "is-tms-shock-therapy.php"
             },

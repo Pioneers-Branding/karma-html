@@ -708,7 +708,7 @@
 
             navButtons.forEach(button => {
                 button.classList.remove('active');
-                if (button.getAttribute('onclick').includes(current)) {
+                if (current && button.getAttribute('onclick').includes(current)) {
                     button.classList.add('active');
                 }
             });
@@ -717,3 +717,4 @@
 </body>
 
 </html>
+
