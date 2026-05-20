@@ -448,7 +448,7 @@
                             <iframe
                                 class="w-full h-full border-0 grayscale-[20%] group-hover:grayscale-0 transition-all duration-300"
                                 loading="lazy" allowfullscreen
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3319.9537482845625!2d-116.54716!3d33.81835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1b0000000001%3A0x0!2s560%20S%20Paseo%20Dorotea%20Suite%204B!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925875685434!2d-116.49987429999999!3d33.8142259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779295416587!5m2!1sen!2sin"></iframe>
                         </div>
 
                         <!-- Map 2: Rancho Mirage -->
@@ -456,7 +456,7 @@
                             <iframe
                                 class="w-full h-full border-0 grayscale-[20%] group-hover:grayscale-0 transition-all duration-300"
                                 loading="lazy" allowfullscreen
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3322.0!2d-116.416!3d33.78!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s35400%20Bob%20Hope%20Dr%20STE%20206!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.23808627214382!2d-116.40541828261227!3d33.79142387599502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779295603746!5m2!1sen!2sin"></iframe>
                         </div>
 
                         <!-- Map 3: Twentynine Palms -->
@@ -464,7 +464,7 @@
                             <iframe
                                 class="w-full h-full border-0 grayscale-[20%] group-hover:grayscale-0 transition-all duration-300"
                                 loading="lazy" allowfullscreen
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3315.0!2d-116.05!3d34.13!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s72724%2029%20Palms%20Hwy%20%23107!5e0!3m2!1sen!2sus!4v1600000000000!5m2!1sen!2sus"></iframe>
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779295458149!5m2!1sen!2sin"></iframe>
                         </div>
                     </div>
                 </div>
