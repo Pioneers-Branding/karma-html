@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -561,7 +561,7 @@
                         <div class="text-left">
                             <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                             <p class="text-sm font-medium" style="color: #4c1d95;">
-                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
                             </p>
                         </div>
                     </div>
@@ -682,6 +682,89 @@
         </div>
     </section>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Healing from Trauma: PTSD Success Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Patients share their journey to healing and overcoming PTSD.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The nightmares and flashbacks had taken over my life. The innovative treatments here helped my brain process the trauma and find peace."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">C</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Chris M.</h4>
+                            <p class="text-sm text-gray-500">Twentynine Palms, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I finally feel safe in my own mind again. The compassionate approach and advanced technology provided the relief I desperately needed."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Anna J.</h4>
+                            <p class="text-sm text-gray-500">Palm Desert, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"Overcoming PTSD is a journey, but the therapies at Karma TMS accelerated my healing in ways talk therapy alone couldn't achieve."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Michael G.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <?php include 'includes/footer.php'; ?>
 
     <script>
@@ -692,4 +775,5 @@
 </body>
 
 </html>
+
 

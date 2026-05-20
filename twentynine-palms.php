@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,7 +18,7 @@
       "@context": "https://schema.org",
       "@type": ["MedicalBusiness", "LocalBusiness"],
       "@id": "https://www.karmatms.com/twentynine-palms.php#location",
-      "name": "Karma TMS PC – Twentynine Palms",
+      "name": "Karma TMS PC â€“ Twentynine Palms",
       "url": "https://www.karmatms.com/twentynine-palms.php",
       "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763039658/2_miiwgx.jpg",
       "description": "TMS therapy center in Twentynine Palms near MCAGCC. Specialized PTSD treatment for veterans and active military. Depression and anxiety care. Tricare and VA benefits accepted.",
@@ -178,7 +178,7 @@
                 <div class="text-center mb-12 fade-up">
                     <h2 class="text-3xl lg:text-4xl font-bold mb-6">Evidence-Based PTSD &amp; Depression Treatment in Twentynine Palms</h2>
                     <p class="text-xl text-gray-700 leading-relaxed max-w-4xl mx-auto">
-                        Located directly on <strong>29 Palms Highway</strong>, we proudly serve the Twentynine Palms community — including active-duty service members, veterans, and their families from <strong>MCAGCC (Marine Corps Air Ground Combat Center)</strong>. We specialize in non-invasive, FDA-cleared TMS therapy: a highly effective alternative for trauma-related anxiety (PTSD) and treatment-resistant depression when traditional medications fall short.
+                        Located directly on <strong>29 Palms Highway</strong>, we proudly serve the Twentynine Palms community â€” including active-duty service members, veterans, and their families from <strong>MCAGCC (Marine Corps Air Ground Combat Center)</strong>. We specialize in non-invasive, FDA-cleared TMS therapy: a highly effective alternative for trauma-related anxiety (PTSD) and treatment-resistant depression when traditional medications fall short.
                     </p>
                 </div>
 
@@ -412,7 +412,7 @@
                     Visit Our Twentynine Palms TMS Clinic
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">
-                    Located at <strong>72724 29 Palms Hwy., Suite 107-B</strong> — directly on 29 Palms Highway, approximately 3 miles east of <strong>MCAGCC Marine Corps Air Ground Combat Center</strong>'s main gate on Adobe Road, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. Easy access with free parking directly in front of the building.
+                    Located at <strong>72724 29 Palms Hwy., Suite 107-B</strong> â€” directly on 29 Palms Highway, approximately 3 miles east of <strong>MCAGCC Marine Corps Air Ground Combat Center</strong>'s main gate on Adobe Road, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. Easy access with free parking directly in front of the building.
                 </p>
             </div>
 
@@ -433,7 +433,7 @@
                     <div class="bm-benefit-card p-8 rounded-xl shadow-xl mb-6">
                         <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                             <i data-lucide="map-pin" class="w-6 h-6" style="color: #7e22ce;"></i>
-                            Karma TMS PC — Twentynine Palms
+                            Karma TMS PC â€” Twentynine Palms
                         </h3>
                         <div class="space-y-5">
                             <div class="flex items-start gap-3">
@@ -454,7 +454,7 @@
                                 <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
-                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
+                                    <p class="text-gray-600">Monday â€“ Friday: 8:00 AM â€“ 6:00 PM<br>Saturday â€“ Sunday: Closed</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -482,9 +482,9 @@
                             <i data-lucide="map" class="w-4 h-4 inline mr-1"></i>Nearby Landmarks &amp; Driving Distances
                         </p>
                         <div class="flex flex-wrap gap-2">
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">MCAGCC — ~3 miles west</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Royal Farley VA Clinic — &lt;5 miles</span>
-                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Joshua Tree NP — ~15 miles north</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">MCAGCC â€” ~3 miles west</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Royal Farley VA Clinic â€” &lt;5 miles</span>
+                            <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">Joshua Tree NP â€” ~15 miles north</span>
                             <span class="inline-block px-3 py-1.5 rounded-full text-xs font-medium" style="background-color: #e9d5ff; color: #4c1d95;">29 Palms Hwy (directly on)</span>
                         </div>
                     </div>
@@ -501,10 +501,10 @@
                     <div class="p-8 md:p-10 flex flex-col justify-center">
                         <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving High Desert Communities</p>
                         <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                            Karma TMS Is Located on 29 Palms Highway — Less Than 3 Miles from MCAGCC's Main Gate
+                            Karma TMS Is Located on 29 Palms Highway â€” Less Than 3 Miles from MCAGCC's Main Gate
                         </h3>
                         <p class="text-gray-700 mb-3">
-                            Our Twentynine Palms TMS clinic at <strong>72724 29 Palms Hwy., Suite 107-B</strong> is located directly on 29 Palms Highway — approximately <strong>3 miles east of MCAGCC's main gate on Adobe Road</strong>, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. For active-duty personnel stationed at MCAGCC, the clinic is one of the closest mental health providers outside base, accessible without a long commute after duty hours.
+                            Our Twentynine Palms TMS clinic at <strong>72724 29 Palms Hwy., Suite 107-B</strong> is located directly on 29 Palms Highway â€” approximately <strong>3 miles east of MCAGCC's main gate on Adobe Road</strong>, and less than 5 miles from the <strong>Royal Farley VA Clinic</strong>. For active-duty personnel stationed at MCAGCC, the clinic is one of the closest mental health providers outside base, accessible without a long commute after duty hours.
                         </p>
                         <p class="text-gray-700 mb-6">
                             Patients from <strong>Joshua Tree</strong>, <strong>Yucca Valley</strong>, <strong>Morongo Valley</strong>, <strong>Banning</strong>, and <strong>Beaumont</strong> also travel to our 29 Palms location for advanced TMS therapy without making the long drive to Los Angeles or San Bernardino. Joshua Tree National Park's west entrance is just 15 miles north on the highway.
@@ -518,7 +518,7 @@
                             <div>
                                 <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                                 <p class="text-sm font-medium" style="color: #4c1d95;">
-                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
                                 </p>
                             </div>
                         </div>
@@ -527,7 +527,7 @@
                     <!-- Image Side -->
                     <div class="relative" style="min-height: 300px;">
                         <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png"
-                            alt="Karma TMS Twentynine Palms clinic — near MCAGCC Marine Base, Joshua Tree, and the High Desert"
+                            alt="Karma TMS Twentynine Palms clinic â€” near MCAGCC Marine Base, Joshua Tree, and the High Desert"
                             class="w-full h-full object-cover" style="min-height: 300px;">
                         <div class="absolute top-4 left-4">
                             <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold" style="background-color: #7e22ce; color: #fff;">
@@ -733,6 +733,89 @@
         });
     </script>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Twentynine Palms Patient Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real experiences from residents of Twentynine Palms and surrounding areas.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"Having access to such advanced mental health care near the base is incredible. The TMS therapy changed my life completely."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">C</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Chris T.</h4>
+                            <p class="text-sm text-gray-500">Twentynine Palms, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I used to drive hours for specialist care. The team here provides world-class treatment right in our local community."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">S</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Sarah J.</h4>
+                            <p class="text-sm text-gray-500">Joshua Tree, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The staff's dedication to our community, especially the military families, is unmatched. My depression is finally under control."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Mike L.</h4>
+                            <p class="text-sm text-gray-500">Twentynine Palms, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- Final CTA Section -->
     <section class="py-20 text-white fade-up" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="container mx-auto px-4 text-center">
@@ -770,4 +853,5 @@
 </body>
 
 </html>
+
 

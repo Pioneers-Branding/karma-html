@@ -328,6 +328,89 @@
         </div>
     </section>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Medication Management Success Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Patients share how optimized medication management improved their daily lives.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"For years I was over-medicated and felt numb. The team at Karma TMS re-evaluated everything and found the perfect balance for me."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">A</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Amanda K.</h4>
+                            <p class="text-sm text-gray-500">Palm Desert, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"Finally, a doctor who listens! My medication management plan is clear, and I feel like myself again without the terrible side effects."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">J</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">James C.</h4>
+                            <p class="text-sm text-gray-500">La Quinta, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"Combining my TMS with proper medication management was the key to my recovery. Their holistic approach is unmatched."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">L</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Linda S.</h4>
+                            <p class="text-sm text-gray-500">Cathedral City, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <?php include 'includes/footer.php'; ?>
 
     <script>
@@ -690,4 +773,5 @@
 </body>
 
 </html>
+
 

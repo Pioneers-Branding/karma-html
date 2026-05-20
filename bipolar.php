@@ -552,6 +552,89 @@
         </div>
     </section>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Finding Balance: Bipolar Disorder Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Hear how patients achieved stability and balance in their lives.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"Managing bipolar depression has always been a struggle. The expert medication management and adjunctive therapies here brought me true stability."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">R</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Rebecca L.</h4>
+                            <p class="text-sm text-gray-500">Palm Springs, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I feel leveled out for the first time in years. They didn't just mask my symptoms; they worked to stabilize my overall mood and well-being."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">D</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">David P.</h4>
+                            <p class="text-sm text-gray-500">La Quinta, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The comprehensive care I received helped me navigate the extreme lows of bipolar disorder. I feel functional, present, and hopeful."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">M</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Michelle W.</h4>
+                            <p class="text-sm text-gray-500">Indian Wells, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <?php include 'includes/footer.php'; ?>
 
     <script>
@@ -562,4 +645,5 @@
 </body>
 
 </html>
+
 

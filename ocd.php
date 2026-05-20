@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -570,7 +570,7 @@
                         <div class="text-left">
                             <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                             <p class="text-sm font-medium" style="color: #4c1d95;">
-                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
                             </p>
                         </div>
                     </div>
@@ -691,6 +691,89 @@
         </div>
     </section>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Living Free: OCD Treatment Success
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real stories from patients who regained control from Obsessive-Compulsive Disorder.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"OCD used to dictate my entire day. The specialized TMS treatment protocols significantly reduced my intrusive thoughts."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">B</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Brian K.</h4>
+                            <p class="text-sm text-gray-500">Palm Springs, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I had given up hope on finding relief from my compulsions. The progress I've made here is beyond what I thought was possible."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">L</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Lauren M.</h4>
+                            <p class="text-sm text-gray-500">Indio, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The freedom I have now is indescribable. The team understood OCD deeply and customized my treatment to target my specific symptoms."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">D</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Daniel S.</h4>
+                            <p class="text-sm text-gray-500">Cathedral City, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <?php include 'includes/footer.php'; ?>
 
     <!-- E-E-A-T: Medically Reviewed By -->
@@ -702,7 +785,7 @@
                 </div>
                 <div>
                     <p class="text-xs font-semibold uppercase tracking-wide text-gray-500">Content Accuracy</p>
-                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC</p>
+                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC</p>
                 </div>
             </div>
         </div>
@@ -716,4 +799,5 @@
 </body>
 
 </html>
+
 

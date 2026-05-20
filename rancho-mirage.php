@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -18,7 +18,7 @@
       "@context": "https://schema.org",
       "@type": ["MedicalBusiness", "LocalBusiness"],
       "@id": "https://www.karmatms.com/rancho-mirage.php#location",
-      "name": "Karma TMS PC – Rancho Mirage",
+      "name": "Karma TMS PC â€“ Rancho Mirage",
       "url": "https://www.karmatms.com/rancho-mirage.php",
       "image": "https://i.ibb.co/svRMccr4/rancho-mirage-rancho-mirage-ca-primaryphoto.webp",
       "description": "Premier TMS therapy center in Rancho Mirage, CA. Advanced FDA-approved depression treatment, anxiety therapy, and psychiatric care. Luxury mental health services in the Coachella Valley.",
@@ -86,7 +86,7 @@
           "name": "What makes the Rancho Mirage location different?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Our Rancho Mirage office features the exclusive Exomind TMS technology — the most advanced TMS system available, only offered at this location. We also offer concierge-level care in a luxury setting."
+            "text": "Our Rancho Mirage office features the exclusive Exomind TMS technology â€” the most advanced TMS system available, only offered at this location. We also offer concierge-level care in a luxury setting."
           }
         },
         {
@@ -229,10 +229,10 @@
                         <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4" style="background-color: #7e22ce; color: #fff;">Medical Hub Location</span>
                         <h2 class="text-3xl lg:text-4xl font-bold mb-4">Strategically Located Near Eisenhower Medical Center</h2>
                         <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                            Our Rancho Mirage clinic on <strong>Bob Hope Drive</strong> is less than a mile from the <strong>Eisenhower Health</strong> campus — one of the Coachella Valley's premier medical centers. This proximity is no accident: many of our patients are referred directly from Eisenhower's psychiatry and neurology departments, and others are managed by physicians who see the value of adding TMS therapy to a patient's treatment plan.
+                            Our Rancho Mirage clinic on <strong>Bob Hope Drive</strong> is less than a mile from the <strong>Eisenhower Health</strong> campus â€” one of the Coachella Valley's premier medical centers. This proximity is no accident: many of our patients are referred directly from Eisenhower's psychiatry and neurology departments, and others are managed by physicians who see the value of adding TMS therapy to a patient's treatment plan.
                         </p>
                         <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                            For patients in the greater Palm Desert area, Indian Wells, and La Quinta, our location on Bob Hope Drive — just east of <strong>Highway 111</strong> — offers a level of medical authority and institutional trust that a standalone office simply cannot provide.
+                            For patients in the greater Palm Desert area, Indian Wells, and La Quinta, our location on Bob Hope Drive â€” just east of <strong>Highway 111</strong> â€” offers a level of medical authority and institutional trust that a standalone office simply cannot provide.
                         </p>
                         <div class="grid grid-cols-2 gap-3">
                             <div class="flex items-center gap-2">
@@ -269,7 +269,7 @@
                             <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background-color: #4338ca;">JW</div>
                             <div>
                                 <p class="font-semibold text-gray-900">Julie Williamson</p>
-                                <p class="text-sm text-gray-500">Verified Patient — Rancho Mirage</p>
+                                <p class="text-sm text-gray-500">Verified Patient â€” Rancho Mirage</p>
                             </div>
                         </div>
                         <p class="text-xs text-gray-400 mt-4 italic">Review sourced from Google Business Profile. Published with patient consent.</p>
@@ -295,7 +295,7 @@
                 <div class="text-center mb-12">
                     <span class="inline-block px-4 py-2 rounded-md mb-4 text-sm font-semibold border shadow"
                         style="border-color: white; color: white;">
-                        ðŸ† ADVANCED MENTAL HEALTH TREATMENT
+                        Ã°Å¸Ââ€  ADVANCED MENTAL HEALTH TREATMENT
                     </span>
                     <h2 class="text-3xl lg:text-5xl font-bold mb-6"
                         style="background: linear-gradient(to right, white, rgba(216, 180, 254, 1), white); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
@@ -385,6 +385,89 @@
                         </p>
                     </div>
                 </div>
+
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Rancho Mirage Patient Success Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real experiences from our patients in Rancho Mirage.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The ExoMind TMS therapy at the Rancho Mirage clinic was a luxurious and healing experience. My brain fog has completely disappeared."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">R</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Robert W.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I found exactly what I needed here: professional, cutting-edge treatment in a serene environment. Highly recommended for depression care."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">K</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Karen S.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The personalized approach to my mental health plan made all the difference. I feel rejuvenated, focused, and happy again."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">D</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">David H.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
 
                 <!-- CTA -->
                 <div class="text-center">
@@ -590,7 +673,7 @@
                     Visit Our Rancho Mirage TMS Clinic
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">
-                    Located at <strong>35400 Bob Hope Dr., Suite 206-B</strong> — on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus. Free parking is available in the building's dedicated lot.
+                    Located at <strong>35400 Bob Hope Dr., Suite 206-B</strong> â€” on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus. Free parking is available in the building's dedicated lot.
                 </p>
             </div>
 
@@ -611,7 +694,7 @@
                     <div class="bm-benefit-card p-8 rounded-xl shadow-xl mb-6">
                         <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                             <i data-lucide="map-pin" class="w-6 h-6" style="color: #7e22ce;"></i>
-                            Karma TMS PC — Rancho Mirage
+                            Karma TMS PC â€” Rancho Mirage
                         </h3>
                         <div class="space-y-5">
                             <div class="flex items-start gap-3">
@@ -625,7 +708,7 @@
                                 <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
-                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
+                                    <p class="text-gray-600">Monday â€“ Friday: 8:00 AM â€“ 6:00 PM<br>Saturday â€“ Sunday: Closed</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -673,10 +756,10 @@
                     <div class="p-8 md:p-10 flex flex-col justify-center">
                         <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving Coachella Valley Neighborhoods</p>
                         <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                            Karma TMS Rancho Mirage Is Located Near Eisenhower Health — Just East of Highway 111 on Bob Hope Drive
+                            Karma TMS Rancho Mirage Is Located Near Eisenhower Health â€” Just East of Highway 111 on Bob Hope Drive
                         </h3>
                         <p class="text-gray-700 mb-3">
-                            Our Rancho Mirage TMS clinic at <strong>35400 Bob Hope Dr., Suite 206-B</strong> sits on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus — the Coachella Valley's premier medical center. From Highway 111, head north on Bob Hope Drive; our building is immediately on the right before Gerald Ford Parkway.
+                            Our Rancho Mirage TMS clinic at <strong>35400 Bob Hope Dr., Suite 206-B</strong> sits on the east side of Bob Hope Drive, just east of <strong>Highway 111</strong> and less than a mile from the <strong>Eisenhower Health</strong> campus â€” the Coachella Valley's premier medical center. From Highway 111, head north on Bob Hope Drive; our building is immediately on the right before Gerald Ford Parkway.
                         </p>
                         <p class="text-gray-700 mb-6">
                             Patients from <strong>Palm Desert</strong>, <strong>Indian Wells</strong>, <strong>La Quinta</strong>, <strong>Indio</strong>, <strong>Cathedral City</strong>, and <strong>Palm Springs</strong> benefit from our central valley location with easy access off Bob Hope Drive and Highway 111. The Eisenhower Health referral network also brings patients from across the entire Coachella Valley.
@@ -690,7 +773,7 @@
                             <div>
                                 <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                                 <p class="text-sm font-medium" style="color: #4c1d95;">
-                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> — Board-Certified Psychiatrist, Karma TMS PC
+                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
                                 </p>
                             </div>
                         </div>
@@ -699,7 +782,7 @@
                     <!-- Image Side -->
                     <div class="relative" style="min-height: 300px;">
                         <img src="https://i.ibb.co/qM2v12mM/Santo-Tomas-Rancho-Mirage-19.jpg"
-                            alt="Karma TMS Rancho Mirage clinic — near Thunderbird Country Club, Bob Hope Drive, and the Coachella Valley"
+                            alt="Karma TMS Rancho Mirage clinic â€” near Thunderbird Country Club, Bob Hope Drive, and the Coachella Valley"
                             class="w-full h-full object-cover" style="min-height: 300px;">
                         <div class="absolute top-4 left-4">
                             <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold" style="background-color: #7e22ce; color: #fff;">
@@ -903,6 +986,89 @@
         });
     </script>
 
+    <!-- Patient Testimonials -->
+    <section class="py-16 px-4 bg-gray-50">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12 fade-in-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
+                    Rancho Mirage Patient Success Stories
+                </h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
+                    Real experiences from our patients in Rancho Mirage.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The ExoMind TMS therapy at the Rancho Mirage clinic was a luxurious and healing experience. My brain fog has completely disappeared."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">R</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Robert W.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I found exactly what I needed here: professional, cutting-edge treatment in a serene environment. Highly recommended for depression care."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">K</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">Karen S.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative fade-in-up">
+                    <i data-lucide="quote" class="w-10 h-10 text-primary-brand opacity-10 absolute top-6 right-6"></i>
+                    <div class="flex items-center gap-1 mb-4 text-yellow-400">
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                        <i data-lucide="star" class="w-5 h-5 fill-current"></i>
+                    </div>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The personalized approach to my mental health plan made all the difference. I feel rejuvenated, focused, and happy again."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">D</div>
+                        <div>
+                            <h4 class="font-bold text-gray-900">David H.</h4>
+                            <p class="text-sm text-gray-500">Rancho Mirage, CA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12 fade-in-up">
+                <a href="testimonials.php" class="inline-flex items-center gap-2 px-6 py-3 border-2 border-primary-brand text-primary-brand rounded-md font-semibold hover:bg-primary-brand hover:text-white transition">
+                    View All Testimonials
+                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
     <!-- Final CTA Section -->
     <section class="py-20 text-white fade-up" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="container mx-auto px-4 text-center">
@@ -939,4 +1105,5 @@
 </body>
 
 </html>
+
 
