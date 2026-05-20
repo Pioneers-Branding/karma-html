@@ -162,6 +162,36 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Footer Maps Section -->
+        <div class="footer-maps-row">
+            <h3 class="footer-maps-section-title">Our Locations</h3>
+            <div class="footer-maps-grid">
+                <!-- Palm Springs Map -->
+                <div class="footer-map-card">
+                    <h4 class="footer-map-location-name">Palm Springs</h4>
+                    <div class="footer-map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925876722152!2d-116.50244922375673!3d33.81422587324756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779297634613!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- Rancho Mirage Map -->
+                <div class="footer-map-card">
+                    <h4 class="footer-map-location-name">Rancho Mirage</h4>
+                    <div class="footer-map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429.135153608562!2d-116.40525242845216!3d33.79133854907109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779297581443!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- 29 Palms Map -->
+                <div class="footer-map-card">
+                    <h4 class="footer-map-location-name">Twentynine Palms</h4>
+                    <div class="footer-map-wrapper">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779297610649!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!-- Bottom Bar -->
