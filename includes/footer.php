@@ -1,3 +1,120 @@
+<style>
+/* CSS styles for the clubbed maps in the footer to bypass caching */
+.footer-grid-react {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2.5rem;
+}
+@media (min-width: 768px) {
+    .footer-grid-react {
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+}
+@media (min-width: 1024px) {
+    .footer-grid-react {
+        grid-template-columns: repeat(4, 1fr) !important;
+    }
+}
+
+.footer-maps-row {
+    margin-top: 4rem;
+    padding-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-maps-section-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: left;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.footer-maps-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .footer-maps-grid {
+        grid-template-columns: repeat(3, 1fr) !important;
+    }
+}
+
+.footer-map-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(168, 85, 247, 0.15);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-map-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(168, 85, 247, 0.4);
+    box-shadow: 0 10px 25px -5px rgba(168, 85, 247, 0.15);
+}
+
+.footer-map-header {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+    margin-bottom: 1.25rem;
+}
+
+.footer-map-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #a855f7;
+    margin-top: 0.2rem;
+    flex-shrink: 0;
+}
+
+.footer-map-location-name {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+
+.footer-map-address {
+    font-size: 0.78rem;
+    color: #d1d5db;
+    line-height: 1.5;
+    margin-top: 0.25rem;
+}
+
+.footer-map-wrapper {
+    position: relative;
+    width: 100%;
+    height: 220px;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.footer-map-wrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(20%) contrast(110%);
+    transition: filter 0.3s;
+}
+
+.footer-map-card:hover .footer-map-wrapper iframe {
+    filter: grayscale(0%) contrast(100%);
+}
+</style>
+
 <footer class="footer-react">
     <div class="container">
         <div class="footer-grid-react">
