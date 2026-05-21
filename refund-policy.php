@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -341,6 +341,11 @@
                         <a href="privacy-policy.php" class="bm-outline-btn"
                             style="border-color: #572670; color: #572670; text-decoration: none;">
                             Privacy Policy
+                        </a>
+
+                        <a href="terms-conditions.php" class="bm-outline-btn"
+                            style="border-color: #572670; color: #572670; text-decoration: none;">
+                            Terms & Conditions
                         </a>
                     </div>
                 </div>

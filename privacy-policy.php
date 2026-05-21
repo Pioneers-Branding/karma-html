@@ -1,12 +1,12 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | KarmaTMS Mental Health Center</title>
+    <title>Privacy Policy | Karma TMS Mental Health Center</title>
     <meta name="description"
-        content="Our Privacy Policy outlines how KarmaTMS collects, uses, and protects your personal and medical information in compliance with HIPAA.">
+        content="Our Privacy Policy explains how Karma TMS collects, uses, and safeguards your personal and medical information, including SMS communication guidelines.">
 
     <?php include 'includes/header-links.php'; ?>
 </head>
@@ -27,56 +27,36 @@
                     Privacy Policy
                 </span>
                 <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
-                    Your Privacy is
+                    Protecting Your
                     <span class="block text-transparent bg-clip-text"
                         style="background: linear-gradient(to right, #572670, #a855f7); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent;">
-                        Our Priority
+                        Personal Privacy
                     </span>
                 </h1>
                 <p class="text-xl text-gray-600 leading-relaxed mb-8">
-                    We are committed to protecting your personal and medical information. This policy
-                    explains how we collect, use, and safeguard your data in compliance with HIPAA
-                    and other applicable privacy regulations.
+                    At Karma TMS, we value your privacy and are committed to protecting your personal information.
+                    This Privacy Policy explains how we collect, use, and safeguard your information when you visit
+                    our website or communicate with us.
                 </p>
                 <div class="flex items-center justify-center gap-6 text-sm text-gray-500 mb-8">
                     <div class="flex items-center gap-2">
                         <i data-lucide="clock" class="w-4 h-4"></i>
-                        <span>Last Updated: March 1, 2024</span>
+                        <span>Effective Date: May 21, 2026</span>
                     </div>
                     <div class="flex items-center gap-2">
                         <i data-lucide="shield" class="w-4 h-4"></i>
-                        <span>HIPAA Compliant</span>
+                        <span>Secure & Compliant</span>
                     </div>
-                </div>
-                <div class="flex flex-wrap justify-center gap-4">
-                    <a href="hipaa.php" class="bm-hero-btn" style="background-color: #572670; text-decoration: none;">
-                        <i data-lucide="file-text" class="w-5 h-5 mr-2"></i>
-                        HIPAA Notice
-                    </a>
-                    <a href="tel:7607605675" class="bm-outline-btn"
-                        style="border-color: #572670; color: #572670; text-decoration: none;">
-                        <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
-                        Privacy Questions: 760-760-5675
-                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Privacy Sections -->
+    <!-- Privacy Policy Sections -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                    Comprehensive <span style="color: #572670;">Privacy Protection</span>
-                </h2>
-                <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Understanding how we protect your information is essential to building trust.
-                    Here's our complete approach to privacy and data protection.
-                </p>
-            </div>
-
             <div class="space-y-8 max-w-4xl mx-auto">
+                
                 <!-- Card 1: Information We Collect -->
                 <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
                     <div class="flex items-center gap-4 mb-6">
@@ -86,30 +66,32 @@
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900">Information We Collect</h3>
                     </div>
+                    <p class="text-gray-600 mb-4">We may collect the following information:</p>
                     <ul class="space-y-3">
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Personal Information: Name, address, phone number, email
-                                address, date of birth, and insurance information</span>
+                            <span class="text-gray-600"><strong>Name</strong> – For identifying and addressing you in all communications.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Medical Information: Medical history, current medications,
-                                treatment records, and health assessments</span>
+                            <span class="text-gray-600"><strong>Email Address</strong> – For responding to inquiries, sending reminders, and medical updates.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Billing Information: Payment details, insurance claims, and
-                                billing records</span>
+                            <span class="text-gray-600"><strong>Phone Number</strong> – For voice calls and SMS communications (appointment reminders, updates).</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Website Usage: IP address, browser type, pages visited, and
-                                interaction data when using our website</span>
+                            <span class="text-gray-600"><strong>Business Information</strong> – Relevant organizational details when interfacing with us.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
+                                style="color: #572670;"></i>
+                            <span class="text-gray-600"><strong>Form Submissions</strong> – Any information submitted directly through our digital forms.</span>
                         </li>
                     </ul>
                 </div>
@@ -123,367 +105,235 @@
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900">How We Use Your Information</h3>
                     </div>
+                    <p class="text-gray-600 mb-4">We use your information to:</p>
                     <ul class="space-y-3">
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Providing medical care and TMS treatments as prescribed by your
-                                physician</span>
+                            <span class="text-gray-600">Provide and maintain services and customer support.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Scheduling appointments and managing your treatment plan</span>
+                            <span class="text-gray-600">Respond effectively to your inquiries, questions, or concerns.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Processing insurance claims and handling billing matters</span>
+                            <span class="text-gray-600">Send critical appointment reminders, schedule changes, or service updates.</span>
                         </li>
                         <li class="flex items-start gap-3">
                             <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
                                 style="color: #572670;"></i>
-                            <span class="text-gray-600">Communicating with you about your care, appointments, and health
-                                information</span>
+                            <span class="text-gray-600">Send marketing and promotional messages, strictly provided that consent has been explicitly granted.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
+                                style="color: #572670;"></i>
+                            <span class="text-gray-600">Improve website functionality, layout, and our overall healthcare services.</span>
                         </li>
                     </ul>
                 </div>
 
-                <!-- Card 3: Information Sharing -->
+                <!-- Card 3: SMS Communication (A2P 10DLC Compliance Highlighted) -->
+                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all" 
+                     style="border-left: 5px solid #a855f7; background-color: #faf5ff;">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
+                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
+                            <i data-lucide="message-square" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">SMS Communication</h3>
+                    </div>
+                    <p class="text-gray-700 leading-relaxed mb-4">
+                        By providing your phone number and opting in through our website forms, you consent to receive SMS messages from <strong>Karma TMS</strong>.
+                    </p>
+                    <p class="text-gray-600 mb-3">These messages may include:</p>
+                    <ul class="space-y-2 mb-4">
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="arrow-right" class="w-4 h-4 mt-1" style="color: #572670;"></i>
+                            <span class="text-gray-600">Appointment reminders and scheduling updates.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="arrow-right" class="w-4 h-4 mt-1" style="color: #572670;"></i>
+                            <span class="text-gray-600">Service updates and clinical notifications.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="arrow-right" class="w-4 h-4 mt-1" style="color: #572670;"></i>
+                            <span class="text-gray-600">Promotional offers and wellness insights.</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <i data-lucide="arrow-right" class="w-4 h-4 mt-1" style="color: #572670;"></i>
+                            <span class="text-gray-600">Marketing communications tailored to your mental healthcare needs.</span>
+                        </li>
+                    </ul>
+                    <div class="p-4 rounded-xl mb-4" style="background-color: rgba(255, 255, 255, 0.7); border: 1px solid rgba(87, 38, 112, 0.1);">
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            <strong>Rates & Frequency:</strong> Message frequency may vary depending on your interactions. Standard message and data rates may apply depending on your mobile carrier plan.
+                        </p>
+                    </div>
+                    <p class="text-sm font-semibold text-gray-700">
+                        Opt-out: You may opt out at any time by replying <span class="px-2 py-1 bg-gray-200 rounded text-red-700 font-mono text-xs">STOP</span> to any text message. Reply <span class="px-2 py-1 bg-gray-200 rounded text-blue-700 font-mono text-xs">HELP</span> for additional assistance.
+                    </p>
+                </div>
+
+                <!-- Card 4: Information Sharing -->
+                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all"
+                     style="border-left: 5px solid #10b981; background-color: #f0fdf4;">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
+                            style="background: linear-gradient(to bottom right, #10b981, #34d399);">
+                            <i data-lucide="share-2" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Information Sharing</h3>
+                    </div>
+                    <p class="text-gray-800 font-semibold leading-relaxed mb-4" style="font-size: 1.1rem;">
+                        We do not sell, rent, or share your personal information with third parties for marketing purposes.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed">
+                        We may share information with trusted service providers who help us operate our business, website, and medical services, under strict confidentiality and legal guidelines.
+                    </p>
+                </div>
+
+                <!-- Card 5: Data Security -->
                 <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
                     <div class="flex items-center gap-4 mb-6">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center"
                             style="background: linear-gradient(to bottom right, #572670, #a855f7);">
-                            <i data-lucide="eye" class="w-6 h-6 text-white"></i>
+                            <i data-lucide="shield-check" class="w-6 h-6 text-white"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Information Sharing & Disclosure</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Data Security</h3>
                     </div>
-                    <ul class="space-y-3">
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Healthcare Operations: Sharing with healthcare providers
-                                involved in your care</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Legal Requirements: Disclosure when required by law or court
-                                order</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Insurance Processing: Sharing with insurance companies for
-                                claims processing</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Business Associates: Limited sharing with vendors who support
-                                our operations under strict agreements</span>
-                        </li>
-                    </ul>
+                    <p class="text-gray-600 leading-relaxed">
+                        We implement appropriate and comprehensive administrative, physical, and technical security measures 
+                        to protect your information from unauthorized access, disclosure, alteration, or destruction. 
+                        Our systems are maintained to the highest standards of data security compliance.
+                    </p>
                 </div>
 
-                <!-- Card 4: Data Security -->
-                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
-                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
-                            <i data-lucide="shield" class="w-6 h-6 text-white"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Data Security Measures</h3>
-                    </div>
-                    <ul class="space-y-3">
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Encryption of all electronic health records and payment
-                                information</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Secure, HIPAA-compliant data storage systems and backup
-                                procedures</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Regular security audits and staff training on privacy
-                                protection</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Physical safeguards including locked filing systems and
-                                restricted access areas</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Card 5: Your Privacy Rights -->
-                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
-                    <div class="flex items-center gap-4 mb-6">
-                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
-                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
-                            <i data-lucide="lock" class="w-6 h-6 text-white"></i>
-                        </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Your Privacy Rights</h3>
-                    </div>
-                    <ul class="space-y-3">
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Right to request access to your personal and medical
-                                information</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Right to request corrections to inaccurate information in your
-                                records</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Right to request restrictions on how your information is used or
-                                disclosed</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Right to request alternative communication methods or
-                                locations</span>
-                        </li>
-                    </ul>
-                </div>
-
-                <!-- Card 6: Website Privacy & Cookies -->
+                <!-- Card 6: Cookies -->
                 <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
                     <div class="flex items-center gap-4 mb-6">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center"
                             style="background: linear-gradient(to bottom right, #572670, #a855f7);">
                             <i data-lucide="cookie" class="w-6 h-6 text-white"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Website Privacy & Cookies</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Cookies</h3>
                     </div>
-                    <ul class="space-y-3">
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">We use essential cookies to improve website functionality and
-                                user experience</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">Analytics cookies help us understand how visitors use our
-                                website</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">You can control cookie preferences through your browser
-                                settings</span>
-                        </li>
-                        <li class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 flex-shrink-0 mt-0.5"
-                                style="color: #572670;"></i>
-                            <span class="text-gray-600">No personal health information is collected through website
-                                cookies</span>
-                        </li>
-                    </ul>
+                    <p class="text-gray-600 leading-relaxed">
+                        Our website may use cookies (small text files saved on your device) to improve your browsing experience,
+                        understand site usage, track performance metrics, and optimize website functionality. You can configure
+                        your web browser settings to block or refuse cookies, though some parts of our site may not function
+                        optimally as a result.
+                    </p>
                 </div>
+
+                <!-- Card 7: Third-Party Services -->
+                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
+                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
+                            <i data-lucide="external-link" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Third-Party Services</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        We may use third-party tools, widgets, and platforms to support our medical business operations. 
+                        This includes external communication providers, payment processors, scheduling platforms, and web analytics 
+                        services. These third parties handle your data under their respective privacy terms.
+                    </p>
+                </div>
+
+                <!-- Card 8: Your Rights -->
+                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
+                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
+                            <i data-lucide="user-check" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Your Rights</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed">
+                        You have specific rights regarding your personal data. You may request access, correction, update, or 
+                        deletion of your personal information collected by us at any time. To exercise these rights, please 
+                        contact us directly using the details provided below.
+                    </p>
+                </div>
+
             </div>
         </div>
     </section>
 
-    <!-- Cookie Policy Section -->
-    <section class="py-20" style="background: linear-gradient(to bottom right, #f8fafc, #faf5ff);">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold"
-                    style="background-color: rgba(87, 38, 112, 0.1); color: #572670; border: 1px solid rgba(87, 38, 112, 0.2);">
-                    Cookie Policy
-                </span>
-                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                    Website <span style="color: #572670;">Cookie Usage</span>
-                </h2>
-                <p class="text-xl text-gray-600 max-w-2xl mx-auto">
-                    Learn about how we use cookies to improve your website experience
-                    and how you can control your preferences.
-                </p>
-            </div>
-
-            <div class="max-w-4xl mx-auto">
-                <div class="grid md:grid-cols-2 gap-6">
-                    <!-- Essential Cookies -->
-                    <div class="bm-benefit-card p-6 h-full hover:shadow-xl transition-all">
-                        <div class="flex items-start justify-between mb-4">
-                            <h3 class="text-xl font-bold text-gray-900">Essential Cookies</h3>
-                            <span
-                                class="bg-green-100 text-green-800 text-xs font-semibold px-2.5 py-0.5 rounded">Required</span>
-                        </div>
-                        <p class="text-gray-600 mb-3">Required for basic website functionality</p>
-                        <div class="space-y-2 text-sm text-gray-500">
-                            <div><strong>Duration:</strong> Session only</div>
-                            <div><strong>Can Disable:</strong> No</div>
-                        </div>
-                    </div>
-
-                    <!-- Analytics Cookies -->
-                    <div class="bm-benefit-card p-6 h-full hover:shadow-xl transition-all">
-                        <div class="flex items-start justify-between mb-4">
-                            <h3 class="text-xl font-bold text-gray-900">Analytics Cookies</h3>
-                            <span
-                                class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Optional</span>
-                        </div>
-                        <p class="text-gray-600 mb-3">Help us understand website usage</p>
-                        <div class="space-y-2 text-sm text-gray-500">
-                            <div><strong>Duration:</strong> Up to 2 years</div>
-                            <div><strong>Can Disable:</strong> Yes</div>
-                        </div>
-                    </div>
-
-                    <!-- Preference Cookies -->
-                    <div class="bm-benefit-card p-6 h-full hover:shadow-xl transition-all">
-                        <div class="flex items-start justify-between mb-4">
-                            <h3 class="text-xl font-bold text-gray-900">Preference Cookies</h3>
-                            <span
-                                class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Optional</span>
-                        </div>
-                        <p class="text-gray-600 mb-3">Remember your settings and preferences</p>
-                        <div class="space-y-2 text-sm text-gray-500">
-                            <div><strong>Duration:</strong> Up to 1 year</div>
-                            <div><strong>Can Disable:</strong> Yes</div>
-                        </div>
-                    </div>
-
-                    <!-- Marketing Cookies -->
-                    <div class="bm-benefit-card p-6 h-full hover:shadow-xl transition-all">
-                        <div class="flex items-start justify-between mb-4">
-                            <h3 class="text-xl font-bold text-gray-900">Marketing Cookies</h3>
-                            <span
-                                class="bg-orange-100 text-orange-800 text-xs font-semibold px-2.5 py-0.5 rounded">Optional</span>
-                        </div>
-                        <p class="text-gray-600 mb-3">Deliver relevant content and ads</p>
-                        <div class="space-y-2 text-sm text-gray-500">
-                            <div><strong>Duration:</strong> Up to 1 year</div>
-                            <div><strong>Can Disable:</strong> Yes</div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Manage Cookies Box -->
-                <div class="mt-12 text-center p-8 bg-white rounded-2xl shadow-lg border border-gray-100">
-                    <i data-lucide="cookie" class="w-12 h-12 mx-auto mb-4" style="color: #572670;"></i>
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Manage Your Cookie Preferences</h3>
-                    <p class="text-gray-600 mb-6">
-                        You can update your cookie preferences at any time through our cookie banner
-                        or by adjusting your browser settings.
-                    </p>
-                    <button class="bm-hero-btn" style="background-color: #572670;">
-                        <i data-lucide="settings" class="w-4 h-4 mr-2"></i>
-                        Cookie Settings
-                    </button>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Your Rights & Contact -->
-    <section class="py-20 bg-white">
+    <!-- Contact Block Section -->
+    <section class="py-20 bg-gray-50 border-t border-gray-100">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto">
-                <div class="text-center mb-16">
-                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-                        Your <span style="color: #572670;">Privacy Rights</span>
-                    </h2>
-                </div>
+                <div class="text-center p-10 rounded-3xl"
+                    style="background: linear-gradient(to bottom right, rgba(87, 38, 112, 0.05), rgba(168, 85, 247, 0.1)); border: 1px solid rgba(87, 38, 112, 0.1);">
+                    <i data-lucide="mail-open" class="w-12 h-12 mx-auto mb-4" style="color: #572670;"></i>
+                    <h3 class="text-3xl font-bold text-gray-900 mb-4">Contact Us</h3>
+                    <p class="text-gray-600 max-w-xl mx-auto mb-8">
+                        If you have any questions, concerns, or requests regarding this Privacy Policy or how your personal information is handled, please reach out to us:
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 text-left max-w-2xl mx-auto">
+                        <!-- Contact Detail Card -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background-color: rgba(87, 38, 112, 0.05);">
+                                <i data-lucide="building" class="w-5 h-5" style="color: #572670;"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm uppercase tracking-wider mb-1">Business Name</h4>
+                                <p class="text-gray-700">Karma TMS</p>
+                                <a href="https://karmatms.com" target="_blank" class="text-xs text-purple-600 hover:underline">karmatms.com</a>
+                            </div>
+                        </div>
 
-                <div class="grid md:grid-cols-2 gap-8 mb-12">
-                    <div class="bm-benefit-card p-8" style="border-left: 4px solid #572670;">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">Patient Rights Under HIPAA</h3>
-                        <ul class="space-y-2 text-gray-600">
-                            <li>â€¢ Access your medical records and request copies</li>
-                            <li>â€¢ Request amendments to incorrect information</li>
-                            <li>â€¢ Request restrictions on information disclosure</li>
-                            <li>â€¢ Request alternative communication methods</li>
-                            <li>â€¢ File complaints about privacy practices</li>
-                        </ul>
-                    </div>
+                        <!-- Contact Detail Card -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background-color: rgba(87, 38, 112, 0.05);">
+                                <i data-lucide="phone" class="w-5 h-5" style="color: #572670;"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm uppercase tracking-wider mb-1">Phone Number</h4>
+                                <a href="tel:7607605675" class="text-gray-700 hover:text-purple-600 font-semibold block">760-760-5675</a>
+                                <span class="text-xs text-gray-400">Mon-Fri: 8AM-6PM</span>
+                            </div>
+                        </div>
 
-                    <div class="bm-benefit-card p-8" style="border-left: 4px solid #a855f7;">
-                        <h3 class="text-xl font-bold text-gray-900 mb-4">California Privacy Rights</h3>
-                        <ul class="space-y-2 text-gray-600">
-                            <li>â€¢ Right to know what personal information is collected</li>
-                            <li>â€¢ Right to delete personal information</li>
-                            <li>â€¢ Right to opt-out of sale of personal information</li>
-                            <li>â€¢ Right to non-discrimination for exercising rights</li>
-                            <li>â€¢ Right to correct inaccurate personal information</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- Data Breach Notification -->
-                <div class="mb-12 p-6 rounded-r-xl"
-                    style="background: linear-gradient(to right, #fff7ed, #fef2f2); border-left: 4px solid #f97316;">
-                    <div class="flex items-start gap-4">
-                        <i data-lucide="alert-circle" class="w-6 h-6 flex-shrink-0 mt-1 text-orange-500"></i>
-                        <div>
-                            <h3 class="text-xl font-bold text-gray-900 mb-2">Data Breach Notification</h3>
-                            <p class="text-gray-600">
-                                In the unlikely event of a data breach involving your personal or medical information,
-                                we will notify you within 60 days as required by law. We maintain comprehensive
-                                incident response procedures and work with cybersecurity experts to prevent breaches.
-                            </p>
+                        <!-- Contact Detail Card -->
+                        <div class="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 flex items-start gap-4 md:col-span-2">
+                            <div class="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0" style="background-color: rgba(87, 38, 112, 0.05);">
+                                <i data-lucide="mail" class="w-5 h-5" style="color: #572670;"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-sm uppercase tracking-wider mb-1">Support Email</h4>
+                                <a href="mailto:contact@karmatms.com" class="text-gray-700 hover:text-purple-600 font-semibold block break-all">contact@karmatms.com</a>
+                                <span class="text-xs text-gray-400">Response within 24-48 business hours</span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Contact Information -->
-                <div class="text-center p-8 rounded-2xl"
-                    style="background: linear-gradient(to bottom right, rgba(87, 38, 112, 0.05), rgba(168, 85, 247, 0.1));">
-                    <h3 class="text-2xl font-bold text-gray-900 mb-4">Privacy Questions or Concerns?</h3>
-                    <p class="text-gray-600 mb-6">
-                        Our Privacy Officer is available to address any questions about our privacy
-                        practices or help you exercise your privacy rights.
-                    </p>
-                    <div class="flex flex-row flex-wrap gap-4 justify-center">
-                        <a href="tel:7607605675" class="bm-hero-btn"
-                            style="background-color: #572670; text-decoration: none;">
-                            <i data-lucide="phone" class="w-4 h-4 mr-2"></i>
-                            Call: 760-760-5675
-                        </a>
-                        <a href="mailto:privacy@karmatms.com" class="bm-outline-btn"
-                            style="border-color: #572670; color: #572670; text-decoration: none;">
-                            <i data-lucide="mail" class="w-4 h-4 mr-2"></i>
-                            privacy@karmatms.com
-                        </a>
-                    </div>
-                    <p class="text-sm text-gray-500 mt-4">
-                        Privacy Officer: Dr. Sarah Mitchell, Medical Director<br>
-                        Mailing Address: 123 Medical Plaza, Palm Springs, CA 92262
-                    </p>
-                </div>
-
-                <!-- Related Documents -->
+                <!-- Related Links -->
                 <div class="mt-12 text-center">
-                    <h3 class="text-xl font-bold text-gray-900 mb-4">Related Privacy Documents</h3>
+                    <h4 class="text-sm font-bold text-gray-500 uppercase tracking-wider mb-4">Related Privacy Documents</h4>
                     <div class="flex flex-wrap justify-center gap-4">
-                        <a href="hipaa.php" class="bm-outline-btn"
-                            style="border-color: #572670; color: #572670; text-decoration: none;">
+                        <a href="terms-conditions.php" class="bm-outline-btn" style="text-decoration: none;">
+                            Terms & Conditions
+                        </a>
+                        <a href="hipaa.php" class="bm-outline-btn" style="text-decoration: none;">
                             HIPAA Notice
                         </a>
-
-                        <a href="refund-policy.php" class="bm-outline-btn"
-                            style="border-color: #572670; color: #572670; text-decoration: none;">
+                        <a href="disclaimer.php" class="bm-outline-btn" style="text-decoration: none;">
+                            Medical Disclaimer
+                        </a>
+                        <a href="refund-policy.php" class="bm-outline-btn" style="text-decoration: none;">
                             Refund Policy
                         </a>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
@@ -498,4 +348,3 @@
 </body>
 
 </html>
-

@@ -378,7 +378,13 @@
   <!-- ===== Legal / Policy Pages ===== -->
   <url>
     <loc>https://www.karmatms.com/privacy-policy.php</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-05-21</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.karmatms.com/terms-conditions.php</loc>
+    <lastmod>2026-05-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>

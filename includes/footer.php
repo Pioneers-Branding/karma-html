@@ -227,14 +227,11 @@
 
                 <h4 class="footer-nav-subtitle" style="margin-top: 16px;">Legal & Privacy</h4>
                 <ul class="footer-nav-list">
-                    <li><a href="hipaa.php" class="footer-nav-link footer-nav-link-secondary">HIPAA</a></li>
-                    <li><a href="disclaimer.php" class="footer-nav-link footer-nav-link-secondary">Terms</a></li>
-                    <li><a href="privacy-policy.php" class="footer-nav-link footer-nav-link-secondary">Privacy
-                            Policy</a>
-                    </li>
-                    <li><a href="refund-policy.php" class="footer-nav-link footer-nav-link-secondary">Refund
-                            Policy</a>
-                    </li>
+                    <li><a href="hipaa.php" class="footer-nav-link footer-nav-link-secondary">HIPAA Notice</a></li>
+                    <li><a href="terms-conditions.php" class="footer-nav-link footer-nav-link-secondary">Terms & Conditions</a></li>
+                    <li><a href="privacy-policy.php" class="footer-nav-link footer-nav-link-secondary">Privacy Policy</a></li>
+                    <li><a href="disclaimer.php" class="footer-nav-link footer-nav-link-secondary">Medical Disclaimer</a></li>
+                    <li><a href="refund-policy.php" class="footer-nav-link footer-nav-link-secondary">Refund Policy</a></li>
                 </ul>
             </div>
         </div>
