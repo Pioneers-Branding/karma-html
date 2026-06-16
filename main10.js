@@ -664,7 +664,7 @@ function initTeamPage() {
       specialization: "TMS Technology & Patient Care",
       category: "administrative",
       image: "images/team/Amber Martin.jpg",
-      bio: "Amber specializes in TMS therapy delivery and patient support throughout treatment. Her technical expertise and compassionate care approach ensure patients receive optimal TMS treatments in a comfortable environment.",
+      bio: "With a deep-rooted passion for patient care and advocacy with over a decade of healthcare experience, Amber is a certified TMS Technician with two years of specialized experience, currently serving patients at the Karma TMS Palm Springs office. Holding a Bachelor’s degree in Diagnostic Medical Sonography and Healthcare Management, she began her medical career in 2013, eventually running her own 3D ultrasound clinic where she cultivated connective experiences for growing families. Today, as she completes prerequisites and gathers clinical hours for her CASPA application toward a Physician Assistant program with hopes to specialize in psychiatry, Amber brings an intuitive, highly customized approach to her patients. She champions Transcranial Magnetic Stimulation (TMS) as a tried and true treatment that addresses many different mental health issues at their root by creating new neural pathways. With a great eye for detail, she is widely known as the glue that holds the office together, ensuring a seamless and welcoming environment for everyone who walks through the door. Deeply empathetic and compassionate, Amber sees the potential in everyone. She considers it a true privilege to offer a supportive hand, a listening ear, or insightful advice to guide patients through their hardest moments and toward becoming their best selves.",
       credentials: [
         "TMS Technician Certified",
         "Neurostimulation Specialist",
@@ -1314,6 +1314,32 @@ function initBlogPage() {
     // Embed blog data for local testing/fallback
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
+      {
+        id: 57,
+        title: "TMS Therapy Pros and Cons: A Complete Patient Guide",
+        excerpt:
+          "Discover the comprehensive pros and cons of TMS therapy. Compare benefits, side effects, costs, and commitment to decide if TMS is right for you.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "June 12, 2026",
+        readTime: "9 min read",
+        image: "images/blog/tms-therapy-pros-and-cons-intro.png",
+        featured: false,
+        url: "tms-therapy-pros-and-cons.php",
+      },
+      {
+        id: 56,
+        title: "TMS Therapy Contraindications: Who Should Avoid TMS?",
+        excerpt:
+          "Is TMS therapy safe for everyone? Explore the absolute and relative contraindications of TMS therapy, including metal implants, seizures, and other risk factors.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "June 6, 2026",
+        readTime: "8 min read",
+        image: "images/blog/tms-therapy-contraindications-intro.png",
+        featured: false,
+        url: "tms-therapy-contraindications.php",
+      },
       {
         id: 55,
         title: "Do Psychiatrists Do Therapy? Understanding Their Role",
