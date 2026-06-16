@@ -1317,6 +1317,32 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 57,
+        title: "TMS Therapy Pros and Cons: A Complete Patient Guide",
+        excerpt:
+          "Discover the comprehensive pros and cons of TMS therapy. Compare benefits, side effects, costs, and commitment to decide if TMS is right for you.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "June 12, 2026",
+        readTime: "9 min read",
+        image: "images/blog/tms-therapy-pros-and-cons-intro.png",
+        featured: false,
+        url: "tms-therapy-pros-and-cons.php",
+      },
+      {
+        id: 56,
+        title: "TMS Therapy Contraindications: Who Should Avoid TMS?",
+        excerpt:
+          "Is TMS therapy safe for everyone? Explore the absolute and relative contraindications of TMS therapy, including metal implants, seizures, and other risk factors.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "June 6, 2026",
+        readTime: "8 min read",
+        image: "images/blog/tms-therapy-contraindications-intro.png",
+        featured: false,
+        url: "tms-therapy-contraindications.php",
+      },
+      {
         id: 55,
         title: "Do Psychiatrists Do Therapy? Understanding Their Role",
         excerpt:
