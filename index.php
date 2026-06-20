@@ -294,8 +294,8 @@
                     </div>
                 </div>
 
-                <!-- Right Form (Glassmorphism) -->
-                <div class="hero-form-wrapper">
+                <!-- Right Form (Glassmorphism) — desktop only -->
+                <div class="hero-form-wrapper hero-form-desktop">
                     <div class="form-container form-container-glass">
                         <div class="form-container-inner">
                             <div class="form-header-glass">
@@ -317,6 +317,36 @@
                             </iframe>
                             <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mobile-only form section (below the video hero) -->
+    <section class="hero-form-mobile-section">
+        <div class="container">
+            <div class="hero-form-wrapper">
+                <div class="form-container form-container-glass">
+                    <div class="form-container-inner">
+                        <div class="form-header-glass">
+                            <span class="form-header-eyebrow">Free, no-commitment consult</span>
+                            <h3 class="form-header-title">Request a callback</h3>
+                            <p class="form-header-sub">We'll verify your insurance and reply within one business
+                                day.</p>
+                        </div>
+
+                        <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"
+                            style="width:100%;height:434px;border:none;border-radius:12px;background:transparent"
+                            id="inline-A7LynR0MrYIYDzI14jsu-mobile" data-layout="{'id':'INLINE'}"
+                            data-trigger-type="alwaysShow" data-trigger-value=""
+                            data-activation-type="alwaysActivated" data-activation-value=""
+                            data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                            data-form-name="KarmaTMS Website Form" data-height="434"
+                            data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu-mobile" data-form-id="A7LynR0MrYIYDzI14jsu"
+                            title="KarmaTMS Website Form">
+                        </iframe>
+                        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                     </div>
                 </div>
             </div>

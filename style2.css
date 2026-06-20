@@ -1107,6 +1107,67 @@ h6 {
   position: relative;
 }
 
+/* Mobile-only form section: hidden on desktop */
+.hero-form-mobile-section {
+  display: none;
+}
+
+/* ===== Mobile responsive hero (<1024px) ===== */
+@media (max-width: 1023.98px) {
+  /* Form: move OUT of hero on mobile */
+  .hero-form-desktop {
+    display: none;
+  }
+  .hero-form-mobile-section {
+    display: block;
+    position: relative;
+    padding: 2.5rem 0 3rem;
+    background: linear-gradient(
+      180deg,
+      #0f0521 0%,
+      #1a0b2e 60%,
+      #150828 100%
+    );
+  }
+  .hero-form-mobile-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(
+      ellipse at 50% 0%,
+      rgba(168, 85, 247, 0.15),
+      transparent 60%
+    );
+  }
+  .hero-form-mobile-section .container {
+    position: relative;
+    z-index: 1;
+  }
+
+  /* Hero video: no longer pushed full-section tall — natural content height */
+  .hero-section {
+    margin-top: 1rem;
+    padding: clamp(2rem, 5vw, 3rem) 0 clamp(2rem, 5vw, 3rem);
+    min-height: auto;
+  }
+  .hero-grid {
+    min-height: auto;
+    gap: 1.5rem;
+  }
+  .hero-content {
+    gap: 1rem;
+  }
+
+  /* Stop the heavy zoom + drift that was making video look blurry on mobile */
+  .hero-video {
+    transform: translate(-50%, -50%) scale(1.0);
+    animation: none;
+    filter: saturate(1) contrast(1);
+  }
+}
+
 .form-container {
   background: linear-gradient(
     to bottom right,
