@@ -223,7 +223,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-1">Coachella Valley Seasonal Patterns</h4>
-                            <p class="text-gray-700 text-sm">The desert's extreme summer heat forces many residents indoors from May through September, reducing physical activity and social connection â€” two key factors in managing depression. Our TMS clinic provides consistent, year-round access to care regardless of the season.</p>
+                            <p class="text-gray-700 text-sm">The desert's extreme summer heat forces many residents indoors from May through September, reducing physical activity and social connection - two key factors in managing depression. Our TMS clinic provides consistent, year-round access to care regardless of the season.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
@@ -241,7 +241,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-1">Treatment-Resistant Depression Is Common</h4>
-                            <p class="text-gray-700 text-sm">Studies show 30-50% of depression patients do not respond adequately to the first antidepressant tried. If you have tried one or more medications without adequate relief, you are not alone â€” and TMS may be the answer.</p>
+                            <p class="text-gray-700 text-sm">Studies show 30-50% of depression patients do not respond adequately to the first antidepressant tried. If you have tried one or more medications without adequate relief, you are not alone - and TMS may be the answer.</p>
                         </div>
                     </div>
                     <div class="flex gap-4">
@@ -250,7 +250,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-1">Proven Results in Weeks, Not Months</h4>
-                            <p class="text-gray-700 text-sm">Most patients notice mood improvements within 2-4 weeks of starting TMS. The full 6-8 week protocol delivers results comparable to or better than long-term medication regimens â€” without the daily pill burden.</p>
+                            <p class="text-gray-700 text-sm">Most patients notice mood improvements within 2-4 weeks of starting TMS. The full 6-8 week protocol delivers results comparable to or better than long-term medication regimens - without the daily pill burden.</p>
                         </div>
                     </div>
                 </div>
@@ -658,7 +658,7 @@
                         <div class="text-left">
                             <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                             <p class="text-sm font-medium" style="color: #4c1d95;">
-                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> - Board-Certified Psychiatrist, Karma TMS PC
                             </p>
                         </div>
                     </div>

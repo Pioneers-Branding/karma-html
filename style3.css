@@ -2666,6 +2666,27 @@ h6 {
   max-width: 600px;
 }
 
+/* Darken text inside the about hero so it reads on the light gradient background */
+.about-hero .hero-title {
+  color: #1f2937; /* near-black (gray-800) */
+}
+
+.about-hero .hero-title .gradient-text {
+  background: linear-gradient(120deg, #572670 0%, #6b21a8 50%, #a855f7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.about-hero .hero-description {
+  color: #4b5563; /* gray-600 */
+}
+
+.about-hero .badge.badge-purple {
+  background: rgba(87, 38, 112, 0.12);
+  color: #572670;
+}
+
 .about-hero-image {
   position: relative;
 }

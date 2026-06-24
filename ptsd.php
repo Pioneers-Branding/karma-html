@@ -561,7 +561,7 @@
                         <div class="text-left">
                             <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                             <p class="text-sm font-medium" style="color: #4c1d95;">
-                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> - Board-Certified Psychiatrist, Karma TMS PC
                             </p>
                         </div>
                     </div>

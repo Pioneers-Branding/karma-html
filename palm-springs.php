@@ -260,16 +260,16 @@
                 <div class="text-center mb-12 fade-up">
                     <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4 float-anim" style="background-color: #7e22ce; color: #fff;">Palm Springs Clinic Experience</span>
                     <h2 class="text-3xl lg:text-4xl font-bold mb-4">Step Inside Our Palm Springs Clinic</h2>
-                    <p class="text-xl text-gray-700 max-w-3xl mx-auto">Our Palm Springs location is more than a medical office â€” it's a healing environment designed to put you at ease from the moment you walk through the door.</p>
+                    <p class="text-xl text-gray-700 max-w-3xl mx-auto">Our Palm Springs location is more than a medical office - it's a healing environment designed to put you at ease from the moment you walk through the door.</p>
                 </div>
                 <div class="grid lg:grid-cols-2 gap-10 items-start mb-12 fade-up">
                     <!-- Experience description -->
                     <div>
                         <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                            Patients consistently describe our Palm Springs clinic as a <strong>"spa-like environment"</strong> â€” not a typical medical clinic. From the moment you enter, you'll notice the warm, Eastern-influenced decor that creates an immediate sense of calm. The <strong>dim lighting and soft music</strong> are intentional design choices, not coincidencies: they signal to your nervous system that you're in a safe place.
+                            Patients consistently describe our Palm Springs clinic as a <strong>"spa-like environment"</strong> - not a typical medical clinic. From the moment you enter, you'll notice the warm, Eastern-influenced decor that creates an immediate sense of calm. The <strong>dim lighting and soft music</strong> are intentional design choices, not coincidencies: they signal to your nervous system that you're in a safe place.
                         </p>
                         <p class="text-lg text-gray-700 mb-4 leading-relaxed">
-                            The treatment rooms are private, comfortable, and equipped with plush seating â€” because we know that mental health treatment works best when patients feel at ease. Our reception team knows many patients by name, and follow-up calls between sessions are standard practice, not an exception.
+                            The treatment rooms are private, comfortable, and equipped with plush seating - because we know that mental health treatment works best when patients feel at ease. Our reception team knows many patients by name, and follow-up calls between sessions are standard practice, not an exception.
                         </p>
                         <p class="text-lg text-gray-700 mb-6 leading-relaxed">
                             For patients traveling from <strong>Rancho Mirage</strong>, <strong>Cathedral City</strong>, <strong>Desert Hot Springs</strong>, and beyond, our Palm Springs clinic offers easy access with <strong>ample free parking</strong> directly off South Palm Canyon Drive, just minutes from the Palm Springs Convention Center and Tahquitz Canyon.
@@ -291,13 +291,13 @@
                             <i data-lucide="star" class="w-5 h-5 fill-yellow-400 text-yellow-400"></i>
                         </div>
                         <p class="text-gray-700 italic mb-6 leading-relaxed text-lg">
-                            "The moment I walked in, I knew this was different. It's not a typical medical office â€” it's more like a spa. The dim lighting, the soft music, the Eastern-influenced decor... it immediately put me at ease. I was nervous about TMS, but the environment made all the difference."
+                            "The moment I walked in, I knew this was different. It's not a typical medical office - it's more like a spa. The dim lighting, the soft music, the Eastern-influenced decor... it immediately put me at ease. I was nervous about TMS, but the environment made all the difference."
                         </p>
                         <div class="flex items-center gap-3">
                             <div class="w-10 h-10 rounded-full flex items-center justify-center font-bold text-white" style="background-color: #7e22ce;">CB</div>
                             <div>
                                 <p class="font-semibold text-gray-900">Cyndi Berlin</p>
-                                <p class="text-sm text-gray-500">Verified Patient â€” Palm Springs</p>
+                                <p class="text-sm text-gray-500">Verified Patient - Palm Springs</p>
                             </div>
                         </div>
                         <p class="text-xs text-gray-400 mt-4 italic">Review sourced from Google Business Profile. Published with patient consent.</p>
@@ -313,7 +313,7 @@
             <div class="max-w-4xl mx-auto">
                 <h2 class="text-3xl lg:text-4xl font-bold text-center mb-8">Relief for Treatment-Resistant Depression and Anxiety in the Coachella Valley</h2>
                 <p class="text-xl text-gray-700 text-center mb-8 leading-relaxed">
-                    If you've tried "pills, pills, pills" â€” as many of our patients describe â€” and still feel stuck, you're not alone, and you're not out of options. TMS (Transcranial Magnetic Stimulation) is an FDA-cleared, non-invasive therapy that targets the root of depression and anxiety when medications haven't worked.
+                    If you've tried "pills, pills, pills" - as many of our patients describe - and still feel stuck, you're not alone, and you're not out of options. TMS (Transcranial Magnetic Stimulation) is an FDA-cleared, non-invasive therapy that targets the root of depression and anxiety when medications haven't worked.
                 </p>
                 <div class="grid md:grid-cols-3 gap-6 mb-8">
                     <div class="text-center p-6 rounded-xl scale-in" style="background-color: #fff; border: 1px solid #e9d5ff;">
@@ -324,7 +324,7 @@
                     <div class="text-center p-6 rounded-xl scale-in" style="background-color: #fff; border: 1px solid #e9d5ff;">
                         <i data-lucide="brain" class="w-10 h-10 mx-auto mb-4" style="color: #7e22ce;"></i>
                         <h3 class="text-lg font-bold mb-2">TMS Targets the Source</h3>
-                        <p class="text-gray-600 text-sm">Unlike medications that affect your whole body, TMS directly stimulates the prefrontal cortex â€” the area controlling mood.</p>
+                        <p class="text-gray-600 text-sm">Unlike medications that affect your whole body, TMS directly stimulates the prefrontal cortex - the area controlling mood.</p>
                     </div>
                     <div class="text-center p-6 rounded-xl scale-in" style="background-color: #fff; border: 1px solid #e9d5ff;">
                         <i data-lucide="check-circle" class="w-10 h-10 mx-auto mb-4" style="color: #7e22ce;"></i>
@@ -418,14 +418,14 @@
                 <div class="grid md:grid-cols-3 gap-6">
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
                         <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
-                            alt="KarmaTMS Palm Springs entrance â€” Eastern-influenced decor"
+                            alt="KarmaTMS Palm Springs entrance - Eastern-influenced decor"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                         <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
                         <p class="absolute bottom-4 left-4 text-white font-semibold">Welcoming Entrance</p>
                     </div>
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
                         <img src="https://i.ibb.co/PKpk09j/Whats-App-Image-2025-11-24-at-16-40-49-9fa65505.jpg"
-                            alt="Advanced TMS therapy chair â€” Palm Springs clinic"
+                            alt="Advanced TMS therapy chair - Palm Springs clinic"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                         <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
                         <p class="absolute bottom-4 left-4 text-white font-semibold">Treatment Room</p>
@@ -815,7 +815,7 @@
                     Visit Our Palm Springs TMS Clinic
                 </h2>
                 <p class="text-gray-600 max-w-2xl mx-auto">
-                    Located at <strong>560 S. Paseo Dorotea, Suite 4-B</strong> â€” just south of East Tahquitz Canyon Way (Route 111) and east of North Palm Canyon Drive, directly across from the Palm Springs Convention Center. Ample free parking is available directly in front of our building.
+                    Located at <strong>560 S. Paseo Dorotea, Suite 4-B</strong> - just south of East Tahquitz Canyon Way (Route 111) and east of North Palm Canyon Drive, directly across from the Palm Springs Convention Center. Ample free parking is available directly in front of our building.
                 </p>
             </div>
 
@@ -836,7 +836,7 @@
                     <div class="bm-benefit-card p-8 rounded-xl shadow-xl mb-6">
                         <h3 class="text-xl font-bold text-gray-900 mb-6 flex items-center gap-2">
                             <i data-lucide="map-pin" class="w-6 h-6" style="color: #7e22ce;"></i>
-                            Karma TMS PC â€” Palm Springs
+                            Karma TMS PC - Palm Springs
                         </h3>
                         <div class="space-y-5">
                             <div class="flex items-start gap-3">
@@ -905,13 +905,13 @@
                     <div class="p-8 md:p-10 flex flex-col justify-center">
                         <p class="text-sm font-bold mb-2" style="color: #7e22ce;">Serving Palm Springs Neighborhoods</p>
                         <h3 class="text-xl md:text-2xl font-bold text-gray-900 mb-4">
-                            Karma TMS Is Located Across from the Palm Springs Convention Center â€” Just South of Route 111
+                            Karma TMS Is Located Across from the Palm Springs Convention Center - Just South of Route 111
                         </h3>
                         <p class="text-gray-700 mb-3">
-                            Our Palm Springs TMS clinic at <strong>560 S. Paseo Dorotea, Suite 4-B</strong> is located just south of <strong>East Tahquitz Canyon Way (Route 111)</strong>, directly across from the <strong>Palm Springs Convention Center</strong> â€” a landmark visible from most of downtown Palm Springs. From North Palm Canyon Drive, head east on Tahquitz Canyon Way and turn south on S. Paseo Dorotea; our building is on the right with free parking in front.
+                            Our Palm Springs TMS clinic at <strong>560 S. Paseo Dorotea, Suite 4-B</strong> is located just south of <strong>East Tahquitz Canyon Way (Route 111)</strong>, directly across from the <strong>Palm Springs Convention Center</strong> - a landmark visible from most of downtown Palm Springs. From North Palm Canyon Drive, head east on Tahquitz Canyon Way and turn south on S. Paseo Dorotea; our building is on the right with free parking in front.
                         </p>
                         <p class="text-gray-700 mb-6">
-                            Patients from <strong>Rancho Mirage</strong>, <strong>Cathedral City</strong>, <strong>Desert Hot Springs</strong>, <strong>Indio</strong>, and <strong>La Quinta</strong> also benefit from our central Coachella Valley location. The clinic is also just minutes from <strong>Palm Springs International Airport (PSP)</strong> â€” making it convenient for patients traveling from across Southern California.
+                            Patients from <strong>Rancho Mirage</strong>, <strong>Cathedral City</strong>, <strong>Desert Hot Springs</strong>, <strong>Indio</strong>, and <strong>La Quinta</strong> also benefit from our central Coachella Valley location. The clinic is also just minutes from <strong>Palm Springs International Airport (PSP)</strong> - making it convenient for patients traveling from across Southern California.
                         </p>
 
                         <!-- Inline E-E-A-T Banner -->
@@ -922,7 +922,7 @@
                             <div>
                                 <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                                 <p class="text-sm font-medium" style="color: #4c1d95;">
-                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
+                                    Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> - Board-Certified Psychiatrist, Karma TMS PC
                                 </p>
                             </div>
                         </div>
@@ -931,7 +931,7 @@
                     <!-- Image Side -->
                     <div class="relative" style="min-height: 300px;">
                         <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
-                            alt="Karma Doctors & Karma TMS Brain Wellness Center â€” Palm Springs clinic near Deepwell Estates, Tahquitz Canyon, and Palm Springs International Airport"
+                            alt="Karma Doctors & Karma TMS Brain Wellness Center - Palm Springs clinic near Deepwell Estates, Tahquitz Canyon, and Palm Springs International Airport"
                             class="w-full h-full object-cover" style="min-height: 300px;">
                         <div class="absolute top-4 left-4">
                             <span class="inline-block px-3 py-1.5 rounded-full text-xs font-bold" style="background-color: #7e22ce; color: #fff;">

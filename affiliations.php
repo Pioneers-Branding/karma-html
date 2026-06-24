@@ -596,7 +596,7 @@
                     <div class="space-y-6">
                         <i data-lucide="quote" class="w-8 h-8" style="color: #572670; opacity: 0.5;"></i>
                         <blockquote class="text-lg text-gray-700 leading-relaxed italic">
-                            "Dr. Mitchell and her team at Karma TMS represent the future of psychiatryâ€”combining
+                            "Dr. Mitchell and her team at Karma TMS represent the future of psychiatry-combining
                             cutting-edge technology with compassionate, personalized patient care."
                         </blockquote>
                         <div class="flex items-start justify-between pt-6 border-t">
@@ -648,7 +648,7 @@
                     <div class="space-y-6 max-w-3xl mx-auto">
                         <i data-lucide="quote" class="w-8 h-8" style="color: #572670; opacity: 0.5;"></i>
                         <blockquote class="text-lg text-gray-700 leading-relaxed italic">
-                            "The clinical outcomes at Karma TMS speak for themselvesâ€”this is precision medicine at its
+                            "The clinical outcomes at Karma TMS speak for themselves-this is precision medicine at its
                             finest, delivered with exceptional care and expertise."
                         </blockquote>
                         <div class="flex items-start justify-between pt-6 border-t">
