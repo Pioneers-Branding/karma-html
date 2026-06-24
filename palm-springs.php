@@ -18,7 +18,7 @@
       "@context": "https://schema.org",
       "@type": ["MedicalBusiness", "LocalBusiness"],
       "@id": "https://www.karmatms.com/palm-springs.php#location",
-      "name": "Karma TMS PC â€“ Palm Springs",
+      "name": "Karma TMS PC – Palm Springs",
       "url": "https://www.karmatms.com/palm-springs.php",
       "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg",
       "description": "Leading TMS therapy center in Palm Springs, CA. FDA-approved depression treatment, anxiety therapy, and mental health services serving the Coachella Valley. Veterans welcome.",
@@ -362,7 +362,7 @@
                     <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
-                        <h3 class="text-xl font-bold mb-2">PR-TMS</h3>
+                        <h3 class="text-xl font-bold mb-2">PrTMS</h3>
                         <p class="text-gray-600">Personalized Repetitive TMS for optimized results</p>
                     </div>
 
@@ -857,7 +857,7 @@
                                 <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
-                                    <p class="text-gray-600">Monday â€“ Friday: 8:00 AM â€“ 6:00 PM<br>Saturday â€“ Sunday: Closed</p>
+                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">

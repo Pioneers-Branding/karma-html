@@ -160,7 +160,7 @@
                 </div>
                 <div class="relative">
                     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763030646/Exomind_PIC_Male-Model6_0070_ENUS100_q2zhyt.jpg"
-                        alt="KarmaTMS depression therapy session with TMS therapy equipment"
+                        alt="Karma TMS depression therapy session with TMS therapy equipment"
                         class="rounded-lg shadow-2xl">
                 </div>
             </div>
@@ -303,7 +303,7 @@
                             <span class="text-gray-700">Changes in appetite</span>
                         </div>
                         <div class="flex items-start gap-3">
-                            <i data-lucide="check-circle" class="w-5 h-5 text-purple-0 mt-0.5 flex-shrink-0"></i>
+                            <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mt-0.5 flex-shrink-0"></i>
                             <span class="text-gray-700">Feelings of worthlessness</span>
                         </div>
                         <div class="flex items-start gap-3">
@@ -749,7 +749,7 @@
     <!-- Internal Links Section -->
     <section class="py-16 bg-white">
         <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore More KarmaTMS Services</h2>
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-900">Explore More Karma TMS Services</h2>
             <div class="grid md:grid-cols-4 gap-6">
                 <a href="anxiety.php"
                     class="p-6 rounded-xl shadow-md hover:shadow-xl transition-all transform hover:-translate-y-1"

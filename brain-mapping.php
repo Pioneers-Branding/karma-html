@@ -282,14 +282,14 @@
                                 <h4 class="font-bold text-gray-900 mb-4">What We'll Review:</h4>
                                 <div class="bm-dynamic-grid">
                                     <ul class="bm-space-y-4 text-gray-700">
-                                        <li>â€¢ Medical history</li>
-                                        <li>â€¢ Current medications</li>
-                                        <li>â€¢ Symptom timeline</li>
+                                        <li>• Medical history</li>
+                                        <li>• Current medications</li>
+                                        <li>• Symptom timeline</li>
                                     </ul>
                                     <ul class="bm-space-y-4 text-gray-700">
-                                        <li>â€¢ Previous treatments</li>
-                                        <li>â€¢ Family history</li>
-                                        <li>â€¢ Treatment goals</li>
+                                        <li>• Previous treatments</li>
+                                        <li>• Family history</li>
+                                        <li>• Treatment goals</li>
                                     </ul>
                                 </div>
                             </div>
@@ -447,8 +447,8 @@
                     <div class="bg-purple-50 rounded-xl p-6 border border-purple-100">
                         <h4 class="font-bold text-gray-900 mb-4">What We'll Review:</h4>
                         <div class="bm-dynamic-grid">
-                            <ul class="bm-space-y-4 text-gray-700"><li>â€¢ Medical history</li><li>â€¢ Current medications</li><li>â€¢ Symptom timeline</li></ul>
-                            <ul class="bm-space-y-4 text-gray-700"><li>â€¢ Previous treatments</li><li>â€¢ Family history</li><li>â€¢ Treatment goals</li></ul>
+                            <ul class="bm-space-y-4 text-gray-700"><li>• Medical history</li><li>• Current medications</li><li>• Symptom timeline</li></ul>
+                            <ul class="bm-space-y-4 text-gray-700"><li>• Previous treatments</li><li>• Family history</li><li>• Treatment goals</li></ul>
                         </div>
                     </div>`
             },

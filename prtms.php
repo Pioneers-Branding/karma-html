@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalized rTMS Therapy | Karma TMS PC</title>
+    <title>Personalized PrTMS Therapy | Karma TMS PC</title>
     <meta name="description"
         content="Revolutionary AI-driven Repetitive Transcranial Magnetic Stimulation tailored to your unique brain patterns.">
 
@@ -23,7 +23,7 @@
                     Next-Generation Treatment
                 </span>
                 <h1 class="bm-hero-title">
-                    Personalized rTMS
+                    Personalized PrTMS
                     <span class="block text-sm md:text-base font-medium mt-4" style="color: #6b7280;">in Palm Springs, 29 Palms &amp; Rancho Mirage, CA</span>
                 </h1>
                 <p class="bm-hero-description">
@@ -304,10 +304,10 @@
         <div class="container mx-auto max-w-6xl">
             <div class="text-center mb-12 fade-in-up">
                 <h2 class="text-3xl md:text-4xl font-bold mb-6 gradient-text">
-                    Personalized prTMS Success Stories
+                    Personalized PrTMS Success Stories
                 </h2>
                 <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                    Hear from patients who experienced the precision of personalized prTMS.
+                    Hear from patients who experienced the precision of personalized PrTMS.
                 </p>
             </div>
             
@@ -322,7 +322,7 @@
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The customized approach of prTMS made all the difference. Knowing the treatment was tailored exactly to my brain waves gave me so much confidence."</p>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"The customized approach of PrTMS made all the difference. Knowing the treatment was tailored exactly to my brain waves gave me so much confidence."</p>
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">M</div>
                         <div>
@@ -341,7 +341,7 @@
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">"prTMS didn't just help my depression; it improved my focus and sleep tremendously. It truly feels like my brain was 'tuned' back to normal."</p>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"PrTMS didn't just help my depression; it improved my focus and sleep tremendously. It truly feels like my brain was 'tuned' back to normal."</p>
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">J</div>
                         <div>
@@ -360,7 +360,7 @@
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                         <svg style="width: 1.25rem; height: 1.25rem; fill: currentColor;" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
                     </div>
-                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I've tried standard treatments before, but the personalized mapping with prTMS was a game changer. The results were faster and more profound."</p>
+                    <p class="text-gray-700 italic mb-6 leading-relaxed">"I've tried standard treatments before, but the personalized mapping with PrTMS was a game changer. The results were faster and more profound."</p>
                     <div class="flex items-center gap-4">
                         <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center text-primary-brand font-bold text-xl">R</div>
                         <div>
@@ -397,8 +397,8 @@
                 outcome: '85% symptom reduction after 4 weeks, returned to work, sustained improvement at 12 months',
                 image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/3a8c8944-5c3c-416d-acf8-9ca9871d172c.webp',
                 metrics: {
-                    'PHQ-9 Score': '23 â†’ 4',
-                    'GAD-7 Score': '18 â†’ 3',
+                    'PHQ-9 Score': '23 → 4',
+                    'GAD-7 Score': '18 → 3',
                     'Treatment Duration': '6 weeks'
                 }
             },
@@ -412,8 +412,8 @@
                 outcome: '70% improvement in depressive symptoms, no manic episodes, improved quality of life',
                 image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0df1c6f4-54ea-43f5-aeab-67608371a640.webp',
                 metrics: {
-                    'MADRS Score': '28 â†’ 8',
-                    'Quality of Life': '40% â†’ 85%',
+                    'MADRS Score': '28 → 8',
+                    'Quality of Life': '40% → 85%',
                     'Remission Duration': '18+ months'
                 }
             },
@@ -427,8 +427,8 @@
                 outcome: 'Complete remission in 3 weeks, successful bonding with baby, medication-free',
                 image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/88d0408f-19ff-48a1-80bd-5553928c7047.webp',
                 metrics: {
-                    'EPDS Score': '22 â†’ 2',
-                    'Bonding Score': '30% â†’ 95%',
+                    'EPDS Score': '22 → 2',
+                    'Bonding Score': '30% → 95%',
                     'Treatment Time': '3 weeks'
                 }
             }

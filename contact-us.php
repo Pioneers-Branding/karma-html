@@ -295,7 +295,7 @@
                 </a>
 
                 <!-- Link 2: All Locations -->
-                <a href="#" class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
+                <a href="#locations" class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
                     style="text-decoration: none;">
                     <h3 class="font-bold text-lg mb-2" style="color: #572670;">
                         All Locations

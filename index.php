@@ -237,8 +237,7 @@
     <section class="hero-section">
         <!-- Video Background -->
         <div class="hero-video-bg" aria-hidden="true">
-            <video class="hero-video" autoplay muted loop playsinline preload="auto"
-                poster="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764156032/Exomind_PIC_Female-Model3_0342_ENUS100_qx29w9_cwycfn.jpg">
+            <video class="hero-video" autoplay muted loop playsinline preload="auto">
                 <source src="videos/banner-video.mp4" type="video/mp4">
             </video>
             <div class="hero-video-overlay"></div>
@@ -258,7 +257,7 @@
                         <a href="https://share.google/e8yhlNFFaLaN8z1d1" target="_blank" rel="noopener noreferrer"
                             class="location-badge">
                             <i data-lucide="map-pin" class="w-4 h-4"></i>
-                            TwentyNine Palms
+                            Twentynine Palms
                         </a>
                         <a href="https://maps.app.goo.gl/6wyxkwnGZ5g2ua1a7" target="_blank" rel="noopener noreferrer"
                             class="location-badge">
@@ -422,7 +421,7 @@
                 </div>
             </div>
             <div class="text-center mt-12">
-                <a href="about-us.php" class="btn btn-primary">
+                <a href="about.php" class="btn btn-primary">
                     Learn More About Us <i data-lucide="arrow-right" class="w-4 h-4 ml-2"></i>
                 </a>
             </div>
@@ -1284,7 +1283,7 @@
                             <div class="accordion-content-inner">
                                 <p class="answer-text">
                                     Many patients seek alternatives to medication. We specialize in TMS (Transcranial
-                                    Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic
+                                    Magnetic Stimulation), an FDA-cleared, non-invasive treatment that uses magnetic
                                     pulses to stimulate brain activity. It is an effective solution for <a
                                         href="depression.php"
                                         class="text-purple-600 hover:text-purple-800 underline">treatment-resistant

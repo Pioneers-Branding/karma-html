@@ -75,7 +75,7 @@
           "name": "How long does each TMS session take?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Standard TMS sessions last between 20 and 40 minutes depending on the protocol used. You remain awake and alert during treatment and can resume normal activities â€” including driving â€” immediately afterward."
+            “text”: “Standard TMS sessions last between 20 and 40 minutes depending on the protocol used. You remain awake and alert during treatment and can resume normal activities — including driving — immediately afterward.”
           }
         },
         {
@@ -318,7 +318,7 @@
                     <i data-lucide="arrow-right" class="ml-2 w-5 h-5"></i>
                 </a>
                 <a href="prtms.php" class="btn btn-ghost-white">
-                    Learn About prTMS
+                    Learn About PrTMS
                 </a>
             </div>
         </div>

@@ -136,7 +136,7 @@
                 </div>
                 <div class="relative">
                     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3481_Apollo-Coilstand_epn2ls.jpg"
-                        alt="KarmaTMS anxiety therapy and treatment with advanced TMS technology"
+                        alt="Karma TMS anxiety therapy and treatment with advanced TMS technology"
                         class="rounded-lg shadow-2xl" style="max-height: 400px; width: 100%; object-fit: cover;">
                 </div>
             </div>

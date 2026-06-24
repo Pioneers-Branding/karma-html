@@ -295,7 +295,7 @@
                 <div class="text-center mb-12">
                     <span class="inline-block px-4 py-2 rounded-md mb-4 text-sm font-semibold border shadow"
                         style="border-color: white; color: white;">
-                        Ã°Å¸Ââ€  ADVANCED MENTAL HEALTH TREATMENT
+                        🏆  ADVANCED MENTAL HEALTH TREATMENT
                     </span>
                     <h2 class="text-3xl lg:text-5xl font-bold mb-6"
                         style="background: linear-gradient(to right, white, rgba(216, 180, 254, 1), white); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
@@ -511,7 +511,7 @@
                     <div class="bm-benefit-card p-6 hover:shadow-xl transition-all"
                         style="border-top: 4px solid #9333ea;">
                         <i data-lucide="check-circle" class="w-8 h-8 text-purple-600 mb-4"></i>
-                        <h3 class="text-xl font-bold mb-2">PR-TMS</h3>
+                        <h3 class="text-xl font-bold mb-2">PrTMS</h3>
                         <p class="text-gray-600">Personalized protocols based on brain mapping</p>
                     </div>
 
@@ -708,7 +708,7 @@
                                 <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
-                                    <p class="text-gray-600">Monday â€“ Friday: 8:00 AM â€“ 6:00 PM<br>Saturday â€“ Sunday: Closed</p>
+                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
