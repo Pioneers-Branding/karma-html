@@ -430,11 +430,11 @@
     </section>
 
     <!-- Insurance Section - targets IEHP + Medicare search intent -->
-    <section class="py-16 px-4" style="background: linear-gradient(135deg, #f0fdf4, #dcfce7);">
+    <section class="py-16 px-4" style="background: linear-gradient(135deg, #faf5ff, #f3e8ff);">
         <div class="container mx-auto max-w-6xl">
             <div class="text-center mb-10">
                 <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4"
-                    style="background-color: #16a34a; color: #fff;">Accepted Insurance</span>
+                    style="background-color: #572670; color: #fff;">Accepted Insurance</span>
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                     Insurance-Verified TMS in Palm Springs & Coachella Valley
                 </h2>
@@ -448,66 +448,66 @@
             <div class="grid md:grid-cols-3 gap-6 mb-8">
                 <!-- Medicare -->
                 <div
-                    class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors">
+                    class="bm-benefit-card p-6 text-center border-2 border-purple-200 hover:border-purple-400 transition-colors">
                     <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
-                        style="background-color: #16a34a;">
+                        style="background-color: #572670;">
                         <i data-lucide="shield-check" class="w-7 h-7 text-white"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-2">Medicare</h3>
                     <p class="text-gray-700 text-sm mb-3">Medicare Part B covers FDA-cleared TMS therapy for
                         treatment-resistant depression at our Palm Springs clinic.</p>
                     <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold"
-                        style="background-color: #dcfce7; color: #15803d;">Accepted at all 3 locations</span>
+                        style="background-color: #f3e8ff; color: #572670;">Accepted at all 3 locations</span>
                 </div>
 
                 <!-- IEHP -->
-                <div class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors"
-                    style="background: linear-gradient(135deg, #f0fdf4, #ecfdf5);">
+                <div class="bm-benefit-card p-6 text-center border-2 border-purple-200 hover:border-purple-400 transition-colors"
+                    style="background: linear-gradient(135deg, #faf5ff, #f3e8ff);">
                     <div class="absolute -top-3 -right-3 w-8 h-8 rounded-full flex items-center justify-center"
-                        style="background-color: #f97316;">
+                        style="background-color: #a855f7;">
                         <i data-lucide="star" class="w-4 h-4 text-white"></i>
                     </div>
                     <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
-                        style="background-color: #16a34a;">
+                        style="background-color: #572670;">
                         <i data-lucide="heart" class="w-7 h-7 text-white"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-2">IEHP</h3>
                     <p class="text-gray-700 text-sm mb-3">IEHP (Inland Empire Health Plan) members in the Coachella
                         Valley can access TMS therapy at our Palm Springs and Twentynine Palms locations.</p>
                     <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold"
-                        style="background-color: #dcfce7; color: #15803d;">IEHP Members Welcome</span>
+                        style="background-color: #f3e8ff; color: #572670;">IEHP Members Welcome</span>
                 </div>
 
                 <!-- Tricare -->
                 <div
-                    class="bm-benefit-card p-6 text-center border-2 border-green-200 hover:border-green-400 transition-colors">
+                    class="bm-benefit-card p-6 text-center border-2 border-purple-200 hover:border-purple-400 transition-colors">
                     <div class="w-14 h-14 rounded-full flex items-center justify-center mx-auto mb-4"
-                        style="background-color: #16a34a;">
+                        style="background-color: #572670;">
                         <i data-lucide="users" class="w-7 h-7 text-white"></i>
                     </div>
                     <h3 class="text-xl font-bold text-gray-900 mb-2">Tricare</h3>
                     <p class="text-gray-700 text-sm mb-3">Active-duty military and veterans covered by Tricare can
                         receive TMS at our Twentynine Palms location — minutes from the Marine base.</p>
                     <span class="inline-block px-3 py-1 rounded-full text-xs font-semibold"
-                        style="background-color: #dcfce7; color: #15803d;">Veterans & Military</span>
+                        style="background-color: #f3e8ff; color: #572670;">Veterans & Military</span>
                 </div>
             </div>
 
             <div class="grid md:grid-cols-4 gap-4 mb-8">
                 <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
                     <span class="text-sm font-medium text-gray-800">Blue Cross Blue Shield</span>
                 </div>
                 <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
                     <span class="text-sm font-medium text-gray-800">Aetna</span>
                 </div>
                 <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
                     <span class="text-sm font-medium text-gray-800">Cigna</span>
                 </div>
                 <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-green-600 mx-auto mb-1"></i>
+                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
                     <span class="text-sm font-medium text-gray-800">Humana</span>
                 </div>
             </div>
@@ -518,12 +518,12 @@
                     treatment.
                 </p>
                 <div class="flex flex-wrap gap-4 justify-center">
-                    <a href="tel:760-760-5675" class="bm-hero-btn" style="background-color: #16a34a;">
+                    <a href="tel:760-760-5675" class="bm-hero-btn" style="background-color: #572670;">
                         <i data-lucide="phone" class="w-5 h-5 mr-2"></i>
                         Verify My Insurance
                     </a>
                     <a href="is-tms-therapy-covered-by-insurance.php" class="bm-outline-btn"
-                        style="border-color: #16a34a; color: #16a34a;">
+                        style="border-color: #572670; color: #572670;">
                         <i data-lucide="file-text" class="w-5 h-5 mr-2"></i>
                         Does Insurance Cover TMS?
                     </a>
