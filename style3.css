@@ -924,7 +924,7 @@ h6 {
     linear-gradient(
       180deg,
       rgba(20, 8, 40, 0.22) 0%,
-      rgba(20, 8, 40, 0.30) 60%,
+      rgba(20, 8, 40, 0.3) 60%,
       rgba(20, 8, 40, 0.38) 100%
     );
 }
@@ -1124,12 +1124,7 @@ h6 {
     display: block;
     position: relative;
     padding: 2.5rem 0 3rem;
-    background: linear-gradient(
-      180deg,
-      #0f0521 0%,
-      #1a0b2e 60%,
-      #150828 100%
-    );
+    background: linear-gradient(180deg, #0f0521 0%, #1a0b2e 60%, #150828 100%);
   }
   .hero-form-mobile-section::before {
     content: "";
@@ -1165,7 +1160,7 @@ h6 {
 
   /* Stop the heavy zoom + drift that was making video look blurry on mobile */
   .hero-video {
-    transform: translate(-50%, -50%) scale(1.0);
+    transform: translate(-50%, -50%) scale(1);
     animation: none;
     filter: saturate(1) contrast(1);
   }
@@ -2086,6 +2081,111 @@ h6 {
   position: relative;
   max-width: 56rem;
   margin: 0 auto 2rem;
+}
+
+.review-carousel-shell {
+  position: relative;
+  max-width: 1180px;
+  width: 100%;
+  margin: 1.5rem auto 0;
+  overflow: hidden;
+}
+
+.review-carousel-viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.review-carousel-track {
+  display: grid;
+  gap: 1rem;
+  align-items: stretch;
+  width: 100%;
+  min-width: 0;
+}
+
+.review-slide {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+}
+
+.review-video-card {
+  width: 100%;
+  max-width: 100%;
+  background: #f8fafc;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.08);
+}
+
+.review-video-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  background: #0f172a;
+}
+
+.review-video-frame iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  overflow: hidden;
+}
+
+.review-carousel-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 0;
+  border-radius: 999px;
+  background: white;
+  color: #4c1d95;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.14);
+  cursor: pointer;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+  flex-shrink: 0;
+}
+
+.review-carousel-btn:hover {
+  transform: translateY(-1px);
+}
+
+.review-carousel-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+@media (min-width: 640px) {
+  .review-carousel-track {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .review-video-card {
+    width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .review-carousel-track {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .review-video-card {
+    width: 100%;
+  }
+
+  .review-carousel-btn {
+    display: none !important;
+  }
 }
 
 .testimonial-card {
@@ -4902,6 +5002,15 @@ h6 {
 }
 
 @media (min-width: 640px) {
+  .review-slide {
+    flex-basis: calc(50% - 0.5rem);
+    flex: 0 0 calc(50% - 0.5rem);
+  }
+
+  .review-video-card {
+    max-width: 100%;
+  }
+
   .cta-buttons-container {
     flex-direction: row;
   }

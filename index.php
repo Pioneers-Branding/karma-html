@@ -273,7 +273,8 @@
                     </span>
 
                     <h1 class="hero-title">
-                        Leading <span class="gradient-text">TMS Therapy</span> Clinic in California – Palm Springs &amp; Beyond
+                        Leading <span class="gradient-text">TMS Therapy</span> Clinic in California – Palm Springs &amp;
+                        Beyond
                     </h1>
 
                     <p class="hero-description">
@@ -339,12 +340,11 @@
                         <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"
                             style="width:100%;height:434px;border:none;border-radius:12px;background:transparent"
                             id="inline-A7LynR0MrYIYDzI14jsu-mobile" data-layout="{'id':'INLINE'}"
-                            data-trigger-type="alwaysShow" data-trigger-value=""
-                            data-activation-type="alwaysActivated" data-activation-value=""
-                            data-deactivation-type="neverDeactivate" data-deactivation-value=""
+                            data-trigger-type="alwaysShow" data-trigger-value="" data-activation-type="alwaysActivated"
+                            data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value=""
                             data-form-name="KarmaTMS Website Form" data-height="434"
-                            data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu-mobile" data-form-id="A7LynR0MrYIYDzI14jsu"
-                            title="KarmaTMS Website Form">
+                            data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu-mobile"
+                            data-form-id="A7LynR0MrYIYDzI14jsu" title="KarmaTMS Website Form">
                         </iframe>
                         <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                     </div>
@@ -827,7 +827,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section class="section bg-white">
+    <!-- <section class="section bg-white">
         <div class="container">
             <div class="text-center mb-12">
                 <h2 class="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
@@ -859,7 +859,7 @@
                 <a href="testimonials.php" class="btn btn-primary mt-8 inline-flex">Read More Success Stories</a>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Doctor Section -->
     <section class="section bg-gray-50">
@@ -1222,149 +1222,213 @@
         </div>
     </section>
 
-    <!-- FAQ Section -->
-    <section class="section bg-gray-50">
+    <!-- Testimonial Section -->
+    <section class="section bg-white">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Common Questions About <span class="gradient-text">TMS Therapy in
-                        California</span></h2>
+                <h2 class="section-title">Real Patient Reviews</h2>
                 <p class="section-description">
-                    Find answers to frequently asked questions about our TMS therapy and mental health treatments —
-                    serving patients in Palm Springs, the Coachella Valley, and throughout California.
+                    Watch real testimonials from patients who found relief with our TMS therapy in California.
                 </p>
             </div>
 
-            <div class="max-w-4xl mx-auto">
-                <div class="accordion">
-                    <!-- Item 1 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">When should I see a psychiatrist in Palm Springs?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    You should consider seeking help from a <strong>psychiatrist in Palm
-                                        Springs</strong> if you are experiencing persistent sadness, anxiety, mood
-                                    swings, or if your current treatment plan isn't providing relief. Our specialized
-                                    team offers comprehensive evaluations and advanced, non-drug treatments like <a
-                                        href="tms-therapy.php"
-                                        class="text-purple-600 hover:text-purple-800 underline">TMS therapy</a> for
-                                    lasting wellness.
-                                </p>
+            <div class="review-carousel-shell">
+                <button class="review-carousel-btn review-carousel-btn-prev" type="button"
+                    aria-label="Show previous reviews">
+                    <i data-lucide="chevron-left"></i>
+                </button>
+                <div class="review-carousel-viewport">
+                    <div class="review-carousel-track">
+                        <div class="review-slide">
+                            <div class="review-video-card">
+                                <div class="review-video-frame">
+                                    <iframe loading="lazy" title="Patient review video 1"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c746"
+                                        referrerpolicy="origin"
+                                        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-video-card">
+                                <div class="review-video-frame">
+                                    <iframe loading="lazy" title="Patient review video 2"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c748"
+                                        referrerpolicy="origin"
+                                        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-video-card">
+                                <div class="review-video-frame">
+                                    <iframe loading="lazy" title="Patient review video 3"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c740"
+                                        referrerpolicy="origin"
+                                        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-slide">
+                            <div class="review-video-card">
+                                <div class="review-video-frame">
+                                    <iframe loading="lazy" title="Patient review video 4"
+                                        src="https://play.gumlet.io/embed/6a3bc54181acabfe4b5e3391"
+                                        referrerpolicy="origin"
+                                        allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <!-- Item 2 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">Do you accept insurance for mental health services?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    Yes, we work with most major insurance providers. When you visit our clinic to see a
-                                    mental health specialist or <strong>psychiatrist in Palm Springs</strong>, we handle
-                                    the benefit verification and pre-authorization process to ensure your TMS therapy
-                                    and treatment plans are covered whenever possible.
-                                </p>
-                            </div>
+                </div>
+                <button class="review-carousel-btn review-carousel-btn-next" type="button"
+                    aria-label="Show next reviews">
+                    <i data-lucide="chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Common Questions About <span class="gradient-text">TMS Therapy in
+                    California</span></h2>
+            <p class="section-description">
+                Find answers to frequently asked questions about our TMS therapy and mental health treatments —
+                serving patients in Palm Springs, the Coachella Valley, and throughout California.
+            </p>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+            <div class="accordion">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">When should I see a psychiatrist in Palm Springs?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                You should consider seeking help from a <strong>psychiatrist in Palm
+                                    Springs</strong> if you are experiencing persistent sadness, anxiety, mood
+                                swings, or if your current treatment plan isn't providing relief. Our specialized
+                                team offers comprehensive evaluations and advanced, non-drug treatments like <a
+                                    href="tms-therapy.php" class="text-purple-600 hover:text-purple-800 underline">TMS
+                                    therapy</a> for
+                                lasting wellness.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 3 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">What effective treatments do you offer besides
-                                medication?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    Many patients seek alternatives to medication. We specialize in TMS (Transcranial
-                                    Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic
-                                    pulses to stimulate brain activity. It is an effective solution for <a
-                                        href="depression.php"
-                                        class="text-purple-600 hover:text-purple-800 underline">treatment-resistant
-                                        depression</a> and <a href="anxiety.php"
-                                        class="text-purple-600 hover:text-purple-800 underline">anxiety</a> for those
-                                    who haven't found relief with standard medications from a general
-                                    <strong>psychiatrist in Palm Springs</strong>.
-                                </p>
-                            </div>
+                </div>
+                <!-- Item 2 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Do you accept insurance for mental health services?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, we work with most major insurance providers. When you visit our clinic to see a
+                                mental health specialist or <strong>psychiatrist in Palm Springs</strong>, we handle
+                                the benefit verification and pre-authorization process to ensure your TMS therapy
+                                and treatment plans are covered whenever possible.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 4 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">How quickly can I schedule an appointment?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    We prioritize timely access to care. Contact us today to schedule a consultation
-                                    with our experienced mental health team. Whether you need an evaluation by a mental
-                                    health professional or a specialized <strong>psychiatrist in Palm Springs</strong>,
-                                    we strive to get you started on your path to recovery as soon as possible.
-                                </p>
-                            </div>
+                </div>
+                <!-- Item 3 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">What effective treatments do you offer besides
+                            medication?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Many patients seek alternatives to medication. We specialize in TMS (Transcranial
+                                Magnetic Stimulation), a FDA-cleared, non-invasive treatment that uses magnetic
+                                pulses to stimulate brain activity. It is an effective solution for <a
+                                    href="depression.php"
+                                    class="text-purple-600 hover:text-purple-800 underline">treatment-resistant
+                                    depression</a> and <a href="anxiety.php"
+                                    class="text-purple-600 hover:text-purple-800 underline">anxiety</a> for those
+                                who haven't found relief with standard medications from a general
+                                <strong>psychiatrist in Palm Springs</strong>.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 5 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">Is Dr. Sunder a licensed Board-Certified Psychiatrist?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm
-                                        Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20
-                                    years of experience, he leads our team in providing integrative, patient-centered
-                                    care that combines modern medical science with holistic wellness strategies.
-                                </p>
-                            </div>
+                </div>
+                <!-- Item 4 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How quickly can I schedule an appointment?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                We prioritize timely access to care. Contact us today to schedule a consultation
+                                with our experienced mental health team. Whether you need an evaluation by a mental
+                                health professional or a specialized <strong>psychiatrist in Palm Springs</strong>,
+                                we strive to get you started on your path to recovery as soon as possible.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 6 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">How long does a typical TMS therapy session last?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    A standard TMS therapy session typically lasts about 19-20 minutes. It is an
-                                    outpatient procedure, meaning you can return to your daily activities immediately
-                                    after treatment without any downtime.
-                                </p>
-                            </div>
+                </div>
+                <!-- Item 5 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is Dr. Sunder a licensed Board-Certified Psychiatrist?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Yes, Dr. Keerthy Sunder is a double Board-Certified <strong>psychiatrist in Palm
+                                    Springs</strong> specializing in Psychiatry and Addiction Medicine. With over 20
+                                years of experience, he leads our team in providing integrative, patient-centered
+                                care that combines modern medical science with holistic wellness strategies.
+                            </p>
                         </div>
                     </div>
-                    <!-- Item 7 -->
-                    <div class="accordion-item">
-                        <button class="accordion-trigger" onclick="toggleAccordion(this)">
-                            <span class="question-text">Is TMS therapy painful?</span>
-                            <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
-                        </button>
-                        <div class="accordion-content">
-                            <div class="accordion-content-inner">
-                                <p class="answer-text">
-                                    Most patients describe the sensation as a light tapping on the head. It is generally
-                                    well-tolerated and not considered painful. You are awake and alert throughout the
-                                    entire session.
-                                </p>
-                            </div>
+                </div>
+                <!-- Item 6 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">How long does a typical TMS therapy session last?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                A standard TMS therapy session typically lasts about 19-20 minutes. It is an
+                                outpatient procedure, meaning you can return to your daily activities immediately
+                                after treatment without any downtime.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Item 7 -->
+                <div class="accordion-item">
+                    <button class="accordion-trigger" onclick="toggleAccordion(this)">
+                        <span class="question-text">Is TMS therapy painful?</span>
+                        <i data-lucide="chevron-down" class="accordion-icon w-5 h-5"></i>
+                    </button>
+                    <div class="accordion-content">
+                        <div class="accordion-content-inner">
+                            <p class="answer-text">
+                                Most patients describe the sensation as a light tapping on the head. It is generally
+                                well-tolerated and not considered painful. You are awake and alert throughout the
+                                entire session.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
     <!-- Location & Contact -->
@@ -1540,6 +1604,84 @@
     </section>
 
     <?php include 'includes/footer.php'; ?>
+
+    <script>
+        function initReviewCarousel() {
+            const shells = document.querySelectorAll('.review-carousel-shell');
+
+            shells.forEach(function (shell) {
+                if (shell.dataset.reviewReady === 'true') {
+                    return;
+                }
+
+                const viewport = shell.querySelector('.review-carousel-viewport');
+                const track = shell.querySelector('.review-carousel-track');
+                const prevButton = shell.querySelector('.review-carousel-btn-prev');
+                const nextButton = shell.querySelector('.review-carousel-btn-next');
+                const slides = Array.from(shell.querySelectorAll('.review-slide'));
+
+                if (!viewport || !track || !prevButton || !nextButton || slides.length === 0) {
+                    return;
+                }
+
+                if (window.innerWidth >= 1024) {
+                    prevButton.style.display = 'none';
+                    nextButton.style.display = 'none';
+                    track.style.transform = 'none';
+                    shell.dataset.reviewReady = 'true';
+                    return;
+                }
+
+                let currentIndex = 0;
+
+                function getVisibleCount() {
+                    if (window.innerWidth >= 640) {
+                        return 2;
+                    }
+                    return 1;
+                }
+
+                function updateLayout() {
+                    const visibleCount = getVisibleCount();
+                    const gap = 16;
+                    const viewportWidth = viewport.clientWidth;
+                    const slideWidth = (viewportWidth - gap * (visibleCount - 1)) / visibleCount;
+                    const maxIndex = Math.max(0, slides.length - visibleCount);
+
+                    slides.forEach(function (slide) {
+                        slide.style.width = slideWidth + 'px';
+                    });
+
+                    currentIndex = Math.min(currentIndex, maxIndex);
+                    track.style.transform = 'translateX(-' + (currentIndex * (slideWidth + gap)) + 'px)';
+                    prevButton.disabled = currentIndex === 0;
+                    nextButton.disabled = currentIndex >= maxIndex;
+                }
+
+                function goToIndex(index) {
+                    const visibleCount = getVisibleCount();
+                    const maxIndex = Math.max(0, slides.length - visibleCount);
+                    currentIndex = Math.max(0, Math.min(index, maxIndex));
+                    updateLayout();
+                }
+
+                prevButton.addEventListener('click', function () {
+                    goToIndex(currentIndex - 1);
+                });
+
+                nextButton.addEventListener('click', function () {
+                    goToIndex(currentIndex + 1);
+                });
+
+                window.addEventListener('resize', updateLayout);
+                shell.dataset.reviewReady = 'true';
+                updateLayout();
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', initReviewCarousel);
+        window.addEventListener('load', initReviewCarousel);
+    </script>
 
 </body>
 
