@@ -136,7 +136,7 @@
                 </div>
                 <div class="relative">
                     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3481_Apollo-Coilstand_epn2ls.jpg"
-                        alt="KarmaTMS anxiety therapy and treatment with advanced TMS technology"
+                        alt="Karma TMS anxiety therapy and treatment with advanced TMS technology"
                         class="rounded-lg shadow-2xl" style="max-height: 400px; width: 100%; object-fit: cover;">
                 </div>
             </div>
@@ -152,7 +152,7 @@
                     Why Choose TMS for Anxiety Over Medication or Therapy Alone?
                 </h2>
                 <p class="text-lg text-gray-700 max-w-3xl mx-auto">
-                    For Palm Springs and Coachella Valley residents, TMS therapy addresses the root neurological cause of anxiety â€” not just the symptoms. Here is how it compares:
+                    For Palm Springs and Coachella Valley residents, TMS therapy addresses the root neurological cause of anxiety - not just the symptoms. Here is how it compares:
                 </p>
             </div>
 
@@ -226,7 +226,7 @@
                         </div>
                         <div>
                             <h4 class="font-semibold text-gray-900 mb-1">30-Minute Sessions, Back to Your Day</h4>
-                            <p class="text-gray-700 text-sm">Unlike intensive outpatient programs or residential treatment, TMS fits into your life. Sessions take 20-30 minutes with zero downtime â€” you can return to work or daily activities immediately.</p>
+                            <p class="text-gray-700 text-sm">Unlike intensive outpatient programs or residential treatment, TMS fits into your life. Sessions take 20-30 minutes with zero downtime - you can return to work or daily activities immediately.</p>
                         </div>
                     </div>
                 </div>
@@ -642,7 +642,7 @@
                         <div class="text-left">
                             <p class="text-xs font-semibold uppercase tracking-wide" style="color: #6b7280;">Content Accuracy</p>
                             <p class="text-sm font-medium" style="color: #4c1d95;">
-                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC
+                                Medically Reviewed by <a href="team.php" class="underline" style="color: #4c1d95;">Dr. Keerthy Sunder</a> - Board-Certified Psychiatrist, Karma TMS PC
                             </p>
                         </div>
                     </div>
@@ -857,7 +857,7 @@
                 </div>
                 <div>
                     <p class="text-xs font-semibold uppercase tracking-wide text-gray-500">Content Accuracy</p>
-                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> â€” Board-Certified Psychiatrist, Karma TMS PC</p>
+                    <p class="text-sm font-medium" style="color: #572670;">Medically Reviewed by <a href="team.php" class="underline hover:text-purple-800">Dr. Keerthy Sunder</a> - Board-Certified Psychiatrist, Karma TMS PC</p>
                 </div>
             </div>
         </div>

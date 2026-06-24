@@ -731,7 +731,7 @@
                 alertBox.innerHTML = `
                     <div class="bg-purple-100 border border-violet-300 rounded-lg p-4">
                         <p class="text-purple-800 font-semibold text-center">
-                            âœ… Excellent! No significant side effects reported.
+                            ✅ Excellent! No significant side effects reported.
                         </p>
                     </div>
                 `;
@@ -739,7 +739,7 @@
                 alertBox.innerHTML = `
                     <div class="bg-yellow-100 border border-yellow-300 rounded-lg p-4">
                         <p class="text-yellow-800 font-semibold text-center">
-                            âš ï¸ Mild side effects - Let's discuss optimization strategies.
+                            ⚠️ Mild side effects - Let's discuss optimization strategies.
                         </p>
                     </div>
                 `;
@@ -747,7 +747,7 @@
                 alertBox.innerHTML = `
                     <div class="bg-violet-100 border border-purple-300 rounded-lg p-4">
                         <p class="text-purple-800 font-semibold text-center">
-                            âš ï¸ Moderate side effect burden - Medication review recommended.
+                            ⚠️ Moderate side effect burden - Medication review recommended.
                         </p>
                     </div>
                 `;
@@ -755,7 +755,7 @@
                 alertBox.innerHTML = `
                     <div class="bg-red-100 border border-red-300 rounded-lg p-4">
                         <p class="text-red-800 font-semibold text-center">
-                            ðŸš¨ Significant side effects - Urgent medication review needed.
+                            🚨 Significant side effects - Urgent medication review needed.
                         </p>
                     </div>
                 `;

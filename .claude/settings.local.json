@@ -8,7 +8,10 @@
       "Bash(powershell -Command \"Start-Process powershell -ArgumentList '-Command cd \\\\\"C:\\\\Users\\\\GCV\\\\Desktop\\\\Karma TMS\\\\karma-html\\\\psychiatry\\\\\"; python -m http.server 8080' -Verb RunAs\")",
       "Bash(php -S localhost:8080 -t \"C:\\\\Users\\\\GCV\\\\Desktop\\\\Karma TMS\\\\karma-html\\\\psychiatry\")",
       "WebFetch(domain:karmadoctors.com)",
-      "WebSearch"
+      "WebSearch",
+      "Bash(xxd)",
+      "Bash(grep -nE \"prTMS|prtms|PRTMS\" c:/Users/GCV/Desktop/karma-html/tms-therapy.php c:/Users\\\\GCV/Desktop/karma-html/prtms.php c:/Users/GCV/Desktop/karma-html/brain-mapping.php c:/Users/GCV/Desktop/karma-html/medication-management.php 2>&1 | head -30)",
+      "Read(//c/UsersGCV/Desktop/karma-html/**)"
     ]
   }
 }

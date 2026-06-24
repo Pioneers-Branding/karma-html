@@ -207,7 +207,7 @@
                     Press Coverage
                 </h2>
                 <p class="text-lg text-gray-600">
-                    Media coverage and industry recognition
+                    Peer-reviewed research and published studies
                 </p>
             </div>
 
@@ -217,22 +217,23 @@
                     <div class="flex items-start justify-between">
                         <div class="flex-1">
                             <h3 class="font-bold text-xl text-gray-900 mb-2">
-                                Revolutionary TMS Therapy Shows Promise for Depression Treatment
+                                Preliminary Observations of Personalized Repetitive Magnetic Stimulation (PrTMS) Guided by EEG Spectra for Concussion
                             </h3>
                             <div class="flex items-center gap-4 mb-3 flex-wrap">
                                 <span class="inline-block px-3 py-1 text-xs rounded-full border border-gray-300">
-                                    Desert Sun
+                                    Brain Sciences
                                 </span>
                                 <div class="flex items-center gap-1 text-sm text-gray-600">
                                     <i data-lucide="calendar" class="w-4 h-4"></i>
-                                    January 15, 2024
+                                    August 2023
                                 </div>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Local Palm Springs clinic leading the way in innovative depression treatment.
+                                Study on personalized rTMS protocols for concussive symptoms with EEG guidance.
                             </p>
                         </div>
-                        <a href="#" class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/39118673/" target="_blank" rel="noopener noreferrer"
+                            class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
                             <i data-lucide="external-link" class="w-4 h-4 text-gray-600"></i>
                         </a>
                     </div>
@@ -243,22 +244,23 @@
                     <div class="flex items-start justify-between">
                         <div class="flex-1">
                             <h3 class="font-bold text-xl text-gray-900 mb-2">
-                                Breakthrough Mental Health Treatment Available in Coachella Valley
+                                Addiction and Reward Deficiency Syndrome (RDS): A Gene-Based Therapeutic Strategy?
                             </h3>
                             <div class="flex items-center gap-4 mb-3 flex-wrap">
                                 <span class="inline-block px-3 py-1 text-xs rounded-full border border-gray-300">
-                                    CV Independent
+                                    Addiction Medicine
                                 </span>
                                 <div class="flex items-center gap-1 text-sm text-gray-600">
                                     <i data-lucide="calendar" class="w-4 h-4"></i>
-                                    February 3, 2024
+                                    November 2023
                                 </div>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Patients find hope with non-invasive TMS therapy at Karma TMS.
+                                Explores gene-based strategies for Reward Deficiency Syndrome in addiction treatment.
                             </p>
                         </div>
-                        <a href="#" class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/38050640/" target="_blank" rel="noopener noreferrer"
+                            class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
                             <i data-lucide="external-link" class="w-4 h-4 text-gray-600"></i>
                         </a>
                     </div>
@@ -269,22 +271,79 @@
                     <div class="flex items-start justify-between">
                         <div class="flex-1">
                             <h3 class="font-bold text-xl text-gray-900 mb-2">
-                                FDA-Approved TMS Therapy Offers New Hope for Mental Health
+                                Genetic Addiction Risk Score (GARS): Clinical Utility in Reward Deficiency Syndrome
                             </h3>
                             <div class="flex items-center gap-4 mb-3 flex-wrap">
                                 <span class="inline-block px-3 py-1 text-xs rounded-full border border-gray-300">
-                                    Palm Springs Life
+                                    Medical Archives
                                 </span>
                                 <div class="flex items-center gap-1 text-sm text-gray-600">
                                     <i data-lucide="calendar" class="w-4 h-4"></i>
-                                    January 28, 2024
+                                    September 2023
                                 </div>
                             </div>
                             <p class="text-gray-700 leading-relaxed">
-                                Comprehensive coverage of TMS therapy benefits and availability.
+                                Analyzes clinical utility of GARS for precision medicine in RDS care.
                             </p>
                         </div>
-                        <a href="#" class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/37885438/" target="_blank" rel="noopener noreferrer"
+                            class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
+                            <i data-lucide="external-link" class="w-4 h-4 text-gray-600"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Press Article 4 -->
+                <div class="press-card bm-benefit-card p-6">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">
+                                Impact of Neuro-psychiatric Disorders on the Global Economy
+                            </h3>
+                            <div class="flex items-center gap-4 mb-3 flex-wrap">
+                                <span class="inline-block px-3 py-1 text-xs rounded-full border border-gray-300">
+                                    Psychology
+                                </span>
+                                <div class="flex items-center gap-1 text-sm text-gray-600">
+                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                    March 2023
+                                </div>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed">
+                                Analysis of the economic burden of neuro-psychiatric disorders and cost-effectiveness of
+                                early intervention.
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/37560184/" target="_blank" rel="noopener noreferrer"
+                            class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
+                            <i data-lucide="external-link" class="w-4 h-4 text-gray-600"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Press Article 5 -->
+                <div class="press-card bm-benefit-card p-6">
+                    <div class="flex items-start justify-between">
+                        <div class="flex-1">
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">
+                                Exploratory Analysis of Dopamine D2 Agonist Therapy
+                            </h3>
+                            <div class="flex items-center gap-4 mb-3 flex-wrap">
+                                <span class="inline-block px-3 py-1 text-xs rounded-full border border-gray-300">
+                                    Pharmacology
+                                </span>
+                                <div class="flex items-center gap-1 text-sm text-gray-600">
+                                    <i data-lucide="calendar" class="w-4 h-4"></i>
+                                    February 2023
+                                </div>
+                            </div>
+                            <p class="text-gray-700 leading-relaxed">
+                                Investigates Dopamine D2 Agonist Therapy for psychiatric conditions, mechanism, and
+                                clinical response.
+                            </p>
+                        </div>
+                        <a href="https://pubmed.ncbi.nlm.nih.gov/37361347/" target="_blank" rel="noopener noreferrer"
+                            class="ml-4 p-2 hover:bg-gray-100 rounded transition-colors">
                             <i data-lucide="external-link" class="w-4 h-4 text-gray-600"></i>
                         </a>
                     </div>

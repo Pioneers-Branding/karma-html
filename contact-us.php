@@ -295,7 +295,7 @@
                 </a>
 
                 <!-- Link 2: All Locations -->
-                <a href="#" class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
+                <a href="#locations" class="p-6 bg-gray-50 rounded-lg text-center hover:shadow-lg transition-shadow"
                     style="text-decoration: none;">
                     <h3 class="font-bold text-lg mb-2" style="color: #572670;">
                         All Locations
@@ -325,7 +325,7 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-display">
-                    Visit Our Mental Health Facilities<br>in Palm Springs
+                    Visit Our Mental Health Facilities<br>in Palm Springs 
                 </h2>
                 <p class="text-gray-600 max-w-3xl mx-auto text-lg">
                     Our mental health facilities in Palm Springs are conveniently located serving patients throughout
