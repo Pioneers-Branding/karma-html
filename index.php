@@ -1232,11 +1232,7 @@
             </div>
 
             <div class="review-carousel-shell">
-                <button class="review-carousel-btn review-carousel-btn-prev" type="button"
-                    aria-label="Show previous reviews">
-                    <i data-lucide="chevron-left"></i>
-                </button>
-                <div class="review-carousel-viewport">
+                <div class="review-carousel-viewport" id="review-carousel-viewport">
                     <div class="review-carousel-track">
                         <div class="review-slide">
                             <div class="review-video-card">
@@ -1280,10 +1276,6 @@
                         </div>
                     </div>
                 </div>
-                <button class="review-carousel-btn review-carousel-btn-next" type="button"
-                    aria-label="Show next reviews">
-                    <i data-lucide="chevron-right"></i>
-                </button>
             </div>
         </div>
     </section>
@@ -1611,81 +1603,26 @@
     <?php include 'includes/footer.php'; ?>
 
     <script>
-        function initReviewCarousel() {
-            const shells = document.querySelectorAll('.review-carousel-shell');
+        document.addEventListener('DOMContentLoaded', function () {
+            const viewport = document.getElementById('review-carousel-viewport');
 
-            shells.forEach(function (shell) {
-                if (shell.dataset.reviewReady === 'true') {
-                    return;
+            if (!viewport) {
+                return;
+            }
+
+            viewport.addEventListener('wheel', function (event) {
+                if (window.innerWidth < 1024) {
+                    viewport.scrollLeft += event.deltaY;
+                    event.preventDefault();
                 }
+            }, { passive: false });
 
-                const viewport = shell.querySelector('.review-carousel-viewport');
-                const track = shell.querySelector('.review-carousel-track');
-                const prevButton = shell.querySelector('.review-carousel-btn-prev');
-                const nextButton = shell.querySelector('.review-carousel-btn-next');
-                const slides = Array.from(shell.querySelectorAll('.review-slide'));
-
-                if (!viewport || !track || !prevButton || !nextButton || slides.length === 0) {
-                    return;
-                }
-
+            window.addEventListener('resize', function () {
                 if (window.innerWidth >= 1024) {
-                    prevButton.style.display = 'none';
-                    nextButton.style.display = 'none';
-                    track.style.transform = 'none';
-                    shell.dataset.reviewReady = 'true';
-                    return;
+                    viewport.scrollLeft = 0;
                 }
-
-                let currentIndex = 0;
-
-                function getVisibleCount() {
-                    if (window.innerWidth >= 640) {
-                        return 2;
-                    }
-                    return 1;
-                }
-
-                function updateLayout() {
-                    const visibleCount = getVisibleCount();
-                    const gap = 16;
-                    const viewportWidth = viewport.clientWidth;
-                    const slideWidth = (viewportWidth - gap * (visibleCount - 1)) / visibleCount;
-                    const maxIndex = Math.max(0, slides.length - visibleCount);
-
-                    slides.forEach(function (slide) {
-                        slide.style.width = slideWidth + 'px';
-                    });
-
-                    currentIndex = Math.min(currentIndex, maxIndex);
-                    track.style.transform = 'translateX(-' + (currentIndex * (slideWidth + gap)) + 'px)';
-                    prevButton.disabled = currentIndex === 0;
-                    nextButton.disabled = currentIndex >= maxIndex;
-                }
-
-                function goToIndex(index) {
-                    const visibleCount = getVisibleCount();
-                    const maxIndex = Math.max(0, slides.length - visibleCount);
-                    currentIndex = Math.max(0, Math.min(index, maxIndex));
-                    updateLayout();
-                }
-
-                prevButton.addEventListener('click', function () {
-                    goToIndex(currentIndex - 1);
-                });
-
-                nextButton.addEventListener('click', function () {
-                    goToIndex(currentIndex + 1);
-                });
-
-                window.addEventListener('resize', updateLayout);
-                shell.dataset.reviewReady = 'true';
-                updateLayout();
             });
-        }
-
-        document.addEventListener('DOMContentLoaded', initReviewCarousel);
-        window.addEventListener('load', initReviewCarousel);
+        });
     </script>
 
 </body>
