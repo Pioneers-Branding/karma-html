@@ -325,7 +325,7 @@
         <div class="container mx-auto px-4">
             <div class="text-center mb-16">
                 <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 font-display">
-                    Visit Our Mental Health Facilities<br>in Palm Springs
+                    Visit Our Mental Health Facilities<br>in Palm Springs 
                 </h2>
                 <p class="text-gray-600 max-w-3xl mx-auto text-lg">
                     Our mental health facilities in Palm Springs are conveniently located serving patients throughout
