@@ -2088,16 +2088,15 @@ h6 {
   max-width: 1180px;
   width: 100%;
   margin: 1.5rem auto 0;
-  overflow: hidden;
 }
 
 .review-carousel-viewport {
   overflow-x: auto;
   overflow-y: hidden;
   width: 100%;
-  -webkit-overflow-scrolling: touch;
-  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
   scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .review-carousel-viewport::-webkit-scrollbar {
@@ -2116,10 +2115,8 @@ h6 {
   display: flex;
   justify-content: center;
   min-width: 0;
-  flex: 0 0 auto;
-  width: 70vw;
-  max-width: 280px;
-  scroll-snap-align: start;
+  flex: 0 0 100%;
+  box-sizing: border-box;
 }
 
 .review-video-card {
@@ -2177,13 +2174,8 @@ h6 {
 }
 
 @media (min-width: 640px) {
-  .review-carousel-track {
-    width: max-content;
-  }
-
   .review-slide {
-    width: 45vw;
-    max-width: 320px;
+    flex: 0 0 calc(50% - 0.5rem);
   }
 
   .review-video-card {
@@ -2193,8 +2185,7 @@ h6 {
 
 @media (min-width: 1024px) {
   .review-carousel-viewport {
-    overflow-x: hidden;
-    scroll-snap-type: none;
+    overflow: visible;
   }
 
   .review-carousel-track {
@@ -2204,16 +2195,12 @@ h6 {
   }
 
   .review-slide {
+    flex: 0 0 auto;
     width: auto;
-    max-width: none;
   }
 
   .review-video-card {
     width: 100%;
-  }
-
-  .review-carousel-btn {
-    display: none !important;
   }
 }
 
