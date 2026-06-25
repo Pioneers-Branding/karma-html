@@ -374,7 +374,7 @@ function generatePage($slug,$data,$hub_data,$conditions_map,$faq_pools,$sidebar_
     "email":"contact@karmatms.com",
     "address":{"@type":"PostalAddress","streetAddress":"'.$hub_info['addr'].'","addressLocality":"'.$hub_info['city'].'","addressRegion":"CA","postalCode":"'.$hub_info['zip'].'","addressCountry":"US"},
     "geo":{"@type":"GeoCoordinates","latitude":'.$hub_lat.',"longitude":'.$hub_lon.'},
-    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},
+    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
     "medicalSpecialty":["Psychiatry","MentalHealth"],
     "availableService":["TMS Therapy","PrTMS","Brain Mapping","Medication Management"],
     "areaServed":"'.$name.', '.$county.'"
@@ -664,7 +664,7 @@ function generatePage($slug,$data,$hub_data,$conditions_map,$faq_pools,$sidebar_
      <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Hub</div><div class="loc-info-value">'.$hub.'</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Estimated Distance</div><div class="loc-info-value">~'.$dist.' miles from '.$name.'</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Session Duration</div><div class="loc-info-value">20–40 minutes per session</div></div>
-     <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 8 AM – 6 PM</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 9 AM – 5 PM</div></div>
      <a href="contact-us.php" class="loc-info-cta">Verify My Insurance — Free</a>
     </div>
 

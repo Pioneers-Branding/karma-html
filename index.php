@@ -44,8 +44,8 @@
             {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "08:00",
-              "closes": "18:00"
+              "opens": "09:00",
+              "closes": "17:00"
             },
             {
               "@type": "OpeningHoursSpecification",
@@ -128,8 +128,8 @@
             {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "08:00",
-              "closes": "18:00"
+              "opens": "09:00",
+              "closes": "17:00"
             }
           ]
         },
@@ -150,8 +150,8 @@
             {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "08:00",
-              "closes": "18:00"
+              "opens": "09:00",
+              "closes": "17:00"
             }
           ]
         },
@@ -172,8 +172,8 @@
             {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "08:00",
-              "closes": "18:00"
+              "opens": "09:00",
+              "closes": "17:00"
             }
           ]
         },
@@ -1238,7 +1238,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 1"
-                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c746"
+                                        src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951724"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1248,7 +1248,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 2"
-                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c748"
+                                        src="https://play.gumlet.io/embed/6a3ccfeba79fd7da337d904a"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1258,7 +1258,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 3"
-                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c740"
+                                        src="https://play.gumlet.io/embed/6a3ccfeb5c2245e4675224c8"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1268,7 +1268,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 4"
-                                        src="https://play.gumlet.io/embed/6a3bc54181acabfe4b5e3391"
+                                        src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951726"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1471,7 +1471,7 @@
                             <i data-lucide="map-pin" class="location-icon"></i>
                             <div>
                                 <h4 class="location-name">Twentynine Palms</h4>
-                                <p class="location-address">72724 29 Palms Hwy. Suite 107 - B</p>
+                                <p class="location-address">72724 29 Palms Hwy. Suite 107-B</p>
                                 <p class="location-city">Twentynine Palms, CA 92277</p>
                             </div>
                         </div>
@@ -1492,7 +1492,7 @@
                             <i data-lucide="clock" class="method-icon"></i>
                             <div>
                                 <h4 class="method-label">Hours</h4>
-                                <p class="method-value">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p class="method-value">Monday - Friday: 9:00 AM - 5:00 PM</p>
                                 <p class="method-sub-value">Saturday - Sunday: Closed</p>
                             </div>
                         </div>

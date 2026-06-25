@@ -159,7 +159,7 @@
                         <i data-lucide="clock" class="footer-contact-icon"></i>
                         <div>
                             <div class="footer-contact-label">Hours</div>
-                            <div class="footer-contact-value">Mon-Fri: 8AM-6PM</div>
+                            <div class="footer-contact-value">Mon-Fri: 9AM-5PM</div>
                         </div>
                     </div>
                 </div>
@@ -279,7 +279,7 @@
                         <div>
                             <h4 class="footer-map-location-name">Twentynine Palms</h4>
                             <p class="footer-map-address">
-                                72724 29 Palms Hwy. Suite 107 - B<br>Twentynine Palms, CA 92277
+                                72724 29 Palms Hwy. Suite 107-B<br>Twentynine Palms, CA 92277
                             </p>
                         </div>
                     </div>

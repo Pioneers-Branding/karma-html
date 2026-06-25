@@ -42,8 +42,8 @@
         {
           "@type": "OpeningHoursSpecification",
           "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-          "opens": "08:00",
-          "closes": "18:00"
+          "opens": "09:00",
+          "closes": "17:00"
         }
       ],
       "priceRange": "$$",
@@ -454,7 +454,7 @@
                                 <i data-lucide="clock" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Office Hours</p>
-                                    <p class="text-gray-600">Monday – Friday: 8:00 AM – 6:00 PM<br>Saturday – Sunday: Closed</p>
+                                    <p class="text-gray-600">Monday – Friday: 9:00 AM – 5:00 PM<br>Saturday – Sunday: Closed</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">

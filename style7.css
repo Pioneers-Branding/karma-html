@@ -2784,6 +2784,21 @@ h6 {
   max-width: 600px;
 }
 
+/* Dark text overrides for the about hero (light background) */
+.about-hero .hero-title,
+.about-hero .gradient-text {
+  color: #572670 !important;
+}
+
+.about-hero .hero-description {
+  color: #6b21a8 !important;
+}
+
+.about-hero .badge {
+  background: rgba(87, 38, 112, 0.12) !important;
+  color: #572670 !important;
+}
+
 .about-hero-image {
   position: relative;
 }

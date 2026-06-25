@@ -86,8 +86,8 @@
             {
               "@type": "OpeningHoursSpecification",
               "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-              "opens": "08:00",
-              "closes": "18:00"
+              "opens": "09:00",
+              "closes": "17:00"
             }
           ],
           "medicalSpecialty": "Psychiatry",
@@ -696,7 +696,7 @@
                         <li><strong>ExoMind TMS</strong> — advanced deep TMS for faster clinical response</li>
                         <li><strong>Medication Management</strong> — integrative psychiatric care</li>
                     </ul>
-                    <p class="mb-4">The clinic holds a <strong>4.9-star Google rating</strong> and accepts most major California insurance plans. Appointments are available Monday–Friday, 8:00 AM – 6:00 PM. Call <a href="tel:7607605675" class="text-primary hover:underline font-semibold">760-760-5675</a> to schedule a free consultation.</p>
+                    <p class="mb-4">The clinic holds a <strong>4.9-star Google rating</strong> and accepts most major California insurance plans. Appointments are available Monday–Friday, 9:00 AM – 5:00 PM. Call <a href="tel:7607605675" class="text-primary hover:underline font-semibold">760-760-5675</a> to schedule a free consultation.</p>
                     <p class="text-sm text-gray-500">Karma TMS PC also operates locations in <a href="rancho-mirage.php" class="text-primary hover:underline">Rancho Mirage</a> and <a href="twentynine-palms.php" class="text-primary hover:underline">Twentynine Palms</a>, serving patients throughout the Coachella Valley and greater Southern California.</p>
                 </div>
 

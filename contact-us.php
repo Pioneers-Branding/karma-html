@@ -238,7 +238,7 @@
                                     Twentynine Palms Office
                                 </h3>
                                 <p class="text-gray-700 text-sm leading-relaxed">
-                                    72724 29 Palms Hwy. Suite 107 - B<br>
+                                    72724 29 Palms Hwy. Suite 107-B<br>
                                     Twentynine Palms, CA 92277
                                 </p>
                                 <a href="https://share.google/e8yhlNFFaLaN8z1d1" target="_blank"
@@ -382,7 +382,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 text-lg">Twentynine Palms</h4>
-                                <p class="text-gray-600">72724 29 Palms Hwy. Suite 107 - B</p>
+                                <p class="text-gray-600">72724 29 Palms Hwy. Suite 107-B</p>
                                 <p class="text-gray-600">Twentynine Palms, CA 92277</p>
                             </div>
                         </div>
@@ -414,7 +414,7 @@
                             </div>
                             <div>
                                 <h4 class="font-bold text-gray-900 text-lg">Hours</h4>
-                                <p class="text-gray-600">Monday - Friday: 8:00 AM - 6:00 PM</p>
+                                <p class="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
                                 <p class="text-gray-600">Saturday - Sunday: Closed</p>
                             </div>
                         </div>

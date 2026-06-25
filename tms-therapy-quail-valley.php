@@ -26,7 +26,7 @@
     "email":"contact@karmatms.com",
     "address":{"@type":"PostalAddress","streetAddress":"35400 Bob Hope Dr., Suite 206-B","addressLocality":"Rancho Mirage","addressRegion":"CA","postalCode":"92270","addressCountry":"US"},
     "geo":{"@type":"GeoCoordinates","latitude":33.7397,"longitude":-116.4119},
-    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},
+    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
     "medicalSpecialty":["Psychiatry","MentalHealth"],
     "availableService":["TMS Therapy","PrTMS","Brain Mapping","Medication Management"],
     "areaServed":"Quail Valley, Riverside County"
@@ -288,7 +288,7 @@
      <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Hub</div><div class="loc-info-value">Rancho Mirage</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Estimated Distance</div><div class="loc-info-value">~57 miles from Quail Valley</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Session Duration</div><div class="loc-info-value">20–40 minutes per session</div></div>
-     <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 8 AM – 6 PM</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 9 AM – 5 PM</div></div>
      <a href="contact-us.php" class="loc-info-cta">Verify My Insurance — Free</a>
     </div>
 

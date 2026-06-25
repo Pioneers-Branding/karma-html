@@ -297,7 +297,7 @@
                             <div>
                                 <h4 class="font-bold text-gray-900 text-sm uppercase tracking-wider mb-1">Phone Number</h4>
                                 <a href="tel:7607605675" class="text-gray-700 hover:text-purple-600 font-semibold block">760-760-5675</a>
-                                <span class="text-xs text-gray-400">Mon-Fri: 8AM-6PM</span>
+                                <span class="text-xs text-gray-400">Mon-Fri: 9AM-5PM</span>
                             </div>
                         </div>
 

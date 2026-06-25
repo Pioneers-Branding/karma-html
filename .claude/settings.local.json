@@ -11,7 +11,10 @@
       "WebSearch",
       "Bash(xxd)",
       "Bash(grep -nE \"prTMS|prtms|PRTMS\" c:/Users/GCV/Desktop/karma-html/tms-therapy.php c:/Users\\\\GCV/Desktop/karma-html/prtms.php c:/Users/GCV/Desktop/karma-html/brain-mapping.php c:/Users/GCV/Desktop/karma-html/medication-management.php 2>&1 | head -30)",
-      "Read(//c/UsersGCV/Desktop/karma-html/**)"
+      "Read(//c/UsersGCV/Desktop/karma-html/**)",
+      "Bash(cp /dev/null /tmp/files_before.txt)",
+      "Bash(find . -name \"*.php\" -type f)",
+      "Read(//tmp/**)"
     ]
   }
 }
