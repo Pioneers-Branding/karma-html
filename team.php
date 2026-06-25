@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -36,20 +36,25 @@
     </section>
 
     <!-- Team Image Section -->
-    <section class="section bg-white pt-0">
-        <div class="container">
-            <div class="text-center fade-in-up">
-                <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 mb-8">Our Team</h2>
-                <div class="team-group-image-wrapper shadow-xl rounded-2xl overflow-hidden max-w-5xl mx-auto">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537415/-7333_i1ejb8.png"
-                        alt="Our Team at Karma TMS" class="w-full h-auto object-cover">
+    <section class="w-full py-16 bg-white fade-in-up">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6 text-center">
+                <span class="gradient-text">Our Team</span>
+            </h2>
+            <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8 text-center">
+                Meet our compassionate and experienced team of mental health professionals dedicated to your
+                well-being. At Karma TMS, we believe that the right care can make all the difference.
+            </p>
+            <div class="flex justify-center">
+                <div class="max-w-full rounded-2xl overflow-hidden shadow-lg border border-gray-100">
+                    <img src="images/team/team-new.png" alt="Karma TMS Clinical Team"
+                        class="w-full h-auto block object-contain">
                 </div>
             </div>
         </div>
     </section>
-
     <!-- Filters Section -->
-    <section class="py-8 bg-gray-50/50">
+    <section class="py-8 pt-20 bg-gray-50/50">
         <div class="container">
             <div id="team-filters-root" class="team-filters-container">
                 <!-- Filters injected via JS -->
@@ -115,4 +120,3 @@
 </body>
 
 </html>
-

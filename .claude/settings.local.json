@@ -14,7 +14,21 @@
       "Read(//c/UsersGCV/Desktop/karma-html/**)",
       "Bash(cp /dev/null /tmp/files_before.txt)",
       "Bash(find . -name \"*.php\" -type f)",
-      "Read(//tmp/**)"
+      "Read(//tmp/**)",
+      "WebFetch(domain:seeklogo.com)",
+      "Bash(curl -sL -o aetna.png \"https://logo.clearbit.com/aetna.com\")",
+      "Bash(curl -sL -o anthem-blue-cross.png \"https://logo.clearbit.com/anthem.com\")",
+      "Bash(curl -sL -o blue-shield-california.png \"https://logo.clearbit.com/blueshieldca.com\")",
+      "Bash(curl -sL -o cigna.png \"https://logo.clearbit.com/cigna.com\")",
+      "Bash(curl -sL -o evernorth.png \"https://logo.clearbit.com/evernorth.com\")",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri 'https://logo.clearbit.com/aetna.com' -OutFile 'aetna.png'\")",
+      "Bash(powershell -Command \"Invoke-WebRequest -Uri 'https://images.seeklogo.com/logo-png/32/1/aetna-logo-png_seeklogo-322017.png' -OutFile 'aetna.png'; if \\(Test-Path 'aetna.png'\\) { \\(Get-Item 'aetna.png'\\).Length } else { 'FAIL' }\")",
+      "WebFetch(domain:commons.wikimedia.org)",
+      "WebFetch(domain:worldvectorlogo.com)",
+      "Bash(powershell -Command \"try { Invoke-WebRequest -Uri 'https://www.humana.com/-/media/humana/company-logo.svg' -OutFile 'humana.svg' -TimeoutSec 10; if \\(\\(Get-Item 'humana.svg'\\).Length -gt 100\\) { 'OK' } else { 'fail' } } catch { 'fail' }\")",
+      "Bash(curl -sI -L \"https://cdn.freebiesbox.com/v1/logos/aetna.png\")",
+      "Bash(curl -sI -L \"https://assets.brandpack.io/logos/aetna.png\")",
+      "Bash(curl -sI -L \"https://imgix.rawbitcdn.net/seeklogo/aetna.png\")"
     ]
   }
 }
