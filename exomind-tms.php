@@ -43,7 +43,7 @@
     <!-- Hero Section -->
     <section class="relative min-h-[70vh] flex items-center justify-center overflow-hidden bg-slate-900">
         <div class="absolute inset-0 z-0">
-            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg" alt="ExoMind Background" class="w-full h-full object-cover opacity-40">
+            <img src="/assets/images/img-c61092bf7776.jpg" alt="ExoMind Background" class="w-full h-full object-cover opacity-40">
             <div class="absolute inset-0 bg-brand-900/80 mix-blend-multiply"></div>
         </div>
         
@@ -119,7 +119,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 items-center">
                 <div class="relative order-2 lg:order-1">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029481/Exomind_PIC_Female-Model1_0961_ENUS100_zflpcx.jpg" alt="Exomind TMS Chair" class="rounded-2xl shadow-lg object-cover w-full h-auto">
+                    <img src="/assets/images/img-ad7ed0b06067.jpg" alt="Exomind TMS Chair" class="rounded-2xl shadow-lg object-cover w-full h-auto">
                 </div>
                 
                 <div class="order-1 lg:order-2">
@@ -264,7 +264,7 @@
                     </div>
                     
                     <div class="relative h-64 lg:h-auto">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1766992546/IMG_5821_cud7cg.jpg" alt="Clinic Entrance" class="absolute inset-0 w-full h-full object-cover">
+                        <img src="/assets/images/img-3c6daa8449a3.jpg" alt="Clinic Entrance" class="absolute inset-0 w-full h-full object-cover">
                     </div>
                 </div>
             </div>

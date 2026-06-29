@@ -159,7 +159,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763030646/Exomind_PIC_Male-Model6_0070_ENUS100_q2zhyt.jpg"
+                    <img src="/assets/images/img-25c9de252525.jpg"
                         alt="Karma TMS depression therapy session with TMS therapy equipment"
                         class="rounded-lg shadow-2xl">
                 </div>
@@ -624,7 +624,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765370575/apollo-patient_uniuqb.webp"
+                    <img src="/assets/images/img-87f8f7c34f59.webp"
                         alt="TMS treatment chair" class="rounded-lg shadow-lg"
                         style="max-height: 600px; width: fit-content;">
                 </div>

@@ -156,7 +156,7 @@
 
                 <div class="lg:w-1/2 fade-in-up" style="animation-delay: 0.2s;">
                     <div class="relative max-w-md mx-auto">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model4_0129_ENUS100_yqzeod.jpg"
+                        <img src="/assets/images/img-ccd41b758ce6.jpg"
                             alt="TMS Treatment Chair" class="w-full h-auto object-cover rounded-2xl shadow-2xl"
                             style="max-width: 300px;">
                     </div>

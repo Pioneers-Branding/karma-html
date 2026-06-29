@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Understand why TMS therapy requires multiple sessions for lasting results. Learn about neuroplasticity, treatment protocols, and what to expect during your TMS journey.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png">
+        content="/assets/images/img-295dc00c0c2f.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -230,7 +230,7 @@
       "@type": "Article",
       "headline": "Why TMS Requires Multiple Sessions",
       "description": "Understand why TMS therapy requires multiple sessions for lasting results. Learn about neuroplasticity, treatment protocols, and what to expect during your TMS journey.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png",
+      "image": "/assets/images/img-295dc00c0c2f.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -354,7 +354,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png"
+                    <img src="/assets/images/img-295dc00c0c2f.png"
                         alt="TMS therapy session illustration"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -626,7 +626,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png"
+                            <img src="/assets/images/img-bbfd41cb5565.png"
                                 alt="Is TMS Therapy Legitimate?" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">
@@ -641,7 +641,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png"
+                            <img src="/assets/images/img-5f2d44271549.png"
                                 alt="How Successful is TMS?" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">
@@ -656,7 +656,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png"
+                            <img src="/assets/images/img-ad8e84594761.png"
                                 alt="Social Media and Mental Health" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">

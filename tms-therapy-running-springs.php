@@ -11,7 +11,7 @@
  <meta property="og:description" content="Karma TMS serves Running Springs mountain residents from our Twentynine Palms facility. FDA-approved TMS for depression, anxiety &amp; PTSD. Board-certified psyc...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-running-springs.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Running Springs, California">
  <?php include 'includes/header-links.php'; ?>

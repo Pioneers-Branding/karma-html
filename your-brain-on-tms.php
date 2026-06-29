@@ -680,7 +680,7 @@
                         </div>
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770807746/41_bfa16u.jpg" class="w-full h-full object-cover">
+                                <img src="/assets/images/img-cbff17e75158.jpg" class="w-full h-full object-cover">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -694,7 +694,7 @@
                         </div>
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png" class="w-full h-full object-cover">
+                                <img src="/assets/images/img-47a17a2656ac.png" class="w-full h-full object-cover">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

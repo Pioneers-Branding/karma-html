@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Discover how TMS therapy offers a non-invasive, drug-free solution for veterans struggling with anxiety and PTSD. Learn about its benefits and effectiveness.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376739/25_drzbxc.png">
+        content="/assets/images/img-be3ac70d8b7f.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -240,7 +240,7 @@
       "@type": "Article",
       "headline": "TMS for Anxiety in Veterans: Beyond Medication Treatment",
       "description": "Discover how TMS therapy offers a non-invasive, drug-free solution for veterans struggling with anxiety and PTSD.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376739/25_drzbxc.png",
+      "image": "/assets/images/img-be3ac70d8b7f.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -860,7 +860,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/18_jkbrlx.png"
+                            <img src="/assets/images/img-4a0a0258e707.png"
                                 alt="Tech And Mental Health" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -875,7 +875,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png"
+                            <img src="/assets/images/img-ad8e84594761.png"
                                 alt="Social Media and Mental Health" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -890,7 +890,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376737/22_wiizht.png"
+                            <img src="/assets/images/img-a979aa9c061f.png"
                                 alt="Managing Anxiety Triggers" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

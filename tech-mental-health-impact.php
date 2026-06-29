@@ -982,7 +982,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1: Disability for Depression -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015453/38_lkmqxw.png"
+                            <img src="/assets/images/img-10ee87c8d2d8.png"
                                 alt="Disability for Depression" class="w-full h-48 object-cover object-top">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -997,7 +997,7 @@
                         
                         <!-- Post 2: Anxiety -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png"
+                            <img src="/assets/images/img-bbfd41cb5565.png"
                                 alt="TMS for Anxiety" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -1012,7 +1012,7 @@
 
                         <!-- Post 3: PTSD -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png"
+                            <img src="/assets/images/img-295dc00c0c2f.png"
                                 alt="Understanding PTSD" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

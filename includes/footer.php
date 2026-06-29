@@ -121,7 +121,7 @@
             <!-- Column 1: Company Info -->
             <div class="footer-column-info">
                 <div class="footer-logo-box">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1759944699/karmatms_rp4lkn.png"
+                    <img src="/assets/images/img-afca3a1262bd.png"
                          alt="Karma TMS" class="footer-logo-invert">
                 </div>
 

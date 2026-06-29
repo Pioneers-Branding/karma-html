@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Learn practical ways to support veterans with PTSD. Discover recognizing symptoms, effective communication strategies, and treatment options like TMS therapy.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png">
+        content="/assets/images/img-70937b3cbb7f.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -252,7 +252,7 @@
       "@type": "Article",
       "headline": "How to Help Veterans with PTSD: Therapy, TMS, and Beyond",
       "description": "Learn practical ways to support veterans with PTSD. Discover recognizing symptoms, effective communication strategies, and treatment options like TMS therapy.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png",
+      "image": "/assets/images/img-70937b3cbb7f.png",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -363,7 +363,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png" 
+                    <img src="/assets/images/img-70937b3cbb7f.png" 
                         alt="Veteran Support"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -639,7 +639,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1: Disability for Depression -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015453/38_lkmqxw.png"
+                            <img src="/assets/images/img-10ee87c8d2d8.png"
                                 alt="Disability for Depression" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -654,7 +654,7 @@
                         
                         <!-- Post 2: Anxiety -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                             <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/6_rrkhgo.png"
+                             <img src="/assets/images/img-48f822a9b4fa.png"
                                 alt="TMS for Anxiety" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -669,7 +669,7 @@
 
                         <!-- Post 3: Understanding PTSD -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/5_kvtlku.png"
+                            <img src="/assets/images/img-dafdac8b327f.png"
                                 alt="Understanding PTSD" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

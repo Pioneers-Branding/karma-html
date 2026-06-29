@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Learn whether depression qualifies as a disability under the ADA and Social Security, and discover treatment options like TMS.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376739/25_drzbxc.png">
+        content="/assets/images/img-be3ac70d8b7f.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -233,7 +233,7 @@
       "@type": "Article",
       "headline": "Is Depression a Disability?",
       "description": "Learn whether depression qualifies as a disability under the ADA and Social Security, and discover treatment options like TMS.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376739/25_drzbxc.png",
+      "image": "/assets/images/img-be3ac70d8b7f.png",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -829,7 +829,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png"
+                            <img src="/assets/images/img-5f2d44271549.png"
                                 alt="How Successful is TMS Treatment?" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -844,7 +844,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png"
+                            <img src="/assets/images/img-295dc00c0c2f.png"
                                 alt="Why TMS Requires Multiple Sessions" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

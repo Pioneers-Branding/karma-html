@@ -11,7 +11,7 @@
  <meta property="og:description" content="Karma TMS serves Sugarloaf mountain residents from our Twentynine Palms facility. FDA-approved TMS for depression, anxiety &amp; PTSD. Board-certified psychiatri...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-sugarloaf.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Sugarloaf, California">
  <?php include 'includes/header-links.php'; ?>
@@ -280,7 +280,7 @@
   <aside class="loc-sidebar reveal">
    <div class="sticky top-24">
     <div class="loc-sidebar-img">
-     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg" alt="TMS Therapy Services near Sugarloaf, San Bernardino County" loading="lazy">
+     <img src="/assets/images/img-40bc88067423.jpg" alt="TMS Therapy Services near Sugarloaf, San Bernardino County" loading="lazy">
     </div>
 
     <div class="loc-info-card">

@@ -136,7 +136,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3481_Apollo-Coilstand_epn2ls.jpg"
+                    <img src="/assets/images/img-4b398a0e4ebe.jpg"
                         alt="Brain imaging for OCD treatment" class="rounded-lg shadow-2xl">
                 </div>
             </div>
@@ -535,7 +535,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765797976/neurocare-TMS3407_Clinician-Patient-Apollo-Greiner_wglqfe.jpg"
+                    <img src="/assets/images/img-2ab05ad2ea4f.jpg"
                         alt="Deep TMS treatment for OCD" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>

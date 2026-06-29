@@ -11,7 +11,7 @@
  <meta property="og:description" content="TMS therapy for Vidal residents — Karma TMS Twentynine Palms hub brings FDA-approved psychiatric care to San Bernardino County. Depression, anxiety &amp; PTSD ...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-vidal.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Vidal, California">
  <?php include 'includes/header-links.php'; ?>
@@ -280,7 +280,7 @@
   <aside class="loc-sidebar reveal">
    <div class="sticky top-24">
     <div class="loc-sidebar-img">
-     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg" alt="TMS Therapy Services near Vidal, San Bernardino County" loading="lazy">
+     <img src="/assets/images/img-59b1cdb9976e.jpg" alt="TMS Therapy Services near Vidal, San Bernardino County" loading="lazy">
     </div>
 
     <div class="loc-info-card">

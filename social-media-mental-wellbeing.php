@@ -400,7 +400,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png"
+                    <img src="/assets/images/img-ad8e84594761.png"
                         alt="Social media and mental health concept"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -721,7 +721,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/16_ekice5.png"
+                            <img src="/assets/images/img-5d843761216c.png"
                                 alt="The Impact of Screen Time on Mental Health" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">
@@ -736,7 +736,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/18_jkbrlx.png"
+                            <img src="/assets/images/img-4a0a0258e707.png"
                                 alt="Tech And Mental Health" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">
@@ -751,7 +751,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376737/22_wiizht.png"
+                            <img src="/assets/images/img-a979aa9c061f.png"
                                 alt="Managing Anxiety Triggers" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-primary transition-colors">

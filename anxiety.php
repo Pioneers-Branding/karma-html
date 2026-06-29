@@ -135,7 +135,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3481_Apollo-Coilstand_epn2ls.jpg"
+                    <img src="/assets/images/img-4b398a0e4ebe.jpg"
                         alt="Karma TMS anxiety therapy and treatment with advanced TMS technology"
                         class="rounded-lg shadow-2xl" style="max-height: 400px; width: 100%; object-fit: cover;">
                 </div>
@@ -609,7 +609,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765370575/apollo-consultation_1_peyxur.webp"
+                    <img src="/assets/images/img-c0a903307811.webp"
                         alt="Anxiety treatment session" class="rounded-lg shadow-lg mx-auto" style="max-height: 600px;">
                 </div>
             </div>

@@ -44,7 +44,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3475_Coilholder_oqsanf.jpg"
+                    <img src="/assets/images/img-37e8ac813d37.jpg"
                         alt="Bipolar disorder brain activity" class="rounded-lg shadow-2xl w-full object-cover"
                         style="max-height: 400px; object-position: bottom;">
                 </div>
@@ -399,7 +399,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765797976/neurocare-TMS3407_Clinician-Patient-Apollo-Greiner_wglqfe.jpg"
+                    <img src="/assets/images/img-2ab05ad2ea4f.jpg"
                         alt="Medical monitoring and care" class="rounded-lg shadow-lg" style="max-height: 600px;">
                 </div>
             </div>

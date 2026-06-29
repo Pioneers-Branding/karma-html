@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Dive deeper into the clinical outcomes and success rates of TMS. What defines success? How long does it last? Get the stats here.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png">
+        content="/assets/images/img-5f2d44271549.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -233,7 +233,7 @@
       "@type": "Article",
       "headline": "How Successful is TMS Treatment?",
       "description": "Discover the success rates of TMS therapy for depression and anxiety. Learn about response and remission rates.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png",
+      "image": "/assets/images/img-5f2d44271549.png",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -723,7 +723,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png"
+                            <img src="/assets/images/img-bbfd41cb5565.png"
                                 alt="Is TMS Therapy Legitimate?" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -738,7 +738,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png"
+                            <img src="/assets/images/img-295dc00c0c2f.png"
                                 alt="Why TMS Requires Multiple Sessions" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

@@ -11,7 +11,7 @@
  <meta property="og:description" content="TMS therapy for Morongo Valley, CA — Karma TMS Palm Springs hub serves the High Desert with FDA-approved treatment for depression, OCD &amp; PTSD. All major in...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-morongo-valley.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Morongo Valley, California">
  <?php include 'includes/header-links.php'; ?>

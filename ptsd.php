@@ -139,7 +139,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3481_Apollo-Coilstand_epn2ls.jpg"
+                    <img src="/assets/images/img-4b398a0e4ebe.jpg"
                         alt="PTSD therapy and support" class="rounded-lg shadow-2xl"
                         style="max-height: 400px; width: 100%; object-fit: cover;">
                 </div>
@@ -526,7 +526,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029481/Exomind_PIC_Female-Model1_0961_ENUS100_zflpcx.jpg"
+                    <img src="/assets/images/img-ad7ed0b06067.jpg"
                         alt="Safe and supportive treatment environment" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>

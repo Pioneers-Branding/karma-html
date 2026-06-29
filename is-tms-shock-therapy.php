@@ -639,7 +639,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/12_t62v1m.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS therapy safe">
+                                <img src="/assets/images/img-bee8ae415c8f.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS therapy safe">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">
@@ -654,7 +654,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Why TMS requires multiple sessions">
+                                <img src="/assets/images/img-295dc00c0c2f.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Why TMS requires multiple sessions">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">
@@ -669,7 +669,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/28_mmumyo.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs depression needs treatment">
+                                <img src="/assets/images/img-d9c218209f19.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs depression needs treatment">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">

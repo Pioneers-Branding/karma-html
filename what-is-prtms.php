@@ -329,7 +329,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1770807746/41_bfa16u.jpg" 
+                    <img src="/assets/images/img-cbff17e75158.jpg" 
                         alt="What Is PrTMS?"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -731,7 +731,7 @@
                         <!-- Post 3: Multiple Sessions -->
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col border border-gray-900 animate-fade-in-up" style="animation-delay: 0.3s;">
                              <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png" alt="Why TMS Requires Multiple Sessions" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                                <img src="/assets/images/img-295dc00c0c2f.png" alt="Why TMS Requires Multiple Sessions" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">

@@ -20,7 +20,7 @@
       "@id": "https://www.karmatms.com/twentynine-palms.php#location",
       "name": "Karma TMS PC – Twentynine Palms",
       "url": "https://www.karmatms.com/twentynine-palms.php",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763039658/2_miiwgx.jpg",
+      "image": "/assets/images/img-342c2fa6ae0e.jpg",
       "description": "TMS therapy center in Twentynine Palms near MCAGCC. Specialized PTSD treatment for veterans and active military. Depression and anxiety care. Tricare and VA benefits accepted.",
       "telephone": "+17607605675",
       "email": "contact@karmatms.com",
@@ -220,7 +220,7 @@
                         </div>
                     </div>
                     <div class="relative rounded-xl overflow-hidden shadow-2xl" style="height: 384px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763039658/2_miiwgx.jpg"
+                        <img src="/assets/images/img-342c2fa6ae0e.jpg"
                             alt="Advanced TMS therapy equipment at Twentynine Palms facility"
                             class="w-full h-full object-cover">
                     </div>
@@ -307,7 +307,7 @@
                 <div class="grid md:grid-cols-3 gap-6">
                     <!-- Image 1 -->
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763039658/2_miiwgx.jpg"
+                        <img src="/assets/images/img-342c2fa6ae0e.jpg"
                             alt="Professional and welcoming entrance at Twentynine Palms location"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                         <div class="absolute inset-0"
@@ -526,7 +526,7 @@
 
                     <!-- Image Side -->
                     <div class="relative" style="min-height: 300px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png"
+                        <img src="/assets/images/img-7e9504440d1b.png"
                             alt="Karma TMS Twentynine Palms clinic — near MCAGCC Marine Base, Joshua Tree, and the High Desert"
                             class="w-full h-full object-cover" style="min-height: 300px;">
                         <div class="absolute top-4 left-4">

@@ -611,7 +611,7 @@
                         </div>
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col">
                              <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 shrink-0">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/6_rrkhgo.png" class="w-full h-full object-cover">
+                                <img src="/assets/images/img-48f822a9b4fa.png" class="w-full h-full object-cover">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

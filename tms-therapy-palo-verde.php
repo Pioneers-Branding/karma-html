@@ -11,7 +11,7 @@
  <meta property="og:description" content="TMS therapy for Palo Verde, CA — Karma TMS brings FDA-approved depression and anxiety treatment to the Blythe area.">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-palo-verde.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Palo Verde, California">
  <?php include 'includes/header-links.php'; ?>
@@ -190,7 +190,7 @@
 </nav>
 
 <section class="loc-hero">
- <div class="loc-hero-bg" style="background-image:url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg');"></div>
+ <div class="loc-hero-bg" style="background-image:url('/assets/images/img-40bc88067423.jpg');"></div>
  <div class="loc-orb loc-orb-1"></div>
  <div class="loc-orb loc-orb-2"></div>
  <div class="container mx-auto loc-hero-inner">

@@ -397,7 +397,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png"
+                    <img src="/assets/images/img-a63632252039.png"
                         alt="TMS therapy for treatment resistant depression"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -770,7 +770,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376737/22_wiizht.png"
+                            <img src="/assets/images/img-a979aa9c061f.png"
                                 alt="Managing Anxiety Triggers" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 group-hover:text-[#572670] transition-colors">
@@ -785,7 +785,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376735/21_tyzclt.png"
+                            <img src="/assets/images/img-10141c9a881d.png"
                                 alt="Family Dynamics" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 group-hover:text-[#572670] transition-colors">
@@ -800,7 +800,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376735/19_luad51.png"
+                            <img src="/assets/images/img-bcde2b74767f.png"
                                 alt="Mental Health First Aid" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 group-hover:text-[#572670] transition-colors">

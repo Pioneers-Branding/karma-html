@@ -89,7 +89,7 @@
 
                 <div class="about-hero-image">
                     <div class="about-hero-img-wrapper">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model3_0342_ENUS100_qx29w9.jpg"
+                        <img src="/assets/images/img-adc2b88dc42d.jpg"
                             alt="Karma TMS Clinic">
                     </div>
 
@@ -156,7 +156,7 @@
                             </div>
                         </div>
                         <div class="story-image">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
+                            <img src="/assets/images/img-0ab12df02fae.jpg"
                                 alt="TMS Treatment Technology">
                         </div>
                     </div>

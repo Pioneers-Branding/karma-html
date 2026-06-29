@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Explaining the legitimacy of TMS therapy outcomes. Is it FDA approved? What about success rates? Get the facts here.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png">
+        content="/assets/images/img-bbfd41cb5565.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -233,7 +233,7 @@
       "@type": "Article",
       "headline": "Is TMS Therapy Legitimate?",
       "description": "Learn about the scientific evidence, FDA approval, and clinical legitimacy of TMS therapy. Discover why it is a trusted treatment for depression.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png",
+      "image": "/assets/images/img-bbfd41cb5565.png",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -360,7 +360,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png" 
+                    <img src="/assets/images/img-bbfd41cb5565.png" 
                         alt="Is TMS Therapy Legitimate?"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -678,7 +678,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png"
+                            <img src="/assets/images/img-5f2d44271549.png"
                                 alt="How Successful is TMS Treatment?" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -693,7 +693,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-[#572670]/20 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png"
+                            <img src="/assets/images/img-295dc00c0c2f.png"
                                 alt="Why TMS Requires Multiple Sessions" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

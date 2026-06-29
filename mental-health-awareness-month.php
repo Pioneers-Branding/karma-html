@@ -539,7 +539,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 flex items-center justify-center text-gray-500 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376735/19_luad51.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Mental Health First Aid">
+                                <img src="/assets/images/img-bcde2b74767f.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Mental Health First Aid">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">

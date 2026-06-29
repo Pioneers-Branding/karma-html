@@ -11,7 +11,7 @@
  <meta property="og:description" content="TMS therapy for Phelan, CA — Karma TMS Twentynine Palms hub serves the High Desert with FDA-approved treatment for depression, OCD &amp; PTSD. All major insura...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-phelan.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Phelan, California">
  <?php include 'includes/header-links.php'; ?>

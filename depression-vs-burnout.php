@@ -25,7 +25,7 @@
       "@type": "Article",
       "headline": "Depression vs Burnout: How to Tell the Difference",
       "description": "Depression vs burnout — they share symptoms but require very different treatments. Learn how to tell them apart and what to do if you think you have one or both.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/16_ekice5.png",
+      "image": "/assets/images/img-5d843761216c.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -636,7 +636,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/12_t62v1m.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Four A's of Stress">
+                                <img src="/assets/images/img-bee8ae415c8f.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Four A's of Stress">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="four-as-stress-management.php" class="block" style="color:#000 !important;">The Four A's of Stress Management</a></h3>
@@ -646,7 +646,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015452/37_kghe3l.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs Depression Needs Treatment">
+                                <img src="/assets/images/img-e38b35992ce9.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs Depression Needs Treatment">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="signs-your-depression-needs-professional-treatment.php" class="block" style="color:#000 !important;">Signs Your Depression Needs Professional Treatment</a></h3>
@@ -656,7 +656,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
+                                <img src="/assets/images/img-a63632252039.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="tms-therapy-for-treatment-resistant-depression.php" class="block" style="color:#000 !important;">TMS for Treatment-Resistant Depression</a></h3>

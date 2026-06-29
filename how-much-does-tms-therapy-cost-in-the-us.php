@@ -411,7 +411,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/13_nl6y75.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS Permanent">
+                                <img src="/assets/images/img-9c72581f956c.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is TMS Permanent">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">
@@ -424,7 +424,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
+                                <img src="/assets/images/img-a63632252039.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">
@@ -437,7 +437,7 @@
 
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="How Successful Is TMS">
+                                <img src="/assets/images/img-5f2d44271549.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="How Successful Is TMS">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 text-black leading-tight">

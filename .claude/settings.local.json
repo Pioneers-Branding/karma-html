@@ -28,7 +28,9 @@
       "Bash(powershell -Command \"try { Invoke-WebRequest -Uri 'https://www.humana.com/-/media/humana/company-logo.svg' -OutFile 'humana.svg' -TimeoutSec 10; if \\(\\(Get-Item 'humana.svg'\\).Length -gt 100\\) { 'OK' } else { 'fail' } } catch { 'fail' }\")",
       "Bash(curl -sI -L \"https://cdn.freebiesbox.com/v1/logos/aetna.png\")",
       "Bash(curl -sI -L \"https://assets.brandpack.io/logos/aetna.png\")",
-      "Bash(curl -sI -L \"https://imgix.rawbitcdn.net/seeklogo/aetna.png\")"
+      "Bash(curl -sI -L \"https://imgix.rawbitcdn.net/seeklogo/aetna.png\")",
+      "Bash(python download_images.py)",
+      "Bash(pip install *)"
     ]
   }
 }

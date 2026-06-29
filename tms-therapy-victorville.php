@@ -11,7 +11,7 @@
  <meta property="og:description" content="FDA-approved TMS therapy for Victorville, CA — Karma TMS Twentynine Palms hub treats depression, anxiety &amp; OCD for San Bernardino County residents. Board-c...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-victorville.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Victorville, California">
  <?php include 'includes/header-links.php'; ?>
@@ -207,7 +207,7 @@
 
 <!-- Hero -->
 <section class="loc-hero">
- <div class="loc-hero-bg" style="background-image:url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg');"></div>
+ <div class="loc-hero-bg" style="background-image:url('/assets/images/img-40bc88067423.jpg');"></div>
  <div class="loc-orb loc-orb-1"></div>
  <div class="loc-orb loc-orb-2"></div>
  <div class="container mx-auto loc-hero-inner">
@@ -280,7 +280,7 @@
   <aside class="loc-sidebar reveal">
    <div class="sticky top-24">
     <div class="loc-sidebar-img">
-     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg" alt="TMS Therapy Services near Victorville, San Bernardino County" loading="lazy">
+     <img src="/assets/images/img-59b1cdb9976e.jpg" alt="TMS Therapy Services near Victorville, San Bernardino County" loading="lazy">
     </div>
 
     <div class="loc-info-card">

@@ -4,7 +4,7 @@
         <div class="navbar-content">
             <!-- Logo -->
             <a href="index.php" class="navbar-logo">
-                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1759944699/karmatms_rp4lkn.png"
+                <img src="/assets/images/img-afca3a1262bd.png"
                     alt="Karma TMS" class="logo-img">
             </a>
 

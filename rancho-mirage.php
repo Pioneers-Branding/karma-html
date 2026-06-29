@@ -317,7 +317,7 @@
                 <div class="grid md:grid-cols-3 gap-6 mb-12">
                     <div class="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-105 scale-in"
                         style="height: 320px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg"
+                        <img src="/assets/images/img-c61092bf7776.jpg"
                             alt="Exomind TMS device - premium technology" class="w-full h-full object-cover">
                         <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                             style="background: linear-gradient(to top, rgba(88, 28, 135, 0.8), rgba(88, 28, 135, 0.2), transparent);">
@@ -330,7 +330,7 @@
 
                     <div class="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-105"
                         style="height: 320px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029483/Exomind_PIC_Female-Model5_0251_ENUS100_rfryxl.jpg"
+                        <img src="/assets/images/img-80c9f8ad1fbe.jpg"
                             alt="Patient receiving Exomind TMS treatment" class="w-full h-full object-cover">
                         <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                             style="background: linear-gradient(to top, rgba(88, 28, 135, 0.8), rgba(88, 28, 135, 0.2), transparent);">
@@ -343,7 +343,7 @@
 
                     <div class="group relative rounded-2xl overflow-hidden shadow-2xl transition-all duration-300 hover:scale-105"
                         style="height: 320px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029483/Exomind_PIC_Unit_0095_ENUS100_ldgsng.jpg"
+                        <img src="/assets/images/img-23d7df1e869d.jpg"
                             alt="Exomind device close-up showing advanced features" class="w-full h-full object-cover">
                         <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                             style="background: linear-gradient(to top, rgba(88, 28, 135, 0.8), rgba(88, 28, 135, 0.2), transparent);">

@@ -25,7 +25,7 @@
       "@type": "Article",
       "headline": "Signs Your Depression Needs Professional Treatment",
       "description": "Not sure if your depression requires professional help? Learn the warning signs that your depression has crossed into a medical condition requiring expert care and treatment.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015452/37_kghe3l.png",
+      "image": "/assets/images/img-e38b35992ce9.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -603,7 +603,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
+                                <img src="/assets/images/img-a63632252039.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS for Treatment Resistant Depression">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="tms-therapy-for-treatment-resistant-depression.php" class="block text-black" style="color:#000 !important;">TMS for Treatment-Resistant Depression</a></h3>
@@ -613,7 +613,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015452/37_kghe3l.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is Depression a Disability">
+                                <img src="/assets/images/img-e38b35992ce9.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Is Depression a Disability">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="is-depression-a-disability.php" class="block text-black" style="color:#000 !important;">Is Depression a Disability?</a></h3>
@@ -623,7 +623,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border: 1px solid #000000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS Timeline">
+                                <img src="/assets/images/img-295dc00c0c2f.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="TMS Timeline">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="how-long-does-tms-take-to-work-for-depression.php" class="block text-black" style="color:#000 !important;">How Long Does TMS Take to Work?</a></h3>

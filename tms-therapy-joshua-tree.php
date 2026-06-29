@@ -11,7 +11,7 @@
  <meta property="og:description" content="TMS therapy for Joshua Tree, CA — Karma TMS Twentynine Palms hub serves the High Desert with FDA-approved treatment for depression, OCD &amp; PTSD. All major i...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-joshua-tree.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Joshua Tree, California">
  <?php include 'includes/header-links.php'; ?>
@@ -280,7 +280,7 @@
   <aside class="loc-sidebar reveal">
    <div class="sticky top-24">
     <div class="loc-sidebar-img">
-     <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg" alt="TMS Therapy Services near Joshua Tree, San Bernardino County" loading="lazy">
+     <img src="/assets/images/img-40bc88067423.jpg" alt="TMS Therapy Services near Joshua Tree, San Bernardino County" loading="lazy">
     </div>
 
     <div class="loc-info-card">

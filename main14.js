@@ -298,7 +298,7 @@ function initTeamPage() {
       specialization: "Integrative Psychiatry & Addiction Medicine",
       category: "medical",
       image:
-        "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237129/KeerthySunder_srunyz.webp",
+        "/assets/images/img-889828f122e6.webp",
       bio: "Dr. Keerthy Sunder is a board-certified psychiatrist specializing in integrative approaches to mental health and addiction recovery. With over 15 years of experience, he combines traditional psychiatric methods with innovative treatments like TMS therapy.",
       credentials: [
         "M.D.",
@@ -319,7 +319,7 @@ function initTeamPage() {
       specialization: "Integrative Psychiatry & Addiction Medicine",
       category: "medical",
       image:
-        "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237129/YucuiChen-1_x6oiun.webp",
+        "/assets/images/img-a1fc0e20541a.webp",
       bio: "Dr. Yucui Chen brings a holistic approach to psychiatric care, integrating Eastern and Western medical practices. She specializes in treatment-resistant depression and anxiety disorders using advanced TMS protocols.",
       credentials: ["M.D.", "Board Certified Psychiatrist", "TMS Specialist"],
       experience: "12+ years in Integrative Psychiatry",
@@ -353,7 +353,7 @@ function initTeamPage() {
       specialization: "Integrative Psychiatry",
       category: "medical",
       image:
-        "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237108/JackYongZhang-1_u2zgfr.webp",
+        "/assets/images/img-707209ad3224.webp",
       bio: "Dr. Jack Yong Zhang combines traditional psychiatric training with integrative medicine approaches. He specializes in mood disorders, PTSD, and innovative neurostimulation techniques for treatment-resistant conditions.",
       credentials: [
         "D.O.",
@@ -373,7 +373,7 @@ function initTeamPage() {
     //   specialization: "Naturopathic Medicine",
     //   category: "medical",
     //   image:
-    //     "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237116/ToddBornND-1_ki6d5k.webp",
+    //     "/assets/images/img-ed0cbee49328.webp",
     //   bio: "Dr. Todd Born provides naturopathic support for mental health conditions, focusing on nutritional psychiatry, herbal medicine, and lifestyle interventions that complement conventional psychiatric treatments.",
     //   credentials: [
     //     "N.D.",
@@ -625,7 +625,7 @@ function initTeamPage() {
       specialization: "Practice Director",
       category: "administrative",
       image:
-        "https://res.cloudinary.com/de4kw1t2i/image/upload/v1759237118/JoshuaSmith-768x770_ai3ese.png",
+        "/assets/images/img-34fb10c2d24d.png",
       bio: "Joshua Smith manages day-to-day practice operations, patient scheduling, and staff coordination. His attention to detail and commitment to patient care excellence ensures smooth clinic operations and positive patient experiences.",
       credentials: [
         "Healthcare Administration Certificate",
@@ -644,7 +644,7 @@ function initTeamPage() {
       specialization: "TMS Technology & Patient Care",
       category: "administrative",
       image:
-        "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763966552/charles_x24lft.jpg",
+        "/assets/images/img-a0fc54c91d3b.jpg",
       bio: "Charles Vigilia specializes in TMS therapy delivery and patient support throughout treatment. His technical expertise and compassionate care approach ensure patients receive optimal TMS treatments in a comfortable environment.",
       credentials: [
         "TMS Technician Certified",
@@ -1509,7 +1509,7 @@ function initBlogPage() {
         date: "February 17, 2026",
         readTime: "7 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322147/Nitesh_-_KARMA_TMS_Blog_thumbnail_7_jsgwuy.png",
+          "/assets/images/img-4edeb8afa4c5.png",
         featured: false,
         url: "does-medicaid-cover-tms-therapy.php",
       },
@@ -1523,7 +1523,7 @@ function initBlogPage() {
         date: "February 10, 2026",
         readTime: "7 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322151/Nitesh_-_KARMA_TMS_Blog_thumbnail_5_pvsgrk.png",
+          "/assets/images/img-ad8138d19d0e.png",
         featured: false,
         url: "what-are-the-first-signs-of-schizophrenia.php",
       },
@@ -1537,7 +1537,7 @@ function initBlogPage() {
         date: "February 13, 2026",
         readTime: "8 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322148/Nitesh_-_KARMA_TMS_Blog_thumbnail_6_yurhny.png",
+          "/assets/images/img-97a24a70989e.png",
         featured: false,
         url: "is-tms-therapy-worth-it.php",
       },
@@ -1552,7 +1552,7 @@ function initBlogPage() {
         date: "February 6, 2026",
         readTime: "8 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770807746/41_bfa16u.jpg",
+          "/assets/images/img-cbff17e75158.jpg",
         featured: false,
         url: "what-is-prtms.php",
       },
@@ -1567,7 +1567,7 @@ function initBlogPage() {
         date: "February 3, 2026",
         readTime: "8 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639701/41_plj0z5.png",
+          "/assets/images/img-47a17a2656ac.png",
         featured: false,
         url: "is-tms-therapy-safe.php",
       },
@@ -1581,7 +1581,7 @@ function initBlogPage() {
         date: "January 24, 2026",
         readTime: "8 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639696/40_vm3qmj.png",
+          "/assets/images/img-95afa2479a54.png",
         featured: false,
         url: "top-tms-clinics-palm-springs.php",
       },
@@ -1596,7 +1596,7 @@ function initBlogPage() {
         date: "January 12, 2026",
         readTime: "9 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1770639695/39_vylctc.png",
+          "/assets/images/img-50f1920d630a.png",
         featured: false,
         url: "is-tms-a-hoax.php",
       },
@@ -1610,7 +1610,7 @@ function initBlogPage() {
         date: "January 7, 2026",
         readTime: "12 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1767775415/36_sqhczb.png",
+          "/assets/images/img-858747b3a953.png",
         featured: false,
         url: "who-is-a-good-candidate-for-tms-therapy.php",
       },
@@ -1638,7 +1638,7 @@ function initBlogPage() {
         date: "December 2, 2025",
         readTime: "16 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015453/38_lkmqxw.png",
+          "/assets/images/img-10ee87c8d2d8.png",
         featured: false,
         url: "can-you-get-disability-for-depression.php",
       },
@@ -1653,7 +1653,7 @@ function initBlogPage() {
         date: "December 1, 2025",
         readTime: "15 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015452/37_kghe3l.png",
+          "/assets/images/img-e38b35992ce9.png",
         featured: false,
         url: "is-depression-a-disability.php",
       },
@@ -1680,7 +1680,7 @@ function initBlogPage() {
         date: "November 22, 2025",
         readTime: "10 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/33_qndz86.png",
+          "/assets/images/img-4a604bf630c6.png",
         featured: false,
         url: "how-to-avoid-stress-during-holidays.php",
       },
@@ -1694,7 +1694,7 @@ function initBlogPage() {
         date: "November 15, 2025",
         readTime: "12 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/35_morbs0.png",
+          "/assets/images/img-4d547f28c7e0.png",
         featured: false,
         url: "how-does-adhd-treatment-work.php",
       },
@@ -1708,7 +1708,7 @@ function initBlogPage() {
         date: "May 28, 2024",
         readTime: "14 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png",
+          "/assets/images/img-a63632252039.png",
         featured: false,
         url: "tms-therapy-for-treatment-resistant-depression.php",
       },
@@ -1722,7 +1722,7 @@ function initBlogPage() {
         date: "August 16, 2024",
         readTime: "13 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/28_mmumyo.png",
+          "/assets/images/img-ad8e84594761.png",
         featured: false,
         url: "social-media-mental-wellbeing.php",
       },
@@ -1736,7 +1736,7 @@ function initBlogPage() {
         date: "October 13, 2025",
         readTime: "17 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/4_toy7pb.png",
+          "/assets/images/img-70937b3cbb7f.png",
         featured: false,
         url: "how-to-help-veterans-ptsd.php",
       },
@@ -1751,7 +1751,7 @@ function initBlogPage() {
         date: "October 20, 2025",
         readTime: "14 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/5_kvtlku.png",
+          "/assets/images/img-dafdac8b327f.png",
         featured: false,
         url: "understanding-ptsd-veterans.php",
       },
@@ -1766,7 +1766,7 @@ function initBlogPage() {
         date: "October 27, 2025",
         readTime: "13 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763033666/6_rrkhgo.png",
+          "/assets/images/img-48f822a9b4fa.png",
         featured: false,
         url: "tms-anxiety-veterans.php",
       },
@@ -1780,7 +1780,7 @@ function initBlogPage() {
         date: "July 22, 2025",
         readTime: "10 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/11_itsgyr.png",
+          "/assets/images/img-295dc00c0c2f.png",
         featured: false,
         url: "why-tms-requires-multiple-sessions.php",
       },
@@ -1794,7 +1794,7 @@ function initBlogPage() {
         date: "July 11, 2025",
         readTime: "12 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/12_t62v1m.png",
+          "/assets/images/img-bee8ae415c8f.png",
         featured: false,
         url: "four-as-stress-management.php",
       },
@@ -1808,7 +1808,7 @@ function initBlogPage() {
         date: "June 24, 2025",
         readTime: "10 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/13_nl6y75.png",
+          "/assets/images/img-9c72581f956c.png",
         featured: false,
         url: "is-tms-therapy-permanent.php",
       },
@@ -1822,7 +1822,7 @@ function initBlogPage() {
         date: "June 5, 2025",
         readTime: "8 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/14_dszfwi.png",
+          "/assets/images/img-bbfd41cb5565.png",
         featured: false,
         url: "is-tms-therapy-legitimate.php",
       },
@@ -1836,7 +1836,7 @@ function initBlogPage() {
         date: "May 28, 2025",
         readTime: "9 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376733/15_ym6n6b.png",
+          "/assets/images/img-5f2d44271549.png",
         featured: false,
         url: "how-successful-is-tms-treatment.php",
       },
@@ -1850,7 +1850,7 @@ function initBlogPage() {
         date: "February 4, 2025",
         readTime: "11 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/16_ekice5.png",
+          "/assets/images/img-5d843761216c.png",
         featured: false,
         url: "screen-time-mental-health.php",
       },
@@ -1865,7 +1865,7 @@ function initBlogPage() {
         date: "January 22, 2025",
         readTime: "13 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/18_jkbrlx.png",
+          "/assets/images/img-4a0a0258e707.png",
         featured: false,
         url: "tech-mental-health-impact.php",
       },
@@ -1879,7 +1879,7 @@ function initBlogPage() {
         date: "January 19, 2025",
         readTime: "15 min read",
         image:
-          "https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376735/19_luad51.png",
+          "/assets/images/img-bcde2b74767f.png",
         featured: false,
         url: "mental-health-first-aid.php",
       },

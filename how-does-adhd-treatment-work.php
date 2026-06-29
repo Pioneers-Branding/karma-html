@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Understand the comprehensive approach to ADHD treatment, including medication, behavioral therapy, and innovative options like TMS. Learn how to manage symptoms effectively.">
     <meta property="og:image"
-        content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/35_morbs0.png">
+        content="/assets/images/img-4d547f28c7e0.png">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -252,7 +252,7 @@
       "@type": "Article",
       "headline": "How Does ADHD Treatment Work?",
       "description": "Understand the comprehensive approach to ADHD treatment, including medication, behavioral therapy, and innovative options like TMS.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/35_morbs0.png",
+      "image": "/assets/images/img-4d547f28c7e0.png",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -366,7 +366,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/35_morbs0.png" 
+                    <img src="/assets/images/img-4d547f28c7e0.png" 
                         alt="ADHD Treatment Guide"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
@@ -805,7 +805,7 @@
                     <div class="grid md:grid-cols-3 gap-6">
                         <!-- Post 1 -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138579/32_og3ayd.png"
+                            <img src="/assets/images/img-a63632252039.png"
                                 alt="TMS Therapy for Treatment Resistant Depression" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -820,7 +820,7 @@
                         
                         <!-- Post 2 -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376737/22_wiizht.png"
+                            <img src="/assets/images/img-a979aa9c061f.png"
                                 alt="Managing Anxiety Triggers" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">
@@ -835,7 +835,7 @@
 
                         <!-- Post 3 -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1764138578/31_n1knmb.png"
+                            <img src="/assets/images/img-8c55eb646d52.png"
                                 alt="Psychiatrists Boost Well-Being" class="w-full h-48 object-cover">
                             <div class="p-6">
                                 <h3 class="font-bold text-lg mb-2 text-gray-900 transition-colors">

@@ -325,7 +325,7 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1771322147/Nitesh_-_KARMA_TMS_Blog_thumbnail_7_jsgwuy.png" 
+                    <img src="/assets/images/img-4edeb8afa4c5.png" 
                         alt="Medicaid coverage for TMS Therapy"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 

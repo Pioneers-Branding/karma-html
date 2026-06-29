@@ -11,7 +11,7 @@
  <meta property="og:description" content="Seeking TMS therapy near Lake Elsinore? Karma TMS at Rancho Mirage offers FDA-approved treatment for depression, anxiety &amp; OCD serving Riverside County. Boar...">
  <meta property="og:type" content="website">
  <meta property="og:url" content="https://karmatms.com/tms-therapy-lake-elsinore.php">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="Lake Elsinore, California">
  <?php include 'includes/header-links.php'; ?>
@@ -207,7 +207,7 @@
 
 <!-- Hero -->
 <section class="loc-hero">
- <div class="loc-hero-bg" style="background-image:url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg');"></div>
+ <div class="loc-hero-bg" style="background-image:url('/assets/images/img-40bc88067423.jpg');"></div>
  <div class="loc-orb loc-orb-1"></div>
  <div class="loc-orb loc-orb-2"></div>
  <div class="container mx-auto loc-hero-inner">

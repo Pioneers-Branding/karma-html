@@ -78,7 +78,7 @@
     <section class="relative text-white pt-32 pb-24 px-4"
         style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="absolute inset-0"
-            style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg'); background-size: cover; background-position: center; opacity: 0.1;">
+            style="background-image: url('/assets/images/img-40bc88067423.jpg'); background-size: cover; background-position: center; opacity: 0.1;">
         </div>
         <div class="container mx-auto relative" style="z-index: 10;">
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">

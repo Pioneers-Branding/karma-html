@@ -20,7 +20,7 @@
       "@type": "Article",
       "headline": "When Anxiety Becomes a Disorder: Signs, Types & Treatment",
       "description": "When does everyday anxiety become an anxiety disorder? Learn the signs, types of anxiety disorders, and effective treatments including TMS therapy in Palm Springs.",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1764569001/33_qndz86.png",
+      "image": "/assets/images/img-4a604bf630c6.png",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -567,7 +567,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border:1px solid #000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765015452/37_kghe3l.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs Depression Needs Treatment">
+                                <img src="/assets/images/img-e38b35992ce9.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Signs Depression Needs Treatment">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="signs-your-depression-needs-professional-treatment.php" class="block" style="color:#000 !important;">Signs Your Depression Needs Professional Treatment</a></h3>
@@ -577,7 +577,7 @@
                         </div>
                         <div class="bg-white rounded-xl overflow-hidden hover:shadow-lg transition-all group h-full flex flex-col" style="border:1px solid #000 !important;">
                             <div class="w-full h-48 bg-gray-200 overflow-hidden">
-                                <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763376734/16_ekice5.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Depression vs Burnout">
+                                <img src="/assets/images/img-5d843761216c.png" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Depression vs Burnout">
                             </div>
                             <div class="p-6 flex flex-col flex-grow">
                                 <h3 class="font-bold text-lg mb-2 leading-tight"><a href="depression-vs-burnout.php" class="block" style="color:#000 !important;">Depression vs Burnout: How to Tell the Difference</a></h3>

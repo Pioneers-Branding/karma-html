@@ -47,7 +47,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model2_0125_ENUS100_rxgzxk.jpg"
+                    <img src="/assets/images/img-3f897d21ebc3.jpg"
                         alt="Women's mental health and wellness support" class="rounded-lg shadow-2xl">
                 </div>
             </div>
@@ -121,7 +121,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg"
+                    <img src="/assets/images/img-c61092bf7776.jpg"
                         alt="Women's mental health support and understanding" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>
@@ -377,7 +377,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763031168/Exomind_PIC_Unit_0943_ENUS100_lmh0bj.jpg"
+                    <img src="/assets/images/img-c61092bf7776.jpg"
                         alt="Supportive women's mental health treatment" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>

@@ -45,7 +45,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model3_0342_ENUS100_qx29w9.jpg"
+                    <img src="/assets/images/img-adc2b88dc42d.jpg"
                         alt="Recovery and healing journey" class="rounded-lg shadow-2xl"
                         style="max-height: 400px; width: 100%; object-fit: cover;">
                 </div>
@@ -120,7 +120,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765798136/neurocare-TMS3475_Coilholder_oqsanf.jpg"
+                    <img src="/assets/images/img-37e8ac813d37.jpg"
                         alt="Brain pathways in addiction" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>
@@ -431,7 +431,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7341_porvmt.png"
+                    <img src="/assets/images/img-a17033c0ffef.png"
                         alt="Supportive recovery environment" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>

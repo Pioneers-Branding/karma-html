@@ -214,23 +214,23 @@ $faq_pools = [
 // SIDEBAR IMAGES  (rotate by city index mod 4)
 // ============================================================
 $sidebar_images = [
- 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg',
+ '/assets/images/img-59b1cdb9976e.jpg',
  'images/How%20Long%20Does%20TMS%20Therapy%20Last.png',
- 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg',
+ '/assets/images/img-40bc88067423.jpg',
+ '/assets/images/img-59b1cdb9976e.jpg',
 ];
 
 // Hero bg images by geo type
 $hero_images = [
- 'desert'      => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
+ 'desert'      => '/assets/images/img-40bc88067423.jpg',
  'mountain'    => 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1600&q=80',
  'high_desert' => 'https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?w=1600&q=80',
- 'suburban'    => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'urban'       => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'rural'       => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'military'    => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'retirement'  => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
- 'resort'      => 'https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg',
+ 'suburban'    => '/assets/images/img-40bc88067423.jpg',
+ 'urban'       => '/assets/images/img-40bc88067423.jpg',
+ 'rural'       => '/assets/images/img-40bc88067423.jpg',
+ 'military'    => '/assets/images/img-40bc88067423.jpg',
+ 'retirement'  => '/assets/images/img-40bc88067423.jpg',
+ 'resort'      => '/assets/images/img-40bc88067423.jpg',
  'remote'      => 'https://images.unsplash.com/photo-1471879832106-c7ab9e0cee23?w=1600&q=80',
 ];
 
@@ -416,7 +416,7 @@ function generatePage($slug,$data,$hub_data,$conditions_map,$faq_pools,$sidebar_
  <meta property="og:description" content="'.htmlspecialchars(strip_tags($meta_desc)).'">
  <meta property="og:type" content="website">
  <meta property="og:url" content="'.$canonical.'">
- <meta property="og:image" content="https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg">
+ <meta property="og:image" content="/assets/images/img-40bc88067423.jpg">
  <meta name="geo.region" content="US-CA">
  <meta name="geo.placename" content="'.$name.', California">
  <?php include \'includes/header-links.php\'; ?>

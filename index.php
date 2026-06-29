@@ -369,7 +369,7 @@
                 <!-- Card 1 - Large Left (5 cols, 2 rows) -->
                 <div class="why-card-large">
                     <div class="card-image"
-                        style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763029482/Exomind_PIC_Female-Model4_0129_ENUS100_yqzeod.jpg')">
+                        style="background-image: url('/assets/images/img-ccd41b758ce6.jpg')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">
@@ -396,7 +396,7 @@
                 <!-- Card 3 - Bottom Left (3 cols, 1 row) -->
                 <div class="why-card-bottom-left">
                     <div class="card-image"
-                        style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742452/IMG_9560_VSCO_2_nkpa9c.jpg')">
+                        style="background-image: url('/assets/images/img-a184d52c4a6f.jpg')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">
@@ -409,7 +409,7 @@
                 <!-- Card 4 - Bottom Right (4 cols, 1 row) -->
                 <div class="why-card-bottom-right">
                     <div class="card-image"
-                        style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg')">
+                        style="background-image: url('/assets/images/img-59b1cdb9976e.jpg')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">

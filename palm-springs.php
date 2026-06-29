@@ -20,7 +20,7 @@
       "@id": "https://www.karmatms.com/palm-springs.php#location",
       "name": "Karma TMS PC – Palm Springs",
       "url": "https://www.karmatms.com/palm-springs.php",
-      "image": "https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg",
+      "image": "/assets/images/img-0ab12df02fae.jpg",
       "description": "Leading TMS therapy center in Palm Springs, CA. FDA-approved depression treatment, anxiety therapy, and mental health services serving the Coachella Valley. Veterans welcome.",
       "telephone": "+17607605675",
       "email": "contact@karmatms.com",
@@ -166,7 +166,7 @@
     <section class="relative text-white pt-32 pb-24 px-4"
         style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">
         <div class="absolute inset-0"
-            style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1763969156/palmsprings_yjptwh.jpg'); background-size: cover; background-position: center; opacity: 0.2;">
+            style="background-image: url('/assets/images/img-40bc88067423.jpg'); background-size: cover; background-position: center; opacity: 0.2;">
         </div>
         <div class="container mx-auto relative" style="z-index: 10;">
             <span class="inline-block px-4 py-2 rounded-full mb-4 text-sm font-bold shimmer"
@@ -245,7 +245,7 @@
                         </div>
                     </div>
                     <div class="relative rounded-xl overflow-hidden shadow-2xl" style="height: 384px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
+                        <img src="/assets/images/img-0ab12df02fae.jpg"
                             alt="KarmaTMS Palm Springs Facility Entrance" class="w-full h-full object-cover">
                     </div>
                 </div>
@@ -417,7 +417,7 @@
                 </div>
                 <div class="grid md:grid-cols-3 gap-6">
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
+                        <img src="/assets/images/img-0ab12df02fae.jpg"
                             alt="KarmaTMS Palm Springs entrance - Eastern-influenced decor"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                         <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
@@ -431,7 +431,7 @@
                         <p class="absolute bottom-4 left-4 text-white font-semibold">Treatment Room</p>
                     </div>
                     <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742435/IMG_5128_fci7xz.jpg"
+                        <img src="/assets/images/img-59b1cdb9976e.jpg"
                             alt="Private, comfortable TMS treatment space in Palm Springs"
                             class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
                         <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
@@ -930,7 +930,7 @@
 
                     <!-- Image Side -->
                     <div class="relative" style="min-height: 300px;">
-                        <img src="https://res.cloudinary.com/de4kw1t2i/image/upload/v1761742451/IMG_9537_VSCO_uw6qok.jpg"
+                        <img src="/assets/images/img-0ab12df02fae.jpg"
                             alt="Karma Doctors & Karma TMS Brain Wellness Center - Palm Springs clinic near Deepwell Estates, Tahquitz Canyon, and Palm Springs International Airport"
                             class="w-full h-full object-cover" style="min-height: 300px;">
                         <div class="absolute top-4 left-4">

@@ -17,7 +17,7 @@
     <!-- Hero Section -->
     <section class="team-hero">
         <div class="team-hero-bg"
-            style="background-image: url('https://res.cloudinary.com/de4kw1t2i/image/upload/v1765537416/-7261_itcxch.png')">
+            style="background-image: url('/assets/images/img-7e9504440d1b.png')">
         </div>
         <div class="team-hero-overlay"></div>
         <div class="container relative z-10 text-center">
