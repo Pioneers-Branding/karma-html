@@ -113,7 +113,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/a8f14621-4fc8-4a11-8fdc-19637df2d5cb.webp"
+                    <img src="/assets/images/img-b08def52ece6.webp"
                         alt="Brain patterns in bipolar disorder" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0, 0, 0, 0.2), transparent);"></div>

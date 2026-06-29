@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Discover how social media affects your mental health. Learn about negative effects, warning signs, and proven strategies for healthier social media habits to protect your wellbeing.">
     <meta property="og:image"
-        content="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0df1c6f4-54ea-43f5-aeab-67608371a640.webp">
+        content="/assets/images/img-9983b2e38954.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -237,7 +237,7 @@
       "@type": "Article",
       "headline": "Discover the Impact of Social Media on Your Mental Well-being",
       "description": "Comprehensive analysis of how social media affects mental health, including negative effects, warning signs, and strategies for healthier social media habits.",
-      "image": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0df1c6f4-54ea-43f5-aeab-67608371a640.webp",
+      "image": "/assets/images/img-9983b2e38954.webp",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -252,7 +252,7 @@
         "name": "KarmaTMS",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/ebadb369-a58d-421c-b937-24f900be5867.png"
+          "url": "/assets/images/img-135947b0fa55.png"
         }
       },
       "datePublished": "2024-08-16",

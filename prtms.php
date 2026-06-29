@@ -395,7 +395,7 @@
                 background: 'Failed 6 antidepressants over 8 years, severe anxiety, unable to work',
                 treatment: 'Personalized bilateral rTMS protocol based on qEEG findings',
                 outcome: '85% symptom reduction after 4 weeks, returned to work, sustained improvement at 12 months',
-                image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/3a8c8944-5c3c-416d-acf8-9ca9871d172c.webp',
+                image: '/assets/images/img-3d5a3cbe359b.webp',
                 metrics: {
                     'PHQ-9 Score': '23 → 4',
                     'GAD-7 Score': '18 → 3',
@@ -410,7 +410,7 @@
                 background: 'Chronic depressive episodes, medication intolerance, family history',
                 treatment: 'Low-frequency right-sided stimulation with mood stabilizer continuation',
                 outcome: '70% improvement in depressive symptoms, no manic episodes, improved quality of life',
-                image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0df1c6f4-54ea-43f5-aeab-67608371a640.webp',
+                image: '/assets/images/img-9983b2e38954.webp',
                 metrics: {
                     'MADRS Score': '28 → 8',
                     'Quality of Life': '40% → 85%',
@@ -425,7 +425,7 @@
                 background: 'Severe depression following childbirth, breastfeeding complications with medications',
                 treatment: 'Accelerated rTMS protocol, medication-free approach',
                 outcome: 'Complete remission in 3 weeks, successful bonding with baby, medication-free',
-                image: 'https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/88d0408f-19ff-48a1-80bd-5553928c7047.webp',
+                image: '/assets/images/img-ebc479046dbb.webp',
                 metrics: {
                     'EPDS Score': '22 → 2',
                     'Bonding Score': '30% → 95%',

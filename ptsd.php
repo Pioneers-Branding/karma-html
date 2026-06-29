@@ -217,7 +217,7 @@
                     </p>
                 </div>
                 <div class="relative">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0a00bae7-03d4-4867-b6ee-a18528b1c447.webp"
+                    <img src="/assets/images/img-143262ccf780.webp"
                         alt="Trauma therapy and healing" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>

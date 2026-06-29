@@ -220,7 +220,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/0f1caab2-6dbf-4a6b-abf9-fc290c1c3987.webp"
+                    <img src="/assets/images/img-bf2e101ea443.webp"
                         alt="OCD brain circuit visualization" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>

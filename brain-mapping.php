@@ -173,7 +173,7 @@
                 <div class="bm-gallery-grid gap-0">
                     <div class="relative h-80 lg:h-auto bg-gray-200">
                         <img id="heatmap-image"
-                            src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/62abea2f-775f-47a7-ad22-2bfc58d01038.webp"
+                            src="/assets/images/img-aa9914ad3bdc.webp"
                             alt="Brain Map Example" class="w-full h-full object-cover">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
                     </div>
@@ -412,25 +412,25 @@
             {
                 title: "Depression - Before Treatment",
                 description: "Decreased activity in prefrontal regions (blue areas)",
-                image: "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/62abea2f-775f-47a7-ad22-2bfc58d01038.webp",
+                image: "/assets/images/img-aa9914ad3bdc.webp",
                 regions: ["DLPFC Hypoactivity", "Anterior Cingulate Changes", "Limbic Dysregulation"]
             },
             {
                 title: "Depression - After 6 Weeks TMS",
                 description: "Normalized activity patterns (green/yellow areas)",
-                image: "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/b3740a3e-1c6d-4eb7-8300-432f7cb4655c.webp",
+                image: "/assets/images/img-b52c10ca21df.webp",
                 regions: ["DLPFC Activation", "Restored Connectivity", "Balanced Networks"]
             },
             {
                 title: "Anxiety - Overactivation Pattern",
                 description: "Hyperactivity in amygdala and fear circuits (red areas)",
-                image: "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/5a26ae21-6fa8-4af4-8fba-bc048cb7cc0f.webp",
+                image: "/assets/images/img-b3b94eed8ac5.webp",
                 regions: ["Amygdala Hyperactivity", "Heightened Fear Network", "Stress Response"]
             },
             {
                 title: "ADHD - Attention Networks",
                 description: "Underactivity in attention and executive regions",
-                image: "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/af090a18-4a23-42f8-b29e-c141c5f0de51.webp",
+                image: "/assets/images/img-97cbe2cfbcb3.webp",
                 regions: ["Prefrontal Hypoactivity", "Default Network Issues", "Executive Dysfunction"]
             }
         ];

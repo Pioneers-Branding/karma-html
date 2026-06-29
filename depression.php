@@ -313,7 +313,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/460c9673-d421-40be-a576-8470fafd54e6.webp"
+                    <img src="/assets/images/img-accb5727f36f.webp"
                         alt="Brain scan showing depression treatment" class="rounded-lg shadow-lg"
                         style="max-height: 600px;">
                     <div class="absolute inset-0 rounded-lg"

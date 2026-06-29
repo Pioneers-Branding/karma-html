@@ -300,7 +300,7 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/9705b922-d0fc-4d29-be10-acd507ce308c.webp"
+                    <img src="/assets/images/img-8e68640bad3b.webp"
                         alt="Brain imaging for anxiety treatment" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>

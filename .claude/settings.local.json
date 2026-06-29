@@ -30,7 +30,9 @@
       "Bash(curl -sI -L \"https://assets.brandpack.io/logos/aetna.png\")",
       "Bash(curl -sI -L \"https://imgix.rawbitcdn.net/seeklogo/aetna.png\")",
       "Bash(python download_images.py)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }

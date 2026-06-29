@@ -30,7 +30,7 @@
       "publisher": {
         "@type": "Organization",
         "name": "KarmaTMS",
-        "logo": { "@type": "ImageObject", "url": "https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/ebadb369-a58d-421c-b937-24f900be5867.png" }
+        "logo": { "@type": "ImageObject", "url": "/assets/images/img-135947b0fa55.png" }
       },
       "datePublished": "2026-03-14",
       "dateModified": "2026-03-14",

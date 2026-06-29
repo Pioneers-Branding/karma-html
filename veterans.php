@@ -20,7 +20,7 @@
         style="background: linear-gradient(to bottom right, #572670, #4c1d95, #312e81);">
         <div class="absolute inset-0 opacity-10">
             <div
-                class="absolute inset-0 bg-[url('https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/157c49b6-b322-4aa5-b8d6-8ee41dc03a43.webp')] bg-cover bg-center">
+                class="absolute inset-0 bg-[url('/assets/images/img-2161715beff6.webp')] bg-cover bg-center">
             </div>
         </div>
         <div class="container mx-auto px-4 relative z-10 text-center">
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <div class="relative h-96 rounded-lg overflow-hidden shadow-xl">
-                        <img src="https://newoaks.s3.us-west-1.amazonaws.com/AutoDev/17785/157c49b6-b322-4aa5-b8d6-8ee41dc03a43.webp"
+                        <img src="/assets/images/img-2161715beff6.webp"
                             alt="TMS Treatment Chair" class="w-full h-full object-cover">
                     </div>
                 </div>
