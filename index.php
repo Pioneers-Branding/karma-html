@@ -415,7 +415,7 @@
                     <div class="card-content">
                         <h3 class="card-title-small">Holistic and Integrated Care</h3>
                         <p class="card-text-small">Our approach extends beyond TMS therapy at our mental health
-                            facilities in palm springs. We integrate mental health support and resources to promote your
+                            facilities in Palm Springs. We integrate mental health support and resources to promote your
                             overall well-being and long-term recovery.</p>
                     </div>
                 </div>
