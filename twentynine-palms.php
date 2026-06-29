@@ -26,7 +26,7 @@
       "email": "contact@karmatms.com",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "72724 29 Palms Hwy, Suite 107 - B",
+        "streetAddress": "72724 29 Palms Hwy, Suite 107-B",
         "addressLocality": "Twentynine Palms",
         "addressRegion": "CA",
         "postalCode": "92277",
@@ -86,7 +86,7 @@
           "name": "Where is KarmaTMS Twentynine Palms located?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "We are conveniently located at 72724 29 Palms Hwy, Suite 107 - B in Twentynine Palms, CA 92277. Our facility is easily accessible from the Marine Corps base and throughout the High Desert region."
+            "text": "We are conveniently located at 72724 29 Palms Hwy, Suite 107-B in Twentynine Palms, CA 92277. Our facility is easily accessible from the Marine Corps base and throughout the High Desert region."
           }
         },
         {
@@ -440,7 +440,7 @@
                                 <i data-lucide="building-2" class="w-5 h-5 mt-0.5 flex-shrink-0" style="color: #7e22ce;"></i>
                                 <div>
                                     <p class="font-semibold text-gray-900 text-sm">Street Address</p>
-                                    <p class="text-gray-600">72724 29 Palms Hwy. Suite 107 - B<br>Twentynine Palms, CA 92277</p>
+                                    <p class="text-gray-600">72724 29 Palms Hwy. Suite 107-B<br>Twentynine Palms, CA 92277</p>
                                 </div>
                             </div>
                             <div class="flex items-start gap-3">
@@ -589,7 +589,7 @@
                                 style="max-height: 0; overflow: hidden; transition: max-height 0.3s ease;">
                                 <div style="padding-bottom: 1rem; padding-top: 0; text-align: left;">
                                     <p style="color: #6b7280; line-height: 1.75; text-align: left;">
-                                        We are conveniently located at 72724 29 Palms Hwy, Suite 107 - B in Twentynine
+                                        We are conveniently located at 72724 29 Palms Hwy, Suite 107-B in Twentynine
                                         Palms, CA 92277. Our facility is easily accessible from the Marine Corps base
                                         and throughout the High Desert region.
                                     </p>

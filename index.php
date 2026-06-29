@@ -492,23 +492,44 @@
                 </div>
             </div>
 
-            <div class="grid md:grid-cols-4 gap-4 mb-8">
-                <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
-                    <span class="text-sm font-medium text-gray-800">Blue Cross Blue Shield</span>
-                </div>
-                <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
-                    <span class="text-sm font-medium text-gray-800">Aetna</span>
-                </div>
-                <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
-                    <span class="text-sm font-medium text-gray-800">Cigna</span>
-                </div>
-                <div class="text-center p-3 rounded-lg bg-white">
-                    <i data-lucide="check-circle" class="w-5 h-5 text-purple-600 mx-auto mb-1"></i>
-                    <span class="text-sm font-medium text-gray-800">Humana</span>
-                </div>
+            <style>
+                .insurance-logos-container {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 2rem 2.5rem;
+                }
+                .insurance-logo-item {
+                    height: 40px;
+                    max-width: 140px;
+                    object-fit: contain;
+                    transition: all 0.3s ease;
+                    filter: grayscale(100%) opacity(70%);
+                    mix-blend-mode: multiply;
+                }
+                .insurance-logo-item:hover {
+                    filter: grayscale(0%) opacity(100%);
+                    transform: scale(1.08);
+                }
+            </style>
+            <div class="insurance-logos-container mb-12">
+                <img src="images/insurances/aetna.webp" alt="Aetna" class="insurance-logo-item">
+                <img src="images/insurances/anthem.webp" alt="Anthem" class="insurance-logo-item">
+                <img src="images/insurances/blue-california.webp" alt="Blue Shield of California" class="insurance-logo-item">
+                <img src="images/insurances/cigna.webp" alt="Cigna" class="insurance-logo-item">
+                <img src="images/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="insurance-logo-item">
+                <img src="images/insurances/evernorth.png" alt="Evernorth" class="insurance-logo-item">
+                <img src="images/insurances/health-net.png" alt="Health Net" class="insurance-logo-item">
+                <img src="images/insurances/iehp.png" alt="IEHP" class="insurance-logo-item">
+                <img src="images/insurances/livewell-logo.png" alt="Live Well Clinic" class="insurance-logo-item">
+                <img src="images/insurances/medicare.webp" alt="Medicare" class="insurance-logo-item">
+                <img src="images/insurances/megallan-health-logo.png" alt="Magellan Health" class="insurance-logo-item">
+                <img src="images/insurances/mhn.webp" alt="MHN" class="insurance-logo-item">
+                <img src="images/insurances/optum.webp" alt="Optum" class="insurance-logo-item">
+                <img src="images/insurances/tricare.webp" alt="Tricare" class="insurance-logo-item">
+                <img src="images/insurances/triwest.png" alt="TriWest" class="insurance-logo-item">
+                <img src="images/insurances/unitedhealthcare.png" alt="UnitedHealthcare" class="insurance-logo-item">
             </div>
 
             <div class="text-center">
@@ -1238,7 +1259,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 1"
-                                        src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951724"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c746"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1248,7 +1269,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 2"
-                                        src="https://play.gumlet.io/embed/6a3ccfeba79fd7da337d904a"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c748"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1258,7 +1279,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 3"
-                                        src="https://play.gumlet.io/embed/6a3ccfeb5c2245e4675224c8"
+                                        src="https://play.gumlet.io/embed/6a3bc54177fb7f952124c740"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
@@ -1268,7 +1289,7 @@
                             <div class="review-video-card">
                                 <div class="review-video-frame">
                                     <iframe loading="lazy" title="Patient review video 4"
-                                        src="https://play.gumlet.io/embed/6a3ccfebef9fc24d68951726"
+                                        src="https://play.gumlet.io/embed/6a3bc54181acabfe4b5e3391"
                                         referrerpolicy="origin"
                                         allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture; fullscreen;clipboard-write;"></iframe>
                                 </div>
