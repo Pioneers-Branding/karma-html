@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -150,7 +150,7 @@
                 location: 'Palm Springs, CA',
                 condition: 'Treatment-Resistant Depression',
                 rating: 5,
-                quote: 'Depression is a miserable way to deal with life on a daily basis. When the meds don't seem to do the trick, TMS therapy is a sensible addition to treatment that has helped me in the battle.',
+                quote: 'Depression is a miserable way to deal with life on a daily basis. When the meds don\'t seem to do the trick, TMS therapy is a sensible addition to treatment that has helped me in the battle.',
                 hasVideo: false,
                 videoId: '',
                 videoType: 'youtube',
@@ -167,7 +167,7 @@
                 hasVideo: true,
                 videoId: 'xewffol4oOQ',
                 videoType: 'youtube',
-                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
                 date: '2024-02-03'
             },
             {
@@ -193,7 +193,7 @@
                 hasVideo: false,
                 videoId: '',
                 videoType: 'youtube',
-                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
                 date: '2024-02-12'
             },
             {
@@ -209,6 +209,84 @@
                 vimeoHash: 'b204c02062',
                 avatar: 'https://images.unsplash.com/photo-1565979612809-d90c6ca38df9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
                 date: '2024-01-20'
+            },
+            {
+                id: 6,
+                name: 'Luis',
+                location: 'Palm Desert, CA',
+                condition: 'Anxiety',
+                rating: 5,
+                quote: 'The comprehensive care I received at Karma TMS was exceptional. The staff made me feel comfortable and supported throughout my journey.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1484863137850-59afcfe05386?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                date: '2024-03-01'
+            },
+            {
+                id: 7,
+                name: 'Lucia',
+                location: 'Cathedral City, CA',
+                condition: 'PTSD',
+                rating: 5,
+                quote: 'TMS therapy has given me hope again. I can finally envision a future free from the weight of my symptoms.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1565979612809-d90c6ca38df9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                date: '2024-03-05'
+            },
+            {
+                id: 8,
+                name: 'Thomas M.',
+                location: 'Indian Wells, CA',
+                condition: 'OCD',
+                rating: 5,
+                quote: 'After years of struggling, Karma TMS offered me a treatment that actually works. I\'m grateful every single day.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                date: '2024-03-10'
+            },
+            {
+                id: 9,
+                name: 'Benjamin A.',
+                location: 'Rancho Mirage, CA',
+                condition: 'Bipolar Depression',
+                rating: 5,
+                quote: 'The professional approach and cutting-edge technology at Karma TMS made all the difference in my recovery journey.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=150&auto=format&fit=crop',
+                date: '2024-02-20'
+            },
+            {
+                id: 10,
+                name: 'Nicole J.',
+                location: 'La Quinta, CA',
+                condition: 'Anxiety',
+                rating: 5,
+                quote: 'I was skeptical at first, but the results speak for themselves. TMS therapy transformed my life in ways I never thought possible.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                date: '2024-03-15'
+            },
+            {
+                id: 11,
+                name: 'Lynette I.',
+                location: 'TwentyNine Palms, CA',
+                condition: 'Depression',
+                rating: 5,
+                quote: 'The compassionate team at Karma TMS guided me through every step. I finally feel like myself again after years of struggle.',
+                hasVideo: false,
+                videoId: '',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=150&auto=format&fit=crop',
+                date: '2024-02-25'
             }
         ];
 
@@ -381,4 +459,3 @@
 </body>
 
 </html>
-
