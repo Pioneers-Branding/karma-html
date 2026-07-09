@@ -148,6 +148,14 @@
                     </div>
 
                     <div class="footer-contact-item">
+                        <i data-lucide="printer" class="footer-contact-icon"></i>
+                        <div>
+                            <div class="footer-contact-label">Fax</div>
+                            <a href="tel:760-406-5060" class="footer-contact-value">760-406-5060</a>
+                        </div>
+                    </div>
+
+                    <div class="footer-contact-item">
                         <i data-lucide="mail" class="footer-contact-icon"></i>
                         <div>
                             <div class="footer-contact-label">Email</div>
@@ -296,7 +304,7 @@
         <div class="container">
             <div class="footer-bottom-flex">
                 <div class="copyright-text">
-                    Â© 2026 Karma TMS. All rights reserved. Licensed medical facility providing TMS therapy in
+                    © 2026 Karma TMS. All rights reserved. Licensed medical facility providing TMS therapy in
                     California.
                 </div>
                 <div class="footer-bottom-right">

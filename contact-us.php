@@ -404,6 +404,21 @@
                             </div>
                         </div>
 
+                        <!-- Fax -->
+                        <div class="flex gap-4">
+                            <div class="mt-1 flex-shrink-0">
+                                <div
+                                    class="w-10 h-10 rounded-full bg-[#f3e8ff] flex items-center justify-center text-[#572670]">
+                                    <i data-lucide="printer" class="w-5 h-5"></i>
+                                </div>
+                            </div>
+                            <div>
+                                <h4 class="font-bold text-gray-900 text-lg">Fax</h4>
+                                <a href="tel:760-406-5060"
+                                    class="text-gray-600 hover:text-[#572670] transition-colors">760-406-5060</a>
+                            </div>
+                        </div>
+
                         <!-- Hours -->
                         <div class="flex gap-4">
                             <div class="mt-1 flex-shrink-0">

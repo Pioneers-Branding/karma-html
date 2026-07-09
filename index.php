@@ -514,22 +514,20 @@
                 }
             </style>
             <div class="insurance-logos-container mb-12">
-                <img src="images/insurances/aetna.webp" alt="Aetna" class="insurance-logo-item">
                 <img src="images/insurances/anthem.webp" alt="Anthem" class="insurance-logo-item">
-                <img src="images/insurances/blue-california.webp" alt="Blue Shield of California" class="insurance-logo-item">
+                <img src="images/insurances/blue-california.webp" alt="Blue Shield of California" class="insurance-logo-item" style="height: 55px; max-width: 160px;">
                 <img src="images/insurances/cigna.webp" alt="Cigna" class="insurance-logo-item">
-                <img src="images/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="insurance-logo-item">
+                <img src="images/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="insurance-logo-item" style="height: 55px; max-width: 160px;">
                 <img src="images/insurances/evernorth.png" alt="Evernorth" class="insurance-logo-item">
                 <img src="images/insurances/health-net.png" alt="Health Net" class="insurance-logo-item">
                 <img src="images/insurances/iehp.png" alt="IEHP" class="insurance-logo-item">
-                <img src="images/insurances/livewell-logo.png" alt="Live Well Clinic" class="insurance-logo-item">
                 <img src="images/insurances/medicare.webp" alt="Medicare" class="insurance-logo-item">
                 <img src="images/insurances/megallan-health-logo.png" alt="Magellan Health" class="insurance-logo-item">
                 <img src="images/insurances/mhn.webp" alt="MHN" class="insurance-logo-item">
-                <img src="images/insurances/optum.webp" alt="Optum" class="insurance-logo-item">
                 <img src="images/insurances/tricare.webp" alt="Tricare" class="insurance-logo-item">
                 <img src="images/insurances/triwest.png" alt="TriWest" class="insurance-logo-item">
-                <img src="images/insurances/unitedhealthcare.png" alt="UnitedHealthcare" class="insurance-logo-item">
+                <img src="images/insurances/aetna.webp" alt="Aetna" class="insurance-logo-item" style="height: 75px; max-width: 210px;">
+
             </div>
 
             <div class="text-center">
@@ -1506,6 +1504,14 @@
                             <div>
                                 <h4 class="method-label">Phone</h4>
                                 <a href="tel:760-760-5675" class="method-value">760-760-5675</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method-item">
+                            <i data-lucide="printer" class="method-icon"></i>
+                            <div>
+                                <h4 class="method-label">Fax</h4>
+                                <a href="tel:760-406-5060" class="method-value">760-406-5060</a>
                             </div>
                         </div>
 
