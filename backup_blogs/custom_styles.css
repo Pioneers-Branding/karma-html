@@ -1,0 +1,53 @@
+
+/* Blog Post Consistent Formatting */
+.comparison-table-wrapper {
+    overflow-x: auto;
+    margin: 2rem 0;
+    border-radius: 0.75rem;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    background: white;
+}
+.comparison-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+.comparison-table th {
+    background-color: rgba(87, 38, 112, 0.05);
+    color: #572670;
+    font-weight: 700;
+    padding: 1rem;
+    border-bottom: 2px solid rgba(87, 38, 112, 0.1);
+}
+.comparison-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #f3f4f6;
+    color: #4b5563;
+}
+.comparison-table tr:last-child td {
+    border-bottom: none;
+}
+.comparison-table tr:nth-child(even) {
+    background-color: #f9fafb;
+}
+
+/* Bullet Formatting Consistency */
+.prose ul.list-disc, .prose .list-disc {
+    list-style-type: disc !important;
+    padding-left: 1.5rem !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.prose ul.list-disc li, .prose .list-disc li {
+    display: list-item !important;
+    margin-bottom: 0.5rem !important;
+    padding-left: 0.25rem !important;
+}
+
+/* Fix for Missing Tailwind Background Classes */
+.bg-green-500 { background-color: #22c55e !important; }
+.bg-teal-500 { background-color: #14b8a6 !important; }
+.bg-amber-500 { background-color: #f59e0b !important; }
+.bg-blue-500 { background-color: #3b82f6 !important; }
+.text-white { color: #ffffff !important; }
