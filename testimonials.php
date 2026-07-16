@@ -86,25 +86,33 @@
         </div>
     </section>
 
-    <!-- Filter Section -->
-    <section class="px-4 border-b" style="background-color: #f9fafb; padding-top: 3rem; padding-bottom: 3rem;">
+    <!-- Written Testimonials Section -->
+    <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
-            <div class="max-w-6xl mx-auto">
-                <!-- Filter Badges -->
-                <div class="flex flex-wrap items-center justify-center gap-3">
-                    <div id="filterBadges" class="flex gap-2 flex-wrap">
-                        <!-- Badges will be inserted here by JavaScript -->
-                    </div>
-                </div>
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                    What Our Patients Say
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Real stories and experiences shared by our patients
+                </p>
             </div>
-        </div>
-    </section>
-
-    <!-- Testimonials Grid -->
-    <section class="py-20">
-        <div class="container mx-auto px-4">
-            <div id="testimonialsGrid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <!-- Testimonial cards will be inserted here by JavaScript -->
+            <div class="max-w-6xl mx-auto">
+                <!-- Review Pixel -->
+                <script type="text/javascript">
+                !function(){
+                    var e, t=document;
+                    e=function(){
+                        if(window.EMRPixel)return console.info("EMR: Pixel already loaded");
+                        var e=t.createElement("script");
+                        e.defer=!0,e.src="https://cdn2.revw.me/js/pixel.js?t="+864e5*Math.ceil(new Date/864e5);
+                        var n=t.getElementsByTagName("script")[0];
+                        n.charset="utf-8",n.parentNode.insertBefore(e,n),e.onload=function(){EMRPixel.init("reviewmagnet.in",77)}
+                    };
+                    "interactive"===t.readyState||"complete"===t.readyState?e():t.addEventListener("DOMContentLoaded",e)
+                }();
+                </script><emr-simple-carousel widget-id="0d48d0ef-ed40-4645-89ff-9ffc1366063e"></emr-simple-carousel>
+                <!-- Review Pixel End -->
             </div>
         </div>
     </section>
@@ -164,24 +172,11 @@
                 condition: 'Postpartum Depression',
                 rating: 5,
                 quote: 'TMS has helped me incredibly. It took more than halfway through the sessions to see results but it definitely started to kick in. I highly recommend anyone suffering with depression etc to try TMS.',
-                hasVideo: true,
-                videoId: 'xewffol4oOQ',
+                hasVideo: false,
+                videoId: '',
                 videoType: 'youtube',
-                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyLHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
                 date: '2024-02-03'
-            },
-            {
-                id: 3,
-                name: 'Luis',
-                location: 'Coachella Valley, CA',
-                condition: 'Depression Treatment',
-                rating: 5,
-                quote: 'Testimonio en español sobre mi experiencia transformadora con la terapia TMS en Karma TMS.',
-                hasVideo: true,
-                videoId: '1106562016',
-                videoType: 'vimeo',
-                avatar: 'https://images.unsplash.com/photo-1484863137850-59afcfe05386?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-                date: '2024-01-28'
             },
             {
                 id: 4,
@@ -193,21 +188,73 @@
                 hasVideo: false,
                 videoId: '',
                 videoType: 'youtube',
-                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyMHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
+                avatar: 'https://images.unsplash.com/photo-1739296408127-b6cc9c5c094b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3MTg3MTl8MHwxfHNlYXJjaHwxfHxBJTIwcHJvZmlsZSUyMGF2YXRhciUyMGltYWdlJTIwb2YlMjBhJTIwcGVyc29uJTJDJTIwbGlrZWx5JTIwdXNlZCUyMGZvciUyLHRlc3RpbW9uaWFscyUyMG9yJTIwdXNlciUyMHJlcHJlc2VudGF0aW9uLnxlbnwwfHx8fDE3NTkyMzY3MDh8MA&ixlib=rb-4.1.0&q=80&w=200$w=512',
                 date: '2024-02-12'
             },
             {
-                id: 5,
-                name: 'Lucia',
-                location: 'Coachella Valley, CA',
-                condition: 'Mental Health Treatment',
+                id: 3,
+                name: 'TMS Testimonial',
+                location: 'Palm Springs, CA',
+                condition: 'Depression & Anxiety Recovery',
                 rating: 5,
-                quote: 'La terapia TMS ha cambiado mi vida. Recomiendo este tratamiento a cualquier persona que busque una solución efectiva.',
+                quote: 'Watch this patient share their personal journey and success with TMS therapy at Karma TMS.',
+                hasVideo: true,
+                videoId: 'sCHXbmZniyI',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=200&auto=format&fit=crop',
+                date: '2024-01-28'
+            },
+            {
+                id: 12,
+                name: 'American Legion Andrea',
+                location: 'Palm Springs, CA',
+                condition: 'PTSD & Anxiety Treatment',
+                rating: 5,
+                quote: 'Andrea shares her powerful journey overcoming PTSD, anxiety, and sleep issues using TMS.',
+                hasVideo: true,
+                videoId: 'enYBQoGL6oo',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1508214751196-bcfd4ca60f91?q=80&w=200&auto=format&fit=crop',
+                date: '2024-02-10'
+            },
+            {
+                id: 13,
+                name: 'Karma TMS Testimonial - April',
+                location: 'Palm Springs, CA',
+                condition: 'Anxiety & Sleep disturbances',
+                rating: 5,
+                quote: 'April discusses finding relief from chronic anxiety and sleep issues through TMS treatment.',
+                hasVideo: true,
+                videoId: 'EmWvKq17i8A',
+                videoType: 'youtube',
+                avatar: 'https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=200&auto=format&fit=crop',
+                date: '2024-02-15'
+            },
+            {
+                id: 15,
+                name: 'Patient Testimonials Collection',
+                location: 'Coachella Valley, CA',
+                condition: 'Testimonials Compilation',
+                rating: 5,
+                quote: 'Colección de testimonios sobre la experiencia transformadora con la terapia TMS en Karma TMS.',
+                hasVideo: true,
+                videoId: '1106562016',
+                videoType: 'vimeo',
+                avatar: 'https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?q=80&w=200&auto=format&fit=crop',
+                date: '2024-01-28'
+            },
+            {
+                id: 16,
+                name: 'Patient Success Stories',
+                location: 'Coachella Valley, CA',
+                condition: 'Testimonials Compilation',
+                rating: 5,
+                quote: 'Casos de éxito y testimonios de pacientes que han realizado el tratamiento de TMS.',
                 hasVideo: true,
                 videoId: '1098237681',
                 videoType: 'vimeo',
                 vimeoHash: 'b204c02062',
-                avatar: 'https://images.unsplash.com/photo-1565979612809-d90c6ca38df9?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+                avatar: 'https://images.unsplash.com/photo-1556761175-4b46a572b786?q=80&w=200&auto=format&fit=crop',
                 date: '2024-01-20'
             },
             {
@@ -291,57 +338,10 @@
         ];
 
         // State
-        let searchTerm = '';
-        let selectedCondition = 'All';
         let currentVideoIndex = 0;
-
-        // Get unique conditions
-        const conditions = ['All', ...Array.from(new Set(testimonials.map(t => t.condition)))];
 
         // Get video testimonials
         const videoTestimonials = testimonials.filter(t => t.hasVideo);
-
-        // Render star rating
-        function renderStarRating(rating) {
-            let stars = '';
-            for (let i = 0; i < 5; i++) {
-                const filled = i < rating ? 'fill-yellow-400 text-yellow-400' : 'text-gray-300';
-                stars += `<i data-lucide="star" class="w-4 h-4 ${filled}"></i>`;
-            }
-            return `<div class="flex gap-1">${stars}</div>`;
-        }
-
-        // Render testimonial card
-        function renderTestimonialCard(testimonial) {
-            return `
-                <div class="testimonial-card bm-benefit-card p-6 shadow-md" style="text-align: left;">
-                    <div class="flex items-center gap-3 mb-4">
-                        <div class="w-12 h-12 rounded-full overflow-hidden bg-gray-200">
-                            <img src="${testimonial.avatar}" alt="${testimonial.name}" class="w-full h-full object-cover">
-                        </div>
-                        <div class="flex-1">
-                            <h3 class="font-semibold text-gray-900" style="text-align: left;">${testimonial.name}</h3>
-                            <p class="text-sm text-gray-600" style="text-align: left;">${testimonial.location}</p>
-                        </div>
-                    </div>
-                    
-                    <div style="text-align: left;">
-                        ${renderStarRating(testimonial.rating)}
-                    </div>
-                    
-                    <i data-lucide="quote" class="w-6 h-6 my-3" style="color: rgba(87, 38, 112, 0.3); display: block;"></i>
-                    <blockquote class="text-gray-700 leading-relaxed line-clamp-4" style="text-align: left;">
-                        "${testimonial.quote}"
-                    </blockquote>
-                    
-                    <div class="mt-4 pt-4 border-t" style="text-align: left;">
-                        <span class="inline-block px-3 py-1 text-xs rounded-full bg-gray-100 text-gray-700">
-                            ${testimonial.condition}
-                        </span>
-                    </div>
-                </div>
-            `;
-        }
 
         // Render video card
         function renderVideoCard(video, index) {
@@ -362,33 +362,6 @@
             `;
         }
 
-        // Filter testimonials
-        function filterTestimonials() {
-            return testimonials.filter(testimonial => {
-                const matchesSearch = testimonial.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    testimonial.quote.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                    testimonial.condition.toLowerCase().includes(searchTerm.toLowerCase());
-                const matchesCondition = selectedCondition === 'All' || testimonial.condition === selectedCondition;
-                return matchesSearch && matchesCondition;
-            });
-        }
-
-        // Render filter badges
-        function renderFilterBadges() {
-            const badgesHTML = conditions.map(condition => {
-                const activeClass = selectedCondition === condition ? 'active' : '';
-                return `<span class="filter-badge ${activeClass}" onclick="selectCondition('${condition}')">${condition}</span>`;
-            }).join('');
-            document.getElementById('filterBadges').innerHTML = badgesHTML;
-        }
-
-        // Render testimonials grid
-        function renderTestimonials() {
-            const filtered = filterTestimonials();
-            const gridHTML = filtered.map(renderTestimonialCard).join('');
-            document.getElementById('testimonialsGrid').innerHTML = gridHTML;
-            lucide.createIcons();
-        }
 
         // Render video list
         function renderVideoList() {
@@ -432,12 +405,7 @@
             document.getElementById('videoPlayer').innerHTML = playerHTML;
         }
 
-        // Select condition filter
-        function selectCondition(condition) {
-            selectedCondition = condition;
-            renderFilterBadges();
-            renderTestimonials();
-        }
+
 
         // Select video
         function selectVideo(index) {
@@ -449,8 +417,6 @@
         // Initialize on page load
         document.addEventListener('DOMContentLoaded', () => {
             // Initial render
-            renderFilterBadges();
-            renderTestimonials();
             renderVideoList();
             renderVideoPlayer();
             lucide.createIcons();

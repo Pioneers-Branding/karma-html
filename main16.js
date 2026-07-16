@@ -306,7 +306,8 @@ function initTeamPage() {
         "Addiction Medicine Specialist",
       ],
       experience: "15+ years in Psychiatry and Addiction Medicine",
-      education: "Harvard Medical School, Johns Hopkins Residency",
+      education:
+        "University of Pittsburgh School of Medicine<br>MD, Addiction Medicine, Psychiatry, Womens' Health, Clinical Research<br>• Diplomate, American Board of Addiction Medicine<br>• Diplomate, American Board of Psychiatry and Neurology<br>• Diplomate, Royal College of Obs and Gynecologists, London<br>• Certified Menopause Practitioner, North American Menopause Society",
       languages: ["English", "Tamil", "Hindi"],
       location: "Palm Springs, CA",
       email: "ksunder@karmatms.com",
