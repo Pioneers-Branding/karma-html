@@ -298,7 +298,7 @@ function initTeamPage() {
       specialization: "Integrative Psychiatry & Addiction Medicine",
       category: "medical",
       image:
-        "/assets/images/img-889828f122e6.webp",
+        "images/team/dr-sundar-new.webp",
       bio: "Dr. Keerthy Sunder is a board-certified psychiatrist specializing in integrative approaches to mental health and addiction recovery. With over 15 years of experience, he combines traditional psychiatric methods with innovative treatments like TMS therapy.",
       credentials: [
         "M.D.",
