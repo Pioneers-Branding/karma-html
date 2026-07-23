@@ -32,7 +32,14 @@
       "Bash(python download_images.py)",
       "Bash(pip install *)",
       "Bash(git commit *)",
-      "Bash(git push *)"
+      "Bash(git push *)",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\get-started\")",
+      "PowerShell(Copy-Item \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\inquire\\\\index.html\" \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\get-started\\\\index.html\" -Force)",
+      "PowerShell(\"copied\")",
+      "PowerShell(\"---INQUIRE---\")",
+      "PowerShell(\"---GET-STARTED---\")",
+      "PowerShell(\"---does inquire/index.html link style.css?---\"; Select-String -Path \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\inquire\\\\index.html\" -Pattern 'style.css|stylesheet|thank-you|thank_you' -AllMatches | ForEach-Object { \"$\\($_.LineNumber\\): $\\($_.Line.Trim\\(\\)\\)\" }; \"---root assets folder---\"; Get-ChildItem \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\assets\" -Recurse -File | Select-Object FullName | Select-Object -First 40)",
+      "PowerShell(Copy-Item \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\inquire\\\\thank-you.html\" \"c:\\\\Users\\\\GCV\\\\Desktop\\\\karma-html\\\\get-started\\\\thank-you.html\" -Force)"
     ]
   }
 }
