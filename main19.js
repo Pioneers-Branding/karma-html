@@ -1884,6 +1884,32 @@ function initBlogPage() {
         featured: false,
         url: "mental-health-first-aid.php",
       },
+      {
+        id: 58,
+        title: "Can TMS Therapy Make Depression Worse? What Patients Need to Know",
+        excerpt:
+          "Can TMS therapy make depression worse? Learn about potential temporary worsening symptoms, how to recognize them, and why TMS remains a safe, effective treatment.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "July 13, 2026",
+        readTime: "10 min read",
+        image: "images/blog/tms_depression_worse_real.png",
+        featured: false,
+        url: "can-tms-therapy-make-depression-worse.php",
+      },
+      {
+        id: 59,
+        title: "What Is TMS Therapy Used For? Complete Guide to TMS Applications",
+        excerpt:
+          "What is TMS therapy used for? Discover FDA-approved and off-label uses of Transcranial Magnetic Stimulation for depression, anxiety, OCD, PTSD, and more.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "July 5, 2026",
+        readTime: "12 min read",
+        image: "images/blog/tms_applications_real.png",
+        featured: false,
+        url: "what-is-tms-therapy-used-for.php",
+      },
     ];
 
     // Attempt fetch for production, but fallback to local data immediately if it fails
