@@ -205,6 +205,49 @@
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
 
+        /* Table Styles */
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background-color: white;
+        }
+        
+        .comparison-table th {
+            background-color: #572670;
+            color: white;
+            padding: 1.25rem 1rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            color: #374151;
+            line-height: 1.6;
+        }
+        
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background-color: #faf5ff;
+        }
+        .comparison-table tr:hover {
+            background-color: #f3e8ff;
+            transition: background-color 0.2s;
+        }
+
         /* Explicit Utility Overrides */
         .border {
             border-width: 1px !important;
@@ -444,31 +487,22 @@
                         Some patients report feeling slightly more anxious, irritable, or emotionally sensitive during the first 1-2 weeks of TMS treatment. This is <strong>not</strong> the same as "making depression worse." Here's why:
                     </p>
 
-                    <div class="space-y-6 mb-8">
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">!</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Temporary Adjustment Period</h3>
-                                <p class="text-gray-600">Your brain is literally rewiring itself. Neuroplasticity—the brain's ability to form new neural connections—takes time. During this adjustment phase, some patients may experience mood fluctuations that typically resolve within the first two weeks.</p>
-                            </div>
-                        </div>
+                    <ul class="list-disc pl-6 space-y-6 mb-8 marker:text-primary text-gray-600">
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Temporary Adjustment Period</h3>
+                            <p>Your brain is literally rewiring itself. Neuroplasticity—the brain's ability to form new neural connections—takes time. During this adjustment phase, some patients may experience mood fluctuations that typically resolve within the first two weeks.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">!</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Heightened Awareness</h3>
-                                <p class="text-gray-600">As depression begins to lift, you may become more aware of emotions you've been suppressing. This increased emotional sensitivity is actually a sign that TMS is working—your brain is reconnecting with feelings it had numbed.</p>
-                            </div>
-                        </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Heightened Awareness</h3>
+                            <p>As depression begins to lift, you may become more aware of emotions you've been suppressing. This increased emotional sensitivity is actually a sign that TMS is working—your brain is reconnecting with feelings it had numbed.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-amber-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">!</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Expectation vs. Reality</h3>
-                                <p class="text-gray-600">Some patients expect immediate results. When improvement doesn't happen overnight, they may interpret this as the treatment "not working" or making things worse. Be sure to discuss <a href="how-long-does-tms-take-to-work-for-depression.php" class="text-primary hover:underline">realistic TMS timelines</a> with your provider.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Expectation vs. Reality</h3>
+                            <p>Some patients expect immediate results. When improvement doesn't happen overnight, they may interpret this as the treatment "not working" or making things worse. Be sure to discuss <a href="how-long-does-tms-take-to-work-for-depression.php" class="text-primary hover:underline">realistic TMS timelines</a> with your provider.</p>
+                        </li>
+                    </ul>
 
                     <div class="bg-green-50 p-6 rounded-xl border border-green-100 mb-6">
                         <h4 class="font-bold text-green-900 mb-3 flex items-center gap-2">
@@ -496,24 +530,24 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>Mild headache after sessions that resolves with OTC pain relievers</td>
-                                    <td>Severe or persistent headache lasting more than 24 hours</td>
+                                    <td><ul class="list-disc pl-5 marker:text-green-500 mb-0"><li>Mild headache after sessions that resolves with OTC pain relievers</li></ul></td>
+                                    <td><ul class="list-disc pl-5 marker:text-red-500 mb-0 text-red-700 font-medium"><li>Severe or persistent headache lasting more than 24 hours</li></ul></td>
                                 </tr>
                                 <tr>
-                                    <td>Slight increase in anxiety during weeks 1-2</td>
-                                    <td>Panic attacks or overwhelming anxiety</td>
+                                    <td><ul class="list-disc pl-5 marker:text-green-500 mb-0"><li>Slight increase in anxiety during weeks 1-2</li></ul></td>
+                                    <td><ul class="list-disc pl-5 marker:text-red-500 mb-0 text-red-700 font-medium"><li>Panic attacks or overwhelming anxiety</li></ul></td>
                                 </tr>
                                 <tr>
-                                    <td>Feeling more emotionally sensitive</td>
-                                    <td>Thoughts of self-harm or suicide</td>
+                                    <td><ul class="list-disc pl-5 marker:text-green-500 mb-0"><li>Feeling more emotionally sensitive</li></ul></td>
+                                    <td><ul class="list-disc pl-5 marker:text-red-500 mb-0 text-red-700 font-medium"><li>Thoughts of self-harm or suicide</li></ul></td>
                                 </tr>
                                 <tr>
-                                    <td>Mild fatigue after sessions</td>
-                                    <td>Extreme fatigue that prevents daily functioning</td>
+                                    <td><ul class="list-disc pl-5 marker:text-green-500 mb-0"><li>Mild fatigue after sessions</li></ul></td>
+                                    <td><ul class="list-disc pl-5 marker:text-red-500 mb-0 text-red-700 font-medium"><li>Extreme fatigue that prevents daily functioning</li></ul></td>
                                 </tr>
                                 <tr>
-                                    <td>Anticipation anxiety before treatment</td>
-                                    <td>New or worsening suicidal ideation</td>
+                                    <td><ul class="list-disc pl-5 marker:text-green-500 mb-0"><li>Anticipation anxiety before treatment</li></ul></td>
+                                    <td><ul class="list-disc pl-5 marker:text-red-500 mb-0 text-red-700 font-medium"><li>New or worsening suicidal ideation</li></ul></td>
                                 </tr>
                             </tbody>
                         </table>
@@ -589,39 +623,27 @@
                         The key to having a positive TMS experience is setting realistic expectations. Here's what most patients experience during their <a href="tms-therapy-for-treatment-resistant-depression.php" class="text-primary hover:underline">TMS treatment journey</a>:
                     </p>
 
-                    <div class="space-y-6 mb-8">
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg shadow-sm">1</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Week 1-2: Adjustment Phase</h3>
-                                <p class="text-gray-600">Some patients may feel slightly more anxious or experience mild headaches. This is normal and typically resolves. Stay committed to the treatment plan.</p>
-                            </div>
-                        </div>
+                    <ul class="list-disc pl-6 space-y-6 mb-8 marker:text-primary text-gray-600">
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Week 1-2: Adjustment Phase</h3>
+                            <p>Some patients may feel slightly more anxious or experience mild headaches. This is normal and typically resolves. Stay committed to the treatment plan.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg shadow-sm">2</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Week 2-4: Early Improvements</h3>
-                                <p class="text-gray-600">Most patients begin noticing subtle improvements in sleep, energy, and mood. These gains often continue to build over time.</p>
-                            </div>
-                        </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Week 2-4: Early Improvements</h3>
+                            <p>Most patients begin noticing subtle improvements in sleep, energy, and mood. These gains often continue to build over time.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg shadow-sm">3</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Week 4-6: Significant Changes</h3>
-                                <p class="text-gray-600">Clinical improvements typically become more pronounced. Many patients report substantial relief from depressive symptoms by the end of their treatment course.</p>
-                            </div>
-                        </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Week 4-6: Significant Changes</h3>
+                            <p>Clinical improvements typically become more pronounced. Many patients report substantial relief from depressive symptoms by the end of their treatment course.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold text-lg shadow-sm">4</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Post-Treatment: Maintenance</h3>
-                                <p class="text-gray-600">Results can last 6-12 months or longer. Some patients benefit from occasional maintenance sessions. <a href="is-tms-therapy-permanent.php" class="text-primary hover:underline">Learn more about TMS durability</a>.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Post-Treatment: Maintenance</h3>
+                            <p>Results can last 6-12 months or longer. Some patients benefit from occasional maintenance sessions. <a href="is-tms-therapy-permanent.php" class="text-primary hover:underline">Learn more about TMS durability</a>.</p>
+                        </li>
+                    </ul>
 
                     <div class="bg-purple-50 p-6 rounded-xl border border-purple-100 mb-6">
                         <h4 class="font-bold text-purple-900 mb-2">Questions to Ask Your TMS Provider:</h4>

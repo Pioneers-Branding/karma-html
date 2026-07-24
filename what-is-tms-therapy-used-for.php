@@ -205,6 +205,49 @@
             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
         }
 
+        /* Table Styles */
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            margin-bottom: 2rem;
+            border-radius: 0.75rem;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e5e7eb;
+        }
+        
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            background-color: white;
+        }
+        
+        .comparison-table th {
+            background-color: #572670;
+            color: white;
+            padding: 1.25rem 1rem;
+            font-weight: 600;
+            font-size: 1.05rem;
+        }
+        
+        .comparison-table td {
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            color: #374151;
+            line-height: 1.6;
+        }
+        
+        .comparison-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .comparison-table tr:nth-child(even) {
+            background-color: #faf5ff;
+        }
+        .comparison-table tr:hover {
+            background-color: #f3e8ff;
+            transition: background-color 0.2s;
+        }
+
         /* Explicit Utility Overrides */
         .border {
             border-width: 1px !important;
@@ -475,31 +518,22 @@
                         <a href="tms-therapy-for-treatment-resistant-depression.php" class="text-primary hover:underline">TMS for treatment-resistant depression</a> offers hope for the millions of people who have tried multiple antidepressants without success. Unlike medications that affect the entire body, TMS targets the prefrontal cortex—the brain's mood control center—directly.
                     </p>
 
-                    <div class="space-y-6 mb-8">
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">✓</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Proven Effectiveness</h3>
-                                <p class="text-gray-600">Clinical trials consistently show 50-70% of patients with treatment-resistant depression experience significant symptom improvement. Up to 45% achieve full remission.</p>
-                            </div>
-                        </div>
+                    <ul class="list-disc pl-6 space-y-6 mb-8 marker:text-primary text-gray-600">
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Proven Effectiveness</h3>
+                            <p>Clinical trials consistently show 50-70% of patients with treatment-resistant depression experience significant symptom improvement. Up to 45% achieve full remission.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">✓</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Drug-Free Treatment</h3>
-                                <p class="text-gray-600">For those who can't tolerate antidepressant side effects or want to avoid medications, TMS offers a non-pharmaceutical approach that doesn't enter your bloodstream.</p>
-                            </div>
-                        </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Drug-Free Treatment</h3>
+                            <p>For those who can't tolerate antidepressant side effects or want to avoid medications, TMS offers a non-pharmaceutical approach that doesn't enter your bloodstream.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">✓</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Durable Results</h3>
-                                <p class="text-gray-600">Benefits can last 6-12 months or longer. Many patients maintain improvements with occasional maintenance sessions. <a href="is-tms-therapy-permanent.php" class="text-primary hover:underline">Learn about TMS longevity</a>.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Durable Results</h3>
+                            <p>Benefits can last 6-12 months or longer. Many patients maintain improvements with occasional maintenance sessions. <a href="is-tms-therapy-permanent.php" class="text-primary hover:underline">Learn about TMS longevity</a>.</p>
+                        </li>
+                    </ul>
 
                     <div class="bg-purple-50 p-6 rounded-xl border border-purple-100 mb-6">
                         <h4 class="font-bold text-purple-900 mb-3">Who Is a Good Candidate for TMS for Depression?</h4>
@@ -523,23 +557,17 @@
                         OCD involves repetitive thoughts (obsessions) and ritualistic behaviors (compulsions) that significantly impact daily life. Traditional treatments include cognitive-behavioral therapy (CBT) with exposure and response prevention (ERP), and medications like SSRIs—but many patients don't achieve adequate relief.
                     </p>
 
-                    <div class="space-y-6 mb-8">
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">!</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">How TMS Helps OCD</h3>
-                                <p class="text-gray-600">TMS targets the supplementary motor area (SMA) and prefrontal cortex—regions involved in the motor urges and inhibitory control that are dysregulated in OCD. By modulating these areas, TMS can reduce the intensity of compulsions and the anxiety they produce.</p>
-                            </div>
-                        </div>
+                    <ul class="list-disc pl-6 space-y-6 mb-8 marker:text-primary text-gray-600">
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">How TMS Helps OCD</h3>
+                            <p>TMS targets the supplementary motor area (SMA) and prefrontal cortex—regions involved in the motor urges and inhibitory control that are dysregulated in OCD. By modulating these areas, TMS can reduce the intensity of compulsions and the anxiety they produce.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">!</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">TMS as Adjunct Treatment</h3>
-                                <p class="text-gray-600">TMS for OCD is often most effective when combined with ongoing CBT/ERP therapy. TMS can help "loosen" the brain's rigid patterns, making therapy more effective.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">TMS as Adjunct Treatment</h3>
+                            <p>TMS for OCD is often most effective when combined with ongoing CBT/ERP therapy. TMS can help "loosen" the brain's rigid patterns, making therapy more effective.</p>
+                        </li>
+                    </ul>
 
                     <p class="mb-6">
                         If you or a loved one struggles with OCD, <a href="contact-us.php" class="text-primary hover:underline">contact our Palm Springs clinic</a> to learn whether TMS might be right for you.
@@ -564,37 +592,37 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td><strong>Generalized Anxiety Disorder (GAD)</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Generalized Anxiety Disorder (GAD)</strong></li></ul></td>
                                     <td>Strong (multiple RCTs)</td>
                                     <td>50-60% improvement</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Post-Traumatic Stress Disorder (PTSD)</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Post-Traumatic Stress Disorder (PTSD)</strong></li></ul></td>
                                     <td>Moderate (growing evidence)</td>
                                     <td>40-50% improvement</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Chronic Pain / Fibromyalgia</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Chronic Pain / Fibromyalgia</strong></li></ul></td>
                                     <td>Moderate</td>
                                     <td>30-50% pain reduction</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Migraine Headaches</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Migraine Headaches</strong></li></ul></td>
                                     <td>Strong (FDA-cleared for migraines)</td>
                                     <td>40-65% response</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Smoking Cessation</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Smoking Cessation</strong></li></ul></td>
                                     <td>Moderate (FDA-cleared)</td>
                                     <td>30-40% quit rate</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Auditory Hallucinations (Schizophrenia)</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Auditory Hallucinations (Schizophrenia)</strong></li></ul></td>
                                     <td>Moderate</td>
                                     <td>25-50% reduction</td>
                                 </tr>
                                 <tr>
-                                    <td><strong>Cognitive Enhancement</strong></td>
+                                    <td><ul class="list-disc pl-5 marker:text-primary mb-0"><li><strong>Cognitive Enhancement</strong></li></ul></td>
                                     <td>Early/Preliminary</td>
                                     <td>Varies</td>
                                 </tr>
@@ -618,31 +646,22 @@
                         <a href="does-tms-therapy-work-for-anxiety.php" class="text-primary hover:underline">TMS therapy for anxiety</a> is one of the most researched off-label applications. Generalized Anxiety Disorder (GAD), social anxiety, and panic disorder have all shown responsiveness to TMS treatment.
                     </p>
 
-                    <div class="space-y-6 mb-8">
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">1</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Generalized Anxiety Disorder (GAD)</h3>
-                                <p class="text-gray-600">Studies show TMS targeting the right dorsolateral prefrontal cortex (DLPFC) can significantly reduce anxiety symptoms. A meta-analysis found 50-60% of patients showed meaningful improvement.</p>
-                            </div>
-                        </div>
+                    <ul class="list-disc pl-6 space-y-6 mb-8 marker:text-primary text-gray-600">
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Generalized Anxiety Disorder (GAD)</h3>
+                            <p>Studies show TMS targeting the right dorsolateral prefrontal cortex (DLPFC) can significantly reduce anxiety symptoms. A meta-analysis found 50-60% of patients showed meaningful improvement.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">2</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Social Anxiety Disorder</h3>
-                                <p class="text-gray-600">TMS has shown promise in reducing social anxiety, particularly when combined with exposure therapy. Patients report decreased fear of social situations and improved functioning.</p>
-                            </div>
-                        </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Social Anxiety Disorder</h3>
+                            <p>TMS has shown promise in reducing social anxiety, particularly when combined with exposure therapy. Patients report decreased fear of social situations and improved functioning.</p>
+                        </li>
 
-                        <div class="flex gap-4">
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-teal-500 text-white flex items-center justify-center font-bold text-lg shadow-sm">3</div>
-                            <div>
-                                <h3 class="font-bold text-xl text-gray-900 mb-2">Panic Disorder</h3>
-                                <p class="text-gray-600">Early research suggests TMS can help reduce the frequency and intensity of panic attacks by modulating brain circuits involved in fear responses.</p>
-                            </div>
-                        </div>
-                    </div>
+                        <li>
+                            <h3 class="font-bold text-xl text-gray-900 mb-2">Panic Disorder</h3>
+                            <p>Early research suggests TMS can help reduce the frequency and intensity of panic attacks by modulating brain circuits involved in fear responses.</p>
+                        </li>
+                    </ul>
                 </section>
 
                 <!-- Section: PTSD -->
