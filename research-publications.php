@@ -231,7 +231,7 @@
 
             <div class="rp-award-hero grid md:grid-cols-2 gap-0 max-w-6xl mx-auto">
                 <div class="p-0">
-                    <img src="https://sunderfoundation.org/wp-content/uploads/2023/03/Dr_sunder_Award_05.jpg"
+                    <img src="assets/gallery/research/Dr_sunder_Award_05.webp"
                         alt="Dr. Keerthy Sunder receiving the Golden Axon Leadership Award"
                         class="rp-award-img">
                 </div>
@@ -1082,7 +1082,7 @@
                 <div class="grid md:grid-cols-3 gap-8 items-center relative" style="z-index: 1;">
                     <div class="md:col-span-2">
                         <div class="rp-foundation-logo mb-5">
-                            <img src="https://sunderfoundation.org/wp-content/uploads/2022/11/SF_logo_H_web.png"
+                            <img src="assets/gallery/lotus-logo.png" class="w-32 h-auto"        
                                 alt="Sunder Foundation">
                         </div>
                         <h3 class="text-2xl lg:text-3xl font-bold mb-3">
