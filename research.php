@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -65,6 +65,8 @@
         </div>
     </section>
 
+
+
     <!-- Published Research Section -->
     <section class="py-20">
         <div class="container mx-auto px-4">
@@ -75,6 +77,13 @@
                 <p class="text-lg text-gray-600 max-w-2xl mx-auto">
                     Peer-reviewed studies demonstrating the effectiveness of TMS therapy
                 </p>
+            </div>
+
+            <!-- Research Image -->
+            <div class="overflow-hidden shadow-xl mb-12" style="border-radius: 1.25rem;">
+                <img src="assets/gallery/research/karma-tms-research.webp"
+                    alt="Karma TMS Research — Clinical team and TMS therapy in action"
+                    style="width: 100%; height: auto; display: block;">
             </div>
 
             <!-- PubMed Research Database Card -->

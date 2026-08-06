@@ -299,40 +299,88 @@
         </div>
     </section>
 
-    <!-- Our Twentynine Palms Facility Gallery -->
+    <!-- Our Clinic Gallery -->
     <section class="py-20 bg-white">
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
-                <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 fade-up">Our Twentynine Palms Facility</h2>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <!-- Image 1 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="/assets/images/img-342c2fa6ae0e.jpg"
-                            alt="Professional and welcoming entrance at Twentynine Palms location"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Facility Entrance</p>
-                    </div>
+                <div class="text-center mb-12 fade-up">
+                    <h2 class="text-3xl lg:text-4xl font-bold mb-3">Our Karma TMS Clinic</h2>
+                    <p class="text-lg text-gray-600 max-w-2xl mx-auto">A welcoming, professional environment designed for your comfort and healing</p>
+                </div>
 
-                    <!-- Image 2 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://i.ibb.co/bR2VwFzY/help-desk.webp"
-                            alt="State-of-the-art TMS treatment chair for veteran care"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Reception Area</p>
+                <!-- Gallery Grid -->
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(0)">
+                        <img src="assets/gallery/thumbs/ES6A4907.webp" alt="Karma TMS clinic interior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
-
-                    <!-- Image 3 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://i.ibb.co/675zy4wB/treatment.webp"
-                            alt="Comfortable TMS treatment room at Twentynine Palms"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Treatment Room</p>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(1)">
+                        <img src="assets/gallery/thumbs/ES6A4942.webp" alt="Karma TMS therapy room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(2)">
+                        <img src="assets/gallery/thumbs/ES6A4971.webp" alt="Karma TMS professional staff" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(3)">
+                        <img src="assets/gallery/thumbs/ES6A4997.webp" alt="Karma TMS reception" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(4)">
+                        <img src="assets/gallery/thumbs/ES6A5085.webp" alt="Karma TMS waiting area" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(5)">
+                        <img src="assets/gallery/thumbs/ES6A5095.webp" alt="Karma TMS consultation room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(6)">
+                        <img src="assets/gallery/thumbs/ES6A5122.webp" alt="Karma TMS advanced equipment" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer col-span-2" style="height: 220px;" onclick="openLightbox(7)">
+                        <img src="assets/gallery/thumbs/ES6A5162.webp" alt="Karma TMS clinic atmosphere" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(8)">
+                        <img src="assets/gallery/thumbs/ambience-1.webp" alt="Karma TMS calming ambience" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(9)">
+                        <img src="assets/gallery/thumbs/karma-tms.webp" alt="Karma TMS branding" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 220px;" onclick="openLightbox(10)">
+                        <img src="assets/gallery/thumbs/ES6A5175.webp" alt="Karma TMS clinic staff" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer col-span-2 md:col-span-1" style="height: 220px;" onclick="openLightbox(11)">
+                        <img src="assets/gallery/thumbs/ES6A4915.webp" alt="Karma TMS team" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -848,6 +896,80 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
+        });
+    </script>
+
+    <!-- Lightbox Modal -->
+    <div id="galleryLightbox" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.92); align-items:center; justify-content:center;" onclick="handleLightboxClick(event)">
+        <style>
+            #galleryLightbox { display: none; }
+            #galleryLightbox.active { display: flex !important; }
+            #lbImg { max-width: 90vw; max-height: 85vh; border-radius: 12px; box-shadow: 0 25px 60px rgba(0,0,0,0.6); object-fit: contain; transition: opacity 0.2s ease; }
+            .lb-nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(87,38,112,0.85); border: none; border-radius: 50%; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s; backdrop-filter: blur(4px); }
+            .lb-nav-btn:hover { background: rgba(87,38,112,1); }
+            .lb-close-btn { position: absolute; top: 20px; right: 24px; background: rgba(255,255,255,0.15); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; backdrop-filter: blur(4px); transition: background 0.2s; }
+            .lb-close-btn:hover { background: rgba(255,255,255,0.3); }
+            #lbCounter { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.75); font-size: 0.875rem; font-weight: 500; letter-spacing: 0.05em; }
+        </style>
+        <button class="lb-close-btn" onclick="closeLightbox()" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <button class="lb-nav-btn" style="left: 20px;" onclick="lbNavigate(-1)" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <img id="lbImg" src="" alt="Gallery image">
+        <button class="lb-nav-btn" style="right: 20px;" onclick="lbNavigate(1)" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <span id="lbCounter"></span>
+    </div>
+
+    <script>
+        const lbImages = [
+            { src: 'assets/gallery/thumbs/ES6A4907.webp', alt: 'Karma TMS clinic interior' },
+            { src: 'assets/gallery/thumbs/ES6A4942.webp', alt: 'Karma TMS therapy room' },
+            { src: 'assets/gallery/thumbs/ES6A4971.webp', alt: 'Karma TMS professional staff' },
+            { src: 'assets/gallery/thumbs/ES6A4997.webp', alt: 'Karma TMS reception' },
+            { src: 'assets/gallery/thumbs/ES6A5085.webp', alt: 'Karma TMS waiting area' },
+            { src: 'assets/gallery/thumbs/ES6A5095.webp', alt: 'Karma TMS consultation room' },
+            { src: 'assets/gallery/thumbs/ES6A5122.webp', alt: 'Karma TMS advanced equipment' },
+            { src: 'assets/gallery/thumbs/ES6A5162.webp', alt: 'Karma TMS clinic atmosphere' },
+            { src: 'assets/gallery/thumbs/ambience-1.webp', alt: 'Karma TMS calming ambience' },
+            { src: 'assets/gallery/thumbs/karma-tms.webp',  alt: 'Karma TMS branding' },
+            { src: 'assets/gallery/thumbs/ES6A5175.webp',   alt: 'Karma TMS clinic staff' },
+            { src: 'assets/gallery/thumbs/ES6A4915.webp',   alt: 'Karma TMS team' }
+        ];
+        let lbCurrent = 0;
+        function openLightbox(index) {
+            lbCurrent = index;
+            lbShow();
+            document.getElementById('galleryLightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            document.getElementById('galleryLightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        function lbShow() {
+            const img = document.getElementById('lbImg');
+            img.style.opacity = '0';
+            img.src = lbImages[lbCurrent].src;
+            img.alt = lbImages[lbCurrent].alt;
+            img.onload = () => { img.style.opacity = '1'; };
+            document.getElementById('lbCounter').textContent = (lbCurrent + 1) + ' / ' + lbImages.length;
+        }
+        function lbNavigate(dir) {
+            lbCurrent = (lbCurrent + dir + lbImages.length) % lbImages.length;
+            lbShow();
+        }
+        function handleLightboxClick(e) {
+            if (e.target === document.getElementById('galleryLightbox')) closeLightbox();
+        }
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('galleryLightbox').classList.contains('active')) return;
+            if (e.key === 'ArrowRight') lbNavigate(1);
+            if (e.key === 'ArrowLeft')  lbNavigate(-1);
+            if (e.key === 'Escape')     closeLightbox();
         });
     </script>
 </body>

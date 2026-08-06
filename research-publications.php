@@ -309,6 +309,17 @@
         </div>
     </section>
 
+    <!-- Research Image Banner -->
+    <section class="py-0">
+        <div class="container mx-auto px-4 py-10">
+            <div class="overflow-hidden shadow-xl" style="border-radius: 1.25rem;">
+                <img src="assets/gallery/research/karma-tms-research.webp"
+                    alt="Karma TMS Research — Clinical team and TMS therapy in action"
+                    style="width: 100%; height: auto; display: block;">
+            </div>
+        </div>
+    </section>
+
     <!-- Published Research -->
     <section id="publications" class="py-20">
         <div class="container mx-auto px-4">
