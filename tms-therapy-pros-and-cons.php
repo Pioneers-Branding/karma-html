@@ -13,7 +13,7 @@
     <meta property="og:title" content="TMS Therapy Pros and Cons: A Complete Patient Guide | Karma TMS Blog">
     <meta property="og:description"
         content="Discover the comprehensive pros and cons of TMS therapy. Compare benefits, side effects, costs, and commitment to decide if TMS is right for you.">
-    <meta property="og:image" content="images/blog/tms-therapy-pros-and-cons-intro.png">
+    <meta property="og:image" content="images/blog/tms-therapy-pros-and-cons-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -279,7 +279,7 @@
       "@type": "Article",
       "headline": "TMS Therapy Pros and Cons: A Complete Patient Guide",
       "description": "Discover the comprehensive pros and cons of TMS therapy. Compare benefits, side effects, costs, and commitment to decide if TMS is right for you.",
-      "image": "images/blog/tms-therapy-pros-and-cons-intro.png",
+      "image": "images/blog/tms-therapy-pros-and-cons-photo.webp",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -389,9 +389,10 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/tms-therapy-pros-and-cons-intro.png" 
-                        alt="TMS Therapy Pros and Cons"
-                        class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                    <img src="images/blog/tms-therapy-pros-and-cons-photo.webp"
+                        alt="TMS therapy treatment room at Karma TMS with the Apollo TMS device and patient chair"
+                        width="900" height="1350"
+                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>When you're struggling with clinical depression or chronic anxiety, finding the right treatment path can feel exhausting.</strong> If first-line interventions like medications and talk therapy haven't yielded the results you need, you might be considering <a href="tms-therapy.php" class="text-primary hover:underline">Transcranial Magnetic Stimulation (TMS)</a>. 

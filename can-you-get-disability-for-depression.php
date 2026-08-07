@@ -887,8 +887,8 @@
 
                         <!-- Post 3: Understanding PTSD -->
                         <div class="bg-white border border-purple-200 rounded-xl overflow-hidden hover:shadow-lg transition-all group">
-                            <img src="/assets/images/img-dafdac8b327f.png"
-                                alt="Understanding PTSD" class="w-full h-48 object-cover">
+                            <img src="images/blog/understanding-ptsd-veterans-thumb.webp"
+                                alt="Understanding PTSD" class="w-full h-48 object-cover" loading="lazy">
                             <div class="p-6">
                                 <h3 class="font-bold text-base mb-2 text-gray-900 transition-colors">
                                     <a href="understanding-ptsd-veterans.php" class="block text-black" style="color: black !important;">Understanding PTSD in Veterans</a>

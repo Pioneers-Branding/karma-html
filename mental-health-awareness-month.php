@@ -13,7 +13,7 @@
     <meta property="og:title" content="Mental Health Awareness Month: Why It Matters More Than Ever | Karma TMS">
     <meta property="og:description"
         content="Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available.">
-    <meta property="og:image" content="https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.png">
+    <meta property="og:image" content="https://www.karmatms.com/images/blog/mental-health-awareness-month-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -26,7 +26,7 @@
       "@id": "https://www.karmatms.com/mental-health-awareness-month.php#article",
       "headline": "Mental Health Awareness Month: Why It Matters More Than Ever",
       "description": "Mental Health Awareness Month every May is a reminder that mental health is health. Learn why awareness matters, how to reduce stigma, and what resources are available.",
-      "image": "https://www.karmatms.com/images/blog/mental-health-awareness-month-banner.png",
+      "image": "https://www.karmatms.com/images/blog/mental-health-awareness-month-photo.webp",
       "datePublished": "2026-05-05",
       "dateModified": "2026-05-05",
       "author": {
@@ -329,8 +329,9 @@
 
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/mental-health-awareness-month-banner.png"
-                        alt="Mental Health Awareness Month"
+                    <img src="images/blog/mental-health-awareness-month-photo.webp"
+                        alt="NuCalm neuroacoustic therapy display at the Karma TMS clinic"
+                        width="1200" height="830"
                         class="w-full object-cover rounded-xl mb-8 shadow-md"
                         style="max-height: 480px; object-fit: cover;">
 

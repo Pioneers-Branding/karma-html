@@ -13,7 +13,7 @@
     <meta property="og:title" content="Can TMS Therapy Make Depression Worse? | Karma TMS Blog">
     <meta property="og:description"
         content="Can TMS therapy make depression worse? Learn about potential temporary worsening symptoms, how to recognize them, and why TMS remains a safe, effective treatment for most patients.">
-    <meta property="og:image" content="images/blog/tms_depression_worse_real.png">
+    <meta property="og:image" content="images/blog/can-tms-therapy-make-depression-worse-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -290,7 +290,7 @@
       "@type": "Article",
       "headline": "Can TMS Therapy Make Depression Worse? What Patients Need to Know",
       "description": "Can TMS therapy make depression worse? Learn about potential temporary worsening symptoms, how to recognize them, and why TMS remains a safe, effective treatment for most patients.",
-      "image": "images/blog/tms_depression_worse_real.png",
+      "image": "images/blog/can-tms-therapy-make-depression-worse-photo.webp",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -442,8 +442,9 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/tms_depression_worse_real.png"
-                        alt="Can TMS Therapy Make Depression Worse"
+                    <img src="images/blog/can-tms-therapy-make-depression-worse-photo.webp"
+                        alt="TMS treatment room at Karma TMS with the Apollo TMS device and patient chair"
+                        width="1200" height="801"
                         class="w-full object-cover rounded-xl mb-8 shadow-md"
                         style="max-height: 480px; object-fit: cover;">
 

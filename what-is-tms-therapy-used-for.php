@@ -13,7 +13,7 @@
     <meta property="og:title" content="What Is TMS Therapy Used For? Complete Guide | Karma TMS Blog">
     <meta property="og:description"
         content="What is TMS therapy used for? Discover the FDA-approved and off-label uses of Transcranial Magnetic Stimulation for depression, anxiety, OCD, PTSD, and more.">
-    <meta property="og:image" content="images/blog/tms_applications_real.png">
+    <meta property="og:image" content="images/blog/what-is-tms-therapy-used-for-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -290,7 +290,7 @@
       "@type": "Article",
       "headline": "What Is TMS Therapy Used For? Complete Guide to TMS Treatment Applications",
       "description": "What is TMS therapy used for? Discover the FDA-approved and off-label uses of Transcranial Magnetic Stimulation for depression, anxiety, OCD, PTSD, and more.",
-      "image": "images/blog/tms_applications_real.png",
+      "image": "images/blog/what-is-tms-therapy-used-for-photo.webp",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -442,10 +442,10 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/tms_applications_real.png"
-                        alt="What Is TMS Therapy Used For"
-                        class="w-full object-cover rounded-xl mb-8 shadow-md"
-                        style="max-height: 480px; object-fit: cover;">
+                    <img src="images/blog/what-is-tms-therapy-used-for-photo.webp"
+                        alt="Patient receiving a TMS therapy session in the treatment chair at Karma TMS"
+                        width="900" height="1351"
+                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>If you're exploring advanced mental health treatments, you've likely heard of TMS therapy.</strong> But what exactly is it used for? At <a href="tms-therapy.php" class="text-primary hover:underline">Karma TMS</a>, we want to help you understand the full scope of this remarkable, non-invasive treatment.

@@ -14,7 +14,7 @@
     <meta property="og:description"
         content="Explore the complexities of PTSD in veterans, its impact on the brain, and how TMS therapy offers a new path to healing.">
     <meta property="og:image"
-        content="https://images.unsplash.com/photo-1596701549646-189fec54930f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3">
+        content="https://www.karmatms.com/images/blog/understanding-ptsd-veterans-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -236,7 +236,7 @@
       "@type": "Article",
       "headline": "Understanding PTSD in Veterans",
       "description": "Explore the complexities of PTSD in veterans, its impact on the brain, and how TMS therapy offers a new path to healing.",
-      "image": "https://images.unsplash.com/photo-1596701549646-189fec54930f?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3",
+      "image": "https://www.karmatms.com/images/blog/understanding-ptsd-veterans-photo.webp",
       "author": {
         "@type": "Person",
         "name": "KarmaTMS",
@@ -347,8 +347,9 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/understanding-ptsd-veterans-intro.png" 
-                        alt="Understanding PTSD in Veterans: Signs, Symptoms, and Treatment Paths"
+                    <img src="images/blog/understanding-ptsd-veterans-photo.webp"
+                        alt="Veteran PTSD and TMS resources displayed at the Karma TMS clinic"
+                        width="1200" height="801"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
                     <p class="text-xl leading-relaxed text-gray-700">

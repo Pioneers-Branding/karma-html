@@ -7,7 +7,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "June 12, 2026",
         "readTime": "9 min read",
-        "image": "images/blog/tms-therapy-pros-and-cons-intro.png",
+        "image": "images/blog/tms-therapy-pros-and-cons-thumb.webp",
         "featured": false,
         "url": "tms-therapy-pros-and-cons.php"
     },
@@ -19,7 +19,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "June 6, 2026",
         "readTime": "8 min read",
-        "image": "images/blog/tms-therapy-contraindications-intro.png",
+        "image": "images/blog/tms-therapy-contraindications-thumb.webp",
         "featured": false,
         "url": "tms-therapy-contraindications.php"
     },
@@ -31,7 +31,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "May 11, 2026",
         "readTime": "8 min read",
-        "image": "images/blog/do-psychiatrists-do-therapy-intro.png",
+        "image": "images/blog/do-psychiatrists-do-therapy-thumb.webp",
         "featured": false,
         "url": "do-psychiatrists-do-therapy.php"
     },
@@ -43,7 +43,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "May 5, 2026",
         "readTime": "8 min read",
-        "image": "images/blog/mental-health-awareness-month-banner.png",
+        "image": "images/blog/mental-health-awareness-month-thumb.webp",
         "featured": false,
         "url": "mental-health-awareness-month.php"
     },
@@ -343,7 +343,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "October 20, 2025",
         "readTime": "14 min read",
-        "image": "/assets/images/img-dafdac8b327f.png",
+        "image": "images/blog/understanding-ptsd-veterans-thumb.webp",
         "featured": false,
         "url": "understanding-ptsd-veterans.php"
     },
@@ -487,7 +487,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "July 13, 2026",
         "readTime": "10 min read",
-        "image": "images/blog/tms_depression_worse_real.png",
+        "image": "images/blog/can-tms-therapy-make-depression-worse-thumb.webp",
         "featured": false,
         "url": "can-tms-therapy-make-depression-worse.php"
     },
@@ -499,7 +499,7 @@
         "author": "Dr. Keerthy Sunder",
         "date": "July 5, 2026",
         "readTime": "12 min read",
-        "image": "images/blog/tms_applications_real.png",
+        "image": "images/blog/what-is-tms-therapy-used-for-thumb.webp",
         "featured": false,
         "url": "what-is-tms-therapy-used-for.php"
     }

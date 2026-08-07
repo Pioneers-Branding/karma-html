@@ -13,7 +13,7 @@
     <meta property="og:title" content="TMS Therapy Contraindications: Who Should Avoid TMS? | Karma TMS Blog">
     <meta property="og:description"
         content="Is TMS therapy safe for everyone? Explore the absolute and relative contraindications of TMS therapy, including metal implants, seizures, and other risk factors.">
-    <meta property="og:image" content="images/blog/tms-therapy-contraindications-intro.png">
+    <meta property="og:image" content="images/blog/tms-therapy-contraindications-photo.webp">
     <meta property="og:type" content="article">
 
     <?php include 'includes/header-links.php'; ?>
@@ -247,7 +247,7 @@
       "@type": "Article",
       "headline": "TMS Therapy Contraindications: Who Should Avoid TMS?",
       "description": "Is TMS therapy safe for everyone? Explore the absolute and relative contraindications of TMS therapy, including metal implants, seizures, and other risk factors.",
-      "image": "images/blog/tms-therapy-contraindications-intro.png",
+      "image": "images/blog/tms-therapy-contraindications-photo.webp",
       "author": {
         "@type": "Person",
         "name": "Dr. Keerthy Sunder",
@@ -358,9 +358,10 @@
             <article class="lg:col-span-3 prose prose-lg max-w-none text-gray-700">
                 <!-- Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/blog/tms-therapy-contraindications-intro.png" 
-                        alt="TMS Therapy Contraindications"
-                        class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                    <img src="images/blog/tms-therapy-contraindications-photo.webp"
+                        alt="TMS treatment chair beside the KAIA Virtual Reality Therapy and neuromodulation research suite at Karma TMS"
+                        width="900" height="1350"
+                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>Transcranial Magnetic Stimulation (TMS) has emerged as a groundbreaking, FDA-cleared treatment for individuals struggling with severe conditions.</strong> Whether you are seeking relief from <a href="depression.php" class="text-primary hover:underline">Major Depressive Disorder (MDD)</a>, chronic <a href="anxiety.php" class="text-primary hover:underline">anxiety disorders</a>, or <a href="ocd.php" class="text-primary hover:underline">Obsessive-Compulsive Disorder (OCD)</a>, finding a treatment that actually works is paramount. Because it is non-invasive and drug-free, <a href="is-tms-therapy-safe.php" class="text-primary hover:underline">TMS is exceptionally safe</a> for the vast majority of patients. It completely bypasses the systemic issues associated with standard pharmacological routes.
