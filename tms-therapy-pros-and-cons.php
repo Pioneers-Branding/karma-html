@@ -391,8 +391,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/tms-therapy-pros-and-cons-photo.webp"
                         alt="TMS therapy treatment room at Karma TMS with the Apollo TMS device and patient chair"
-                        width="900" height="1350"
-                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>When you're struggling with clinical depression or chronic anxiety, finding the right treatment path can feel exhausting.</strong> If first-line interventions like medications and talk therapy haven't yielded the results you need, you might be considering <a href="tms-therapy.php" class="text-primary hover:underline">Transcranial Magnetic Stimulation (TMS)</a>. 

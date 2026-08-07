@@ -444,9 +444,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/can-tms-therapy-make-depression-worse-photo.webp"
                         alt="TMS treatment room at Karma TMS with the Apollo TMS device and patient chair"
-                        width="1200" height="801"
-                        class="w-full object-cover rounded-xl mb-8 shadow-md"
-                        style="max-height: 480px; object-fit: cover;">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>If you've been researching TMS therapy for depression, you may have come across concerns: "Can TMS therapy make depression worse?"</strong> It's a valid question, especially when considering a treatment that directly affects your brain. At <a href="tms-therapy.php" class="text-primary hover:underline">Karma TMS</a>, we believe informed patients make better decisions—and transparency builds trust.

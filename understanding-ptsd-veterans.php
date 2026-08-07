@@ -349,8 +349,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/understanding-ptsd-veterans-photo.webp"
                         alt="Veteran PTSD and TMS resources displayed at the Karma TMS clinic"
-                        width="1200" height="801"
-                        class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>For many veterans, the battle doesn't end when they return home.</strong> The transition to civilian life is often accompanied by an invisible struggle—Post-Traumatic Stress Disorder (PTSD). It is a silent epidemic that affects relationships, employment, and overall quality of life. Understanding PTSD is not just about recognizing symptoms; it's about acknowledging the deep biological and psychological impact of trauma and finding a path forward.

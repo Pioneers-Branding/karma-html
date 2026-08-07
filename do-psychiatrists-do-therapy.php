@@ -451,8 +451,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/do-psychiatrists-do-therapy-photo.webp"
                         alt="Karma TMS clinical team in the TMS treatment room"
-                        width="900" height="1257"
-                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         When seeking mental health support, navigating the different types of professionals can be confusing. You might wonder: should I see a therapist, a psychologist, or a psychiatrist? A common question that arises is: <strong>Do psychiatrists do therapy?</strong>

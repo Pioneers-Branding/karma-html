@@ -444,8 +444,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/what-is-tms-therapy-used-for-photo.webp"
                         alt="Patient receiving a TMS therapy session in the treatment chair at Karma TMS"
-                        width="900" height="1351"
-                        class="w-full max-w-sm mx-auto block h-auto object-cover rounded-xl mb-8 shadow-md">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         <strong>If you're exploring advanced mental health treatments, you've likely heard of TMS therapy.</strong> But what exactly is it used for? At <a href="tms-therapy.php" class="text-primary hover:underline">Karma TMS</a>, we want to help you understand the full scope of this remarkable, non-invasive treatment.

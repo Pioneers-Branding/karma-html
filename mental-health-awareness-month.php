@@ -331,9 +331,9 @@
                 <div class="mb-12" id="intro">
                     <img src="images/blog/mental-health-awareness-month-photo.webp"
                         alt="NuCalm neuroacoustic therapy display at the Karma TMS clinic"
-                        width="1200" height="830"
-                        class="w-full object-cover rounded-xl mb-8 shadow-md"
-                        style="max-height: 480px; object-fit: cover;">
+                        width="1600" height="667"
+                        class="w-full rounded-xl mb-8 shadow-md"
+                        style="aspect-ratio: 12 / 5; object-fit: cover;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         Since 1949, May has been recognized as <strong>Mental Health Awareness Month</strong>. What began as a vital initiative to educate the public has evolved into a global movement aimed at erasing stigma, encouraging open conversations, and ensuring that those struggling with conditions like <a href="depression.php" class="text-primary hover:underline">depression</a> and <a href="anxiety.php" class="text-primary hover:underline">anxiety</a> know they are not alone.
