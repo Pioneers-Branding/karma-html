@@ -453,7 +453,7 @@
                         alt="Karma TMS clinical team in the TMS treatment room"
                         width="1600" height="667"
                         class="w-full rounded-xl mb-8 shadow-md"
-                        style="aspect-ratio: 12 / 5; object-fit: cover;">
+                        style="aspect-ratio: 12 / 5; object-fit: cover; object-position: center 20%;">
 
                     <p class="text-xl leading-relaxed text-gray-700">
                         When seeking mental health support, navigating the different types of professionals can be confusing. You might wonder: should I see a therapist, a psychologist, or a psychiatrist? A common question that arises is: <strong>Do psychiatrists do therapy?</strong>
