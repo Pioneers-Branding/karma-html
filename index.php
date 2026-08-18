@@ -369,7 +369,7 @@
                 <!-- Card 1 - Large Left (5 cols, 2 rows) -->
                 <div class="why-card-large">
                     <div class="card-image"
-                        style="background-image: url('/assets/images/img-ccd41b758ce6.jpg')">
+                        style="background-image: url('/assets/images/hero-tms-session.webp')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">
@@ -383,7 +383,7 @@
                 <!-- Card 2 - Top Right (7 cols, 1 row) -->
                 <div class="why-card-top-right">
                     <div class="card-image"
-                        style="background-image: url('https://images.unsplash.com/photo-1682352689072-7b2c0b8580c2?q=80&w=2065&auto=format&fit=crop')">
+                        style="background-image: url('/assets/images/care-team.webp'); background-position: center 35%;">
                     </div>
                     <div class="card-overlay-right"></div>
                     <div class="card-content-center">
@@ -546,6 +546,143 @@
                         Does Insurance Cover TMS?
                     </a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials Section -->
+    <section class="py-16 px-4" style="background: linear-gradient(135deg, #3e1b52 0%, #572670 55%, #2b1240 100%);">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-10">
+                <span class="inline-block px-4 py-1 rounded-full text-sm font-bold mb-4"
+                    style="background-color: rgba(255,255,255,0.14); color: #fff;">Patient Stories</span>
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">
+                    Real Patients, Real Results
+                </h2>
+                <p class="text-lg max-w-3xl mx-auto" style="color: rgba(255,255,255,0.78);">
+                    Hear directly from people whose lives changed with TMS therapy at Karma TMS — in their own words.
+                </p>
+            </div>
+
+            <style>
+                .video-tm-card {
+                    background: rgba(255, 255, 255, 0.06);
+                    border: 1px solid rgba(255, 255, 255, 0.12);
+                    border-radius: 18px;
+                    padding: 10px;
+                    transition: transform 0.35s ease, background 0.35s ease, box-shadow 0.35s ease;
+                }
+
+                .video-tm-card:hover {
+                    transform: translateY(-6px);
+                    background: rgba(255, 255, 255, 0.1);
+                    box-shadow: 0 20px 45px rgba(0, 0, 0, 0.35);
+                }
+
+                .video-tm-embed {
+                    position: relative;
+                    width: 100%;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+                    border-radius: 12px;
+                    background: #1a0a25;
+                }
+
+                .video-tm-embed iframe {
+                    position: absolute;
+                    inset: 0;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
+                }
+
+                .video-tm-label {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    padding: 14px 10px 6px;
+                    color: rgba(255, 255, 255, 0.82);
+                    font-weight: 600;
+                    font-size: 0.9rem;
+                }
+
+                .video-tm-cta {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 8px;
+                    background: #ffffff;
+                    color: #572670;
+                    font-weight: 700;
+                    font-size: 1rem;
+                    padding: 0.85rem 2rem;
+                    border-radius: 0.65rem;
+                    text-decoration: none;
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+                    transition: all 0.3s ease;
+                }
+
+                .video-tm-cta:hover {
+                    background: #f3e8ff;
+                    color: #3e1b52;
+                    transform: translateY(-2px);
+                    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.32);
+                }
+
+                .video-tm-cta i {
+                    color: inherit;
+                }
+            </style>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <!-- Video 1 -->
+                <div class="video-tm-card">
+                    <div class="video-tm-embed">
+                        <iframe src="https://www.youtube.com/embed/4VAmD4_X-4k" title="Karma TMS Patient Testimonial"
+                            loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-tm-label">
+                        <i data-lucide="play" class="w-4 h-4" style="color:#c084fc;"></i>
+                        A Journey Back to Wellness
+                    </div>
+                </div>
+
+                <!-- Video 2 -->
+                <div class="video-tm-card">
+                    <div class="video-tm-embed">
+                        <iframe src="https://www.youtube.com/embed/E1UtmX2ciOM" title="Karma TMS Patient Testimonial"
+                            loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-tm-label">
+                        <i data-lucide="play" class="w-4 h-4" style="color:#c084fc;"></i>
+                        Finding Relief With TMS
+                    </div>
+                </div>
+
+                <!-- Video 3 -->
+                <div class="video-tm-card">
+                    <div class="video-tm-embed">
+                        <iframe src="https://www.youtube.com/embed/-7v6n0t-kgI" title="Karma TMS Patient Testimonial"
+                            loading="lazy"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-tm-label">
+                        <i data-lucide="play" class="w-4 h-4" style="color:#c084fc;"></i>
+                        Hope, Restored
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <a href="tel:760-760-5675" class="video-tm-cta">
+                    <i data-lucide="calendar" class="w-5 h-5"></i>
+                    Schedule a Free Consultation
+                </a>
             </div>
         </div>
     </section>
