@@ -3648,6 +3648,23 @@
       background: linear-gradient(90deg, var(--p900), var(--p500), var(--p300))
     }
 
+    /* The GHL survey iframe is created while the modal is display:none, so
+       form_embed.js has no box to measure and leaves it at the 150px browser
+       default. A floor here keeps the survey usable even if the height
+       postMessage never arrives. */
+    .qmodal-box iframe {
+      display: block;
+      width: 100%;
+      min-height: 620px;
+      border: 0
+    }
+
+    @media (max-width:640px) {
+      .qmodal-box iframe {
+        min-height: 78vh
+      }
+    }
+
     .qmodal-x {
       position: absolute;
       top: 12px;
@@ -5049,9 +5066,116 @@
   <div class="qmodal" id="qualifyModal" role="dialog" aria-modal="true" aria-labelledby="qm-h" hidden>
     <div class="qmodal-box" role="document">
       <button type="button" class="qmodal-x" id="qmClose" aria-label="Close">&times;</button>
-      <iframe src="https://api.leadconnectorhq.com/widget/survey/QO8GNk1FdSnkSekrbdcx" style="border:none;width:100%;"
-        scrolling="no" id="QO8GNk1FdSnkSekrbdcx" title="survey"></iframe>
+      <iframe src="https://api.leadconnectorhq.com/widget/survey/QO8GNk1FdSnkSekrbdcx"
+        style="border:none;width:100%;min-height:620px;" scrolling="no" id="QO8GNk1FdSnkSekrbdcx"
+        data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-activation-type="alwaysActivated"
+        data-deactivation-type="neverDeactivate" data-form-name="KarmaTMS Facebook LP Form with Quiz"
+        data-height="620" data-layout-iframe-id="QO8GNk1FdSnkSekrbdcx" data-form-id="QO8GNk1FdSnkSekrbdcx"
+        title="KarmaTMS Facebook LP Form with Quiz"></iframe>
       <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+      <!-- =================================================================
+           GHL survey -> thank-you bridge
+           -----------------------------------------------------------------
+           The survey runs in a cross-origin iframe, so GoHighLevel's own
+           "redirect on submit" navigates THE IFRAME, not the tab: the
+           thank-you page loads inside a 620px box the visitor never really
+           sees, and its Meta Pixel fires in a third-party frame where Safari
+           / iOS ITP drops it. This listens for the widget's submit message,
+           fires Lead in the top-level window (where the pixel actually has
+           its first-party cookie), then redirects the whole tab to
+           thank-you.html carrying fbclid + UTMs and a shared event ID.
+           thank-you.html re-fires Lead with the SAME event ID, so Meta
+           de-duplicates and the conversion is counted exactly once no matter
+           which of the two paths gets there first.
+           ================================================================= -->
+      <script>
+        (function () {
+          var PIXEL_LEAD = {
+            content_name: 'Karma TMS Qualification Inquiry',
+            content_category: 'TMS Therapy for Depression',
+            status: 'Completed'
+          };
+          var GHL_HOSTS = /(^|\.)(leadconnectorhq\.com|msgsndr\.com|gohighlevel\.com)$/i;
+          var SUBMITTED = /^(?:(?:form|survey)[-_ ]?submit(?:ted|ted_?successfully)?|submitted|submit[-_ ]?success|onformsubmit|formsubmitted|surveysubmitted|submissioncomplete)$/i;
+          var frame = document.getElementById('QO8GNk1FdSnkSekrbdcx');
+          var handled = false;
+
+          /* One ID shared by this page and thank-you.html. sessionStorage
+             survives the top-level navigation, so the two Lead events match
+             even when the redirect strips our query string. */
+          function eventId() {
+            var id;
+            try { id = sessionStorage.getItem('ktms_lead_eid'); } catch (e) { }
+            if (!id) {
+              id = 'ktms-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10);
+              try { sessionStorage.setItem('ktms_lead_eid', id); } catch (e) { }
+            }
+            return id;
+          }
+
+          /* Ad click IDs live on the landing page URL and are lost by GHL's
+             static redirect. Forward them so Meta can stitch the click to
+             the conversion. */
+          function thankYouUrl(eid) {
+            var dir = location.origin + location.pathname;
+            if (!/\/$/.test(dir)) dir = /\.[a-z0-9]+$/i.test(dir) ? dir.replace(/[^\/]*$/, '') : dir + '/';
+            var base = new URL('thank-you.html', dir);
+            var keep = ['fbclid', 'gclid', 'wbraid', 'gbraid', 'ttclid', 'msclkid'];
+            var here = new URLSearchParams(location.search);
+            here.forEach(function (v, k) {
+              if (/^utm_/i.test(k) || keep.indexOf(k.toLowerCase()) > -1) base.searchParams.set(k, v);
+            });
+            base.searchParams.set('lead', '1');
+            base.searchParams.set('eid', eid);
+            return base.href;
+          }
+
+          function onSubmitted() {
+            if (handled) return;
+            handled = true;
+            var eid = eventId();
+            if (window.fbq) fbq('track', 'Lead', PIXEL_LEAD, { eventID: eid });
+            /* Let the pixel request leave before we navigate away. */
+            setTimeout(function () { location.href = thankYouUrl(eid); }, 350);
+          }
+
+          window.addEventListener('message', function (e) {
+            var host;
+            try { host = new URL(e.origin).hostname; } catch (err) { return; }
+            if (!GHL_HOSTS.test(host)) return;
+
+            var data = e.data;
+            if (typeof data === 'string') {
+              try { data = JSON.parse(data); } catch (err) { /* keep the string */ }
+            }
+
+            /* Height sync: keep it, because our min-height would otherwise
+               clip a survey that grows past 620px on a long step. */
+            var h = data && (data.height || data.scrollHeight);
+            if (frame && h && !isNaN(h) && Number(h) > 200) frame.style.height = Number(h) + 'px';
+
+            /* Read the event name only - never the whole payload, or a
+               config message carrying a key like "submitButtonText" would
+               redirect the visitor mid-survey. */
+            var name = typeof data === 'string'
+              ? data
+              : (data && (data.type || data.event || data.action || data.name) || '');
+            if (SUBMITTED.test(String(name).trim())) onSubmitted();
+          }, false);
+
+          /* Belt and braces: if GHL is set to "redirect on submit" it will
+             navigate the iframe to thank-you.html. That page busts out to the
+             top window on its own, but this catches it too. */
+          if (frame) {
+            frame.addEventListener('load', function () {
+              var src;
+              try { src = frame.contentWindow.location.href; } catch (err) { return; } /* still cross-origin = still on the survey */
+              if (/thank-you/i.test(src || '')) onSubmitted();
+            });
+          }
+        })();
+      </script>
     </div>
   </div>
 
@@ -5211,6 +5335,15 @@
         if (first) setTimeout(function () {
           try { first.focus({ preventScroll: true }); } catch (err) { }
         }, 60);
+        /* form_embed.js sized the survey while the modal was display:none.
+           Ask the widget to re-report its height now that it has a box. */
+        var sFrame = document.getElementById('QO8GNk1FdSnkSekrbdcx');
+        if (sFrame && sFrame.contentWindow) {
+          try {
+            sFrame.contentWindow.postMessage({ type: 'REQUEST_HEIGHT' }, '*');
+            window.dispatchEvent(new Event('resize'));
+          } catch (err) { }
+        }
         track('quiz_opened');
       }
 

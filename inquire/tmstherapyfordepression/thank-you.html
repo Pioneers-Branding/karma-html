@@ -20,6 +20,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://i.ytimg.com" crossorigin>
 
+  <!-- =====================================================================
+       Escape the GoHighLevel iframe FIRST.
+       ---------------------------------------------------------------------
+       When the survey's "redirect on submit" fires, GHL navigates its own
+       cross-origin iframe here - so this page would render inside the modal
+       box on the landing page and its pixel would fire in a third-party
+       frame, exactly where Safari / iOS ITP drops it. Once GHL has navigated
+       the frame to this file the frame is same-origin again, so we can hoist
+       the whole tab to it. Runs before the pixel so Lead never fires from
+       inside the frame.
+       ===================================================================== -->
+  <script>
+    (function () {
+      if (window.top === window.self) return;
+      var here = window.location.href;
+      try { window.top.location.replace(here); }
+      catch (e) { try { window.top.location.href = here; } catch (e2) { } }
+      try { window.stop(); } catch (e3) { }
+    })();
+  </script>
+
   <!-- Meta Pixel Base Code + Lead Conversion (Thank You Page Only) -->
   <script>
     !function (f, b, e, v, n, t, s) {
@@ -36,13 +57,35 @@
 
     // Initialize Base Pixel
     fbq('init', '4100332866873996');
-
-    // Track PageView & Standard Lead Conversion Event
     fbq('track', 'PageView');
-    fbq('track', 'Lead', {
-      content_name: 'Karma TMS Qualification Inquiry',
-      status: 'Completed'
-    });
+
+    (function () {
+      /* Still framed: the buster above is mid-navigation, so leave Lead to
+         the top-level load that is about to happen. */
+      if (window.top !== window.self) return;
+
+      /* The landing page put this ID in sessionStorage (and on the URL as
+         ?eid=) before redirecting, and fired Lead with it too. Re-using it
+         here lets Meta de-duplicate the two, so the conversion lands exactly
+         once whichever path arrived - and is never lost if only one did. */
+      var eid = null;
+      try { eid = new URLSearchParams(location.search).get('eid'); } catch (e) { }
+      try { eid = eid || sessionStorage.getItem('ktms_lead_eid'); } catch (e) { }
+      if (!eid) eid = 'ktms-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10);
+
+      /* Without this the old code re-fired Lead on every reload, back-button
+         hit and bot crawl of this URL. */
+      var key = 'ktms_lead_fired_' + eid;
+      try { if (sessionStorage.getItem(key)) return; } catch (e) { }
+
+      fbq('track', 'Lead', {
+        content_name: 'Karma TMS Qualification Inquiry',
+        content_category: 'TMS Therapy for Depression',
+        status: 'Completed'
+      }, { eventID: eid });
+
+      try { sessionStorage.setItem(key, '1'); } catch (e) { }
+    })();
   </script>
 
   <noscript>
@@ -3805,15 +3848,6 @@
      ========================================================================= -->
 
   <div class="topbar">
-    <!-- ================= ANNOUNCEMENT BAR ================= -->
-    <!-- Scarcity line: only run this if it is actually true, and update the number
-     as the week fills. A standing false claim is deceptive advertising. -->
-    <div class="promo" role="region" aria-label="Announcement">
-      <span class="dot" aria-hidden="true"></span>
-      <strong>Only <span id="slots">4</span> complimentary consultations left this week.</strong>
-      <a href="index.html#qualify">Claim your slot&nbsp;&rsaquo;</a>
-    </div>
-
     <!-- ================= NAV ================= -->
     <header class="nav">
       <div class="nav-inner">
@@ -3822,98 +3856,44 @@
             data-fallbacks="assets/karma-tms-logo.svg|assets/karma-tms-logo.jpg">
           <span class="logo-fallback" style="display:none">KARMA TMS</span>
         </a>
-        <div class="nav-right">
-          <a class="btn btn-white btn-sm" href="index.html#qualify" data-cta="nav"><span class="cta-long">Check If I
-              Qualify</span><span class="cta-short">Qualify</span></a>
-        </div>
       </div>
     </header>
   </div><!-- /topbar -->
 
   <!-- ================= HERO ================= -->
   <main
-    style="display: flex; align-items: center; justify-content: center; min-height: 60vh; text-align: center; padding: 40px 20px;">
-    <div class="wrap-narrow" style="max-width: 600px;">
-      <div style="margin-bottom: 24px; color: var(--green);">
+    style="display: flex; align-items: center; justify-content: center; min-height: 80vh; text-align: left; padding: 60px 20px;">
+    <div class="wrap-narrow" style="max-width: 680px;">
+      <div style="margin-bottom: 24px; color: var(--green); text-align: center;">
         <svg viewBox="0 0 24 24" aria-hidden="true" width="64" height="64" fill="none" stroke="currentColor"
-          stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin: 0 auto;">
           <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
           <polyline points="22 4 12 14.01 9 11.01"></polyline>
         </svg>
       </div>
-      <h1 class="h1" style="margin-bottom: 16px;">Thank You!</h1>
-      <p class="lede" style="margin-bottom: 32px;">Your information has been successfully submitted. One of our care
-        coordinators will be in touch with you shortly.</p>
-      <a class="btn btn-primary btn-lg" href="index.html">Return to Home</a>
+      <h1 class="h1" style="margin-bottom: 16px; text-align: center;">Thank You for Reaching Out</h1>
+      <p class="lede" style="margin-bottom: 40px; text-align: center;">Your information has been successfully received. We understand that taking the first step toward treatment is a big decision, and our care team is here to support you through every stage.</p>
+      
+      <div style="background: var(--p50); border: 1px solid var(--line); border-radius: var(--radius); padding: 32px; box-shadow: var(--shadow-sm);">
+        <h2 style="margin-bottom: 24px; font-size: 1.4rem; color: var(--p900);">What Happens Next</h2>
+        
+        <div style="margin-bottom: 24px;">
+          <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: var(--p700);">Care Coordinator Outreach</h3>
+          <p style="margin: 0; font-size: 0.95rem;">A care coordinator will review your submission and contact you within 1–2 business days via phone or email to discuss your options and answer any initial questions.</p>
+        </div>
+        
+        <div style="margin-bottom: 24px;">
+          <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: var(--p700);">Pre-Consultation Verification</h3>
+          <p style="margin: 0; font-size: 0.95rem;">During our initial call, we will briefly review your treatment history and verify your insurance coverage so you know exactly what to expect.</p>
+        </div>
+        
+        <div>
+          <h3 style="margin-bottom: 8px; font-size: 1.1rem; color: var(--p700);">Scheduling Your Evaluation</h3>
+          <p style="margin: 0; font-size: 0.95rem;">Once eligibility and coverage are confirmed, we will work with you to find a convenient time for your comprehensive clinical evaluation at one of our locations.</p>
+        </div>
+      </div>
     </div>
   </main>
-  <!-- ================= FOOTER ================= -->
-  <footer class="foot">
-    <div class="wrap">
-      <div class="foot-top">
-        <div>
-          <a class="logo" href="index.html#top" aria-label="Karma TMS">
-            <img src="assets/logo.png" alt="Karma TMS" loading="lazy" width="250" height="46" width="230" height="42"
-              data-fallbacks="assets/karma-tms-logo.svg|assets/karma-tms-logo.jpg">
-            <span class="logo-fallback" style="display:none">KARMA TMS</span>
-          </a>
-          <p class="foot-tag">Transforming lives through advanced TMS therapy and personalized
-            mental health care in Southern California.</p>
-          <p style="margin-top:14px"><a href="mailto:contact@karmatms.com"
-              style="color:#fff;font-weight:700;font-size:1.02rem">contact@karmatms.com</a><br>
-            <span style="font-size:.84rem">Mon-Fri: 9:00 AM - 5:00 PM · Sat-Sun: Closed</span>
-          </p>
-        </div>
-
-        <div>
-          <h3>Our locations</h3>
-          <address><b>Palm Springs</b>560 S. Paseo Dorotea, Suite 4-B<br>Palm Springs, CA 92264</address>
-          <address><b>Rancho Mirage</b>35400 Bob Hope Dr., Suite 206-B<br>Rancho Mirage, CA 92270</address>
-          <address><b>Twentynine Palms</b>72724 29 Palms Hwy., Suite 107-B<br>Twentynine Palms, CA 92277</address>
-        </div>
-
-        <div>
-          <h3>Depression care</h3>
-          <ul>
-            <li><a href="index.html#qualify">Check if I qualify</a></li>
-            <li><a href="index.html#how">How TMS works</a></li>
-            <li><a href="index.html#faq">Frequently asked questions</a></li>
-            <li><a href="https://www.karmatms.com/depression.php">Depression treatment</a></li>
-            <li><a href="https://www.karmatms.com/tms-therapy.php">TMS therapy</a></li>
-            <li><a href="https://www.karmatms.com/brain-mapping.php">Brain mapping</a></li>
-            <li><a href="https://www.karmatms.com/team.php">Our team</a></li>
-            <li><a href="https://www.karmatms.com/insurance-pricing.php">Insurance &amp; pricing</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="foot-crisis">
-        <strong>If you're in crisis, don't wait for a callback.</strong> Call or text <strong>988</strong>
-        (Suicide &amp; Crisis Lifeline) or go to your nearest emergency room. This page is not a crisis
-        service and is not monitored 24/7.
-      </div>
-
-      <div class="foot-legal">
-        <a href="https://www.karmatms.com/hipaa.php">HIPAA Notice</a>
-        <a href="https://www.karmatms.com/privacy-policy.php">Privacy Policy</a>
-        <a href="https://www.karmatms.com/terms-conditions.php">Terms &amp; Conditions</a>
-        <a href="https://www.karmatms.com/disclaimer.php">Medical Disclaimer</a>
-        <a href="https://www.karmatms.com/refund-policy.php">Refund Policy</a>
-      </div>
-
-      <p class="foot-note">
-        Transcranial Magnetic Stimulation (TMS) is FDA-cleared for the treatment of major depressive
-        disorder in adults who have not achieved satisfactory improvement from prior antidepressant
-        medication. This page is for general information only and is not medical advice, a diagnosis
-        or a treatment recommendation. The eligibility check on this page is a screening tool, not a
-        diagnosis. Individual results vary; TMS is not effective for every patient and no outcome is
-        guaranteed. Eligibility, risks and benefits are determined only after a clinical evaluation by
-        a licensed provider. Insurance coverage depends on your individual plan and medical necessity
-        criteria. &copy; <span id="yr">2026</span> Karma TMS. All rights reserved. Licensed medical
-        facility providing TMS therapy in California.
-      </p>
-    </div>
-  </footer>
 </body>
 
 </html>
