@@ -564,35 +564,78 @@
         <div class="container mx-auto px-4">
             <div class="max-w-6xl mx-auto">
                 <h2 class="text-3xl lg:text-4xl font-bold text-center mb-12 fade-up">Experience Our Rancho Mirage Facility</h2>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <!-- Image 1 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://i.ibb.co/svRMccr4/rancho-mirage-rancho-mirage-ca-primaryphoto.webp"
-                            alt="Luxurious reception area at Rancho Mirage mental health clinic"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Elegant Reception</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(0)">
+                        <img src="assets/gallery/thumbs/ES6A5586.webp" alt="Karma TMS Rancho Mirage clinic interior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
-
-                    <!-- Image 2 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://i.ibb.co/390nnPrv/Female-Model5-0299-ENUS100.webp"
-                            alt="Premium TMS therapy equipment in Rancho Mirage"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Advanced Technology</p>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(1)">
+                        <img src="assets/gallery/thumbs/ES6A5595.webp" alt="Karma TMS Rancho Mirage therapy room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
-
-                    <!-- Image 3 -->
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 288px;">
-                        <img src="https://i.ibb.co/675zy4wB/treatment.webp"
-                            alt="Comfortable private treatment room for TMS therapy"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0"
-                            style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Private Treatment</p>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(2)">
+                        <img src="assets/gallery/thumbs/ES6A5607.webp" alt="Karma TMS Rancho Mirage private treatment space" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(3)">
+                        <img src="assets/gallery/thumbs/ES6A5610.webp" alt="Karma TMS Rancho Mirage reception area" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(4)">
+                        <img src="assets/gallery/thumbs/ES6A5613.webp" alt="Karma TMS Rancho Mirage consultation room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(5)">
+                        <img src="assets/gallery/thumbs/ES6A5625.webp" alt="Karma TMS Rancho Mirage clinic atmosphere" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(6)">
+                        <img src="assets/gallery/thumbs/ES6A5631.webp" alt="Karma TMS Rancho Mirage waiting area" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(7)">
+                        <img src="assets/gallery/thumbs/ES6A5634.webp" alt="Karma TMS Rancho Mirage treatment chair" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(8)">
+                        <img src="assets/gallery/thumbs/ES6A5637.webp" alt="Karma TMS Rancho Mirage professional staff" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(9)">
+                        <img src="assets/gallery/thumbs/ES6A5663.webp" alt="Karma TMS Rancho Mirage clinic environment" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(10)">
+                        <img src="assets/gallery/thumbs/ES6A5665.webp" alt="Karma TMS Rancho Mirage treatment suite" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(11)">
+                        <img src="assets/gallery/thumbs/ES6A5590.webp" alt="Karma TMS Rancho Mirage welcoming space" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1100,6 +1143,80 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
+        });
+    </script>
+
+    <!-- Gallery Lightbox Modal -->
+    <div id="galleryLightbox" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.92); align-items:center; justify-content:center;" onclick="handleLightboxClick(event)">
+        <style>
+            #galleryLightbox { display: none; }
+            #galleryLightbox.active { display: flex !important; }
+            #lbImg { max-width: 90vw; max-height: 85vh; border-radius: 12px; box-shadow: 0 25px 60px rgba(0,0,0,0.6); object-fit: contain; transition: opacity 0.2s ease; }
+            .lb-nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(87,38,112,0.85); border: none; border-radius: 50%; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s; backdrop-filter: blur(4px); }
+            .lb-nav-btn:hover { background: rgba(87,38,112,1); }
+            .lb-close-btn { position: absolute; top: 20px; right: 24px; background: rgba(255,255,255,0.15); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; backdrop-filter: blur(4px); transition: background 0.2s; }
+            .lb-close-btn:hover { background: rgba(255,255,255,0.3); }
+            #lbCounter { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.75); font-size: 0.875rem; font-weight: 500; letter-spacing: 0.05em; }
+        </style>
+        <button class="lb-close-btn" onclick="closeLightbox()" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <button class="lb-nav-btn" style="left: 20px;" onclick="lbNavigate(-1)" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <img id="lbImg" src="" alt="Gallery image">
+        <button class="lb-nav-btn" style="right: 20px;" onclick="lbNavigate(1)" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <span id="lbCounter"></span>
+    </div>
+
+    <script>
+        const lbImages = [
+            { src: 'assets/gallery/thumbs/ES6A5586.webp', alt: 'Karma TMS Rancho Mirage clinic interior' },
+            { src: 'assets/gallery/thumbs/ES6A5595.webp', alt: 'Karma TMS Rancho Mirage therapy room' },
+            { src: 'assets/gallery/thumbs/ES6A5607.webp', alt: 'Karma TMS Rancho Mirage private treatment space' },
+            { src: 'assets/gallery/thumbs/ES6A5610.webp', alt: 'Karma TMS Rancho Mirage reception area' },
+            { src: 'assets/gallery/thumbs/ES6A5613.webp', alt: 'Karma TMS Rancho Mirage consultation room' },
+            { src: 'assets/gallery/thumbs/ES6A5625.webp', alt: 'Karma TMS Rancho Mirage clinic atmosphere' },
+            { src: 'assets/gallery/thumbs/ES6A5631.webp', alt: 'Karma TMS Rancho Mirage waiting area' },
+            { src: 'assets/gallery/thumbs/ES6A5634.webp', alt: 'Karma TMS Rancho Mirage treatment chair' },
+            { src: 'assets/gallery/thumbs/ES6A5637.webp', alt: 'Karma TMS Rancho Mirage professional staff' },
+            { src: 'assets/gallery/thumbs/ES6A5663.webp', alt: 'Karma TMS Rancho Mirage clinic environment' },
+            { src: 'assets/gallery/thumbs/ES6A5665.webp', alt: 'Karma TMS Rancho Mirage treatment suite' },
+            { src: 'assets/gallery/thumbs/ES6A5590.webp', alt: 'Karma TMS Rancho Mirage welcoming space' }
+        ];
+        let lbCurrent = 0;
+        function openLightbox(index) {
+            lbCurrent = index;
+            lbShow();
+            document.getElementById('galleryLightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            document.getElementById('galleryLightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        function lbShow() {
+            const img = document.getElementById('lbImg');
+            img.style.opacity = '0';
+            img.src = lbImages[lbCurrent].src;
+            img.alt = lbImages[lbCurrent].alt;
+            img.onload = () => { img.style.opacity = '1'; };
+            document.getElementById('lbCounter').textContent = (lbCurrent + 1) + ' / ' + lbImages.length;
+        }
+        function lbNavigate(dir) {
+            lbCurrent = (lbCurrent + dir + lbImages.length) % lbImages.length;
+            lbShow();
+        }
+        function handleLightboxClick(e) {
+            if (e.target === document.getElementById('galleryLightbox')) closeLightbox();
+        }
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('galleryLightbox').classList.contains('active')) return;
+            if (e.key === 'ArrowRight') lbNavigate(1);
+            if (e.key === 'ArrowLeft')  lbNavigate(-1);
+            if (e.key === 'Escape')     closeLightbox();
         });
     </script>
 </body>

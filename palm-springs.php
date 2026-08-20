@@ -415,27 +415,60 @@
                     <h2 class="text-2xl lg:text-3xl font-bold mb-2">Inside Our Palm Springs Clinic</h2>
                     <p class="text-gray-600"><a href="#experience" class="text-purple-600 underline" onclick="document.getElementById('experience')?.scrollIntoView({behavior:'smooth'}); return false;">Read patient Cyndi Berlin's full experience</a> of our spa-like Palm Springs environment.</p>
                 </div>
-                <div class="grid md:grid-cols-3 gap-6">
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
-                        <img src="/assets/images/img-0ab12df02fae.jpg"
-                            alt="KarmaTMS Palm Springs entrance - Eastern-influenced decor"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Welcoming Entrance</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(0)">
+                        <img src="assets/gallery/thumbs/ES6A5252.webp" alt="Karma TMS Palm Springs clinic interior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
-                        <img src="https://i.ibb.co/PKpk09j/Whats-App-Image-2025-11-24-at-16-40-49-9fa65505.jpg"
-                            alt="Advanced TMS therapy chair - Palm Springs clinic"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Treatment Room</p>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(1)">
+                        <img src="assets/gallery/thumbs/ES6A5277.webp" alt="Karma TMS Palm Springs therapy room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
-                    <div class="relative rounded-xl overflow-hidden shadow-lg group" style="height: 300px;">
-                        <img src="/assets/images/img-59b1cdb9976e.jpg"
-                            alt="Private, comfortable TMS treatment space in Palm Springs"
-                            class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300">
-                        <div class="absolute inset-0" style="background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);"></div>
-                        <p class="absolute bottom-4 left-4 text-white font-semibold">Private Treatment</p>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(2)">
+                        <img src="assets/gallery/thumbs/ES6A5306.webp" alt="Karma TMS Palm Springs reception area" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(3)">
+                        <img src="assets/gallery/thumbs/ES6A5323.webp" alt="Karma TMS Palm Springs consultation room" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(4)">
+                        <img src="assets/gallery/thumbs/ES6A5332.webp" alt="Karma TMS Palm Springs private treatment space" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(5)">
+                        <img src="assets/gallery/thumbs/ES6A5361.webp" alt="Karma TMS Palm Springs waiting area" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(6)">
+                        <img src="assets/gallery/thumbs/ES6A5378.webp" alt="Karma TMS Palm Springs professional staff" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer" style="height: 260px;" onclick="openLightbox(7)">
+                        <img src="assets/gallery/thumbs/ES6A5569.webp" alt="Karma TMS Palm Springs clinic atmosphere" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden shadow-md group cursor-pointer col-span-2 md:col-span-1" style="height: 260px;" onclick="openLightbox(8)">
+                        <img src="assets/gallery/thumbs/karma-tms-building.webp" alt="Karma TMS Palm Springs building exterior" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center" style="background: linear-gradient(to top, rgba(87,38,112,0.6), transparent);">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-10 h-10 text-white opacity-0 group-hover:opacity-100 transition-opacity" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16zm4-8h-3m0 0H9m3 0V9m0 3v3"/></svg>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -953,6 +986,77 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             lucide.createIcons();
+        });
+    </script>
+
+    <!-- Gallery Lightbox Modal -->
+    <div id="galleryLightbox" style="display:none; position:fixed; inset:0; z-index:9999; background:rgba(0,0,0,0.92); align-items:center; justify-content:center;" onclick="handleLightboxClick(event)">
+        <style>
+            #galleryLightbox { display: none; }
+            #galleryLightbox.active { display: flex !important; }
+            #lbImg { max-width: 90vw; max-height: 85vh; border-radius: 12px; box-shadow: 0 25px 60px rgba(0,0,0,0.6); object-fit: contain; transition: opacity 0.2s ease; }
+            .lb-nav-btn { position: absolute; top: 50%; transform: translateY(-50%); background: rgba(87,38,112,0.85); border: none; border-radius: 50%; width: 52px; height: 52px; display: flex; align-items: center; justify-content: center; cursor: pointer; transition: background 0.2s; backdrop-filter: blur(4px); }
+            .lb-nav-btn:hover { background: rgba(87,38,112,1); }
+            .lb-close-btn { position: absolute; top: 20px; right: 24px; background: rgba(255,255,255,0.15); border: none; border-radius: 50%; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; cursor: pointer; backdrop-filter: blur(4px); transition: background 0.2s; }
+            .lb-close-btn:hover { background: rgba(255,255,255,0.3); }
+            #lbCounter { position: absolute; bottom: 24px; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.75); font-size: 0.875rem; font-weight: 500; letter-spacing: 0.05em; }
+        </style>
+        <button class="lb-close-btn" onclick="closeLightbox()" aria-label="Close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+        <button class="lb-nav-btn" style="left: 20px;" onclick="lbNavigate(-1)" aria-label="Previous">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <img id="lbImg" src="" alt="Gallery image">
+        <button class="lb-nav-btn" style="right: 20px;" onclick="lbNavigate(1)" aria-label="Next">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>
+        </button>
+        <span id="lbCounter"></span>
+    </div>
+
+    <script>
+        const lbImages = [
+            { src: 'assets/gallery/thumbs/ES6A5252.webp', alt: 'Karma TMS Palm Springs clinic interior' },
+            { src: 'assets/gallery/thumbs/ES6A5277.webp', alt: 'Karma TMS Palm Springs therapy room' },
+            { src: 'assets/gallery/thumbs/ES6A5306.webp', alt: 'Karma TMS Palm Springs reception area' },
+            { src: 'assets/gallery/thumbs/ES6A5323.webp', alt: 'Karma TMS Palm Springs consultation room' },
+            { src: 'assets/gallery/thumbs/ES6A5332.webp', alt: 'Karma TMS Palm Springs private treatment space' },
+            { src: 'assets/gallery/thumbs/ES6A5361.webp', alt: 'Karma TMS Palm Springs waiting area' },
+            { src: 'assets/gallery/thumbs/ES6A5378.webp', alt: 'Karma TMS Palm Springs professional staff' },
+            { src: 'assets/gallery/thumbs/ES6A5569.webp', alt: 'Karma TMS Palm Springs clinic atmosphere' },
+            { src: 'assets/gallery/thumbs/karma-tms-building.webp', alt: 'Karma TMS Palm Springs building exterior' }
+        ];
+        let lbCurrent = 0;
+        function openLightbox(index) {
+            lbCurrent = index;
+            lbShow();
+            document.getElementById('galleryLightbox').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        function closeLightbox() {
+            document.getElementById('galleryLightbox').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+        function lbShow() {
+            const img = document.getElementById('lbImg');
+            img.style.opacity = '0';
+            img.src = lbImages[lbCurrent].src;
+            img.alt = lbImages[lbCurrent].alt;
+            img.onload = () => { img.style.opacity = '1'; };
+            document.getElementById('lbCounter').textContent = (lbCurrent + 1) + ' / ' + lbImages.length;
+        }
+        function lbNavigate(dir) {
+            lbCurrent = (lbCurrent + dir + lbImages.length) % lbImages.length;
+            lbShow();
+        }
+        function handleLightboxClick(e) {
+            if (e.target === document.getElementById('galleryLightbox')) closeLightbox();
+        }
+        document.addEventListener('keydown', function(e) {
+            if (!document.getElementById('galleryLightbox').classList.contains('active')) return;
+            if (e.key === 'ArrowRight') lbNavigate(1);
+            if (e.key === 'ArrowLeft')  lbNavigate(-1);
+            if (e.key === 'Escape')     closeLightbox();
         });
     </script>
 </body>
