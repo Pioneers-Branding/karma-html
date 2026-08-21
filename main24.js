@@ -1910,6 +1910,19 @@ function initBlogPage() {
         featured: false,
         url: "what-is-tms-therapy-used-for.php",
       },
+      {
+        id: 60,
+        title: "What Are the Treatments for Anxiety Disorders? A Complete Guide",
+        excerpt:
+          "Discover the most effective treatments for anxiety disorders, including cognitive behavioral therapy (CBT), medications, and innovative options like TMS therapy.",
+        category: "mental-health",
+        author: "Dr. Keerthy Sunder",
+        date: "August 14, 2026",
+        readTime: "12 min read",
+        image: "images/blog/what-are-the-treatments-for-anxiety-disorders-photo.png",
+        featured: false,
+        url: "what-are-the-treatments-for-anxiety-disorders.php",
+      },
     ];
 
     // Attempt fetch for production, but fallback to local data immediately if it fails
