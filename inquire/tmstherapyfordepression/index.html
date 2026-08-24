@@ -5097,7 +5097,10 @@
             status: 'Completed'
           };
           var GHL_HOSTS = /(^|\.)(leadconnectorhq\.com|msgsndr\.com|gohighlevel\.com)$/i;
-          var SUBMITTED = /^(?:(?:form|survey)[-_ ]?submit(?:ted|ted_?successfully)?|submitted|submit[-_ ]?success|onformsubmit|formsubmitted|surveysubmitted|submissioncomplete)$/i;
+          /* Exact action names from GHL's widget bundle:
+             bc = {FORM_SUBMIT:"form-submit", SURVEY_SUBMIT:"survey-submit"}.
+             Anchored, so the sibling "form-submit-disable" cannot match. */
+          var SUBMITTED = /^(?:(?:form|survey)[-_ ]?submit(?:ted)?|submitted|onformsubmit|formsubmitted|surveysubmitted)$/i;
           var frame = document.getElementById('QO8GNk1FdSnkSekrbdcx');
           var handled = false;
 
@@ -5150,18 +5153,26 @@
               try { data = JSON.parse(data); } catch (err) { /* keep the string */ }
             }
 
+            /* The widget posts ARRAYS, not objects:
+                 ["highlevel.setHeight", {height, id}]
+                 ["survey-submit", ...]
+               GHL's own form_embed.js reads data[0] as the action name, so we
+               do the same. Object and bare-string shapes stay supported in
+               case the widget changes. Reading only the action name - never
+               the whole payload - keeps a config message carrying a key like
+               "submitButtonText" from redirecting the visitor mid-quiz. */
+            var action = data;
+            if (Array.isArray(data)) action = typeof data[0] === 'string' ? data[0] : '';
+            else if (data && typeof data === 'object') action = data.type || data.event || data.action || data.name || '';
+            action = String(action || '').trim();
+
             /* Height sync: keep it, because our min-height would otherwise
                clip a survey that grows past 620px on a long step. */
-            var h = data && (data.height || data.scrollHeight);
-            if (frame && h && !isNaN(h) && Number(h) > 200) frame.style.height = Number(h) + 'px';
+            var payload = Array.isArray(data) ? data[1] : data;
+            var h = payload && typeof payload === 'object' ? Number(payload.height) : NaN;
+            if (frame && h > 200) frame.style.height = h + 'px';
 
-            /* Read the event name only - never the whole payload, or a
-               config message carrying a key like "submitButtonText" would
-               redirect the visitor mid-survey. */
-            var name = typeof data === 'string'
-              ? data
-              : (data && (data.type || data.event || data.action || data.name) || '');
-            if (SUBMITTED.test(String(name).trim())) onSubmitted();
+            if (SUBMITTED.test(action)) onSubmitted();
           }, false);
 
           /* Belt and braces: if GHL is set to "redirect on submit" it will
