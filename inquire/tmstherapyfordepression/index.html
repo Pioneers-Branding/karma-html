@@ -46,78 +46,224 @@
       src="https://www.facebook.com/tr?id=4100332866873996&ev=PageView&noscript=1" />
   </noscript>
 
+  <!-- =====================================================================
+       Landing-page funnel instrumentation - Meta Pixel 4100332866873996
+       ---------------------------------------------------------------------
+       Stage 1  engagement : PageView (above) + scroll depth, key section
+                             views, video start/progress/completion, CTA
+                             clicks, visible time on page.
+       Stage 2  form       : FormViewed -> FormStart -> FormStep_1..6
+       Stage 3  conversion : NOT on this page. Lead fires only on
+                             thank-you.html, which is reachable only by
+                             completing the survey. Nothing here fires Lead.
+
+       The survey is a cross-origin GoHighLevel iframe, so its internals are
+       unreadable from here. Verified against GHL's widget bundle, the only
+       two things it ever posts to us are:
+         ["highlevel.setHeight", {height, id}]
+         ["set-sticky-contacts", ...]
+       There is no per-step message and no submit message. So step progress
+       is INFERRED from the slide-height change that accompanies each "Next",
+       not read directly. Aggregate counts are sound; a single session can be
+       off by one. This is the ceiling for an iframe embed - exact step events
+       would require hosting the survey on a GHL funnel page.
+
+       No abandonment event is fired: a successful submit also unloads this
+       page, so any pagehide-based "abandoned" event would miscount real
+       conversions as drop-offs. Read drop-off in Events Manager instead, by
+       comparing FormStep_N counts against Lead.
+       ===================================================================== -->
   <script>
-    document.addEventListener('DOMContentLoaded', function () {
+    (function () {
+      'use strict';
 
-      // 1. SCROLL DEPTH TRACKING (25%, 50%, 75%, 90% / Page Bottom)
-      var trackedScrolls = { 25: false, 50: false, 75: false, 90: false };
+      var FRAME_ID = 'QO8GNk1FdSnkSekrbdcx';   // the GHL survey widget
 
-      window.addEventListener('scroll', function () {
-        var winHeight = window.innerHeight;
-        var docHeight = document.documentElement.scrollHeight;
-        var scrollTop = window.scrollY || document.documentElement.scrollTop;
-        var scrollPercent = ((scrollTop + winHeight) / docHeight) * 100;
+      /* The six slides of that survey, in order, as neutral slugs.
 
-        if (scrollPercent >= 25 && !trackedScrolls[25]) {
-          fbq('trackCustom', 'ScrollDepth_25');
-          trackedScrolls[25] = true;
+         These are DELIBERATELY not the questions the visitor sees. The real
+         questions ask about a depression diagnosis, antidepressant history,
+         seizure history and age - protected health information. Sending that
+         to an ad platform would breach Meta's business-tools terms, and in
+         practice Meta's own sensitive-category filtering silently drops
+         events carrying health terms, which would leave this funnel reading
+         zero all over again.
+
+         A slug says which step a visitor reached without disclosing anything
+         about that visitor. The question text belongs in GoHighLevel, where
+         the submission actually lives - see the field-rename mapping. */
+      var STEP_NAMES = ['diagnosis', 'prior_treatments', 'age_range',
+                        'eligibility_screen', 'schedule_location',
+                        'contact_details'];
+      var FORM_STEPS = STEP_NAMES.length;
+      var GHL_HOSTS = /(^|\.)(leadconnectorhq\.com|msgsndr\.com|gohighlevel\.com)$/i;
+      var SECTIONS = ['how', 'qualify-prompt', 'faq'];
+
+      var seen = {};
+      function once(k) { if (seen[k]) return false; seen[k] = true; return true; }
+      function ev(name, props) { if (window.fbq) fbq('trackCustom', name, props || {}); }
+
+      document.addEventListener('DOMContentLoaded', function () {
+
+        /* ---------- 1. Scroll depth ---------------------------------- */
+        var marks = [[25, 'ScrollDepth_25'], [50, 'ScrollDepth_50'],
+                     [75, 'ScrollDepth_75'], [90, 'PageBottomReached']];
+        var ticking = false;
+        window.addEventListener('scroll', function () {
+          if (ticking) return;
+          ticking = true;
+          requestAnimationFrame(function () {
+            ticking = false;
+            var pct = ((window.scrollY + window.innerHeight) /
+                       document.documentElement.scrollHeight) * 100;
+            marks.forEach(function (m) { if (pct >= m[0] && once(m[1])) ev(m[1]); });
+          });
+        }, { passive: true });
+
+        /* ---------- 2. Key section views ----------------------------- */
+        if ('IntersectionObserver' in window) {
+          var secObs = new IntersectionObserver(function (entries) {
+            entries.forEach(function (en) {
+              if (!en.isIntersecting) return;
+              if (once('sec:' + en.target.id)) ev('SectionViewed', { section_name: en.target.id });
+              secObs.unobserve(en.target);
+            });
+          }, { threshold: 0.5 });
+          SECTIONS.forEach(function (id) {
+            var el = document.getElementById(id);
+            if (el) secObs.observe(el);
+          });
         }
-        if (scrollPercent >= 50 && !trackedScrolls[50]) {
-          fbq('trackCustom', 'ScrollDepth_50');
-          trackedScrolls[50] = true;
-        }
-        if (scrollPercent >= 75 && !trackedScrolls[75]) {
-          fbq('trackCustom', 'ScrollDepth_75');
-          trackedScrolls[75] = true;
-        }
-        if (scrollPercent >= 90 && !trackedScrolls[90]) {
-          fbq('trackCustom', 'PageBottomReached');
-          trackedScrolls[90] = true;
-        }
-      });
 
-      // 2. CTA BUTTON CLICKS ("Check If I Qualify", "See How TMS Works", "Claim Your Slot")
-      var ctaLinks = document.querySelectorAll('a[href*="#qualify"], a[href*="#how"], header a, .announcement-bar a');
-      ctaLinks.forEach(function (link) {
-        link.addEventListener('click', function () {
-          var btnText = link.innerText.trim() || 'CTA Click';
-          fbq('trackCustom', 'CTAClicked', { button_name: btnText });
-        });
-      });
+        /* ---------- 3. CTA clicks ------------------------------------ */
+        document.addEventListener('click', function (e) {
+          var el = e.target && e.target.closest && e.target.closest('a[href*="#qualify"], [data-cta]');
+          if (!el) return;
+          ev('CTAClicked', {
+            button_name: (el.innerText || '').trim().slice(0, 60) || 'CTA',
+            button_location: el.getAttribute('data-cta') || ''
+          });
+        }, true);
 
-      // 3. VIDEO ENGAGEMENT TRACKING (HTML5 & YouTube Embeds)
-      // Standard HTML5 Videos
-      var html5Videos = document.querySelectorAll('video');
-      html5Videos.forEach(function (video) {
-        var started = false;
-        video.addEventListener('play', function () {
-          if (!started) {
-            fbq('trackCustom', 'VideoStarted');
+        /* ---------- 4. Video: start, 25/50/75%, completion ------------
+           The page uses a click-to-load facade, so the real iframe only
+           exists after the click. enablejsapi=1 is set where that iframe is
+           built, which is what lets the API report progress on it at all. */
+        var ytQueue = [], ytLoading = false;
+        window.onYouTubeIframeAPIReady = function () {
+          ytQueue.forEach(function (f) { f(); });
+          ytQueue = [];
+        };
+        function withYT(cb) {
+          if (window.YT && window.YT.Player) return cb();
+          ytQueue.push(cb);
+          if (ytLoading) return;
+          ytLoading = true;
+          var sc = document.createElement('script');
+          sc.src = 'https://www.youtube.com/iframe_api';
+          document.head.appendChild(sc);
+        }
+        function watchVideo(iframe, vid) {
+          withYT(function () {
+            var timer = null;
+            new YT.Player(iframe, {
+              events: {
+                onStateChange: function (e) {
+                  if (timer) { clearInterval(timer); timer = null; }
+                  if (e.data === YT.PlayerState.ENDED) {
+                    if (once('vend:' + vid)) ev('VideoCompleted', { video_id: vid });
+                    return;
+                  }
+                  if (e.data !== YT.PlayerState.PLAYING) return;
+                  var pl = e.target;
+                  timer = setInterval(function () {
+                    var dur = pl.getDuration && pl.getDuration();
+                    if (!dur) return;
+                    var pct = (pl.getCurrentTime() / dur) * 100;
+                    [25, 50, 75].forEach(function (mk) {
+                      if (pct >= mk && once('v' + mk + ':' + vid)) {
+                        ev('VideoProgress', { video_id: vid, percent: mk });
+                      }
+                    });
+                  }, 1000);
+                }
+              }
+            });
+          });
+        }
+        document.addEventListener('click', function (e) {
+          var card = e.target && e.target.closest && e.target.closest('[data-yt]');
+          if (!card) return;
+          var vid = card.getAttribute('data-yt');
+          if (!vid) return;
+          if (once('vstart:' + vid)) ev('VideoStarted', { video_id: vid });
+          /* the facade swaps in the iframe on click; give it a tick, then
+             attach the API to whatever iframe landed there */
+          setTimeout(function () {
+            var f = card.querySelector('iframe');
+            if (f) watchVideo(f, vid);
+          }, 300);
+        }, true);
+
+        /* ---------- 5. Visible time on page --------------------------
+           Counts only time the tab is actually visible. A plain setTimeout
+           reported pages opened in a background tab and never looked at. */
+        var activeMs = 0, lastTick = Date.now();
+        setInterval(function () {
+          var now = Date.now();
+          if (document.visibilityState === 'visible') activeMs += now - lastTick;
+          lastTick = now;
+          if (activeMs >= 30000 && once('t30')) ev('EngagedReader_30s');
+          if (activeMs >= 60000 && once('t60')) ev('EngagedReader_60s');
+        }, 1000);
+
+        /* ---------- 6. Form funnel ----------------------------------- */
+        var frame = document.getElementById(FRAME_ID);
+        var modal = document.getElementById('qualifyModal');
+        var started = false, step = 0, lastH = 0, lastStepAt = 0;
+
+        if (modal && 'MutationObserver' in window) {
+          new MutationObserver(function () {
+            if (!modal.hidden && once('formview')) ev('FormViewed');
+          }).observe(modal, { attributes: true, attributeFilter: ['hidden'] });
+        }
+
+        /* Focus crossing into the cross-origin iframe is the only reliable
+           "the visitor has begun filling this in" signal we can observe. */
+        window.addEventListener('blur', function () {
+          if (document.activeElement === frame && once('formstart')) {
             started = true;
+            ev('FormStart');
           }
         });
+
+        window.addEventListener('message', function (e) {
+          var host;
+          try { host = new URL(e.origin).hostname; } catch (err) { return; }
+          if (!GHL_HOSTS.test(host)) return;
+
+          var d = e.data;
+          if (!Array.isArray(d) || d[0] !== 'highlevel.setHeight') return;
+          var h = d[1] && Number(d[1].height);
+          if (!h) return;
+
+          /* Ignore the mount measurement, sub-pixel settling, and anything
+             before the visitor has actually engaged with the survey. */
+          var now = Date.now();
+          if (!started || !lastH) { lastH = h; return; }
+          if (Math.abs(h - lastH) < 24 || now - lastStepAt < 600) { lastH = h; return; }
+          lastH = h;
+          lastStepAt = now;
+          if (step >= FORM_STEPS) return;
+          step += 1;
+          ev('FormStep_' + step, {
+            step: step,
+            of: FORM_STEPS,
+            step_name: STEP_NAMES[step - 1] || 'step_' + step
+          });
+        }, false);
       });
-
-      // If YouTube embed iframe exists on the page
-      var ytIframes = document.querySelectorAll('iframe[src*="youtube.com"]');
-      ytIframes.forEach(function (iframe) {
-        iframe.addEventListener('load', function () {
-          fbq('trackCustom', 'VideoContainerViewed');
-        });
-      });
-
-      // 4. TIME-ON-PAGE / DEEP ENGAGEMENT (High-Intent Signal for Meta AI)
-      // Sends signal after user spends 30 seconds actively reading
-      setTimeout(function () {
-        fbq('trackCustom', 'EngagedReader_30s');
-      }, 30000);
-
-      // Sends signal after user spends 60 seconds actively reading
-      setTimeout(function () {
-        fbq('trackCustom', 'EngagedReader_60s');
-      }, 60000);
-
-    });
+    })();
   </script>
 
   <!-- Fonts load without blocking the first paint; the system stack renders instantly
@@ -5083,21 +5229,18 @@
            "redirect on submit" navigates THE IFRAME, not the tab: the
            thank-you page loads inside a 620px box the visitor never really
            sees, and its Meta Pixel fires in a third-party frame where Safari
-           / iOS ITP drops it. This listens for the widget's submit message,
-           fires Lead in the top-level window (where the pixel actually has
-           its first-party cookie), then redirects the whole tab to
-           thank-you.html carrying fbclid + UTMs and a shared event ID.
-           thank-you.html re-fires Lead with the SAME event ID, so Meta
-           de-duplicates and the conversion is counted exactly once no matter
-           which of the two paths gets there first.
+           / iOS ITP drops it. This listens for the widget's submit message
+           and redirects the whole tab to thank-you.html, carrying fbclid +
+           UTMs and a shared event ID.
+
+           This page deliberately fires NO Lead event. Lead is a conversion
+           and belongs only on thank-you.html, which a visitor reaches solely
+           by completing the survey. Firing it here as well would attribute
+           the conversion to the landing page URL. All this does is get the
+           visitor to the page that owns the event.
            ================================================================= -->
       <script>
         (function () {
-          var PIXEL_LEAD = {
-            content_name: 'Karma TMS Qualification Inquiry',
-            content_category: 'TMS Therapy for Depression',
-            status: 'Completed'
-          };
           var GHL_HOSTS = /(^|\.)(leadconnectorhq\.com|msgsndr\.com|gohighlevel\.com)$/i;
           /* Exact action names from GHL's widget bundle:
              bc = {FORM_SUBMIT:"form-submit", SURVEY_SUBMIT:"survey-submit"}.
@@ -5106,9 +5249,11 @@
           var frame = document.getElementById('QO8GNk1FdSnkSekrbdcx');
           var handled = false;
 
-          /* One ID shared by this page and thank-you.html. sessionStorage
-             survives the top-level navigation, so the two Lead events match
-             even when the redirect strips our query string. */
+          /* Minted here, consumed by thank-you.html. sessionStorage survives
+             the top-level navigation, so the event ID still reaches the
+             thank-you page if the redirect strips our query string. It gives
+             Lead a stable de-duplication key - against page reloads now, and
+             against a Conversions API event later. */
           function eventId() {
             var id;
             try { id = sessionStorage.getItem('ktms_lead_eid'); } catch (e) { }
@@ -5140,9 +5285,12 @@
             if (handled) return;
             handled = true;
             var eid = eventId();
-            if (window.fbq) fbq('track', 'Lead', PIXEL_LEAD, { eventID: eid });
-            /* Let the pixel request leave before we navigate away. */
-            setTimeout(function () { location.href = thankYouUrl(eid); }, 350);
+            /* No Lead conversion is tracked here - by design. See the note
+               above. Deliberately worded without the literal call, so an audit
+               grep for the event on this file returns zero.
+               The short delay lets GHL's own submit request finish before we
+               navigate the tab away from the iframe running it. */
+            setTimeout(function () { location.href = thankYouUrl(eid); }, 250);
           }
 
           window.addEventListener('message', function (e) {
@@ -5324,7 +5472,9 @@
           if (!id || card.dataset.loaded) return;
           card.dataset.loaded = '1';
           card.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
-            '?autoplay=1&playsinline=1&rel=0" title="Karma TMS patient testimonial" ' +
+            '?autoplay=1&playsinline=1&rel=0&enablejsapi=1&origin=' +
+            encodeURIComponent(location.origin) +
+            '" title="Karma TMS patient testimonial" ' +
             'allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" ' +
             'allowfullscreen></iframe>';
           track('video_play', { id: id });

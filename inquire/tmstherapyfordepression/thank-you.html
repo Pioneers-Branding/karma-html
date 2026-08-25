@@ -80,6 +80,13 @@
       var key = 'ktms_lead_fired_' + eid;
       try { if (sessionStorage.getItem(key)) return; } catch (e) { }
 
+      /* Funnel close-out. FormSubmitted is the last engagement step and
+         Lead is the conversion; both are true at this instant, because this
+         page is reachable only by completing the survey. They will always
+         report equal counts - FormSubmitted exists so the funnel reads
+         end-to-end in Events Manager without Lead doing double duty. */
+      fbq('trackCustom', 'FormSubmitted', { form_name: 'KarmaTMS Facebook LP Form with Quiz' });
+
       fbq('track', 'Lead', {
         content_name: 'Karma TMS Qualification Inquiry',
         content_category: 'TMS Therapy for Depression',
@@ -90,9 +97,15 @@
     })();
   </script>
 
+  <!-- The <noscript> Lead tag was removed. An <img> cannot carry an eventID,
+       so it was the one Lead that could not be de-duplicated, and it fired for
+       every image-fetching crawler that reached this URL - inflating the
+       conversion count with traffic that never filled in the survey. The
+       scripted Lead above is now the single source of the event.
+       PageView keeps its no-JS fallback below. -->
   <noscript>
     <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=4100332866873996&ev=Lead&noscript=1" />
+      src="https://www.facebook.com/tr?id=4100332866873996&ev=PageView&noscript=1" />
   </noscript>
 
   <link rel="preload" as="style"
