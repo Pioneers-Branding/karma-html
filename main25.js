@@ -1923,6 +1923,19 @@ function initBlogPage() {
         featured: false,
         url: "what-are-the-treatments-for-anxiety-disorders.php",
       },
+      {
+        id: 61,
+        title: "How Much Does Depression Treatment Cost? A Complete 2026 Guide",
+        excerpt:
+          "Wondering how much depression treatment costs? Explore 2026 prices for psychotherapy, medications, inpatient care, and TMS therapy, plus insurance coverage in Palm Springs, 29 Palms, & Rancho Mirage.",
+        category: "mental-health",
+        author: "Dr. Keerthy Sunder",
+        date: "August 27, 2026",
+        readTime: "14 min read",
+        image: "images/blog/how-much-does-depression-treatment-cost-photo.jpg",
+        featured: false,
+        url: "how-much-does-depression-treatment-cost.php",
+      },
     ];
 
     // Attempt fetch for production, but fallback to local data immediately if it fails
