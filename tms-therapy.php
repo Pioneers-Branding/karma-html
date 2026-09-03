@@ -156,8 +156,8 @@
 
                 <div class="lg:w-1/2 fade-in-up" style="animation-delay: 0.2s;">
                     <div class="relative max-w-md mx-auto">
-                        <img src="/assets/images/img-ccd41b758ce6.jpg"
-                            alt="TMS Treatment Chair" class="w-full h-auto object-cover rounded-2xl shadow-2xl"
+                        <img src="/assets/gallery/thumbs/ES6A5175.webp"
+                            alt="Karma TMS clinic staff" class="w-full h-auto object-cover rounded-2xl shadow-2xl"
                             style="max-width: 300px;">
                     </div>
                 </div>

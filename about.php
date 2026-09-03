@@ -89,8 +89,8 @@
 
                 <div class="about-hero-image">
                     <div class="about-hero-img-wrapper">
-                        <img src="/assets/images/img-adc2b88dc42d.jpg"
-                            alt="Karma TMS Clinic">
+                        <img src="/assets/images/hero-tms-session.webp"
+                            alt="Patient receiving TMS therapy at Karma TMS">
                     </div>
 
                     <!-- Floating Stats -->

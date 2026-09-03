@@ -159,8 +159,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="/assets/images/img-25c9de252525.jpg"
-                        alt="Karma TMS depression therapy session with TMS therapy equipment"
+                    <img src="/assets/gallery/thumbs/ES6A5590.webp"
+                        alt="Karma TMS welcoming treatment space for depression care"
                         class="rounded-lg shadow-2xl">
                 </div>
             </div>
