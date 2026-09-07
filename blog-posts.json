@@ -1,5 +1,17 @@
 [
     {
+        "id": 61,
+        "title": "A Celebration of Cultural Collaboration in Joshua Tree",
+        "excerpt": "Indian classical traditions meet American jazz in the high desert. Join the Sunder Foundation and Karma TMS for an unforgettable evening of live music.",
+        "category": "wellness",
+        "author": "Karma TMS Team",
+        "date": "September 1, 2026",
+        "readTime": "6 min read",
+        "image": "images/f30da5d6-629d-4d49-9453-c9de8f87edb6.jpeg",
+        "featured": false,
+        "url": "cultural-collaboration-event.php"
+    },
+    {
         "id": 57,
         "title": "TMS Therapy Pros and Cons: A Complete Patient Guide",
         "excerpt": "Discover the comprehensive pros and cons of TMS therapy. Compare benefits, side effects, costs, and commitment to decide if TMS is right for you.",

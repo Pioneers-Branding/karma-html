@@ -717,47 +717,43 @@ function initTeamPage() {
                     <p class="modal-bio">${member.bio}</p>
                 </div>
                 <div class="modal-grid">
-                    ${
-                      member.experience
-                        ? `
+                    ${member.experience
+        ? `
                     <div class="modal-info-item">
                         <div class="modal-label"><i data-lucide="calendar"></i> Experience</div>
                         <div class="modal-value">${member.experience}</div>
                     </div>`
-                        : ""
-                    }
+        : ""
+      }
                     
-                    ${
-                      member.location
-                        ? `
+                    ${member.location
+        ? `
                     <div class="modal-info-item">
                         <div class="modal-label"><i data-lucide="map-pin"></i> Location</div>
                         <div class="modal-value">${member.location}</div>
                     </div>`
-                        : ""
-                    }
+        : ""
+      }
 
-                    ${
-                      member.education
-                        ? `
+                    ${member.education
+        ? `
                     <div class="modal-info-item full-width">
                         <div class="modal-label">Education</div>
                         <div class="modal-value">${member.education}</div>
                     </div>`
-                        : ""
-                    }
+        : ""
+      }
 
-                    ${
-                      member.credentials && member.credentials.length > 0
-                        ? `
+                    ${member.credentials && member.credentials.length > 0
+        ? `
                     <div class="modal-info-item full-width">
                         <div class="modal-label">Credentials</div>
                         <div class="modal-credentials-wrap">
                             ${member.credentials.map((c) => `<span class="credential-tag" style="background:rgba(87,38,112,0.1); border:none;">${c}</span>`).join("")}
                         </div>
                     </div>`
-                        : ""
-                    }
+        : ""
+      }
                 </div>
             </div>
         `;
@@ -1315,6 +1311,18 @@ function initBlogPage() {
     // Embed blog data for local testing/fallback
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
+      {
+        id: 61,
+        title: "A Celebration of Cultural Collaboration in Joshua Tree",
+        excerpt: "Indian classical traditions met American jazz in the high desert. A look back at an unforgettable evening of live music and dance by the Sunder Foundation and Karma TMS.",
+        category: "wellness",
+        author: "Karma TMS Team",
+        date: "September 1, 2026",
+        readTime: "6 min read",
+        image: "images/f30da5d6-629d-4d49-9453-c9de8f87edb6.jpeg",
+        featured: false,
+        url: "cultural-collaboration-event.php",
+      },
       {
         id: 57,
         title: "TMS Therapy Pros and Cons: A Complete Patient Guide",
@@ -1972,7 +1980,7 @@ function initBlogPage() {
       window.addEventListener("scroll", () => {
         if (
           window.innerHeight + window.scrollY >=
-            document.body.offsetHeight - 500 &&
+          document.body.offsetHeight - 500 &&
           hasMore &&
           !loading
         ) {
