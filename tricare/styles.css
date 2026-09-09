@@ -1,5 +1,4 @@
 /* ===== Karma TMS Veterans Landing Page — Redesigned ===== */
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap');
 
 /* ── Keyframes ── */
 @keyframes fade-up { from{opacity:0;transform:translateY(40px)} to{opacity:1;transform:translateY(0)} }

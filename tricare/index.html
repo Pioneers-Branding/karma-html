@@ -18,13 +18,29 @@
     content="FDA-cleared, drug-free TMS therapy covered by TRICARE for veterans and military families in Palm Springs, CA. Treating depression, PTSD, anxiety &amp; OCD.">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="en_US">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11034311341"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11034311341');
+    function initAnalytics() {
+      if (window.analyticsLoaded) return;
+      window.analyticsLoaded = true;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=AW-11034311341';
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      gtag('config', 'AW-11034311341');
+    }
+    window.addEventListener('load', function() {
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(initAnalytics, { timeout: 2500 });
+      } else {
+        setTimeout(initAnalytics, 2000);
+      }
+    });
+    ['touchstart', 'scroll', 'mousemove'].forEach(function(e) {
+      window.addEventListener(e, initAnalytics, { once: true, passive: true });
+    });
   </script>
 
   <script type="application/ld+json">
@@ -54,8 +70,10 @@
   </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="/assets/images/img-7e9504440d1b.webp" fetchpriority="high">
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"></noscript>
+  <link rel="preload" as="image" href="/assets/images/img-7e9504440d1b-mobile.webp" media="(max-width: 640px)" fetchpriority="high">
+  <link rel="preload" as="image" href="/assets/images/img-7e9504440d1b.webp" media="(min-width: 641px)" fetchpriority="high">
   <link rel="stylesheet" href="tailwind.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -111,10 +129,12 @@
   </div>
 
   <!-- ═══════ HERO ═══════ -->
-  <section class="relative min-h-screen flex items-center overflow-hidden">
-    <img src="/assets/images/img-7e9504440d1b.webp"
-      alt="Karma TMS team serving veterans in Palm Springs"
-      class="absolute inset-0 w-full h-full object-cover animate-kenburns" fetchpriority="high" decoding="async">
+    <picture class="absolute inset-0 w-full h-full">
+      <source media="(max-width: 640px)" srcset="/assets/images/img-7e9504440d1b-mobile.webp" type="image/webp">
+      <img src="/assets/images/img-7e9504440d1b.webp"
+        alt="Karma TMS team serving veterans in Palm Springs"
+        class="w-full h-full object-cover animate-kenburns" fetchpriority="high" decoding="async" width="1920" height="1080">
+    </picture>
     <div class="absolute inset-0 bg-gradient-to-r from-karma-dark/95 via-karma/80 to-karma/40"></div>
     <div class="absolute top-20 right-10 w-[500px] h-[500px] bg-white/[.04] blur-3xl animate-morph animate-hero-glow">
     </div>
@@ -177,7 +197,7 @@
               data-layout-iframe-id="inline-Wo8GoPA45sWpXurqH1zV" data-form-id="Wo8GoPA45sWpXurqH1zV"
               title="KarmaTMS Tricare LP">
             </iframe>
-            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+            <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
           </div>
         </div>
       </div>
@@ -220,9 +240,9 @@
         <div class="reveal-left relative">
           <div class="rounded-3xl overflow-hidden shadow-2xl img-zoom">
             <img
-              src="/assets/images/img-054a7e0d354d.jpg"
+              src="/assets/images/img-054a7e0d354d.webp"
               alt="Patient receiving TMS therapy at Karma TMS" class="w-full h-[420px] lg:h-[520px] object-cover"
-              loading="lazy">
+              loading="lazy" decoding="async" width="800" height="520">
           </div>
           <!-- Floating info card -->
           <div
@@ -950,8 +970,8 @@
         </div>
         <div class="reveal-right relative">
           <div class="rounded-3xl overflow-hidden shadow-2xl shadow-black/40 img-zoom">
-            <img src="/assets/images/img-59b1cdb9976e.jpg"
-              alt="Karma TMS holistic veteran care" class="w-full h-[400px] lg:h-[520px] object-cover" loading="lazy">
+            <img src="/assets/images/img-59b1cdb9976e.webp"
+              alt="Karma TMS holistic veteran care" class="w-full h-[400px] lg:h-[520px] object-cover" loading="lazy" decoding="async" width="800" height="520">
           </div>
           <div class="absolute bottom-5 left-5 glass-dark rounded-xl px-4 py-3 flex items-center gap-3">
             <span class="text-3xl">&#127482;&#127480;</span>
@@ -1371,7 +1391,7 @@
       });
     }
   </script>
-  <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+  <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
 </body>
 
 </html>
