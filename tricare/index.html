@@ -52,22 +52,11 @@
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "200", "bestRating": "5" }
   }
   </script>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            karma: { DEFAULT: '#5A2A73', light: '#7a3f9c', dark: '#3f1b53', pale: '#f7f0fa', subtle: '#ede4f5' },
-          },
-          fontFamily: {
-            display: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
-            body: ['Outfit', 'system-ui', '-apple-system', 'sans-serif'],
-          },
-        }
-      }
-    }
-  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="/assets/images/img-7e9504440d1b.webp" fetchpriority="high">
+  <link rel="stylesheet" href="tailwind.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -123,9 +112,9 @@
 
   <!-- ═══════ HERO ═══════ -->
   <section class="relative min-h-screen flex items-center overflow-hidden">
-    <img src="/assets/images/img-7e9504440d1b.png"
+    <img src="/assets/images/img-7e9504440d1b.webp"
       alt="Karma TMS team serving veterans in Palm Springs"
-      class="absolute inset-0 w-full h-full object-cover animate-kenburns" fetchpriority="high">
+      class="absolute inset-0 w-full h-full object-cover animate-kenburns" fetchpriority="high" decoding="async">
     <div class="absolute inset-0 bg-gradient-to-r from-karma-dark/95 via-karma/80 to-karma/40"></div>
     <div class="absolute top-20 right-10 w-[500px] h-[500px] bg-white/[.04] blur-3xl animate-morph animate-hero-glow">
     </div>
@@ -437,8 +426,8 @@
       <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-5">
         <!-- Tall left -->
         <div class="row-span-2 rounded-2xl overflow-hidden relative group reveal reveal-delay-1">
-          <img src="images/hero-veterans-diverse.png" alt="Diverse military veterans standing together"
-            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105">
+          <img src="images/hero-veterans-diverse.webp" alt="Diverse military veterans standing together"
+            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -449,8 +438,8 @@
         </div>
         <!-- Top right 1 -->
         <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-2">
-          <img src="images/veteran-tms-treatment.png" alt="Veteran receiving TMS treatment"
-            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+          <img src="images/veteran-tms-treatment.webp" alt="Veteran receiving TMS treatment"
+            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -460,8 +449,8 @@
         </div>
         <!-- Top right 2 -->
         <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-3">
-          <img src="images/veteran-therapy-color.png" alt="Veteran in compassionate therapy session"
-            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+          <img src="images/veteran-therapy-color.webp" alt="Veteran in compassionate therapy session"
+            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -471,8 +460,8 @@
         </div>
         <!-- Tall right -->
         <div class="row-span-2 rounded-2xl overflow-hidden relative group reveal reveal-delay-4">
-          <img src="images/veteran-walking-hope.png" alt="Veterans walking towards sunrise"
-            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105">
+          <img src="images/veteran-walking-hope.webp" alt="Veterans walking towards sunrise"
+            class="w-full h-full object-cover min-h-[400px] lg:min-h-[520px] transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -483,8 +472,8 @@
         </div>
         <!-- Bottom row -->
         <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-2">
-          <img src="images/veteran-diverse-family.png" alt="Veteran families welcoming heroes home"
-            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+          <img src="images/veteran-diverse-family.webp" alt="Veteran families welcoming heroes home"
+            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -493,8 +482,8 @@
           </div>
         </div>
         <div class="rounded-2xl overflow-hidden relative group reveal reveal-delay-3">
-          <img src="images/veteran-support-diverse.png" alt="Veterans supporting each other"
-            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105">
+          <img src="images/veteran-support-diverse.webp" alt="Veterans supporting each other"
+            class="w-full h-[200px] lg:h-[250px] object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy" decoding="async">
           <div
             class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent opacity-50 group-hover:opacity-80 transition-opacity duration-500">
           </div>
@@ -752,22 +741,22 @@
         <div class="reveal-right order-1 lg:order-2 relative">
           <div class="grid grid-cols-2 gap-4">
             <div class="rounded-2xl overflow-hidden shadow-xl img-zoom">
-              <img src="/assets/images/img-0ab12df02fae.jpg"
-                alt="Karma TMS clinic entrance" class="w-full h-48 lg:h-56 object-cover" loading="lazy">
+              <img src="/assets/images/img-0ab12df02fae.webp"
+                alt="Karma TMS clinic entrance" class="w-full h-48 lg:h-56 object-cover" loading="lazy" decoding="async">
             </div>
             <div class="rounded-2xl overflow-hidden shadow-xl img-zoom mt-8">
-              <img src="/assets/images/img-a184d52c4a6f.jpg"
-                alt="Karma TMS state-of-the-art technology" class="w-full h-48 lg:h-56 object-cover" loading="lazy">
+              <img src="/assets/images/img-a184d52c4a6f.webp"
+                alt="Karma TMS state-of-the-art technology" class="w-full h-48 lg:h-56 object-cover" loading="lazy" decoding="async">
             </div>
             <div class="rounded-2xl overflow-hidden shadow-xl img-zoom">
               <img
-                src="/assets/images/img-ccd41b758ce6.jpg"
-                alt="Personalized TMS treatment" class="w-full h-48 lg:h-56 object-cover" loading="lazy">
+                src="/assets/images/img-ccd41b758ce6.webp"
+                alt="Personalized TMS treatment" class="w-full h-48 lg:h-56 object-cover" loading="lazy" decoding="async">
             </div>
             <div class="rounded-2xl overflow-hidden shadow-xl img-zoom mt-8">
               <img
-                src="/assets/images/img-c0a0120cb692.png"
-                alt="Apollo TMS device" class="w-full h-48 lg:h-56 object-cover" loading="lazy">
+                src="/assets/images/img-c0a0120cb692.webp"
+                alt="Apollo TMS device" class="w-full h-48 lg:h-56 object-cover" loading="lazy" decoding="async">
             </div>
           </div>
           <!-- Floating badge -->
