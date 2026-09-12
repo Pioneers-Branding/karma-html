@@ -1312,6 +1312,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 62,
+        title: "Which Is Worse: Bipolar 1 or Bipolar 2? A Psychiatrist Explains",
+        excerpt:
+          "Which is worse: bipolar 1 or bipolar 2? Compare acute manic emergencies against the chronic burden of bipolar depression, suicide risk, and advanced treatment paths.",
+        category: "mental-health",
+        author: "Dr. Keerthy Sunder",
+        date: "September 12, 2026",
+        readTime: "11 min read",
+        image: "images/blog/which-is-worse-bipolar-1-or-bipolar-2-thumb.jpg",
+        featured: false,
+        url: "which-is-worse-bipolar-1-or-bipolar-2.php",
+      },
+      {
         id: 61,
         title: "A Celebration of Cultural Collaboration in Joshua Tree",
         excerpt: "Indian classical traditions met American jazz in the high desert. A look back at an unforgettable evening of live music and dance by the Sunder Foundation and Karma TMS.",
