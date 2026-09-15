@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,6 +9,11 @@
         content="Thank you for contacting KarmaTMS. We have received your message and will be in touch shortly.">
 
     <?php include 'includes/header-links.php'; ?>
+
+    <!-- Event snippet for Submit lead formTMS conversion page -->
+    <script>
+      gtag('event', 'conversion', {'send_to': 'AW-11034311341/TWERCLqU1_ccEK31yI0p'});
+    </script>
 </head>
 
 <body>
