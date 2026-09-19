@@ -390,6 +390,7 @@ $pageDescription = "Karma TMS and the Sunder Foundation explore what happens ins
                             <button onclick="scrollToSection('science-culture')" class="toc-button">Where Neuroscience Meets Culture</button>
                             <button onclick="scrollToSection('healthy-lifestyle')" class="toc-button">Music in a Healthy Lifestyle</button>
                             <button onclick="scrollToSection('future-brain-health')" class="toc-button">The Multidisciplinary Future</button>
+                            <button onclick="scrollToSection('ancient-tradition')" class="toc-button">From Ancient Tradition</button>
                             <button onclick="scrollToSection('faq')" class="toc-button">Key Takeaways & FAQs</button>
                         </div>
 
@@ -742,18 +743,42 @@ $pageDescription = "Karma TMS and the Sunder Foundation explore what happens ins
                         </p>
                     </div>
 
-                    <!-- Section 12: Conclusion -->
-                    <div class="my-10 p-8 bg-purple-50 border border-purple-100 rounded-2xl shadow-sm">
-                        <h3 class="text-2xl font-bold text-gray-900 mb-4">From Ancient Tradition to Modern Neuroscience</h3>
-                        <p class="text-gray-700 leading-relaxed mb-4">
-                            Classical Indian music has survived for thousands of years because generations of listeners have found profound beauty, spiritual grounding, and emotional connection within its soundscapes.
-                        </p>
-                        <p class="text-gray-700 leading-relaxed mb-4">
-                            Modern neuroscience provides a new lens to appreciate that heritage. By pairing live EEG technology with master performances, Karma TMS and the Sunder Foundation created a bridge between ancient tradition and contemporary scientific inquiry.
-                        </p>
-                        <p class="text-purple-900 font-bold text-lg mb-0">
-                            Perhaps the most valuable outcome wasn't a final answer — it was a new question: What else can we discover about the human brain when science, music, and community come together?
-                        </p>
+                    <!-- Section 12: From Ancient Tradition to Modern Neuroscience -->
+                    <div id="ancient-tradition" class="scroll-mt-32">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-6">From Ancient Tradition to Modern Neuroscience</h2>
+                        
+                        <div class="space-y-4 text-gray-700 leading-relaxed text-base md:text-lg mb-8">
+                            <p class="text-xl text-gray-800 font-medium leading-relaxed">
+                                Classical Indian music has survived for thousands of years because generations of listeners have found profound beauty, spiritual grounding, and emotional connection within its soundscapes.
+                            </p>
+                            <p>
+                                Modern neuroscience gives us another way to appreciate that experience. By placing EEG technology alongside a live Indian classical music performance, Karma TMS and the Sunder Foundation created an opportunity to connect an ancient cultural tradition with contemporary scientific inquiry.
+                            </p>
+                            <p>
+                                The increase in alpha activity observed during the event offers an intriguing glimpse into that relationship — while also reminding us that much remains to be explored.
+                            </p>
+                            <p>
+                                Perhaps the most valuable outcome wasn't a definitive answer. It was a new question.
+                            </p>
+                        </div>
+
+                        <!-- Highlight Question Card -->
+                        <div class="my-8 p-6 md:p-8 bg-purple-50 border border-purple-100 rounded-2xl shadow-sm text-center">
+                            <h3 class="text-xl md:text-2xl font-bold text-purple-900 mb-4 leading-snug">
+                                What else can we discover about the human brain when science, music and culture come together?
+                            </h3>
+                            <p class="text-gray-700 text-base md:text-lg leading-relaxed mb-0 max-w-3xl mx-auto">
+                                For Karma TMS and the Sunder Foundation, that question represents an opportunity to continue exploring the connection between <strong>neuroscience, mental wellbeing, brain health and quality of life</strong>.
+                            </p>
+                        </div>
+
+                        <!-- Final Closing Statement Banner -->
+                        <div class="p-6 bg-gradient-to-r from-purple-900 via-indigo-900 to-purple-900 text-white rounded-2xl shadow-md text-center">
+                            <p class="text-lg md:text-xl font-bold text-purple-100 italic mb-0 flex items-center justify-center gap-3">
+                                <i data-lucide="headphones" class="w-6 h-6 text-purple-300 flex-shrink-0"></i>
+                                <span>And sometimes, understanding the brain may begin simply by listening.</span>
+                            </p>
+                        </div>
                     </div>
 
                     <!-- FAQ & Key Takeaways Section -->
@@ -873,7 +898,7 @@ $pageDescription = "Karma TMS and the Sunder Foundation explore what happens ins
         }
 
         function updateTOCHighlight() {
-            const sectionIds = ['overview', 'music-brain', 'eeg-demonstration', 'alpha-waves', 'music-relaxation', 'flow-state', 'indian-music-science', 'emotion-memory', 'science-culture', 'healthy-lifestyle', 'future-brain-health', 'faq'];
+            const sectionIds = ['overview', 'music-brain', 'eeg-demonstration', 'alpha-waves', 'music-relaxation', 'flow-state', 'indian-music-science', 'emotion-memory', 'science-culture', 'healthy-lifestyle', 'future-brain-health', 'ancient-tradition', 'faq'];
             const navButtons = document.querySelectorAll('.toc-button');
             let current = '';
 
