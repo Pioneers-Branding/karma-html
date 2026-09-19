@@ -1312,6 +1312,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 63,
+        title: "Classical Indian Music and the Brain: Exploring Neuroscience, Relaxation & Brain Health",
+        excerpt:
+          "Karma TMS and the Sunder Foundation explore what happens inside the brain when centuries-old Indian musical traditions meet modern neuroscience.",
+        category: "wellness",
+        author: "Dr. Keerthy Sunder",
+        date: "September 19, 2026",
+        readTime: "10 min read",
+        image: "images/blog/classical-indian-music-and-the-brain-hero.jpg",
+        featured: true,
+        url: "classical-indian-music-and-the-brain.php",
+      },
+      {
         id: 62,
         title: "Which Is Worse: Bipolar 1 or Bipolar 2? A Psychiatrist Explains",
         excerpt:

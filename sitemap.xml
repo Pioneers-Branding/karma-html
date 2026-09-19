@@ -386,6 +386,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://www.karmatms.com/classical-indian-music-and-the-brain.php</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
   <!-- ===== Legal / Policy Pages ===== -->
   <url>
