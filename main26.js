@@ -1312,6 +1312,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 64,
+        title: "How Long Does TMS Therapy Last? Treatment Timeline",
+        excerpt:
+          "Learn how long TMS therapy lasts, including treatment sessions, duration, and what to expect from TMS therapy at Karma TMS in Palm Springs.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "September 24, 2026",
+        readTime: "7 min read",
+        image: "images/blog/how-long-does-tms-therapy-last-thumb.jpg",
+        featured: false,
+        url: "how-long-does-tms-therapy-last.php",
+      },
+      {
         id: 63,
         title: "Classical Indian Music and the Brain: Exploring Neuroscience, Relaxation & Brain Health",
         excerpt:
