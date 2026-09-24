@@ -214,7 +214,7 @@
                     </span>
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="clock" class="w-4 h-4"></i>
-                        7 min read
+                        10 min read
                     </span>
                     <span class="flex items-center gap-1 bg-white-10 px-4 py-1.5 rounded-full backdrop-blur-sm">
                         <i data-lucide="user" class="w-4 h-4"></i>
@@ -271,8 +271,8 @@
 
                 <!-- Hero Image & Introduction -->
                 <div class="mb-12" id="intro">
-                    <img src="images/hero-exomind-tms.png?v=2"
-                        alt="EXOMIND TMS therapy treatment session at Karma TMS Palm Springs"
+                    <img src="images/blog/how-long-does-tms-therapy-last-thumb.jpg"
+                        alt="How long does TMS therapy last - Treatment session duration and long-term results at Karma TMS Palm Springs"
                         class="w-full h-auto object-cover rounded-xl mb-8 shadow-md">
 
                     <p class="text-xl leading-relaxed text-gray-700">

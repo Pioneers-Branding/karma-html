@@ -1319,7 +1319,7 @@ function initBlogPage() {
         category: "tms-therapy",
         author: "Dr. Keerthy Sunder",
         date: "September 24, 2026",
-        readTime: "7 min read",
+        readTime: "10 min read",
         image: "images/blog/how-long-does-tms-therapy-last-thumb.jpg",
         featured: false,
         url: "how-long-does-tms-therapy-last.php",
