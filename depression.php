@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Depression Treatment in Palm Springs & Coachella Valley | TMS Therapy for Depression</title>
+    <title>Depression Treatment in Palm Springs & Coachella Valley | Karma TMS</title>
     <meta name="description"
-        content="FDA-cleared TMS therapy for depression in Palm Springs and Coachella Valley. Non-invasive treatment when antidepressants fail. 60-70% response rate, 50% remission. Insurance accepted.">
+        content="Find relief with FDA-cleared TMS therapy for depression in Palm Springs and Coachella Valley. A non-invasive, medication-free treatment for treatment-resistant depression. Insurance accepted.">
     <meta name="keywords"
-        content="TMS depression treatment Palm Springs, why TMS for depression, treatment-resistant depression, brain stimulation depression therapy">
+        content="TMS depression treatment Palm Springs, treatment-resistant depression Coachella Valley, TMS for depression, brain stimulation depression therapy, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 

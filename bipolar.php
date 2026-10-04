@@ -1,12 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMS Therapy for Bipolar Depression | Karma TMS PC</title>
+    <title>TMS Therapy for Bipolar Depression Palm Springs | Karma TMS</title>
     <meta name="description"
-        content="Specialized TMS treatment for bipolar depression with expert protocols to maintain stability while treating depressive episodes.">
+        content="Specialized TMS treatment for bipolar depression in Palm Springs. Our expert protocols maintain stability while effectively treating depressive episodes.">
+    <meta name="keywords" content="TMS for bipolar depression Palm Springs, bipolar depression treatment Coachella Valley, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 </head>

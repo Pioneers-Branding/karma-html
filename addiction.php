@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Addiction Recovery Center Palm Springs | Karma TMS PC</title>
+    <title>Addiction Recovery Center Palm Springs | Karma TMS</title>
     <meta name="description"
-        content="Karma TMS PC offers personalized treatment at our Addiction Recovery Center in Palm Springs, helping you achieve lasting recovery and emotional wellness.">
-    <meta name="keywords" content="addiction recovery center palm springs">
+        content="Personalized addiction recovery treatment in Palm Springs. Our comprehensive program integrates advanced TMS therapy to help you achieve lasting recovery.">
+    <meta name="keywords" content="addiction recovery center Palm Springs, addiction treatment Coachella Valley, TMS for addiction recovery, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 </head>

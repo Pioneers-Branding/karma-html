@@ -1,12 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personalized PrTMS Therapy | Karma TMS PC</title>
+    <title>PrTMS Therapy in Palm Springs (Personalized TMS) | Karma TMS</title>
     <meta name="description"
-        content="Revolutionary AI-driven Repetitive Transcranial Magnetic Stimulation tailored to your unique brain patterns.">
+        content="Experience PrTMS (Personalized rTMS) in Palm Springs. Revolutionary AI-driven Repetitive Transcranial Magnetic Stimulation tailored to your unique brain patterns.">
+    <meta name="keywords" content="PrTMS therapy Palm Springs, personalized TMS Coachella Valley, AI-driven TMS, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 </head>

@@ -1,12 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>qEEG Brain Mapping in Palm Springs | Karma TMS PC</title>
+    <title>qEEG Brain Mapping in Palm Springs | Karma TMS</title>
     <meta name="description"
-        content="Advanced Quantitative EEG (qEEG) brain mapping services. Visualize your brain activity and get personalized insights for effective mental health treatment.">
+        content="Advanced Quantitative EEG (qEEG) brain mapping services in Palm Springs. Visualize your brain activity to get personalized insights for effective TMS treatment.">
+    <meta name="keywords" content="qEEG brain mapping Palm Springs, brain mapping Coachella Valley, quantitative EEG, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 </head>

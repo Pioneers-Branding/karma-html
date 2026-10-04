@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TMS Therapy for PTSD | Karma TMS PC</title>
+    <title>PTSD Treatment & TMS Therapy in Palm Springs | Karma TMS</title>
     <meta name="description"
-        content="Compassionate, evidence-based TMS treatment for PTSD. Helping trauma survivors find healing and recovery in a safe, supportive environment.">
-    <meta name="keywords" content="PTSD treatment, trauma therapy, TMS for PTSD, veteran PTSD treatment">
+        content="Compassionate, evidence-based TMS treatment for PTSD in Palm Springs and Coachella Valley. Helping trauma survivors and veterans find healing and recovery in a safe environment.">
+    <meta name="keywords" content="PTSD treatment Palm Springs, trauma therapy Coachella Valley, TMS for PTSD, veteran PTSD treatment, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 

@@ -1,14 +1,14 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anxiety Treatment in Palm Springs & Coachella Valley | TMS Therapy for Anxiety</title>
+    <title>Anxiety Treatment in Palm Springs & Coachella Valley | Karma TMS</title>
     <meta name="description"
-        content="FDA-cleared TMS therapy for anxiety in Palm Springs and Coachella Valley. Non-invasive, medication-free treatment targeting the brain's fear center. 50-60% response rate. Insurance accepted.">
+        content="Discover FDA-cleared TMS therapy for anxiety in Palm Springs. Our non-invasive, medication-free treatment targets the brain's fear center for lasting relief. Insurance accepted.">
     <meta name="keywords"
-        content="TMS anxiety treatment Palm Springs, why TMS for anxiety, anxiety treatment without medication, brain stimulation anxiety therapy">
+        content="TMS anxiety treatment Palm Springs, anxiety treatment Coachella Valley, TMS for anxiety, anxiety treatment without medication, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 

@@ -1,13 +1,13 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>OCD Therapist in Palm Springs | Karma TMS PC</title>
+    <title>OCD Treatment & TMS Therapy in Palm Springs | Karma TMS</title>
     <meta name="description"
-        content="Karma TMS PC offers expert OCD Therapist in Palm Springs services, providing personalized therapy to help you manage symptoms and regain control of your life.">
-    <meta name="keywords" content="ocd expert palm springs ca, ocd therapist palm springs ca">
+        content="Expert OCD treatment and FDA-cleared TMS therapy in Palm Springs. Personalized, non-invasive therapy to help you manage OCD symptoms and regain control of your life.">
+    <meta name="keywords" content="OCD treatment Palm Springs, TMS for OCD, OCD therapist Palm Springs CA, OCD expert Coachella Valley, Karma TMS">
 
     <?php include 'includes/header-links.php'; ?>
 
