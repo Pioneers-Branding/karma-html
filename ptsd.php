@@ -526,8 +526,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="/assets/images/img-ad7ed0b06067.jpg"
-                        alt="Safe and supportive treatment environment" class="rounded-lg shadow-lg">
+                    <img src="/assets/gallery/thumbs/ES6A5625.webp"
+                        alt="Safe and supportive treatment room at Karma TMS" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>
                 </div>

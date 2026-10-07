@@ -47,8 +47,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="/assets/images/img-3f897d21ebc3.jpg"
-                        alt="Women's mental health and wellness support" class="rounded-lg shadow-2xl">
+                    <img src="/assets/images/hero-tms-session.webp"
+                        alt="Woman receiving TMS therapy at Karma TMS" class="rounded-lg shadow-2xl">
                 </div>
             </div>
         </div>
@@ -121,8 +121,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="/assets/images/img-c61092bf7776.jpg"
-                        alt="Women's mental health support and understanding" class="rounded-lg shadow-lg">
+                    <img src="/assets/images/care-team.webp"
+                        alt="Karma TMS care team" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.2), transparent);"></div>
                 </div>
@@ -377,8 +377,8 @@
                     </div>
                 </div>
                 <div class="relative">
-                    <img src="/assets/images/img-c61092bf7776.jpg"
-                        alt="Supportive women's mental health treatment" class="rounded-lg shadow-lg">
+                    <img src="/assets/gallery/thumbs/ES6A5252.webp"
+                        alt="Karma TMS team coordinating patient care" class="rounded-lg shadow-lg">
                     <div class="absolute inset-0 rounded-lg"
                         style="background: linear-gradient(to top, rgba(0,0,0,0.1), transparent);"></div>
                 </div>

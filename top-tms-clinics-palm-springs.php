@@ -550,7 +550,7 @@
                          </div>
                          <div class="bg-gray-50 p-4 rounded-lg border border-gray-200">
                              <h4 class="font-bold text-gray-900">Sunpointe Health and Wellness</h4>
-                             <p class="text-sm mb-0">Offers different protocols including NeuroStar and ExoMind for TMS, which can be a good alternative for patients wanting more accelerated or tailored schedules.</p>
+                             <p class="text-sm mb-0">Offers different protocols including NeuroStar for TMS, which can be a good alternative for patients wanting more accelerated or tailored schedules.</p>
                          </div>
                      </div>
                 </div>
@@ -693,7 +693,6 @@
                     <ul class="mb-4 list-disc pl-5 space-y-1">
                         <li><strong>TMS Therapy</strong> (Transcranial Magnetic Stimulation) — FDA-cleared for depression, OCD, and more</li>
                         <li><strong>prTMS</strong> (personalized repetitive TMS) using qEEG brain mapping for individualized protocols</li>
-                        <li><strong>ExoMind TMS</strong> — advanced deep TMS for faster clinical response</li>
                         <li><strong>Medication Management</strong> — integrative psychiatric care</li>
                     </ul>
                     <p class="mb-4">The clinic holds a <strong>4.9-star Google rating</strong> and accepts most major California insurance plans. Appointments are available Monday–Friday, 9:00 AM – 5:00 PM. Call <a href="tel:7607605675" class="text-primary hover:underline font-semibold">760-760-5675</a> to schedule a free consultation.</p>

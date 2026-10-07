@@ -50,11 +50,6 @@
                     </div>
                 </div>
 
-                <a href="/exomind-tms.php" class="nav-btn">
-                    Brain Tune Exomind
-
-                </a>
-
                 <!-- Conditions Dropdown -->
                 <div class="dropdown">
                     <button class="nav-btn dropdown-toggle">
@@ -221,13 +216,6 @@
 
         <div class="mobile-divider"></div>
 
-
-        <a href="https://www.braintunetms.com/" target="_blank" class="mobile-nav-item">
-            <i data-lucide="sparkles" class="w-5 h-5"></i>
-            <span>Brain Tune Exomind</span>
-        </a>
-
-        <div class="mobile-divider"></div>
 
         <!-- CONDITIONS -->
         <div class="mobile-section">

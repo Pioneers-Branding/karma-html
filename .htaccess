@@ -1,4 +1,11 @@
 RewriteEngine on 
+
+# Exomind page taken off the site but kept on disk for possible future use.
+# 302 (not 301) so browsers/search engines do not cache it permanently --
+# delete these two lines to put the page back live.
+# Must precede the rules below, which would otherwise bounce /exomind-tms.php here.
+RewriteRule ^exomind-tms(\.php)?/?$ /tms-therapy [R=302,L,NE]
+
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f 
 RewriteRule ^(.*)$ $1.php
