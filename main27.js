@@ -1312,6 +1312,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 65,
+        title: "How Safe Is TMS for Depression Treatment? Risks & Benefits",
+        excerpt:
+          "Learn how safe TMS therapy is for depression, including its benefits, side effects, and potential risks. Discover what to expect at Karma TMS.",
+        category: "tms-therapy",
+        author: "Dr. Keerthy Sunder",
+        date: "October 13, 2026",
+        readTime: "11 min read",
+        image: "images/blog/how-safe-is-tms-for-depression-treatment-thumb.jpg",
+        featured: false,
+        url: "how-safe-is-tms-for-depression-treatment.php",
+      },
+      {
         id: 64,
         title: "How Long Does TMS Therapy Last? Treatment Timeline",
         excerpt:
