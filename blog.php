@@ -51,6 +51,71 @@
       }
     }
     </script>
+
+    <style>
+        .blog-pagination-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin-top: 3rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .blog-page-btn {
+            min-width: 2.75rem;
+            height: 2.75rem;
+            padding: 0 0.85rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0.5rem;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #374151;
+            background-color: #ffffff;
+            border: 1px solid #e5e7eb;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+            user-select: none;
+        }
+
+        .blog-page-btn:hover:not(:disabled):not(.active) {
+            background-color: #f3e8ff;
+            border-color: #572670;
+            color: #572670;
+        }
+
+        .blog-page-btn.active {
+            background-color: #572670 !important;
+            border-color: #572670 !important;
+            color: #ffffff !important;
+            font-weight: 700;
+            box-shadow: 0 4px 6px -1px rgba(87, 38, 112, 0.25);
+            cursor: default;
+        }
+
+        .blog-page-btn:disabled, .blog-page-btn.disabled {
+            opacity: 0.4;
+            cursor: not-allowed;
+            background-color: #f9fafb;
+            border-color: #e5e7eb;
+            color: #9ca3af;
+        }
+
+        .blog-page-ellipsis {
+            min-width: 2rem;
+            height: 2.75rem;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            color: #9ca3af;
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    </style>
 </head>
 
 <body class="bg-white" style="font-family: 'Outfit', sans-serif;">
@@ -82,26 +147,19 @@
                 <!-- Javascript will inject tabs here -->
             </div>
 
-            <!-- Posts Grid -->
+            <!-- Posts Grid (3x3 on desktop) -->
             <div id="blog-grid" class="blog-grid">
                 <!-- Javascript will inject posts here -->
             </div>
 
-            <!-- Loading/State Messages -->
+            <!-- Loading Spinner -->
             <div id="blog-loader" class="text-center py-12 hidden">
                 <div class="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900"></div>
             </div>
 
-            <div id="blog-load-more-container" class="text-center py-8 hidden">
-                <div class="text-gray-500 text-sm mb-4">Scroll for more...</div>
-            </div>
-
-            <div id="blog-end-message" class="text-center py-8 hidden">
-                <p class="text-gray-600 mb-4">You've reached the end of our blog posts!</p>
-                <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })"
-                    class="btn btn-white border border-gray-200">
-                    Back to Top
-                </button>
+            <!-- Pagination Container -->
+            <div id="blog-pagination" class="blog-pagination-container">
+                <!-- Javascript will inject pagination buttons here -->
             </div>
 
             <div id="blog-no-results" class="text-center py-12 hidden">

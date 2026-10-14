@@ -1296,10 +1296,8 @@ function initBlogPage() {
 
   // State
   let activeCategory = "all";
-  let displayedPosts = [];
-  let loading = false;
-  let hasMore = true;
-  const POSTS_PER_LOAD = 6;
+  let currentPage = 1;
+  const POSTS_PER_PAGE = 9;
   let filteredPostsCache = [];
   let allBlogPosts = []; // Initialize empty array
 
@@ -1998,52 +1996,16 @@ function initBlogPage() {
       },
     ];
 
-    // Attempt fetch for production, but fallback to local data immediately if it fails
-    // For this environment, we just use local data directly to ensure visibility
+    // Use local data directly to ensure immediate availability and fast pagination
     allBlogPosts = localBlogData;
 
-    // Sorting here ensures the initial render AND the infinite scroll use the sorted order
+    // Sorting here ensures the initial render and pagination use the sorted order (Newest first)
     allBlogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
 
     renderTabs();
     updateFilteredPosts();
-    loadMorePosts(); // Initial load
-
-    // Setup Infinite Scroll
-    window.addEventListener("scroll", handleScroll);
-    if (window.IntersectionObserver) {
-      const observer = new IntersectionObserver(
-        (entries) => {
-          const entry = entries[0];
-          // Check if element is intersecting AND we have more posts AND not currently loading
-          if (entry.isIntersecting && hasMore && !loading) {
-            loadMorePosts();
-          }
-        },
-        {
-          threshold: 0.1, // Trigger when 10% of the sentinel is visible
-          rootMargin: "100px", // Load slightly before reaching the element
-        },
-      );
-
-      if (loadMoreContainer) observer.observe(loadMoreContainer);
-    } else {
-      // Fallback for no IntersectionObserver support (unlikely in modern browsers but good practice)
-      window.addEventListener("scroll", () => {
-        if (
-          window.innerHeight + window.scrollY >=
-          document.body.offsetHeight - 500 &&
-          hasMore &&
-          !loading
-        ) {
-          loadMorePosts();
-        }
-      });
-    }
-  }
-
-  function handleScroll() {
-    // Backup scroll handler logic can be added here if IO is not supported
+    renderCurrentPage();
+    renderPagination();
   }
 
   function renderTabs() {
@@ -2060,65 +2022,129 @@ function initBlogPage() {
   function setCategory(id) {
     if (activeCategory === id) return;
     activeCategory = id;
-    displayedPosts = [];
-    hasMore = true;
-    renderTabs(); // Re-render to update active state
-    blogGrid.innerHTML = ""; // Clear grid
+    currentPage = 1;
+    renderTabs();
     updateFilteredPosts();
-    loadMorePosts();
+    renderCurrentPage();
+    renderPagination();
   }
 
   function updateFilteredPosts() {
-    // Filter
     let posts =
       activeCategory === "all"
         ? allBlogPosts
         : allBlogPosts.filter((p) => p.category === activeCategory);
 
-    // Sort (Newest First)
-    // Helper to parse "Month Day, Year"
     posts.sort((a, b) => new Date(b.date) - new Date(a.date));
     filteredPostsCache = posts;
   }
 
-  function loadMorePosts() {
-    if (loading || !hasMore) return;
-    loading = true;
-    loader.classList.remove("hidden");
-    loadMoreContainer.classList.add("hidden"); // Hide scroll trigger while loading
+  function renderCurrentPage() {
+    blogGrid.innerHTML = "";
+    if (loader) loader.classList.add("hidden");
+    if (loadMoreContainer) loadMoreContainer.classList.add("hidden");
+    if (endMessage) endMessage.classList.add("hidden");
 
-    // Simulate network delay
-    setTimeout(() => {
-      const currentCount = displayedPosts.length;
-      const nextBatch = filteredPostsCache.slice(
-        currentCount,
-        currentCount + POSTS_PER_LOAD,
-      );
+    if (filteredPostsCache.length === 0) {
+      if (noResults) noResults.classList.remove("hidden");
+      return;
+    }
+    if (noResults) noResults.classList.add("hidden");
 
-      if (nextBatch.length > 0) {
-        displayedPosts = [...displayedPosts, ...nextBatch];
-        renderPosts(nextBatch);
+    const startIndex = (currentPage - 1) * POSTS_PER_PAGE;
+    const pagePosts = filteredPostsCache.slice(
+      startIndex,
+      startIndex + POSTS_PER_PAGE,
+    );
+
+    renderPosts(pagePosts);
+  }
+
+  function renderPagination() {
+    let paginationContainer = document.getElementById("blog-pagination");
+    if (!paginationContainer) {
+      paginationContainer = document.createElement("div");
+      paginationContainer.id = "blog-pagination";
+      paginationContainer.className = "blog-pagination-container";
+      blogGrid.parentNode.insertBefore(paginationContainer, blogGrid.nextSibling);
+    }
+
+    paginationContainer.innerHTML = "";
+    const totalPages = Math.ceil(filteredPostsCache.length / POSTS_PER_PAGE);
+
+    if (totalPages <= 1) {
+      paginationContainer.style.display = "none";
+      return;
+    }
+    paginationContainer.style.display = "flex";
+
+    // Previous Button
+    const prevBtn = document.createElement("button");
+    prevBtn.className = `blog-page-btn blog-page-nav ${currentPage === 1 ? "disabled" : ""}`;
+    prevBtn.innerHTML = `<i data-lucide="chevron-left" class="w-4 h-4 mr-1"></i> Prev`;
+    prevBtn.disabled = currentPage === 1;
+    prevBtn.onclick = () => goToPage(currentPage - 1);
+    paginationContainer.appendChild(prevBtn);
+
+    // Numbered buttons with smart ellipsis
+    const pagesToShow = [];
+    if (totalPages <= 7) {
+      for (let i = 1; i <= totalPages; i++) pagesToShow.push(i);
+    } else {
+      pagesToShow.push(1);
+      if (currentPage > 3) pagesToShow.push("...");
+
+      const start = Math.max(2, currentPage - 1);
+      const end = Math.min(totalPages - 1, currentPage + 1);
+      for (let i = start; i <= end; i++) {
+        pagesToShow.push(i);
       }
 
-      loading = false;
-      loader.classList.add("hidden");
+      if (currentPage < totalPages - 2) pagesToShow.push("...");
+      pagesToShow.push(totalPages);
+    }
 
-      if (displayedPosts.length >= filteredPostsCache.length) {
-        hasMore = false;
-        loadMoreContainer.classList.add("hidden");
-        endMessage.classList.remove("hidden");
+    pagesToShow.forEach((p) => {
+      if (p === "...") {
+        const dots = document.createElement("span");
+        dots.className = "blog-page-ellipsis";
+        dots.textContent = "...";
+        paginationContainer.appendChild(dots);
       } else {
-        hasMore = true;
-        loadMoreContainer.classList.remove("hidden"); // Show trigger again
+        const btn = document.createElement("button");
+        btn.className = `blog-page-btn ${p === currentPage ? "active" : ""}`;
+        btn.textContent = p;
+        btn.onclick = () => goToPage(p);
+        paginationContainer.appendChild(btn);
       }
+    });
 
-      if (displayedPosts.length === 0) {
-        noResults.classList.remove("hidden");
-        endMessage.classList.add("hidden");
-      } else {
-        noResults.classList.add("hidden");
-      }
-    }, 500);
+    // Next Button
+    const nextBtn = document.createElement("button");
+    nextBtn.className = `blog-page-btn blog-page-nav ${currentPage === totalPages ? "disabled" : ""}`;
+    nextBtn.innerHTML = `Next <i data-lucide="chevron-right" class="w-4 h-4 ml-1"></i>`;
+    nextBtn.disabled = currentPage === totalPages;
+    nextBtn.onclick = () => goToPage(currentPage + 1);
+    paginationContainer.appendChild(nextBtn);
+
+    if (window.lucide) window.lucide.createIcons();
+  }
+
+  function goToPage(page) {
+    const totalPages = Math.ceil(filteredPostsCache.length / POSTS_PER_PAGE);
+    if (page < 1 || page > totalPages || page === currentPage) return;
+    currentPage = page;
+    renderCurrentPage();
+    renderPagination();
+
+    // Smooth scroll back to top of blog section
+    const tabs = document.getElementById("blog-tabs");
+    if (tabs) {
+      const headerOffset = 100;
+      const elementPosition = tabs.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+      window.scrollTo({ top: offsetPosition, behavior: "smooth" });
+    }
   }
 
   function renderPosts(posts) {
@@ -2133,7 +2159,7 @@ function initBlogPage() {
       // Animation properties
       card.style.animationDuration = "0.5s";
       card.style.animationFillMode = "forwards";
-      card.style.animationDelay = `${(index % POSTS_PER_LOAD) * 0.1}s`;
+      card.style.animationDelay = `${(index % POSTS_PER_PAGE) * 0.1}s`;
 
       card.innerHTML = `
                 <div class="blog-card-image-wrapper">
