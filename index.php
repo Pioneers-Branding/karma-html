@@ -303,6 +303,13 @@
                                 <h3 class="form-header-title">Request a callback</h3>
                                 <p class="form-header-sub">We'll verify your insurance and reply within one business
                                     day.</p>
+                                <div class="hero-commitment">
+                                    <span class="hero-commitment-icon"><i data-lucide="calendar-check"></i></span>
+                                    <div>
+                                        <span class="hero-commitment-label">Our commitment to you</span>
+                                        <p class="hero-commitment-text">Getting you an appointment <strong>on priority</strong> is our commitment, and <strong>detailed follow-ups with our doctors</strong> are an integral part of your care journey with us.</p>
+                                    </div>
+                                </div>
                             </div>
 
                             <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"
@@ -334,6 +341,13 @@
                             <h3 class="form-header-title">Request a callback</h3>
                             <p class="form-header-sub">We'll verify your insurance and reply within one business
                                 day.</p>
+                            <div class="hero-commitment">
+                                <span class="hero-commitment-icon"><i data-lucide="calendar-check"></i></span>
+                                <div>
+                                    <span class="hero-commitment-label">Our commitment to you</span>
+                                    <p class="hero-commitment-text">Getting you an appointment <strong>on priority</strong> is our commitment, and <strong>detailed follow-ups with our doctors</strong> are an integral part of your care journey with us.</p>
+                                </div>
+                            </div>
                         </div>
 
                         <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"

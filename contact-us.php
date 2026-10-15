@@ -170,6 +170,7 @@
                             </h2>
                         </div>
                         <div class="p-6">
+                            <p class="priority-commitment" style="display:flex;align-items:flex-start;gap:10px;margin:0 0 20px;padding:12px 16px;font-size:0.95rem;line-height:1.55;color:#3e1b52;background:#f3e8ff;border-left:3px solid #572670;border-radius:10px;text-align:left;"><span aria-hidden="true" style="flex-shrink:0;color:#572670;">&#10003;</span><span>Getting you an appointment on priority is our commitment, and detailed follow-ups with our doctors are an integral part of your care journey with us.</span></p>
                             <iframe src="https://api.leadconnectorhq.com/widget/form/A7LynR0MrYIYDzI14jsu"
                                 style="width:100%;height:100%;border:none;border-radius:8px"
                                 id="inline-A7LynR0MrYIYDzI14jsu" data-layout="{'id':'INLINE'}"
