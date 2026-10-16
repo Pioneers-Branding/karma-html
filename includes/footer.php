@@ -260,7 +260,7 @@
                         </div>
                     </div>
                     <div class="footer-map-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925876722152!2d-116.50244922375673!3d33.81422587324756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779297634613!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925876722152!2d-116.50244922375673!3d33.81422587324756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779297634613!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -276,7 +276,7 @@
                         </div>
                     </div>
                     <div class="footer-map-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429.135153608562!2d-116.40525242845216!3d33.79133854907109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779297581443!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d429.135153608562!2d-116.40525242845216!3d33.79133854907109!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779297581443!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
 
@@ -292,7 +292,7 @@
                         </div>
                     </div>
                     <div class="footer-map-wrapper">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779297610649!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779297610649!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
@@ -316,4 +316,38 @@
             </div>
         </div>
     </div>
+    <script>
+    (function() {
+        function initLazyIframes() {
+            var iframes = document.querySelectorAll('iframe[data-src]');
+            if (!iframes.length) return;
+            if ('IntersectionObserver' in window) {
+                var mapObserver = new IntersectionObserver(function(entries, observer) {
+                    entries.forEach(function(entry) {
+                        if (entry.isIntersecting) {
+                            var iframe = entry.target;
+                            if (iframe.dataset.src) {
+                                iframe.src = iframe.dataset.src;
+                                iframe.removeAttribute('data-src');
+                            }
+                            observer.unobserve(iframe);
+                        }
+                    });
+                }, { rootMargin: '300px 0px' });
+                iframes.forEach(function(iframe) {
+                    mapObserver.observe(iframe);
+                });
+            } else {
+                iframes.forEach(function(iframe) {
+                    iframe.src = iframe.dataset.src;
+                });
+            }
+        }
+        if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initLazyIframes);
+        } else {
+            initLazyIframes();
+        }
+    })();
+    </script>
 </footer>

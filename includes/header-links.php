@@ -6,11 +6,11 @@
 <link rel="icon" href="/assets/images/img-f252510da8d5.webp">
 
 <!-- Lucide Icons -->
-<script src="https://unpkg.com/lucide@latest"></script>
+<script src="https://unpkg.com/lucide@latest" defer></script>
 
 <!-- Stylesheets -->
 <link rel="stylesheet" href="style9.css">
-<script src="main27.js"></script>
+<script src="main27.js" defer></script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11034311341"></script>
 <script>

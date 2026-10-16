@@ -19,6 +19,7 @@
     <meta name="geo.placename" content="Palm Springs, California">
 
     <?php include 'includes/header-links.php'; ?>
+    <link rel="preload" as="image" href="videos/banner-poster.webp" type="image/webp" fetchpriority="high">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -237,7 +238,8 @@
     <section class="hero-section">
         <!-- Video Background -->
         <div class="hero-video-bg" aria-hidden="true">
-            <video class="hero-video" autoplay muted loop playsinline preload="auto">
+            <video class="hero-video" autoplay muted loop playsinline preload="none" poster="videos/banner-poster.webp">
+                <source src="videos/banner-video-opt.mp4" type="video/mp4">
                 <source src="videos/banner-video.mp4" type="video/mp4">
             </video>
             <div class="hero-video-overlay"></div>
@@ -320,9 +322,9 @@
                                 data-deactivation-type="neverDeactivate" data-deactivation-value=""
                                 data-form-name="KarmaTMS Website Form" data-height="434"
                                 data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu" data-form-id="A7LynR0MrYIYDzI14jsu"
-                                title="KarmaTMS Website Form">
+                                title="KarmaTMS Website Form" loading="lazy">
                             </iframe>
-                            <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+                            <script src="https://link.msgsndr.com/js/form_embed.js" defer></script>
                         </div>
                      </div>
                 </div>
@@ -357,9 +359,8 @@
                             data-activation-value="" data-deactivation-type="neverDeactivate" data-deactivation-value=""
                             data-form-name="KarmaTMS Website Form" data-height="434"
                             data-layout-iframe-id="inline-A7LynR0MrYIYDzI14jsu-mobile"
-                            data-form-id="A7LynR0MrYIYDzI14jsu" title="KarmaTMS Website Form">
+                            data-form-id="A7LynR0MrYIYDzI14jsu" title="KarmaTMS Website Form" loading="lazy">
                         </iframe>
-                        <script src="https://link.msgsndr.com/js/form_embed.js"></script>
                     </div>
                 </div>
             </div>
@@ -410,7 +411,7 @@
                 <!-- Card 3 - Bottom Left (3 cols, 1 row) -->
                 <div class="why-card-bottom-left">
                     <div class="card-image"
-                        style="background-image: url('/assets/images/img-a184d52c4a6f.jpg')">
+                        style="background-image: url('/assets/images/img-a184d52c4a6f-opt.webp')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">
@@ -423,7 +424,7 @@
                 <!-- Card 4 - Bottom Right (4 cols, 1 row) -->
                 <div class="why-card-bottom-right">
                     <div class="card-image"
-                        style="background-image: url('/assets/images/img-59b1cdb9976e.jpg')">
+                        style="background-image: url('/assets/images/img-59b1cdb9976e-opt.webp')">
                     </div>
                     <div class="card-overlay"></div>
                     <div class="card-content">
@@ -528,20 +529,19 @@
                 }
             </style>
             <div class="insurance-logos-container mb-12">
-                <img src="images/insurances/anthem.webp" alt="Anthem" class="insurance-logo-item">
-                <img src="images/insurances/blue-california.webp" alt="Blue Shield of California" class="insurance-logo-item" style="height: 55px; max-width: 160px;">
-                <img src="images/insurances/cigna.webp" alt="Cigna" class="insurance-logo-item">
-                <img src="images/insurances/desert-oasis-logo.jpg" alt="Desert Oasis Healthcare" class="insurance-logo-item" style="height: 55px; max-width: 160px;">
-                <img src="images/insurances/evernorth.png" alt="Evernorth" class="insurance-logo-item">
-                <img src="images/insurances/health-net.png" alt="Health Net" class="insurance-logo-item">
-                <img src="images/insurances/iehp.png" alt="IEHP" class="insurance-logo-item">
-                <img src="images/insurances/medicare.webp" alt="Medicare" class="insurance-logo-item">
-                <img src="images/insurances/megallan-health-logo.png" alt="Magellan Health" class="insurance-logo-item">
-                <img src="images/insurances/mhn.webp" alt="MHN" class="insurance-logo-item">
-                <img src="images/insurances/tricare.webp" alt="Tricare" class="insurance-logo-item">
-                <img src="images/insurances/triwest.png" alt="TriWest" class="insurance-logo-item">
-                <img src="images/insurances/aetna.webp" alt="Aetna" class="insurance-logo-item" style="height: 75px; max-width: 210px;">
-
+                <img src="images/insurances/anthem.webp" alt="Anthem" class="insurance-logo-item" width="204" height="68" loading="lazy">
+                <img src="images/insurances/blue-california.webp" alt="Blue Shield of California" class="insurance-logo-item" width="104" height="104" loading="lazy" style="height: 55px; max-width: 160px;">
+                <img src="images/insurances/cigna.webp" alt="Cigna" class="insurance-logo-item" width="139" height="78" loading="lazy">
+                <img src="images/insurances/desert-oasis-logo.webp" alt="Desert Oasis Healthcare" class="insurance-logo-item" width="200" height="112" loading="lazy" style="height: 55px; max-width: 160px;">
+                <img src="images/insurances/evernorth.png" alt="Evernorth" class="insurance-logo-item" width="128" height="128" loading="lazy">
+                <img src="images/insurances/health-net.png" alt="Health Net" class="insurance-logo-item" width="458" height="218" loading="lazy">
+                <img src="images/insurances/iehp.png" alt="IEHP" class="insurance-logo-item" width="128" height="128" loading="lazy">
+                <img src="images/insurances/medicare.webp" alt="Medicare" class="insurance-logo-item" width="167" height="96" loading="lazy">
+                <img src="images/insurances/megallan-health-logo.png" alt="Magellan Health" class="insurance-logo-item" width="418" height="142" loading="lazy">
+                <img src="images/insurances/mhn.webp" alt="MHN" class="insurance-logo-item" width="328" height="89" loading="lazy">
+                <img src="images/insurances/tricare.webp" alt="Tricare" class="insurance-logo-item" width="400" height="200" loading="lazy">
+                <img src="images/insurances/triwest.png" alt="TriWest" class="insurance-logo-item" width="400" height="150" loading="lazy">
+                <img src="images/insurances/aetna.webp" alt="Aetna" class="insurance-logo-item" width="127" height="68" loading="lazy" style="height: 75px; max-width: 210px;">
             </div>
 
             <div class="text-center">
@@ -933,7 +933,7 @@
                 <div class="tms-works-visual">
                     <div class="video-container">
                         <iframe src="https://www.youtube.com/embed/opUZyysSUJc" title="How TMS Works" frameborder="0"
-                            allowfullscreen>
+                            loading="lazy" allowfullscreen>
                         </iframe>
                     </div>
 
@@ -1039,8 +1039,8 @@
                 <div class="doctor-image-section">
                     <div class="doctor-image-card">
                         <div class="doctor-photo-wrapper">
-                            <img src="https://www.prtms.com/wp-content/uploads/2023/03/Dr.-Keerthy-Sunder-scaled.jpg"
-                                alt="Dr. Keerthy Sunder" class="doctor-photo">
+                            <img src="/assets/images/dr-keerthy-sunder.webp"
+                                alt="Dr. Keerthy Sunder" class="doctor-photo" width="800" height="708" loading="lazy">
 
                             <!-- Bottom Info Overlay -->
                             <div class="doctor-name-overlay">
@@ -1696,21 +1696,21 @@
                     <!-- Map 1 -->
                     <div class="map-card-small">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925875685434!2d-116.49987429999999!3d33.8142259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779295416587!5m2!1sen!2sin"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.925875685434!2d-116.49987429999999!3d33.8142259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1d8e55ea98e3%3A0x807c8a665e925f92!2sKarma%20TMS%20PC%20-%20Palm%20Springs!5e0!3m2!1sen!2sin!4v1779295416587!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                     <!-- Map 2 -->
                     <div class="map-card-small">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.23808627214382!2d-116.40541828261227!3d33.79142387599502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779295603746!5m2!1sen!2sin"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d207.23808627214382!2d-116.40541828261227!3d33.79142387599502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dafd05ddc703a3%3A0x891f7551331b4071!2sBrain%20Tune%20TMS%20-%20Rancho%20Mirage!5e0!3m2!1sen!2sin!4v1779295603746!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
 
                     <!-- Map 3 -->
                     <div class="map-card-small">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779295458149!5m2!1sen!2sin"
+                            data-src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.410883346241!2d-116.07819942374508!3d34.13582867312575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dac751d31242d7%3A0x7d17d9e80e8a6f1a!2sKarma%20TMS%20PC%20-%2029%20Palms!5e0!3m2!1sen!2sin!4v1779295458149!5m2!1sen!2sin"
                             width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                     </div>
                 </div>
