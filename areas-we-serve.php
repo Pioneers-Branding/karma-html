@@ -101,6 +101,37 @@
                     </p>
                 </div>
 
+                <!-- Near Me Intent Feature Card -->
+                <div class="region-card" style="background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%); border: 2px solid #c084fc; margin-bottom: 2.5rem;">
+                    <div>
+                        <span class="city-badge" style="background: #9333ea; color: white;">Fast Proximity Routing</span>
+                        <h2 class="region-title" style="margin-bottom: 0.75rem;">
+                            <i data-lucide="navigation" class="w-8 h-8 text-purple-600"></i>
+                            <span>Looking for TMS Therapy</span> Near You?
+                        </h2>
+                        <p class="text-gray-700 max-w-2xl text-base leading-relaxed mb-4">
+                            Use our regional proximity directory to instantly discover which Karma TMS clinical center is closest to your home or office, along with exact mileage, estimated drive times, and accepted insurance plans.
+                        </p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.9rem;">
+                            <a href="tms-therapy-near-me.php" style="background: #7e22ce; color: white; padding: 0.6rem 1.25rem; border-radius: 9999px; font-weight: 700; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="map-pin" class="w-4 h-4"></i> TMS Therapy Near Me (Main Hub)
+                            </a>
+                            <a href="tms-clinic-near-me.php" style="background: white; color: #6b21a8; border: 1px solid #c084fc; padding: 0.6rem 1.25rem; border-radius: 9999px; font-weight: 700; text-decoration: none;">
+                                TMS Clinic Near Me
+                            </a>
+                            <a href="tms-therapy-near-me-coachella-valley.php" style="background: white; color: #6b21a8; border: 1px solid #c084fc; padding: 0.6rem 1.25rem; border-radius: 9999px; font-weight: 700; text-decoration: none;">
+                                Coachella Valley Near Me
+                            </a>
+                            <a href="tms-therapy-near-me-high-desert.php" style="background: white; color: #6b21a8; border: 1px solid #c084fc; padding: 0.6rem 1.25rem; border-radius: 9999px; font-weight: 700; text-decoration: none;">
+                                High Desert Near Me
+                            </a>
+                            <a href="depression-tms-therapy-near-me.php" style="background: white; color: #6b21a8; border: 1px solid #c084fc; padding: 0.6rem 1.25rem; border-radius: 9999px; font-weight: 700; text-decoration: none;">
+                                Depression TMS Near Me
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Coachella Valley Hub -->
                 <div class="region-card">
                     <span class="city-badge">Coachella Valley Hub</span>
@@ -189,6 +220,162 @@
             </div>
         </div>
     </section>
+
+    
+                <!-- Dedicated Condition & Service Location Hubs -->
+                <div class="region-card" style="border: 2px solid #e9d5ff; background: linear-gradient(to bottom, #ffffff, #faf5ff);">
+                    <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem;">
+                        <div>
+                            <span class="city-badge" style="background: #f3e8ff; color: #7e22ce;">Specialized Care by Location</span>
+                            <h2 class="region-title" style="margin-bottom: 0.5rem;">
+                                <i data-lucide="stethoscope" class="w-8 h-8 text-purple-600"></i>
+                                <span>Condition-Specific</span> Clinical Centers
+                            </h2>
+                            <p class="text-gray-600">Karma TMS delivers specialized clinical protocols targeted to specific psychiatric diagnoses at our accredited medical centers and serving neighboring desert communities.</p>
+                        </div>
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                        <!-- Depression -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="activity" class="w-5 h-5 text-purple-600"></i> Depression Centers
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="depression-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="depression-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="depression-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                                <li><a href="depression-treatment-palm-desert.php" style="color: #4b5563; text-decoration: none;">&bull; Palm Desert Area</a></li>
+                                <li><a href="depression-treatment-la-quinta.php" style="color: #4b5563; text-decoration: none;">&bull; La Quinta Area</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Anxiety -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="heart" class="w-5 h-5 text-purple-600"></i> Anxiety Centers
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="anxiety-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="anxiety-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="anxiety-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                                <li><a href="anxiety-treatment-palm-desert.php" style="color: #4b5563; text-decoration: none;">&bull; Palm Desert Area</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- OCD -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="shield" class="w-5 h-5 text-purple-600"></i> OCD Centers
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="ocd-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="ocd-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="ocd-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                                <li><a href="ocd-treatment-palm-desert.php" style="color: #4b5563; text-decoration: none;">&bull; Palm Desert Area</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- PTSD & Veterans -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="shield-alert" class="w-5 h-5 text-purple-600"></i> PTSD & Veteran Trauma
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="ptsd-treatment-twentynine-palms.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; 29 Palms Military Hub (TRICARE)</a></li>
+                                <li><a href="ptsd-treatment-palm-springs.php" style="color: #4b5563; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="ptsd-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Bipolar Disorder -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="sparkles" class="w-5 h-5 text-purple-600"></i> Bipolar Depression
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="bipolar-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="bipolar-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="bipolar-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Addiction -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="zap" class="w-5 h-5 text-purple-600"></i> Addiction & Cravings
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="addiction-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="addiction-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="addiction-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Women's Mood -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="smile" class="w-5 h-5 text-purple-600"></i> Women's Mood
+                            </h3>
+                            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem;">
+                                <li><a href="womens-mood-treatment-palm-springs.php" style="color: #6b21a8; font-weight: 600; text-decoration: none;">&bull; Palm Springs Hub</a></li>
+                                <li><a href="womens-mood-treatment-rancho-mirage.php" style="color: #4b5563; text-decoration: none;">&bull; Rancho Mirage Hub</a></li>
+                                <li><a href="womens-mood-treatment-twentynine-palms.php" style="color: #4b5563; text-decoration: none;">&bull; Twentynine Palms Hub</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Specialized Services -->
+                        <div style="background: white; border: 1px solid #e5e7eb; border-radius: 0.75rem; padding: 1.25rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+                            <h3 style="font-size: 1.15rem; font-weight: 700; color: #1f2937; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;">
+                                <i data-lucide="cpu" class="w-5 h-5 text-purple-600"></i> Advanced Modalities
+                            </h3>
+                            <div style="font-size: 0.85rem; color: #6b7280; margin-bottom: 0.35rem; font-weight: 600;">Personalized PrTMS®:</div>
+                            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.6rem;">
+                                <a href="prtms-palm-springs.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Palm Springs</a>
+                                <a href="prtms-rancho-mirage.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Rancho Mirage</a>
+                                <a href="prtms-twentynine-palms.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">29 Palms</a>
+                            </div>
+                            <div style="font-size: 0.85rem; color: #6b7280; margin-bottom: 0.35rem; font-weight: 600;">qEEG Brain Mapping:</div>
+                            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 0.6rem;">
+                                <a href="brain-mapping-palm-springs.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Palm Springs</a>
+                                <a href="brain-mapping-rancho-mirage.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Rancho Mirage</a>
+                                <a href="brain-mapping-twentynine-palms.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">29 Palms</a>
+                            </div>
+                            <div style="font-size: 0.85rem; color: #6b7280; margin-bottom: 0.35rem; font-weight: 600;">Medication Management:</div>
+                            <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                                <a href="medication-management-palm-springs.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Palm Springs</a>
+                                <a href="medication-management-rancho-mirage.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">Rancho Mirage</a>
+                                <a href="medication-management-twentynine-palms.php" style="color: #6b21a8; font-size: 0.8rem; background: #f3e8ff; padding: 2px 8px; border-radius: 4px; text-decoration: none;">29 Palms</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+    
+                <!-- Hyperlocal Depression Care by Community -->
+                <div class="region-card" style="border: 1px solid #d8b4fe;">
+            <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb;">
+                <h4 style="font-size: 0.9rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; color: #4c1d95; margin-bottom: 0.75rem;">Hyperlocal Depression Care by Community</h4>
+                <div style="display: flex; flex-wrap: wrap; gap: 0.5rem 1rem; font-size: 0.85rem;">
+                    <a href="tms-therapy-for-depression-near-palm-desert.php" style="color: #6b21a8; text-decoration: none;">&bull; Palm Desert</a>
+                    <a href="tms-therapy-for-depression-near-cathedral-city.php" style="color: #6b21a8; text-decoration: none;">&bull; Cathedral City</a>
+                    <a href="tms-therapy-for-depression-near-la-quinta.php" style="color: #6b21a8; text-decoration: none;">&bull; La Quinta</a>
+                    <a href="tms-therapy-for-depression-near-indio.php" style="color: #6b21a8; text-decoration: none;">&bull; Indio</a>
+                    <a href="tms-therapy-for-depression-near-desert-hot-springs.php" style="color: #6b21a8; text-decoration: none;">&bull; Desert Hot Springs</a>
+                    <a href="tms-therapy-for-depression-near-indian-wells.php" style="color: #6b21a8; text-decoration: none;">&bull; Indian Wells</a>
+                    <a href="tms-therapy-for-depression-near-yucca-valley.php" style="color: #6b21a8; text-decoration: none;">&bull; Yucca Valley</a>
+                    <a href="tms-therapy-for-depression-near-joshua-tree.php" style="color: #6b21a8; text-decoration: none;">&bull; Joshua Tree</a>
+                    <a href="tms-therapy-for-depression-near-twentynine-palms.php" style="color: #6b21a8; text-decoration: none;">&bull; Twentynine Palms</a>
+                    <a href="tms-therapy-for-depression-near-mcagcc-29-palms.php" style="color: #6b21a8; text-decoration: none;">&bull; MCAGCC 29 Palms</a>
+                    <a href="tms-therapy-for-depression-near-coachella.php" style="color: #6b21a8; text-decoration: none;">&bull; Coachella</a>
+                    <a href="tms-therapy-for-depression-near-thousand-palms.php" style="color: #6b21a8; text-decoration: none;">&bull; Thousand Palms</a>
+                    <a href="tms-therapy-for-depression-near-morongo-valley.php" style="color: #6b21a8; text-decoration: none;">&bull; Morongo Valley</a>
+                    <a href="tms-therapy-for-depression-near-landers.php" style="color: #6b21a8; text-decoration: none;">&bull; Landers</a>
+                    <a href="tms-therapy-for-depression-near-banning.php" style="color: #6b21a8; text-decoration: none;">&bull; Banning</a>
+                    <a href="tms-therapy-for-depression-near-beaumont.php" style="color: #6b21a8; text-decoration: none;">&bull; Beaumont</a>
+                </div>
+            </div>
+                </div>
 
     <!-- Final CTA Section -->
     <section class="py-20 text-white" style="background: linear-gradient(to bottom right, #581c87, #6b21a8, #7e22ce);">

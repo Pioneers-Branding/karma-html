@@ -779,6 +779,152 @@
         </div>
     </section>
 
+        <!-- Locations We Serve Section -->
+    <section class="py-16 px-4 bg-gradient-to-b from-purple-50/60 to-white border-t border-purple-100" id="locations-we-serve">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider bg-purple-100 text-purple-800 mb-3">
+                    <i data-lucide="map-pin" style="width: 14px; height: 14px;"></i>
+                    Depression Treatment Network                </span>
+                <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-4">
+                    Locations We Serve for Depression Treatment in Southern California                </h2>
+                <p class="text-base md:text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    Karma TMS operates three accredited clinical hubs across the Coachella Valley and High Desert, providing FDA-cleared TMS therapy for Major Depressive Disorder and Treatment-Resistant Depression.                </p>
+            </div>
+
+            <!-- Primary Hubs Grid -->
+            <div class="grid md:grid-cols-3 gap-6 mb-8">
+                                <div class="bg-white rounded-2xl p-6 border-2 border-purple-200/80 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                                Primary Clinical Hub                            </span>
+                            <i data-lucide="building-2" style="width: 18px; height: 18px; color: #7c3aed;"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Palm Springs Hub                        </h3>
+                        <p class="text-xs text-gray-500 mb-3 flex items-start gap-1.5">
+                            <i data-lucide="map-pin" style="width: 14px; height: 14px; color: #9333ea; flex-shrink: 0; margin-top: 2px;"></i>
+                            <span>560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264</span>
+                        </p>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Serving Palm Springs, Cathedral City, Desert Hot Springs, Thousand Palms, Cabazon, and the western Coachella Valley.                        </p>
+                    </div>
+                    <div>
+                        <a href="depression-treatment-palm-springs.php" class="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 bg-purple-700 hover:bg-purple-800 text-white font-bold rounded-lg text-xs md:text-sm transition shadow-sm" style="text-decoration: none;">
+                            Explore Palm Springs Depression Care                            <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+                </div>
+                                <div class="bg-white rounded-2xl p-6 border-2 border-purple-200/80 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                                Primary Clinical Hub                            </span>
+                            <i data-lucide="building-2" style="width: 18px; height: 18px; color: #7c3aed;"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Rancho Mirage Hub                        </h3>
+                        <p class="text-xs text-gray-500 mb-3 flex items-start gap-1.5">
+                            <i data-lucide="map-pin" style="width: 14px; height: 14px; color: #9333ea; flex-shrink: 0; margin-top: 2px;"></i>
+                            <span>35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270</span>
+                        </p>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Serving Rancho Mirage, Palm Desert, Indian Wells, La Quinta, Indio, and central Coachella Valley near Eisenhower Health.                        </p>
+                    </div>
+                    <div>
+                        <a href="depression-treatment-rancho-mirage.php" class="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 bg-purple-700 hover:bg-purple-800 text-white font-bold rounded-lg text-xs md:text-sm transition shadow-sm" style="text-decoration: none;">
+                            Explore Rancho Mirage Depression Care                            <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+                </div>
+                                <div class="bg-white rounded-2xl p-6 border-2 border-purple-200/80 shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between mb-3">
+                            <span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-purple-100 text-purple-800">
+                                Military &amp; High Desert Hub                            </span>
+                            <i data-lucide="building-2" style="width: 18px; height: 18px; color: #7c3aed;"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            Twentynine Palms Hub                        </h3>
+                        <p class="text-xs text-gray-500 mb-3 flex items-start gap-1.5">
+                            <i data-lucide="map-pin" style="width: 14px; height: 14px; color: #9333ea; flex-shrink: 0; margin-top: 2px;"></i>
+                            <span>72724 29 Palms Hwy., Suite 107-B, Twentynine Palms, CA 92277</span>
+                        </p>
+                        <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                            Serving Marine Corps Base MCAGCC, Joshua Tree, Yucca Valley, Landers, and the greater Morongo Basin. TRICARE accepted.                        </p>
+                    </div>
+                    <div>
+                        <a href="depression-treatment-twentynine-palms.php" class="inline-flex items-center justify-center gap-1.5 w-full py-2.5 px-4 bg-purple-700 hover:bg-purple-800 text-white font-bold rounded-lg text-xs md:text-sm transition shadow-sm" style="text-decoration: none;">
+                            Explore 29 Palms Depression Care                            <i data-lucide="arrow-right" style="width: 14px; height: 14px;"></i>
+                        </a>
+                    </div>
+                </div>
+                            </div>
+
+                        <!-- Additional Featured Locations -->
+            <div class="grid sm:grid-cols-2 gap-4 mb-8">
+                                <div class="bg-white/80 rounded-xl p-5 border border-purple-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-purple-700 uppercase tracking-wide block mb-1">Served via Rancho Mirage Hub</span>
+                        <h4 class="text-lg font-bold text-gray-900 mb-1">Palm Desert Area</h4>
+                        <p class="text-xs text-gray-600 mb-3">Just 5 miles (8 mins) from El Paseo on Bob Hope Drive. Non-drug treatment for persistent depression.</p>
+                    </div>
+                    <div>
+                        <a href="depression-treatment-palm-desert.php" class="text-xs font-bold text-purple-700 hover:text-purple-900 inline-flex items-center gap-1 hover:underline">
+                            View Palm Desert Care &rsaquo;
+                        </a>
+                    </div>
+                </div>
+                                <div class="bg-white/80 rounded-xl p-5 border border-purple-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <span class="text-xs font-bold text-purple-700 uppercase tracking-wide block mb-1">Served via Rancho Mirage Hub</span>
+                        <h4 class="text-lg font-bold text-gray-900 mb-1">La Quinta Area</h4>
+                        <p class="text-xs text-gray-600 mb-3">Just 12 miles (15 mins) via Hwy 111. Serving PGA West, Cove, and East Valley communities.</p>
+                    </div>
+                    <div>
+                        <a href="depression-treatment-la-quinta.php" class="text-xs font-bold text-purple-700 hover:text-purple-900 inline-flex items-center gap-1 hover:underline">
+                            View La Quinta Care &rsaquo;
+                        </a>
+                    </div>
+                </div>
+                            </div>
+            
+            <!-- Nearby Communities & Regional Directory Banner -->
+            <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-6">
+                <div>
+                    <h4 class="font-bold text-gray-900 text-sm mb-2 flex items-center gap-1.5">
+                        <i data-lucide="compass" style="width: 16px; height: 16px; color: #7c3aed;"></i>
+                        Nearby Communities We Proudly Serve:
+                    </h4>
+                    <div class="flex flex-wrap gap-1.5 text-xs">
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Cathedral City</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Desert Hot Springs</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Indian Wells</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Indio</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Coachella</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Joshua Tree</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Yucca Valley</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Banning</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Beaumont</span>
+                                                <span class="px-2.5 py-1 bg-gray-100 text-gray-700 rounded-md font-medium">Bermuda Dunes</span>
+                                            </div>
+                </div>
+                <div class="flex-shrink-0 flex flex-col sm:flex-row gap-3">
+                    <a href="areas-we-serve.php" class="inline-flex items-center justify-center gap-1.5 px-5 py-2.5 bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold rounded-lg text-xs md:text-sm transition text-center" style="text-decoration: none;">
+                        <i data-lucide="globe" style="width: 14px; height: 14px;"></i>
+                        All 116+ Areas We Serve
+                    </a>
+                    <a href="contact-us.php" class="inline-flex items-center justify-center gap-1.5 px-5 py-2.5 bg-purple-700 hover:bg-purple-800 text-white font-bold rounded-lg text-xs md:text-sm transition shadow-sm text-center" style="text-decoration: none;">
+                        <i data-lucide="phone" style="width: 14px; height: 14px;"></i>
+                        Call (760) 760-5675
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <!-- Patient Testimonials -->
     <section class="py-16 px-4 bg-gray-50">
         <div class="container mx-auto max-w-6xl">

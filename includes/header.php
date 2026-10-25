@@ -1,4 +1,4 @@
-﻿<!-- Navigation -->
+<!-- Navigation -->
 <nav id="navbar" class="navbar-react">
     <div class="navbar-container">
         <div class="navbar-content">
@@ -86,6 +86,9 @@
                         Locations <i data-lucide="chevron-down" class="w-4 h-4"></i>
                     </button>
                     <div class="dropdown-menu">
+                        <a href="tms-therapy-near-me.php" class="dropdown-item" style="color: #7e22ce; font-weight: 700;">
+                            <i data-lucide="navigation" class="w-4 h-4"></i> TMS Therapy Near Me
+                        </a>
                         <a href="palm-springs.php" class="dropdown-item">
                             <i data-lucide="map-pin" class="w-4 h-4"></i> Palm Springs
                         </a>
@@ -94,6 +97,9 @@
                         </a>
                         <a href="rancho-mirage.php" class="dropdown-item">
                             <i data-lucide="map-pin" class="w-4 h-4"></i> Rancho Mirage
+                        </a>
+                        <a href="areas-we-serve.php" class="dropdown-item">
+                            <i data-lucide="compass" class="w-4 h-4"></i> Areas We Serve
                         </a>
                     </div>
                 </div>
@@ -258,6 +264,10 @@
         <div class="mobile-section">
             <h3 class="mobile-section-title">LOCATIONS</h3>
             <div class="mobile-nav-group">
+                <a href="tms-therapy-near-me.php" class="mobile-nav-item" style="color: #7e22ce; font-weight: 700;">
+                    <i data-lucide="navigation" class="w-5 h-5"></i>
+                    <span>TMS Therapy Near Me</span>
+                </a>
                 <a href="palm-springs.php" class="mobile-nav-item">
                     <i data-lucide="map-pin" class="w-5 h-5"></i>
                     <span>Palm Springs</span>
@@ -269,6 +279,10 @@
                 <a href="rancho-mirage.php" class="mobile-nav-item">
                     <i data-lucide="map-pin" class="w-5 h-5"></i>
                     <span>Rancho Mirage</span>
+                </a>
+                <a href="areas-we-serve.php" class="mobile-nav-item">
+                    <i data-lucide="compass" class="w-5 h-5"></i>
+                    <span>Areas We Serve</span>
                 </a>
             </div>
         </div>
