@@ -1310,6 +1310,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 66,
+        title: "Does PTSD Cause Memory Loss? What to Know",
+        excerpt:
+          "Learn how PTSD may affect memory, why trauma creates cognitive gaps, and explore advanced treatment options with Karma TMS in Palm Springs, Rancho Mirage, and 29 Palms.",
+        category: "mental-health",
+        author: "Dr. Keerthy Sunder",
+        date: "October 19, 2026",
+        readTime: "11 min read",
+        image: "images/blog/does-ptsd-cause-memory-loss-thumb.jpg",
+        featured: false,
+        url: "does-ptsd-cause-memory-loss.php",
+      },
+      {
         id: 65,
         title: "How Safe Is TMS for Depression Treatment? Risks & Benefits",
         excerpt:
