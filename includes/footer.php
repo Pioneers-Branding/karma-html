@@ -137,6 +137,12 @@
                     </div>
                 </div>
 
+                <!-- TMS List Badges -->
+                <div class="tmslist-badges" style="display:flex;flex-wrap:wrap;align-items:center;gap:10px;margin:14px 0 4px;">
+                    <a href="https://tmslist.com/clinic/karma-tms-palm-springs/" title="Karma TMS on TMS List" style="display:inline-block;line-height:0"><img src="https://tmslist.com/badge/karma-tms-palm-springs.svg?layout=pill" width="180" height="40" alt="Karma TMS is listed on TMS List" loading="lazy" style="border:0;max-width:100%;height:auto"></a>
+                    <a href="https://tmslist.com/clinic/karma-tms-palm-springs/" title="Karma TMS on TMS List" style="display:inline-block;line-height:0"><img src="https://tmslist.com/badge/karma-tms-palm-springs.svg?type=verified&amp;layout=pill" width="192" height="40" alt="Karma TMS is a verified TMS clinic on TMS List" loading="lazy" style="border:0;max-width:100%;height:auto"></a>
+                </div>
+
                 <!-- Contact Details -->
                 <div class="footer-contact-list">
                     <div class="footer-contact-item">
