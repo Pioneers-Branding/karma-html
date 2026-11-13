@@ -1310,6 +1310,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 67,
+        title: "Does IEHP Cover TMS Therapy? What Patients Should Know",
+        excerpt:
+          "Wondering if IEHP covers TMS therapy? Learn about Inland Empire Health Plan's TMS coverage criteria, prior authorization requirements, and how Karma TMS guides you through every step.",
+        category: "insurance",
+        author: "Dr. Keerthy Sunder",
+        date: "November 12, 2026",
+        readTime: "10 min read",
+        image: "images/blog/does-iehp-cover-tms-therapy-thumb.jpg",
+        featured: false,
+        url: "does-iehp-cover-tms-therapy.php",
+      },
+      {
         id: 66,
         title: "Does PTSD Cause Memory Loss? What to Know",
         excerpt:
