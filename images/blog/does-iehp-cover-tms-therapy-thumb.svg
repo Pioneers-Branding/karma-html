@@ -1,0 +1,222 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <!-- Main background gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2d1245;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#572670;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7B3FA0;stop-opacity:1" />
+    </linearGradient>
+    <!-- Glow gradient for brain -->
+    <radialGradient id="brainGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#c084fc;stop-opacity:0.4" />
+      <stop offset="100%" style="stop-color:#572670;stop-opacity:0" />
+    </radialGradient>
+    <!-- Card gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.04" />
+    </linearGradient>
+    <!-- Shield gradient -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:1" />
+    </linearGradient>
+    <!-- Green check gradient -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#22c55e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16a34a;stop-opacity:1" />
+    </linearGradient>
+    <!-- Neural pulse animation filter -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="8" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Background abstract circles -->
+  <circle cx="980" cy="80" r="220" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+  <circle cx="980" cy="80" r="160" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+  <circle cx="980" cy="80" r="100" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>
+  <circle cx="150" cy="560" r="180" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+  <circle cx="150" cy="560" r="120" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="1"/>
+
+  <!-- Soft radial glow behind brain area -->
+  <ellipse cx="750" cy="315" rx="300" ry="260" fill="url(#brainGlow)"/>
+
+  <!-- ===================== LEFT SIDE: Brain + Neural lines ===================== -->
+
+  <!-- Neural network lines -->
+  <g opacity="0.5" filter="url(#glow)">
+    <!-- Main neural paths -->
+    <line x1="600" y1="200" x2="680" y2="260" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="680" y1="260" x2="720" y2="320" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="720" y1="320" x2="760" y2="390" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="760" y1="390" x2="830" y2="420" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="600" y1="200" x2="640" y2="150" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,4"/>
+    <line x1="680" y1="260" x2="740" y2="240" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,4"/>
+    <line x1="720" y1="320" x2="800" y2="310" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,4"/>
+    <line x1="760" y1="390" x2="690" y2="440" stroke="#a78bfa" stroke-width="1" stroke-dasharray="3,4"/>
+    <line x1="640" y1="150" x2="700" y2="130" stroke="#c4b5fd" stroke-width="0.8" stroke-dasharray="2,5"/>
+    <line x1="740" y1="240" x2="810" y2="220" stroke="#c4b5fd" stroke-width="0.8" stroke-dasharray="2,5"/>
+    <line x1="800" y1="310" x2="880" y2="295" stroke="#c4b5fd" stroke-width="0.8" stroke-dasharray="2,5"/>
+    <line x1="690" y1="440" x2="650" y2="490" stroke="#c4b5fd" stroke-width="0.8" stroke-dasharray="2,5"/>
+    <line x1="830" y1="420" x2="900" y2="460" stroke="#c4b5fd" stroke-width="0.8" stroke-dasharray="2,5"/>
+  </g>
+
+  <!-- Neural nodes -->
+  <g filter="url(#glow)">
+    <circle cx="600" cy="200" r="6" fill="#c084fc" opacity="0.9"/>
+    <circle cx="680" cy="260" r="5" fill="#a78bfa" opacity="0.9"/>
+    <circle cx="720" cy="320" r="7" fill="#c084fc" opacity="0.85"/>
+    <circle cx="760" cy="390" r="5" fill="#a78bfa" opacity="0.9"/>
+    <circle cx="830" cy="420" r="6" fill="#c084fc" opacity="0.85"/>
+    <circle cx="640" cy="150" r="4" fill="#e9d5ff" opacity="0.7"/>
+    <circle cx="740" cy="240" r="4" fill="#e9d5ff" opacity="0.7"/>
+    <circle cx="800" cy="310" r="4" fill="#e9d5ff" opacity="0.7"/>
+    <circle cx="690" cy="440" r="4" fill="#e9d5ff" opacity="0.7"/>
+    <circle cx="700" cy="130" r="3" fill="#f3e8ff" opacity="0.6"/>
+    <circle cx="810" cy="220" r="3" fill="#f3e8ff" opacity="0.6"/>
+    <circle cx="880" cy="295" r="3" fill="#f3e8ff" opacity="0.6"/>
+    <circle cx="650" cy="490" r="3" fill="#f3e8ff" opacity="0.6"/>
+    <circle cx="900" cy="460" r="3" fill="#f3e8ff" opacity="0.6"/>
+  </g>
+
+  <!-- Pulsing ring on main node -->
+  <circle cx="720" cy="320" r="18" fill="none" stroke="#c084fc" stroke-width="1.5" opacity="0.4"/>
+  <circle cx="720" cy="320" r="28" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.2"/>
+
+  <!-- ===================== BRAIN ICON (stylized) ===================== -->
+  <g transform="translate(680, 255)" opacity="0.9">
+    <!-- Brain left hemisphere -->
+    <path d="M40,65 C40,45 25,38 20,30 C15,22 18,10 28,8 C35,6 42,10 45,18 C47,12 53,7 60,8 C70,9 72,20 68,28 C74,32 78,42 75,52 C80,55 82,65 78,72 C74,79 66,80 60,76 C57,82 50,85 44,82 C38,85 30,82 28,76 C22,74 18,66 22,59 C18,53 20,45 25,42 C30,52 36,58 40,65Z" fill="rgba(192, 132, 252, 0.25)" stroke="#c084fc" stroke-width="1.5"/>
+    <!-- Brain right hemisphere hint -->
+    <path d="M60,8 C70,6 80,10 83,20 C89,18 95,22 95,32 C101,34 104,44 100,53 C105,57 106,68 101,74 C97,80 89,80 84,75 C81,81 74,84 68,81 C72,74 76,65 75,52 C78,42 74,32 68,28 C72,20 70,9 60,8Z" fill="rgba(167, 139, 250, 0.2)" stroke="#a78bfa" stroke-width="1.2"/>
+    <!-- Center line -->
+    <line x1="60" y1="8" x2="58" y2="82" stroke="#c4b5fd" stroke-width="1" stroke-dasharray="3,2" opacity="0.6"/>
+    <!-- Small detail lines on brain -->
+    <path d="M32,35 C38,30 45,33 48,40" fill="none" stroke="#e9d5ff" stroke-width="1" opacity="0.5"/>
+    <path d="M25,55 C32,50 40,53 42,60" fill="none" stroke="#e9d5ff" stroke-width="1" opacity="0.5"/>
+    <path d="M70,35 C76,30 82,34 83,42" fill="none" stroke="#e9d5ff" stroke-width="1" opacity="0.5"/>
+  </g>
+
+  <!-- ===================== RIGHT SIDE: Main content cards ===================== -->
+
+  <!-- Insurance Card (main feature) -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="80" width="420" height="240" rx="20" ry="20" fill="url(#cardGrad)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  </g>
+
+  <!-- Insurance card chip -->
+  <rect x="100" y="120" width="50" height="38" rx="6" ry="6" fill="rgba(250,220,100,0.85)"/>
+  <line x1="100" y1="133" x2="150" y2="133" stroke="rgba(180,140,0,0.5)" stroke-width="1"/>
+  <line x1="100" y1="145" x2="150" y2="145" stroke="rgba(180,140,0,0.5)" stroke-width="1"/>
+  <line x1="125" y1="120" x2="125" y2="158" stroke="rgba(180,140,0,0.5)" stroke-width="1"/>
+
+  <!-- Insurance card text lines -->
+  <rect x="175" y="125" width="140" height="10" rx="5" fill="rgba(255,255,255,0.4)"/>
+  <rect x="175" y="143" width="100" height="8" rx="4" fill="rgba(255,255,255,0.25)"/>
+  <rect x="175" y="158" width="80" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Card number dots -->
+  <circle cx="100" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="115" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="130" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="145" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <rect x="165" y="191" width="30" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="215" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="230" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="245" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <circle cx="260" cy="195" r="4" fill="rgba(255,255,255,0.6)"/>
+  <rect x="280" y="191" width="40" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- Card holder name -->
+  <rect x="100" y="225" width="120" height="8" rx="4" fill="rgba(255,255,255,0.35)"/>
+  <rect x="100" y="240" width="80" height="7" rx="3" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Shield icon on card -->
+  <path d="M390,105 L410,113 L410,133 C410,143 400,151 390,155 C380,151 370,143 370,133 L370,113 Z" fill="url(#shieldGrad)" opacity="0.9"/>
+  <!-- Check on shield -->
+  <polyline points="381,133 388,140 400,124" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- ===================== COVERAGE STATUS PILLS ===================== -->
+
+  <!-- Covered pill -->
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="345" width="200" height="58" rx="29" fill="url(#greenGrad)"/>
+  </g>
+  <circle cx="95" cy="374" r="14" fill="rgba(255,255,255,0.25)"/>
+  <polyline points="88,374 93,380 103,367" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="118" y="364" width="110" height="10" rx="5" fill="rgba(255,255,255,0.9)"/>
+  <rect x="118" y="380" width="80" height="8" rx="4" fill="rgba(255,255,255,0.65)"/>
+
+  <!-- Approved badge -->
+  <g filter="url(#cardShadow)">
+    <rect x="280" y="345" width="200" height="58" rx="12" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.2)" stroke-width="1"/>
+  </g>
+  <circle cx="313" cy="374" r="14" fill="rgba(192,132,252,0.4)"/>
+  <rect x="308" y="369" width="10" height="10" rx="2" fill="rgba(255,255,255,0.8)"/>
+  <rect x="333" y="364" width="120" height="10" rx="5" fill="rgba(255,255,255,0.7)"/>
+  <rect x="333" y="380" width="90" height="8" rx="4" fill="rgba(255,255,255,0.4)"/>
+
+  <!-- ===================== BOTTOM STAT CARDS ===================== -->
+
+  <g filter="url(#cardShadow)">
+    <rect x="60" y="425" width="130" height="80" rx="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  </g>
+  <rect x="82" y="445" width="50" height="8" rx="4" fill="rgba(255,255,255,0.4)"/>
+  <rect x="82" y="460" width="85" height="12" rx="6" fill="rgba(255,255,255,0.8)"/>
+  <rect x="82" y="479" width="60" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="210" y="425" width="130" height="80" rx="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  </g>
+  <rect x="232" y="445" width="50" height="8" rx="4" fill="rgba(255,255,255,0.4)"/>
+  <rect x="232" y="460" width="85" height="12" rx="6" fill="rgba(255,255,255,0.8)"/>
+  <rect x="232" y="479" width="60" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+
+  <g filter="url(#cardShadow)">
+    <rect x="360" y="425" width="120" height="80" rx="14" fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  </g>
+  <rect x="380" y="445" width="50" height="8" rx="4" fill="rgba(255,255,255,0.4)"/>
+  <rect x="380" y="460" width="80" height="12" rx="6" fill="rgba(255,255,255,0.8)"/>
+  <rect x="380" y="479" width="55" height="8" rx="4" fill="rgba(255,255,255,0.3)"/>
+
+  <!-- ===================== DECORATIVE ELEMENTS ===================== -->
+
+  <!-- Top right corner TMS wave -->
+  <g opacity="0.3" transform="translate(950, 480)">
+    <path d="M0,40 C20,10 40,70 60,40 C80,10 100,70 120,40 C140,10 160,70 180,40 C200,10 220,70 240,40" fill="none" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M0,60 C20,30 40,90 60,60 C80,30 100,90 120,60 C140,30 160,90 180,60 C200,30 220,90 240,60" fill="none" stroke="#a78bfa" stroke-width="1.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+
+  <!-- Floating dots decoration -->
+  <circle cx="1100" cy="200" r="3" fill="rgba(255,255,255,0.3)"/>
+  <circle cx="1130" cy="230" r="2" fill="rgba(255,255,255,0.2)"/>
+  <circle cx="1080" cy="260" r="4" fill="rgba(255,255,255,0.15)"/>
+  <circle cx="1150" cy="310" r="2" fill="rgba(255,255,255,0.25)"/>
+  <circle cx="1110" cy="350" r="3" fill="rgba(255,255,255,0.2)"/>
+
+  <!-- Bottom shimmer line -->
+  <rect x="0" y="615" width="1200" height="2" fill="rgba(192,132,252,0.4)"/>
+
+  <!-- Subtle top gradient overlay -->
+  <rect x="0" y="0" width="1200" height="80" fill="url(#bgGrad)" opacity="0.3"/>
+
+</svg>
+
