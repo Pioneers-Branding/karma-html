@@ -1310,6 +1310,19 @@ function initBlogPage() {
     // COMPLETE LIST from blog-posts.json
     const localBlogData = [
       {
+        id: 68,
+        title: "Is PTSD Considered a Disability? What You Need to Know",
+        excerpt:
+          "Is PTSD considered a disability? Learn how Social Security, the VA, and the ADA evaluate PTSD, what evidence strengthens a claim, and where to find PTSD care in Palm Springs, Rancho Mirage, and 29 Palms.",
+        category: "mental-health",
+        author: "Dr. Keerthy Sunder",
+        date: "November 16, 2026",
+        readTime: "10 min read",
+        image: "images/blog/is-ptsd-considered-a-disability-thumb.jpg",
+        featured: false,
+        url: "is-ptsd-considered-a-disability.php",
+      },
+      {
         id: 67,
         title: "Does IEHP Cover TMS Therapy? What Patients Should Know",
         excerpt:
