@@ -16,35 +16,129 @@
  <meta name="geo.placename" content="Adelanto, California">
  <?php include 'includes/header-links.php'; ?>
  <script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@graph":[
-   {
-    "@type":"MedicalBusiness",
-    "name":"Karma TMS – Twentynine Palms Hub",
-    "url":"https://karmatms.com",
-    "telephone":"(760) 760-5675",
-    "email":"contact@karmatms.com",
-    "address":{"@type":"PostalAddress","streetAddress":"72724 29 Palms Hwy., Suite 107-B","addressLocality":"Twentynine Palms","addressRegion":"CA","postalCode":"92277","addressCountry":"US"},
-    "geo":{"@type":"GeoCoordinates","latitude":34.1361,"longitude":-116.0542},
-    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
-    "medicalSpecialty":["Psychiatry","MentalHealth"],
-    "availableService":["TMS Therapy","PrTMS","Brain Mapping","Medication Management"],
-    "areaServed":"Adelanto, San Bernardino County"
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalBusiness",
+   "name": "Karma TMS – Twentynine Palms Hub",
+   "url": "https://karmatms.com",
+   "telephone": "(760) 760-5675",
+   "email": "contact@karmatms.com",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "72724 29 Palms Hwy., Suite 107-B",
+    "addressLocality": "Twentynine Palms",
+    "addressRegion": "CA",
+    "postalCode": "92277",
+    "addressCountry": "US"
    },
-   {
-    "@type":"FAQPage",
-    "mainEntity":[{"@type":"Question","name":"What is TMS therapy and how does it work?","acceptedAnswer":{"@type":"Answer","text":"Transcranial Magnetic Stimulation (TMS) uses precisely targeted magnetic pulses\u2014similar in strength to an MRI\u2014to stimulate underactive areas of the brain responsible for mood regulation. Unlike antidepressants, TMS works directly at the neurological level with no systemic side effects."}},{"@type":"Question","name":"How many sessions does a TMS treatment course require?","acceptedAnswer":{"@type":"Answer","text":"A standard TMS course involves 20\u201336 sessions, delivered five days a week over four to six weeks. Each session lasts approximately 20\u201340 minutes. Your psychiatrist will customize the protocol based on your diagnosis and response."}},{"@type":"Question","name":"What does a TMS session feel like?","acceptedAnswer":{"@type":"Answer","text":"Most patients describe a light, rhythmic tapping sensation on the scalp during the procedure. There is no anesthesia, no sedation, and no recovery time\u2014most patients return to normal activities immediately after each session."}},{"@type":"Question","name":"Can I drive myself to and from TMS sessions?","acceptedAnswer":{"@type":"Answer","text":"Yes. Because TMS involves no sedation or cognitive impairment, patients drive themselves to and from every appointment. This is one of the major practical advantages over other psychiatric procedures."}},{"@type":"Question","name":"How do I get started with TMS therapy from Adelanto?","acceptedAnswer":{"@type":"Answer","text":"Call Karma TMS or submit a contact form online to schedule your free initial consultation. Our intake team will verify your insurance, gather your psychiatric history, and typically schedule your first appointment within one to two weeks."}}]
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 34.1361,
+    "longitude": -116.0542
    },
-   {
-    "@type":"BreadcrumbList",
-    "itemListElement":[
-     {"@type":"ListItem","position":1,"name":"Home","item":"https://karmatms.com/"},
-     {"@type":"ListItem","position":2,"name":"Areas We Serve","item":"https://karmatms.com/areas-we-serve.php"},
-     {"@type":"ListItem","position":3,"name":"TMS Therapy in Adelanto","item":"https://karmatms.com/tms-therapy-adelanto.php"}
-    ]
-   }
-  ]
- }</script>
+   "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+   },
+   "medicalSpecialty": [
+    "Psychiatry",
+    "MentalHealth"
+   ],
+   "availableService": [
+    "TMS Therapy",
+    "PrTMS",
+    "Brain Mapping",
+    "Medication Management"
+   ],
+   "areaServed": "Adelanto, San Bernardino County"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "What is TMS therapy and how does it work?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Transcranial Magnetic Stimulation (TMS) uses precisely targeted magnetic pulses—similar in strength to an MRI—to stimulate underactive areas of the brain responsible for mood regulation. Unlike antidepressants, TMS works directly at the neurological level with no systemic side effects."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How many sessions does a TMS treatment course require?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "A standard TMS course involves 20–36 sessions, delivered five days a week over four to six weeks. Each session lasts approximately 20–40 minutes. Your psychiatrist will customize the protocol based on your diagnosis and response."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does a TMS session feel like?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Most patients describe a light, rhythmic tapping sensation on the scalp during the procedure. There is no anesthesia, no sedation, and no recovery time—most patients return to normal activities immediately after each session."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I drive myself to and from TMS sessions?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Because TMS involves no sedation or cognitive impairment, patients drive themselves to and from every appointment. This is one of the major practical advantages over other psychiatric procedures."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I get started with TMS therapy from Adelanto?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Call Karma TMS or submit a contact form online to schedule your free initial consultation. Our intake team will verify your insurance, gather your psychiatric history, and typically schedule your first appointment within one to two weeks."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How far is the nearest Karma TMS clinic from Adelanto?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Karma TMS does not have an office in Adelanto. The closest clinic is our Palm Springs clinic at 560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264, about 100 miles away (roughly 2 hr by car). We also have clinics in Rancho Mirage (about 105 miles) and Twentynine Palms (about 95 miles)."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://karmatms.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Areas We Serve",
+     "item": "https://karmatms.com/areas-we-serve.php"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "TMS Therapy in Adelanto",
+     "item": "https://karmatms.com/tms-therapy-adelanto.php"
+    }
+   ]
+  }
+ ]
+}</script>
  <style>
   /* ---- Animations ---- */
   @keyframes fadeInUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
@@ -189,6 +283,32 @@
   .btn-cta-main:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(124,58,237,.55)}
   .btn-cta-phone{display:flex;align-items:center;gap:.5rem;color:#e9d5ff;font-weight:700;font-size:1.1rem;text-decoration:none;transition:color .2s,transform .2s}
   .btn-cta-phone:hover{color:#fff;transform:translateY(-2px)}
+  /* ---- How to Get Here ---- */
+  .loc-dir-section{padding:5rem 1rem;background:#fff}
+  .loc-dir-inner{max-width:1100px;margin:0 auto}
+  .loc-dir-notice{display:flex;gap:.85rem;align-items:flex-start;background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-left:5px solid #7c3aed;border-radius:1rem;padding:1.25rem 1.5rem;margin-bottom:2rem;color:#3b0764;line-height:1.65}
+  .loc-dir-notice i,.loc-dir-notice svg{flex-shrink:0;color:#7c3aed;margin-top:.2rem;width:1.25rem;height:1.25rem}
+  .loc-dir-notice p{margin:0}
+  .loc-dir-grid{display:grid;gap:1.25rem}
+  @media(min-width:768px){.loc-dir-grid{grid-template-columns:repeat(3,1fr)}}
+  .loc-dir-card{position:relative;background:#fff;border:1px solid #e5e7eb;border-radius:1.25rem;padding:1.75rem 1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.05);display:flex;flex-direction:column}
+  .loc-dir-card.is-nearest{border:2px solid #7c3aed;box-shadow:0 10px 30px rgba(124,58,237,.15)}
+  .loc-dir-badge{align-self:flex-start;background:#7c3aed;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .7rem;border-radius:9999px;margin-bottom:.85rem}
+  .loc-dir-card h3{font-size:1.15rem;font-weight:700;color:#1e1b4b;margin-bottom:.35rem}
+  .loc-dir-addr{font-size:.88rem;color:#6b7280;line-height:1.55;margin-bottom:1.1rem}
+  .loc-dir-stats{display:flex;gap:1.5rem;margin-bottom:1.25rem}
+  .loc-dir-num{display:block;font-size:1.35rem;font-weight:800;color:#3b0764;line-height:1.2}
+  .loc-dir-unit{display:block;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8}
+  .loc-dir-link{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;background:linear-gradient(135deg,#7c3aed,#9333ea);color:#fff;font-weight:700;font-size:.9rem;padding:.75rem 1rem;border-radius:.75rem;text-decoration:none;transition:transform .2s,box-shadow .2s}
+  .loc-dir-link:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(124,58,237,.35)}
+  .loc-dir-link i,.loc-dir-link svg{width:1rem;height:1rem}
+  .loc-dir-card:not(.is-nearest) .loc-dir-link{background:#fff;color:#6d28d9;border:1px solid #c4b5fd}
+  .loc-dir-route{display:flex;gap:.75rem;align-items:flex-start;margin-top:2rem;background:#f8fafc;border:1px solid #e5e7eb;border-radius:1rem;padding:1.1rem 1.25rem;color:#374151;font-size:.95rem;line-height:1.65}
+  .loc-dir-route i,.loc-dir-route svg{flex-shrink:0;color:#7c3aed;margin-top:.2rem;width:1.15rem;height:1.15rem}
+  .loc-dir-note{margin-top:1rem;font-size:.82rem;color:#6b7280;line-height:1.6;text-align:center}
+  .loc-info-value small{display:block;color:#94a3b8;font-size:.78rem;margin-top:.15rem}
+  .loc-info-value a{color:#c4b5fd;font-size:.8rem;font-weight:600;text-decoration:none}
+  .loc-info-value a:hover{text-decoration:underline}
  </style>
 </head>
 <body class="bg-white">
@@ -213,7 +333,7 @@
  <div class="container mx-auto loc-hero-inner">
   <span class="loc-badge"><i data-lucide="map-pin" style="width:12px;height:12px"></i>Serving Adelanto, San Bernardino County</span>
   <h1>TMS Therapy Near <span class="grad">Adelanto</span>, CA</h1>
-  <p class="loc-hero-sub">Adelanto is a rapidly growing High Desert city where families deserve access to advanced psychiatric care beyond conventional antidepressants. Karma TMS brings FDA-approved, non-pharmaceutical psychiatric care to your community—no referral required.</p>
+  <p class="loc-hero-sub">Adelanto is a rapidly growing High Desert city where families deserve access to advanced psychiatric care beyond conventional antidepressants. Karma TMS does not have an office in Adelanto; patients travel to one of our three clinics in Palm Springs, Rancho Mirage, or Twentynine Palms—no referral required.</p>
   <div class="loc-hero-btns">
    <a href="contact-us.php" class="btn-primary-hero"><i data-lucide="calendar-check" style="width:16px;height:16px"></i>Schedule Free Assessment</a>
    <a href="tms-quiz.php" class="btn-outline-hero"><i data-lucide="clipboard-list" style="width:16px;height:16px"></i>Am I a Candidate?</a>
@@ -229,7 +349,7 @@
    <div class="loc-trust-item d2"><i data-lucide="trending-up"></i>80%+ Patient Success Rate</div>
    <div class="loc-trust-item d3"><i data-lucide="shield-check"></i>All Major Insurance Accepted</div>
    <div class="loc-trust-item d4"><i data-lucide="award"></i>Board-Certified Psychiatrists</div>
-   <div class="loc-trust-item" style="animation-delay:.38s"><i data-lucide="map-pin"></i>52 Miles from Adelanto</div>
+   <div class="loc-trust-item" style="animation-delay:.38s"><i data-lucide="map-pin"></i>~100 Miles to Nearest Clinic</div>
   </div>
  </div>
 </div>
@@ -285,8 +405,9 @@
 
     <div class="loc-info-card">
      <h3><i data-lucide="map-pin"></i>Quick Access Info</h3>
-     <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Hub</div><div class="loc-info-value">Twentynine Palms</div></div>
-     <div class="loc-info-row"><div class="loc-info-label">Estimated Distance</div><div class="loc-info-value">~52 miles from Adelanto</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Office in Adelanto?</div><div class="loc-info-value">No — patients travel to a Karma TMS clinic</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Clinic</div><div class="loc-info-value">Palm Springs<small>560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264</small></div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Driving Distance</div><div class="loc-info-value">~100 miles (about 2 hr)<small><a href="#how-to-get-here">See all 3 clinics &amp; directions &rarr;</a></small></div></div>
      <div class="loc-info-row"><div class="loc-info-label">Session Duration</div><div class="loc-info-value">20–40 minutes per session</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 9 AM – 5 PM</div></div>
      <a href="contact-us.php" class="loc-info-cta">Verify My Insurance — Free</a>
@@ -306,6 +427,40 @@
  </div>
 </section>
 
+<!-- How to Get Here -->
+<section class="loc-dir-section" id="how-to-get-here">
+ <div class="loc-dir-inner">
+  <div class="loc-section-heading">
+   <h2>How to Get to Karma TMS from Adelanto</h2>
+   <p>Karma TMS has three clinics in Southern California. Here is how far each one is from Adelanto, closest first.</p>
+  </div>
+  <div class="loc-dir-notice"><i data-lucide="info"></i><p><strong>Karma TMS does not have an office in Adelanto.</strong> Patients from Adelanto are seen at one of the three clinics below. The closest is our <strong>Palm Springs</strong> clinic, about 100 miles away (roughly 2 hr by car).</p></div>
+  <div class="loc-dir-grid">
+   <div class="loc-dir-card is-nearest">
+    <span class="loc-dir-badge">Closest to Adelanto</span>
+    <h3>Palm Springs Clinic</h3>
+    <p class="loc-dir-addr">560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~100</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">2 hr</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%20560%20S.%20Paseo%20Dorotea%2C%20Suite%204-B%2C%20Palm%20Springs%2C%20CA%2092264" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+   <div class="loc-dir-card">
+    <h3>Rancho Mirage Clinic</h3>
+    <p class="loc-dir-addr">35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~105</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">2 hr 5 min</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%2035400%20Bob%20Hope%20Dr.%2C%20Suite%20206-B%2C%20Rancho%20Mirage%2C%20CA%2092270" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+   <div class="loc-dir-card">
+    <h3>Twentynine Palms Clinic</h3>
+    <p class="loc-dir-addr">72724 29 Palms Hwy., Suite 107-B, Twentynine Palms, CA 92277</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~95</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">2 hr 10 min</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%2072724%2029%20Palms%20Hwy.%2C%20Suite%20107-B%2C%20Twentynine%20Palms%2C%20CA%2092277" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+  </div>
+  <div class="loc-dir-route"><i data-lucide="route"></i><div><strong>Typical route from Adelanto to our Palm Springs clinic:</strong> US-395 &rarr; I-15 &rarr; I-215 &rarr; I-10. Use the Get Directions button for turn-by-turn directions from your exact address.</div></div>
+  <p class="loc-dir-note">Distances and drive times are estimates for typical conditions without traffic; weather, and construction can add time. A TMS course is usually 20–36 sessions over four to six weeks, so plan for regular trips. Our team is happy to help you schedule around your commute.</p>
+ </div>
+</section>
+
 <!-- Why Choose Karma TMS -->
 <section class="loc-why-section">
  <div class="loc-why-inner">
@@ -313,7 +468,7 @@
    <h2>Why Adelanto Patients Choose the Twentynine Palms Hub</h2>
    <p>Three reasons the High Desert trusts Karma TMS for advanced psychiatric care.</p>
   </div>
-  <div class="loc-why-grid"><div class="loc-why-card reveal d1"><div class="loc-why-icon-wrap"><i data-lucide="map-pin" class="loc-why-icon"></i></div><h3 class="loc-why-title">Serving the High Desert</h3><p class="loc-why-body">One of the only board-certified TMS centers in the Morongo Basin—purpose-built to serve Adelanto and High Desert communities without requiring a trip to a major metro area.</p></div><div class="loc-why-card reveal d2"><div class="loc-why-icon-wrap"><i data-lucide="shield-check" class="loc-why-icon"></i></div><h3 class="loc-why-title">Military &amp; Tricare Ready</h3><p class="loc-why-body">Tricare accepted. VA-experienced psychiatrists on staff. We understand the distinct mental health challenges facing active duty members, veterans, and their families.</p></div><div class="loc-why-card reveal d3"><div class="loc-why-icon-wrap"><i data-lucide="user-check" class="loc-why-icon"></i></div><h3 class="loc-why-title">No Referral Needed</h3><p class="loc-why-body">Our board-certified psychiatrists conduct your full psychiatric evaluation and build your treatment plan in-house—no outside referral or pre-existing relationship required.</p></div></div>
+  <div class="loc-why-grid"><div class="loc-why-card reveal d1"><div class="loc-why-icon-wrap"><i data-lucide="map-pin" class="loc-why-icon"></i></div><h3 class="loc-why-title">Serving the High Desert</h3><p class="loc-why-body">Our Twentynine Palms clinic is one of the only board-certified TMS centers in the Morongo Basin, serving High Desert communities and patients who travel from Adelanto.</p></div><div class="loc-why-card reveal d2"><div class="loc-why-icon-wrap"><i data-lucide="shield-check" class="loc-why-icon"></i></div><h3 class="loc-why-title">Military &amp; Tricare Ready</h3><p class="loc-why-body">Tricare accepted. VA-experienced psychiatrists on staff. We understand the distinct mental health challenges facing active duty members, veterans, and their families.</p></div><div class="loc-why-card reveal d3"><div class="loc-why-icon-wrap"><i data-lucide="user-check" class="loc-why-icon"></i></div><h3 class="loc-why-title">No Referral Needed</h3><p class="loc-why-body">Our board-certified psychiatrists conduct your full psychiatric evaluation and build your treatment plan in-house—no outside referral or pre-existing relationship required.</p></div></div>
  </div>
 </section>
 
@@ -382,6 +537,9 @@
   </div><div class="faq-item" onclick="toggleFAQ(this)">
    <div class="faq-header"><span class="faq-question">How do I get started with TMS therapy from Adelanto?</span><i data-lucide="chevron-down" class="faq-chevron"></i></div>
    <div class="faq-content"><p>Call Karma TMS or submit a contact form online to schedule your free initial consultation. Our intake team will verify your insurance, gather your psychiatric history, and typically schedule your first appointment within one to two weeks.</p></div>
+  </div><div class="faq-item" onclick="toggleFAQ(this)">
+   <div class="faq-header"><span class="faq-question">How far is the nearest Karma TMS clinic from Adelanto?</span><i data-lucide="chevron-down" class="faq-chevron"></i></div>
+   <div class="faq-content"><p>Karma TMS does not have an office in Adelanto. The closest clinic is our Palm Springs clinic at 560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264, about 100 miles away (roughly 2 hr by car). We also have clinics in Rancho Mirage (about 105 miles) and Twentynine Palms (about 95 miles).</p></div>
   </div>
  </div>
 </section>
@@ -390,7 +548,7 @@
 <section class="loc-cta-section">
  <div class="loc-cta-inner reveal">
   <h2>Start Your Recovery from <span>Adelanto</span></h2>
-  <p>Whether you're in Adelanto or anywhere across San Bernardino County, Karma TMS is your partner in lasting mental health recovery. The Twentynine Palms hub is 52 miles away and accepting new patients now.</p>
+  <p>Whether you're in Adelanto or anywhere across San Bernardino County, Karma TMS is your partner in lasting mental health recovery. Our nearest clinic, in Palm Springs, is about 100 miles (roughly 2 hr) away and accepting new patients now.</p>
   <div class="loc-cta-btns">
    <a href="contact-us.php" class="btn-cta-main"><i data-lucide="calendar-check" style="width:16px;height:16px"></i>Schedule Free Assessment</a>
    <a href="tel:7607605675" class="btn-cta-phone"><i data-lucide="phone"></i>(760) 760-5675</a>

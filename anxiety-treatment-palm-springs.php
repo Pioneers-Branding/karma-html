@@ -786,7 +786,7 @@
                             Serving Palm Springs &amp; Neighboring Communities
                         </h2>
                         <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            While our primary clinical hub is located at <strong>560 S. Paseo Dorotea, Suite 4-B, Palm Springs</strong>, our 20-minute outpatient sessions make world-class care accessible for patients commuting from surrounding towns across the region.
+                            Our clinic is located at <strong>560 S. Paseo Dorotea, Suite 4-B, Palm Springs</strong>. Karma TMS has three clinics in total, in Palm Springs, Rancho Mirage, and Twentynine Palms, and no satellite offices. Patients from surrounding towns commute to us for our 20-minute outpatient sessions.
                         </p>
                     </div>
 
@@ -794,64 +794,65 @@
                         <i data-lucide="navigation-2" style="width: 18px; height: 18px; color: #7c3aed;"></i>
                         Nearby Communities We Proudly Serve:
                     </h3>
+                    <p class="text-sm text-gray-500 mb-4">We do not have offices in these communities. Mileage and drive times below are to our Palm Springs clinic.</p>
                     <div class="nearby-grid">
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Cathedral City</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">5 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">4 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 10 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 8 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via E Palm Canyon Dr                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Desert Hot Springs</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">8 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">11 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 14 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 18 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via Gene Autry Trail / N Indian Canyon Dr                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Thousand Palms</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">11 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">9 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 16 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 20 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 E &amp; Ramon Rd                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Cabazon</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">18 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">23 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 22 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 29 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 W                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Whitewater</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">14 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">18 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 18 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 24 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 W                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Banning</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">24 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">28 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 28 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 33 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 W                            </p>
                         </div>

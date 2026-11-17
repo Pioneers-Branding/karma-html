@@ -767,7 +767,7 @@
                             Serving Rancho Mirage &amp; Neighboring Communities
                         </h2>
                         <p class="text-gray-600 text-sm md:text-base leading-relaxed">
-                            While our primary clinical hub is located at <strong>35400 Bob Hope Dr., Suite 206-B, Rancho Mirage</strong>, our 20-minute outpatient sessions make world-class care accessible for patients commuting from surrounding towns across the region.
+                            Our clinic is located at <strong>35400 Bob Hope Dr., Suite 206-B, Rancho Mirage</strong>. Karma TMS has three clinics in total, in Palm Springs, Rancho Mirage, and Twentynine Palms, and no satellite offices. Patients from surrounding towns commute to us for our 20-minute outpatient sessions.
                         </p>
                     </div>
 
@@ -775,24 +775,25 @@
                         <i data-lucide="navigation-2" style="width: 18px; height: 18px; color: #7c3aed;"></i>
                         Nearby Communities We Proudly Serve:
                     </h3>
+                    <p class="text-sm text-gray-500 mb-4">We do not have offices in these communities. Mileage and drive times below are to our Rancho Mirage clinic.</p>
                     <div class="nearby-grid">
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Palm Desert</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">5 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">3 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 8 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 6 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via Monterey Ave / Hwy 111                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Indian Wells</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">8 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">6 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 12 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 11 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via CA-111 S                            </p>
                         </div>
@@ -802,37 +803,37 @@
                                 <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">8 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 12 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 15 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via Country Club Dr / Fred Waring Dr                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">La Quinta</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">12 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">11 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 18 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 21 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via Washington St &amp; Hwy 111                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Indio</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">15 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">12 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 20 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 21 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 E / Hwy 111                            </p>
                         </div>
                                                 <div class="nearby-card">
                             <div class="flex items-center justify-between mb-2">
                                 <h4 class="font-bold text-gray-900 text-base">Coachella</h4>
-                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">18 miles</span>
+                                <span class="text-xs font-bold text-purple-700 bg-purple-100 px-2.5 py-0.5 rounded-full">16 miles</span>
                             </div>
                             <p class="text-xs text-gray-500 mb-1">
-                                <strong>Drive Time:</strong> Approx. 24 mins                            </p>
+                                <strong>Drive Time:</strong> Approx. 27 mins                            </p>
                             <p class="text-xs text-gray-500">
                                 <strong>Route:</strong> via I-10 E                            </p>
                         </div>

@@ -16,35 +16,129 @@
  <meta name="geo.placename" content="Idyllwild, California">
  <?php include 'includes/header-links.php'; ?>
  <script type="application/ld+json">{
-  "@context":"https://schema.org",
-  "@graph":[
-   {
-    "@type":"MedicalBusiness",
-    "name":"Karma TMS – Rancho Mirage Hub",
-    "url":"https://karmatms.com",
-    "telephone":"(760) 760-5675",
-    "email":"contact@karmatms.com",
-    "address":{"@type":"PostalAddress","streetAddress":"35400 Bob Hope Dr., Suite 206-B","addressLocality":"Rancho Mirage","addressRegion":"CA","postalCode":"92270","addressCountry":"US"},
-    "geo":{"@type":"GeoCoordinates","latitude":33.7397,"longitude":-116.4119},
-    "openingHoursSpecification":{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"17:00"},
-    "medicalSpecialty":["Psychiatry","MentalHealth"],
-    "availableService":["TMS Therapy","PrTMS","Brain Mapping","Medication Management"],
-    "areaServed":"Idyllwild, Riverside County"
+ "@context": "https://schema.org",
+ "@graph": [
+  {
+   "@type": "MedicalBusiness",
+   "name": "Karma TMS – Rancho Mirage Hub",
+   "url": "https://karmatms.com",
+   "telephone": "(760) 760-5675",
+   "email": "contact@karmatms.com",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "35400 Bob Hope Dr., Suite 206-B",
+    "addressLocality": "Rancho Mirage",
+    "addressRegion": "CA",
+    "postalCode": "92270",
+    "addressCountry": "US"
    },
-   {
-    "@type":"FAQPage",
-    "mainEntity":[{"@type":"Question","name":"Who is a good candidate for TMS therapy?","acceptedAnswer":{"@type":"Answer","text":"Adults with Major Depressive Disorder who have not achieved adequate relief from one or more antidepressant medications are the primary TMS candidates. Our psychiatrists also evaluate patients with anxiety disorders, OCD, and PTSD for TMS suitability."}},{"@type":"Question","name":"Does TMS therapy really work for depression?","acceptedAnswer":{"@type":"Answer","text":"Clinical trials show 60\u201380% of patients achieve meaningful improvement, with 30\u201350% achieving full remission. Karma TMS's outcomes align with the top-performing TMS programs nationally, and we track every patient's progress throughout treatment."}},{"@type":"Question","name":"Are there any contraindications to TMS?","acceptedAnswer":{"@type":"Answer","text":"TMS is not recommended for individuals with ferromagnetic metal implants in or near the skull\u2014such as certain pacemakers, cochlear implants, or aneurysm clips. Our intake process screens thoroughly for all contraindications before treatment begins."}},{"@type":"Question","name":"Is PrTMS\u00ae different from standard TMS, and which should I choose?","acceptedAnswer":{"@type":"Answer","text":"PrTMS\u00ae (Personalized Repetitive TMS) uses a patented qEEG-guided algorithm to calibrate the magnetic frequency and stimulation site to your brain's specific activity patterns. Our psychiatrists will recommend the protocol most likely to achieve the best outcome for your individual case."}},{"@type":"Question","name":"Do Idyllwild residents need a referral to start TMS?","acceptedAnswer":{"@type":"Answer","text":"No referral is required. Karma TMS has board-certified psychiatrists on staff who conduct your evaluation and manage your care from initial consultation through the full treatment course."}}]
+   "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 33.7397,
+    "longitude": -116.4119
    },
-   {
-    "@type":"BreadcrumbList",
-    "itemListElement":[
-     {"@type":"ListItem","position":1,"name":"Home","item":"https://karmatms.com/"},
-     {"@type":"ListItem","position":2,"name":"Areas We Serve","item":"https://karmatms.com/areas-we-serve.php"},
-     {"@type":"ListItem","position":3,"name":"TMS Therapy in Idyllwild","item":"https://karmatms.com/tms-therapy-idyllwild.php"}
-    ]
-   }
-  ]
- }</script>
+   "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": [
+     "Monday",
+     "Tuesday",
+     "Wednesday",
+     "Thursday",
+     "Friday"
+    ],
+    "opens": "09:00",
+    "closes": "17:00"
+   },
+   "medicalSpecialty": [
+    "Psychiatry",
+    "MentalHealth"
+   ],
+   "availableService": [
+    "TMS Therapy",
+    "PrTMS",
+    "Brain Mapping",
+    "Medication Management"
+   ],
+   "areaServed": "Idyllwild, Riverside County"
+  },
+  {
+   "@type": "FAQPage",
+   "mainEntity": [
+    {
+     "@type": "Question",
+     "name": "Who is a good candidate for TMS therapy?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Adults with Major Depressive Disorder who have not achieved adequate relief from one or more antidepressant medications are the primary TMS candidates. Our psychiatrists also evaluate patients with anxiety disorders, OCD, and PTSD for TMS suitability."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does TMS therapy really work for depression?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Clinical trials show 60–80% of patients achieve meaningful improvement, with 30–50% achieving full remission. Karma TMS's outcomes align with the top-performing TMS programs nationally, and we track every patient's progress throughout treatment."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are there any contraindications to TMS?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "TMS is not recommended for individuals with ferromagnetic metal implants in or near the skull—such as certain pacemakers, cochlear implants, or aneurysm clips. Our intake process screens thoroughly for all contraindications before treatment begins."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is PrTMS® different from standard TMS, and which should I choose?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "PrTMS® (Personalized Repetitive TMS) uses a patented qEEG-guided algorithm to calibrate the magnetic frequency and stimulation site to your brain's specific activity patterns. Our psychiatrists will recommend the protocol most likely to achieve the best outcome for your individual case."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Do Idyllwild residents need a referral to start TMS?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "No referral is required. Karma TMS has board-certified psychiatrists on staff who conduct your evaluation and manage your care from initial consultation through the full treatment course."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How far is the nearest Karma TMS clinic from Idyllwild?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Karma TMS does not have an office in Idyllwild. The closest clinic is our Rancho Mirage clinic at 35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270, about 45 miles away (roughly 1 hr 5 min by car). We also have clinics in Palm Springs (about 55 miles) and Twentynine Palms (about 85 miles)."
+     }
+    }
+   ]
+  },
+  {
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+    {
+     "@type": "ListItem",
+     "position": 1,
+     "name": "Home",
+     "item": "https://karmatms.com/"
+    },
+    {
+     "@type": "ListItem",
+     "position": 2,
+     "name": "Areas We Serve",
+     "item": "https://karmatms.com/areas-we-serve.php"
+    },
+    {
+     "@type": "ListItem",
+     "position": 3,
+     "name": "TMS Therapy in Idyllwild",
+     "item": "https://karmatms.com/tms-therapy-idyllwild.php"
+    }
+   ]
+  }
+ ]
+}</script>
  <style>
   /* ---- Animations ---- */
   @keyframes fadeInUp{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:translateY(0)}}
@@ -189,6 +283,32 @@
   .btn-cta-main:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(124,58,237,.55)}
   .btn-cta-phone{display:flex;align-items:center;gap:.5rem;color:#e9d5ff;font-weight:700;font-size:1.1rem;text-decoration:none;transition:color .2s,transform .2s}
   .btn-cta-phone:hover{color:#fff;transform:translateY(-2px)}
+  /* ---- How to Get Here ---- */
+  .loc-dir-section{padding:5rem 1rem;background:#fff}
+  .loc-dir-inner{max-width:1100px;margin:0 auto}
+  .loc-dir-notice{display:flex;gap:.85rem;align-items:flex-start;background:linear-gradient(135deg,#f5f3ff,#ede9fe);border-left:5px solid #7c3aed;border-radius:1rem;padding:1.25rem 1.5rem;margin-bottom:2rem;color:#3b0764;line-height:1.65}
+  .loc-dir-notice i,.loc-dir-notice svg{flex-shrink:0;color:#7c3aed;margin-top:.2rem;width:1.25rem;height:1.25rem}
+  .loc-dir-notice p{margin:0}
+  .loc-dir-grid{display:grid;gap:1.25rem}
+  @media(min-width:768px){.loc-dir-grid{grid-template-columns:repeat(3,1fr)}}
+  .loc-dir-card{position:relative;background:#fff;border:1px solid #e5e7eb;border-radius:1.25rem;padding:1.75rem 1.5rem;box-shadow:0 4px 20px rgba(0,0,0,.05);display:flex;flex-direction:column}
+  .loc-dir-card.is-nearest{border:2px solid #7c3aed;box-shadow:0 10px 30px rgba(124,58,237,.15)}
+  .loc-dir-badge{align-self:flex-start;background:#7c3aed;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:.3rem .7rem;border-radius:9999px;margin-bottom:.85rem}
+  .loc-dir-card h3{font-size:1.15rem;font-weight:700;color:#1e1b4b;margin-bottom:.35rem}
+  .loc-dir-addr{font-size:.88rem;color:#6b7280;line-height:1.55;margin-bottom:1.1rem}
+  .loc-dir-stats{display:flex;gap:1.5rem;margin-bottom:1.25rem}
+  .loc-dir-num{display:block;font-size:1.35rem;font-weight:800;color:#3b0764;line-height:1.2}
+  .loc-dir-unit{display:block;font-size:.72rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:#94a3b8}
+  .loc-dir-link{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:.4rem;background:linear-gradient(135deg,#7c3aed,#9333ea);color:#fff;font-weight:700;font-size:.9rem;padding:.75rem 1rem;border-radius:.75rem;text-decoration:none;transition:transform .2s,box-shadow .2s}
+  .loc-dir-link:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(124,58,237,.35)}
+  .loc-dir-link i,.loc-dir-link svg{width:1rem;height:1rem}
+  .loc-dir-card:not(.is-nearest) .loc-dir-link{background:#fff;color:#6d28d9;border:1px solid #c4b5fd}
+  .loc-dir-route{display:flex;gap:.75rem;align-items:flex-start;margin-top:2rem;background:#f8fafc;border:1px solid #e5e7eb;border-radius:1rem;padding:1.1rem 1.25rem;color:#374151;font-size:.95rem;line-height:1.65}
+  .loc-dir-route i,.loc-dir-route svg{flex-shrink:0;color:#7c3aed;margin-top:.2rem;width:1.15rem;height:1.15rem}
+  .loc-dir-note{margin-top:1rem;font-size:.82rem;color:#6b7280;line-height:1.6;text-align:center}
+  .loc-info-value small{display:block;color:#94a3b8;font-size:.78rem;margin-top:.15rem}
+  .loc-info-value a{color:#c4b5fd;font-size:.8rem;font-weight:600;text-decoration:none}
+  .loc-info-value a:hover{text-decoration:underline}
  </style>
 </head>
 <body class="bg-white">
@@ -213,7 +333,7 @@
  <div class="container mx-auto loc-hero-inner">
   <span class="loc-badge"><i data-lucide="map-pin" style="width:12px;height:12px"></i>Serving Idyllwild, Riverside County</span>
   <h1>TMS Therapy Near <span class="grad">Idyllwild</span>, CA</h1>
-  <p class="loc-hero-sub">Idyllwild is a beloved arts community perched at 5,400 feet in the San Jacinto Mountains, where creativity, mountain living, and mental wellness intersect. Karma TMS brings FDA-approved, non-pharmaceutical psychiatric care to your community—no referral required.</p>
+  <p class="loc-hero-sub">Idyllwild is a beloved arts community perched at 5,400 feet in the San Jacinto Mountains, where creativity, mountain living, and mental wellness intersect. Karma TMS does not have an office in Idyllwild; patients travel to one of our three clinics in Palm Springs, Rancho Mirage, or Twentynine Palms—no referral required.</p>
   <div class="loc-hero-btns">
    <a href="contact-us.php" class="btn-primary-hero"><i data-lucide="calendar-check" style="width:16px;height:16px"></i>Schedule Free Assessment</a>
    <a href="tms-quiz.php" class="btn-outline-hero"><i data-lucide="clipboard-list" style="width:16px;height:16px"></i>Am I a Candidate?</a>
@@ -229,7 +349,7 @@
    <div class="loc-trust-item d2"><i data-lucide="trending-up"></i>80%+ Patient Success Rate</div>
    <div class="loc-trust-item d3"><i data-lucide="shield-check"></i>All Major Insurance Accepted</div>
    <div class="loc-trust-item d4"><i data-lucide="award"></i>Board-Certified Psychiatrists</div>
-   <div class="loc-trust-item" style="animation-delay:.38s"><i data-lucide="map-pin"></i>45 Miles from Idyllwild</div>
+   <div class="loc-trust-item" style="animation-delay:.38s"><i data-lucide="map-pin"></i>~45 Miles to Nearest Clinic</div>
   </div>
  </div>
 </div>
@@ -285,8 +405,9 @@
 
     <div class="loc-info-card">
      <h3><i data-lucide="map-pin"></i>Quick Access Info</h3>
-     <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Hub</div><div class="loc-info-value">Rancho Mirage</div></div>
-     <div class="loc-info-row"><div class="loc-info-label">Estimated Distance</div><div class="loc-info-value">~45 miles from Idyllwild</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Office in Idyllwild?</div><div class="loc-info-value">No — patients travel to a Karma TMS clinic</div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Nearest Karma TMS Clinic</div><div class="loc-info-value">Rancho Mirage<small>35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270</small></div></div>
+     <div class="loc-info-row"><div class="loc-info-label">Driving Distance</div><div class="loc-info-value">~45 miles (about 1 hr 5 min)<small><a href="#how-to-get-here">See all 3 clinics &amp; directions &rarr;</a></small></div></div>
      <div class="loc-info-row"><div class="loc-info-label">Session Duration</div><div class="loc-info-value">20–40 minutes per session</div></div>
      <div class="loc-info-row"><div class="loc-info-label">Hours</div><div class="loc-info-value">Mon–Fri: 9 AM – 5 PM</div></div>
      <a href="contact-us.php" class="loc-info-cta">Verify My Insurance — Free</a>
@@ -303,6 +424,40 @@
    </div>
   </aside>
 
+ </div>
+</section>
+
+<!-- How to Get Here -->
+<section class="loc-dir-section" id="how-to-get-here">
+ <div class="loc-dir-inner">
+  <div class="loc-section-heading">
+   <h2>How to Get to Karma TMS from Idyllwild</h2>
+   <p>Karma TMS has three clinics in Southern California. Here is how far each one is from Idyllwild, closest first.</p>
+  </div>
+  <div class="loc-dir-notice"><i data-lucide="info"></i><p><strong>Karma TMS does not have an office in Idyllwild.</strong> Patients from Idyllwild are seen at one of the three clinics below. The closest is our <strong>Rancho Mirage</strong> clinic, about 45 miles away (roughly 1 hr 5 min by car).</p></div>
+  <div class="loc-dir-grid">
+   <div class="loc-dir-card is-nearest">
+    <span class="loc-dir-badge">Closest to Idyllwild</span>
+    <h3>Rancho Mirage Clinic</h3>
+    <p class="loc-dir-addr">35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~45</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">1 hr 5 min</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%2035400%20Bob%20Hope%20Dr.%2C%20Suite%20206-B%2C%20Rancho%20Mirage%2C%20CA%2092270" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+   <div class="loc-dir-card">
+    <h3>Palm Springs Clinic</h3>
+    <p class="loc-dir-addr">560 S. Paseo Dorotea, Suite 4-B, Palm Springs, CA 92264</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~55</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">1 hr 10 min</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%20560%20S.%20Paseo%20Dorotea%2C%20Suite%204-B%2C%20Palm%20Springs%2C%20CA%2092264" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+   <div class="loc-dir-card">
+    <h3>Twentynine Palms Clinic</h3>
+    <p class="loc-dir-addr">72724 29 Palms Hwy., Suite 107-B, Twentynine Palms, CA 92277</p>
+    <div class="loc-dir-stats"><div><span class="loc-dir-num">~85</span><span class="loc-dir-unit">miles</span></div><div><span class="loc-dir-num">1 hr 55 min</span><span class="loc-dir-unit">typical drive</span></div></div>
+    <a class="loc-dir-link" href="https://www.google.com/maps/dir/?api=1&amp;destination=Karma%20TMS%2C%2072724%2029%20Palms%20Hwy.%2C%20Suite%20107-B%2C%20Twentynine%20Palms%2C%20CA%2092277" target="_blank" rel="noopener noreferrer">Get Directions <i data-lucide="arrow-up-right"></i></a>
+   </div>
+  </div>
+  <div class="loc-dir-route"><i data-lucide="route"></i><div><strong>Typical route from Idyllwild to our Rancho Mirage clinic:</strong> CA-243 &rarr; CA-74. Use the Get Directions button for turn-by-turn directions from your exact address.</div></div>
+  <p class="loc-dir-note">Distances and drive times are estimates for typical conditions without traffic; weather, mountain road conditions, and construction can add time. A TMS course is usually 20–36 sessions over four to six weeks, so plan for regular trips. Our team is happy to help you schedule around your commute.</p>
  </div>
 </section>
 
@@ -382,6 +537,9 @@
   </div><div class="faq-item" onclick="toggleFAQ(this)">
    <div class="faq-header"><span class="faq-question">Do Idyllwild residents need a referral to start TMS?</span><i data-lucide="chevron-down" class="faq-chevron"></i></div>
    <div class="faq-content"><p>No referral is required. Karma TMS has board-certified psychiatrists on staff who conduct your evaluation and manage your care from initial consultation through the full treatment course.</p></div>
+  </div><div class="faq-item" onclick="toggleFAQ(this)">
+   <div class="faq-header"><span class="faq-question">How far is the nearest Karma TMS clinic from Idyllwild?</span><i data-lucide="chevron-down" class="faq-chevron"></i></div>
+   <div class="faq-content"><p>Karma TMS does not have an office in Idyllwild. The closest clinic is our Rancho Mirage clinic at 35400 Bob Hope Dr., Suite 206-B, Rancho Mirage, CA 92270, about 45 miles away (roughly 1 hr 5 min by car). We also have clinics in Palm Springs (about 55 miles) and Twentynine Palms (about 85 miles).</p></div>
   </div>
  </div>
 </section>
@@ -390,7 +548,7 @@
 <section class="loc-cta-section">
  <div class="loc-cta-inner reveal">
   <h2>Start Your Recovery from <span>Idyllwild</span></h2>
-  <p>Whether you're in Idyllwild or anywhere across Riverside County, Karma TMS is your partner in lasting mental health recovery. The Rancho Mirage hub is 45 miles away and accepting new patients now.</p>
+  <p>Whether you're in Idyllwild or anywhere across Riverside County, Karma TMS is your partner in lasting mental health recovery. Our nearest clinic, in Rancho Mirage, is about 45 miles (roughly 1 hr 5 min) away and accepting new patients now.</p>
   <div class="loc-cta-btns">
    <a href="contact-us.php" class="btn-cta-main"><i data-lucide="calendar-check" style="width:16px;height:16px"></i>Schedule Free Assessment</a>
    <a href="tel:7607605675" class="btn-cta-phone"><i data-lucide="phone"></i>(760) 760-5675</a>
