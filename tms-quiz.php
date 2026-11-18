@@ -83,9 +83,9 @@
                     style="background: rgba(87, 38, 112, 0.1);">
                     <i data-lucide="brain" class="w-8 h-8 text-[#572670]"></i>
                 </div>
-                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">TMS Candidacy Assessment</h1>
+                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">TMS Treatment – Patient Pre-Screening</h1>
                 <p class="text-lg text-gray-600">
-                    This brief assessment helps determine if TMS therapy might be right for you.
+                    Please answer a few questions to help our team understand whether TMS treatment may be an option for you.
                 </p>
             </div>
 
@@ -93,6 +93,10 @@
             <iframe src="https://api.leadconnectorhq.com/widget/survey/n3rMMIveLmczuWCiuhxY"
                 style="border:none;width:100%;" scrolling="no" id="n3rMMIveLmczuWCiuhxY" title="survey"></iframe>
             <script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+            <p class="mt-6 text-sm text-gray-600 leading-relaxed" style="padding:12px 16px;background:#ffffff;border:1px solid #e5e7eb;border-radius:10px;">
+                <strong class="text-gray-800">Disclaimer:</strong> This questionnaire is for preliminary screening only. It does not provide a diagnosis or confirm eligibility for TMS treatment. A qualified healthcare professional will review your medical history and determine whether TMS is appropriate for you.
+            </p>
 
             <div class="mt-8 text-center text-sm text-gray-500 mb-8">
                 <p>This assessment takes approximately 3-5 minutes to complete.</p>
