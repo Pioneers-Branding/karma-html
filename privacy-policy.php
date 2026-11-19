@@ -212,7 +212,7 @@
                 </div>
 
                 <!-- Card 6: Cookies -->
-                <div class="bm-benefit-card p-8 hover:shadow-2xl transition-all">
+                <div id="cookies" class="bm-benefit-card p-8 hover:shadow-2xl transition-all" style="scroll-margin-top:120px;">
                     <div class="flex items-center gap-4 mb-6">
                         <div class="w-12 h-12 rounded-xl flex items-center justify-center"
                             style="background: linear-gradient(to bottom right, #572670, #a855f7);">
@@ -220,11 +220,45 @@
                         </div>
                         <h3 class="text-2xl font-bold text-gray-900">Cookies</h3>
                     </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Our website uses cookies (small text files saved on your device) and similar technologies. Some are
+                        needed for the site to work. Others help us understand how the site is used and measure our
+                        advertising, and these only run if you choose "Accept" in our cookie banner:
+                    </p>
+                    <ul class="text-gray-600 leading-relaxed mb-4 list-disc pl-6 space-y-1">
+                        <li><strong>Google Tag Manager and Google Ads</strong>: measure visits and ad conversions, such as form submissions and calls.</li>
+                        <li><strong>Meta Pixel</strong> (Facebook/Instagram): measure and improve our ads on Meta platforms.</li>
+                        <li><strong>Microsoft Clarity</strong>: shows how visitors use our pages, including session recordings, so we can improve the site.</li>
+                    </ul>
                     <p class="text-gray-600 leading-relaxed">
-                        Our website may use cookies (small text files saved on your device) to improve your browsing experience,
-                        understand site usage, track performance metrics, and optimize website functionality. You can configure
-                        your web browser settings to block or refuse cookies, though some parts of our site may not function
-                        optimally as a result.
+                        Our appointment and contact forms are provided by a third-party scheduling platform that may set its
+                        own cookies to make the forms work. You can also block or delete cookies in your browser settings,
+                        though some parts of our site may not work as well.
+                    </p>
+                </div>
+
+                <!-- Card 6b: Your Privacy Choices -->
+                <div id="your-privacy-choices" class="bm-benefit-card p-8 hover:shadow-2xl transition-all" style="scroll-margin-top:120px;">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-12 h-12 rounded-xl flex items-center justify-center"
+                            style="background: linear-gradient(to bottom right, #572670, #a855f7);">
+                            <i data-lucide="sliders-horizontal" class="w-6 h-6 text-white"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Your Privacy Choices</h3>
+                    </div>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        You can accept or reject analytics and advertising cookies at any time. Choosing "Reject" also opts you
+                        out of the sale or sharing of your personal information for cross-context behavioral advertising.
+                    </p>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        We honor the Global Privacy Control (GPC) signal. If your browser sends it, we treat it as a request to
+                        opt out, unless you choose "Accept".
+                    </p>
+                    <p class="mb-0">
+                        <a href="#your-privacy-choices" class="kt-consent-open inline-flex items-center gap-2 px-5 py-3 rounded-xl font-semibold text-white" style="background-color:#572670;">
+                            <i data-lucide="sliders-horizontal" class="w-4 h-4"></i>
+                            Change my cookie and privacy choices
+                        </a>
                     </p>
                 </div>
 

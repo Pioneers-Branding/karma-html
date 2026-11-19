@@ -1,3 +1,4 @@
+<script src="/consent.js"></script>
 <!-- Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -34,9 +35,8 @@
     s.parentNode.insertBefore(t, s)
   }(window, document, 'script',
     'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('consent', window.ktConsent ? ktConsent.fbq() : 'revoke');
   fbq('init', '1943390473007545');
   fbq('track', 'PageView');
 </script>
-<noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=1943390473007545&ev=PageView&noscript=1" /></noscript>
 <!-- End Meta Pixel Code -->

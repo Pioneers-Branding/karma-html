@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+  <script src="/consent.js"></script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TMS Therapy for Depression | Karma TMS, Palm Springs, Rancho Mirage &amp; Twentynine Palms</title>
@@ -37,14 +38,11 @@
       'https://connect.facebook.net/en_US/fbevents.js');
 
     // Pixel Initialization
+    fbq('consent', window.ktConsent ? ktConsent.fbq() : 'revoke');
     fbq('init', '4100332866873996');
     fbq('track', 'PageView');
   </script>
 
-  <noscript>
-    <img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=4100332866873996&ev=PageView&noscript=1" />
-  </noscript>
 
   <!-- =====================================================================
        Landing-page funnel instrumentation - Meta Pixel 4100332866873996
@@ -5202,6 +5200,7 @@
       <div class="foot-legal">
         <a href="https://www.karmatms.com/hipaa.php">HIPAA Notice</a>
         <a href="https://www.karmatms.com/privacy-policy.php">Privacy Policy</a>
+        <a href="https://www.karmatms.com/privacy-policy.php#your-privacy-choices" class="kt-consent-open">Do Not Sell or Share My Personal Information</a>
         <a href="https://www.karmatms.com/terms-conditions.php">Terms &amp; Conditions</a>
         <a href="https://www.karmatms.com/disclaimer.php">Medical Disclaimer</a>
         <a href="https://www.karmatms.com/refund-policy.php">Refund Policy</a>

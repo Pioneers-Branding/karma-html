@@ -245,6 +245,7 @@
                     <li><a href="hipaa.php" class="footer-nav-link footer-nav-link-secondary">HIPAA Notice</a></li>
                     <li><a href="terms-conditions.php" class="footer-nav-link footer-nav-link-secondary">Terms & Conditions</a></li>
                     <li><a href="privacy-policy.php" class="footer-nav-link footer-nav-link-secondary">Privacy Policy</a></li>
+                    <li><a href="/privacy-policy.php#your-privacy-choices" class="footer-nav-link footer-nav-link-secondary kt-consent-open">Do Not Sell or Share My Personal Information</a></li>
                     <li><a href="disclaimer.php" class="footer-nav-link footer-nav-link-secondary">Medical Disclaimer</a></li>
                     <li><a href="refund-policy.php" class="footer-nav-link footer-nav-link-secondary">Refund Policy</a></li>
                 </ul>
