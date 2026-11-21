@@ -749,7 +749,7 @@
                         </p>
                     </div>
                     <div class="relative w-full rounded-xl overflow-hidden shadow-lg mb-6" style="padding-top: 56.25%;">
-                        <iframe src="https://www.youtube.com/embed/sCHXbmZniyI?rel=0" title="Watch PrTMS Patient Transformation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
+                        <iframe src="https://www.youtube-nocookie.com/embed/sCHXbmZniyI?rel=0" title="Watch PrTMS Patient Transformation" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
                     <blockquote class="p-6 bg-purple-50 rounded-xl border-l-4 border-purple-600 text-gray-700 italic text-base leading-relaxed mb-4">
                         "PrTMS cleared my chronic brain fog and lifted the heavy depression that had weighed on me for decades. It is truly the future of mental healthcare."
                     </blockquote>

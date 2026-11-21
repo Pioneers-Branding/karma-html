@@ -673,7 +673,7 @@
                 <!-- Video 1 -->
                 <div class="video-tm-card">
                     <div class="video-tm-embed">
-                        <iframe src="https://www.youtube.com/embed/4VAmD4_X-4k" title="Karma TMS Patient Testimonial"
+                        <iframe src="https://www.youtube-nocookie.com/embed/4VAmD4_X-4k" title="Karma TMS Patient Testimonial"
                             loading="lazy"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
@@ -687,7 +687,7 @@
                 <!-- Video 2 -->
                 <div class="video-tm-card">
                     <div class="video-tm-embed">
-                        <iframe src="https://www.youtube.com/embed/E1UtmX2ciOM" title="Karma TMS Patient Testimonial"
+                        <iframe src="https://www.youtube-nocookie.com/embed/E1UtmX2ciOM" title="Karma TMS Patient Testimonial"
                             loading="lazy"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
@@ -701,7 +701,7 @@
                 <!-- Video 3 -->
                 <div class="video-tm-card">
                     <div class="video-tm-embed">
-                        <iframe src="https://www.youtube.com/embed/-7v6n0t-kgI" title="Karma TMS Patient Testimonial"
+                        <iframe src="https://www.youtube-nocookie.com/embed/-7v6n0t-kgI" title="Karma TMS Patient Testimonial"
                             loading="lazy"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
@@ -953,7 +953,7 @@
 
                 <div class="tms-works-visual">
                     <div class="video-container">
-                        <iframe src="https://www.youtube.com/embed/opUZyysSUJc" title="How TMS Works" frameborder="0"
+                        <iframe src="https://www.youtube-nocookie.com/embed/opUZyysSUJc" title="How TMS Works" frameborder="0"
                             loading="lazy" allowfullscreen>
                         </iframe>
                     </div>

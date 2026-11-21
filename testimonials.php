@@ -393,7 +393,7 @@
                     <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/${video.videoId}?controls=1&modestbranding=1"
+                        src="https://www.youtube-nocookie.com/embed/${video.videoId}?controls=1&modestbranding=1"
                         title="${video.name} Testimonial"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

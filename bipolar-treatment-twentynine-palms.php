@@ -760,7 +760,7 @@
                         </p>
                     </div>
                     <div class="relative w-full rounded-xl overflow-hidden shadow-lg mb-6" style="padding-top: 56.25%;">
-                        <iframe src="https://www.youtube.com/embed/sCHXbmZniyI?rel=0" title="Watch Mood Recovery Testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
+                        <iframe src="https://www.youtube-nocookie.com/embed/sCHXbmZniyI?rel=0" title="Watch Mood Recovery Testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
                     <blockquote class="p-6 bg-purple-50 rounded-xl border-l-4 border-purple-600 text-gray-700 italic text-base leading-relaxed mb-4">
                         "Having this level of psychiatric care available locally in Twentynine Palms was life-saving for me. TMS helped lift the deepest depression I had experienced in years."
                     </blockquote>

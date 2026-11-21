@@ -768,7 +768,7 @@
                         </p>
                     </div>
                     <div class="relative w-full rounded-xl overflow-hidden shadow-lg mb-6" style="padding-top: 56.25%;">
-                        <iframe src="https://www.youtube.com/embed/EmWvKq17i8A?rel=0" title="Watch April Discuss Relief from Chronic Anxiety &amp; Insomnia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
+                        <iframe src="https://www.youtube-nocookie.com/embed/EmWvKq17i8A?rel=0" title="Watch April Discuss Relief from Chronic Anxiety &amp; Insomnia" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; border-radius: 1rem;"></iframe>                    </div>
                     <blockquote class="p-6 bg-purple-50 rounded-xl border-l-4 border-purple-600 text-gray-700 italic text-base leading-relaxed mb-4">
                         "My anxiety had made life unbearable—racing heartbeat, tight chest, constant panic. TMS therapy quieted my nervous system in a way medications never did. I finally feel calm inside."
                     </blockquote>

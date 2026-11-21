@@ -692,7 +692,7 @@
                 </div>
                 <div class="lg:col-span-6">
                             <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(0,0,0,0.15);">
-            <iframe src="https://www.youtube.com/embed/EmWvKq17i8A?rel=0" title="Karma TMS Patient Testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
+            <iframe src="https://www.youtube-nocookie.com/embed/EmWvKq17i8A?rel=0" title="Karma TMS Patient Testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top:0; left: 0; width: 100%; height: 100%; border:0;"></iframe>
         </div>
                 </div>
             </div>
